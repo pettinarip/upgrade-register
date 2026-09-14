@@ -12,7 +12,7 @@ upgrades/
   mirror/                      bot snapshots: networks, fork configs, EIP metadata, calls, Meta EIP list
   schema/schema.json           every input and output shape, shared definitions
   overrides.json               corrections and spoken nicknames
-dist/                          compiled views, built in CI, not committed
+dist/                          compiled views, built in CI, published to GitHub Pages, not committed
 ```
 
 Nothing under `upgrades/` is hand-written. Bots write the mirrors, cut sheets and config-derived events. Call decisions enter through agent-drafted pull requests that a maintainer merges.

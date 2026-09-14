@@ -156,5 +156,14 @@ maintenance('backlog.json', { count: backlog.length, items: backlog });
 maintenance('validation.json', { count: validation.length, items: validation });
 emit('index.json', 'distIndex', { generatedAt: new Date().toISOString(), upgrades: index, networks: networks.map(({ links, ...n }) => n), devnetGroups: [...new Set(cuts.map((c) => c.group))], events: events.length, eips: Object.keys(eipViews).length });
 
+writeFileSync('dist/index.html', `<!doctype html><meta charset="utf-8"><title>upgrade-register</title>
+<style>body{font:15px/1.5 system-ui;max-width:52rem;margin:3rem auto;padding:0 1rem}code{background:#eee;padding:0 .3em}</style>
+<h1>upgrade-register</h1><p>Compiled views. Every file carries <code>schemaVersion</code>; shapes are in <a href="schema/schema.json">schema/schema.json</a>.</p>
+<ul><li><a href="index.json">index.json</a> upgrades and networks</li>
+<li><code>upgrades/&lt;id&gt;.json</code> one upgrade, e.g. ${upgrades.filter((u) => ['fusaka', 'glamsterdam', 'hegota'].includes(u.id)).map((u) => `<a href="upgrades/${u.id}.json">${u.id}</a>`).join(', ')}</li>
+<li><code>eips/&lt;n&gt;.json</code> one EIP across upgrades, e.g. <a href="eips/7805.json">7805</a></li>
+<li><a href="resolve.json">resolve.json</a> name-to-id table</li>
+<li><a href="maintenance/backlog.json">maintenance/backlog.json</a>, <a href="maintenance/validation.json">maintenance/validation.json</a> maintainer files, not part of the contract</li></ul>\n`);
+
 if (outErrors.length) { console.error(`compiled output does not match its published schema:\n${outErrors.join('\n')}`); process.exit(1); }
 console.log(`ok: ${upgrades.length} upgrades, ${networks.length} networks, ${cuts.length} cuts, ${events.length} events, ${Object.keys(eipViews).length} eips, ${backlog.length} backlog, ${validation.length} validation`);
