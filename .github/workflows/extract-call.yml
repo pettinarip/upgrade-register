@@ -41,6 +41,8 @@ jobs:
           echo "call=$CALL" >> "$GITHUB_OUTPUT"
       - if: steps.pick.outputs.call != ''
         uses: anthropics/claude-code-action@v1
+        env:
+          ANTHROPIC_BASE_URL: https://openrouter.ai/api/v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           # Without this the action tries to mint a token for the Claude GitHub App,
@@ -49,7 +51,7 @@ jobs:
           prompt: |
             CALL_REF=${{ steps.pick.outputs.call }}
             Follow agent/extract-call.md for this call. Write the events file and run npm test.
-          claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Bash(npm test),Bash(npm run build),Bash(curl *),WebFetch"
+          claude_args: "--model anthropic/claude-sonnet-5 --allowedTools Read,Write,Edit,Bash(npm test),Bash(npm run build),Bash(curl *),WebFetch"
       # The runner discards this file, and it is the only place a Claude failure is explained.
       - if: always()
         uses: actions/upload-artifact@v4
