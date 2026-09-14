@@ -1,7 +1,7 @@
 // Vendors ethereum/pm all-forks.json unchanged and mirrors the Hardfork Meta listing.
 // The build warns when a Meta EIP exists that pm has not registered; the fix is a PR to pm, not here.
 import { writeFileSync } from 'node:fs';
-import { writeJson, now, text } from '../lib.mjs';
+import { writeJson, text } from '../lib.mjs';
 
 const raw = await text('https://raw.githubusercontent.com/ethereum/pm/master/all-forks.json');
 if (!raw) throw new Error('all-forks.json unavailable');
@@ -15,5 +15,5 @@ for (const row of html.split('<tr')) {
   const name = row.match(/Hardfork Meta\s*[-:]\s*([^<]+)/)?.[1]?.trim();
   if (eip && name && !/backfill/i.test(name)) metaEips.push({ eip, name });
 }
-writeJson('upgrades/mirror/meta-eips.json', { fetchedAt: now(), source: 'eips.ethereum.org/meta', metaEips });
+writeJson('upgrades/mirror/meta-eips.json', { source: 'eips.ethereum.org/meta', metaEips });
 console.log(`all-forks.json vendored; ${metaEips.length} Hardfork Meta EIPs listed`);

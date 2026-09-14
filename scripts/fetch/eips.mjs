@@ -17,5 +17,5 @@ for (const n of [...referenced].sort((a, b) => a - b)) {
   const fm = frontmatter(await res.text());
   eips[n] = { title: fm.title ?? null, status: fm.status ?? null, type: fm.type ?? null, category: fm.category ?? null, layer: current.eips[n]?.layer ?? null };
 }
-writeFileSync(path, JSON.stringify({ fetchedAt: new Date().toISOString(), source: 'ethereum/EIPs@master', eips }, null, 2) + '\n');
+writeFileSync(path, JSON.stringify({ source: 'ethereum/EIPs@master', eips }, null, 2) + '\n');
 console.log(`eips: ${Object.keys(eips).length}`);

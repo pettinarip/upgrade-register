@@ -14,5 +14,5 @@ for (const [slug, s] of Object.entries(series)) {
   }
 }
 calls.sort((a, b) => a.date.localeCompare(b.date));
-writeFileSync('upgrades/mirror/calls.json', JSON.stringify({ fetchedAt: new Date().toISOString(), source: 'ethereum/pm ACDbot manifest', calls }, null, 2) + '\n');
+writeFileSync('upgrades/mirror/calls.json', JSON.stringify({ source: 'ethereum/pm ACDbot manifest', calls }, null, 2) + '\n');
 console.log(`calls: ${calls.length}`);

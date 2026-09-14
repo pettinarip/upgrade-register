@@ -1,5 +1,4 @@
 {
-  "fetchedAt": "2026-09-14T14:43:23.617Z",
   "source": "eth-clients configs + consensus-specs mainnet.yaml",
   "note": "what client configs ship; the build checks recorded slots against this",
   "configs": {

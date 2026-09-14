@@ -1,4 +1,4 @@
-import { loadUpgrades, readJson, writeJson, isoDate, now, text, gh } from '../lib.mjs';
+import { loadUpgrades, readJson, writeJson, isoDate, text, gh } from '../lib.mjs';
 
 const upgrades = loadUpgrades();
 const byConsensus = Object.fromEntries(upgrades.filter((u) => u.layers.consensus).map((u) => [u.layers.consensus.toUpperCase(), u.id]));
@@ -43,8 +43,8 @@ for (const [fork, epoch] of forkEpochs(my ?? '')) {
 }
 
 networks.sort((a, b) => (a.kind === 'mainnet' ? -1 : b.kind === 'mainnet' ? 1 : a.id.localeCompare(b.id)));
-writeJson('upgrades/mirror/networks.json', { fetchedAt: now(), source: 'eth-clients configs + pm all-forks.json + cartographoor', networks });
-writeJson('upgrades/mirror/fork-configs.json', { fetchedAt: now(), source: 'eth-clients configs + consensus-specs mainnet.yaml', note: 'what client configs ship; the build checks recorded slots against this', configs });
+writeJson('upgrades/mirror/networks.json', { source: 'eth-clients configs + pm all-forks.json + cartographoor', networks });
+writeJson('upgrades/mirror/fork-configs.json', { source: 'eth-clients configs + consensus-specs mainnet.yaml', note: 'what client configs ship; the build checks recorded slots against this', configs });
 for (const [id, evs] of Object.entries(events)) {
   const source = id === 'mainnet' ? { kind: 'config', ref: 'ethereum/pm all-forks.json', url: 'https://github.com/ethereum/pm/blob/master/all-forks.json' } : { kind: 'config', ref: `eth-clients/${id}`, url: configs[id].url };
   writeJson(`upgrades/events/config-${id}.json`, { source, recordedBy: 'bot', events: evs.sort((a, b) => a.date.localeCompare(b.date)) });
