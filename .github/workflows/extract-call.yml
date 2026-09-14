@@ -43,6 +43,9 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Without this the action tries to mint a token for the Claude GitHub App,
+          # which is not installed here.
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           prompt: |
             CALL_REF=${{ steps.pick.outputs.call }}
             Follow agent/extract-call.md for this call. Write the events file and run npm test.
