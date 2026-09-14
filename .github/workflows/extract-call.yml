@@ -22,9 +22,18 @@ jobs:
       - run: node scripts/fetch/pm-calls.mjs
       - run: npm run build   # writes dist/resolve.json, the agent's name-to-id table
       - id: pick
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           CALL="${{ inputs.call }}"
-          [ -z "$CALL" ] && CALL=$(node scripts/new-calls.mjs | head -n1)
+          if [ -z "$CALL" ]; then
+            # A call with a PR already open is done as far as this job is concerned. Without
+            # this the queue head-blocks on review: the file is not on main, so every run
+            # re-extracts the same call and never reaches the next one.
+            gh pr list --state open --limit 100 --json headRefName --jq '.[].headRefName' \
+              | sed -n 's|^events/||p' > /tmp/open-calls.txt
+            CALL=$(node scripts/new-calls.mjs | grep -vxF -f /tmp/open-calls.txt | head -n1)
+          fi
           echo "call=$CALL" >> "$GITHUB_OUTPUT"
       - if: steps.pick.outputs.call != ''
         uses: anthropics/claude-code-action@v1
