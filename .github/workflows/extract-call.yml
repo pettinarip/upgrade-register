@@ -49,7 +49,14 @@ jobs:
           prompt: |
             CALL_REF=${{ steps.pick.outputs.call }}
             Follow agent/extract-call.md for this call. Write the events file and run npm test.
-          claude_args: "--allowedTools Read,Write,Edit,Bash(npm test),Bash(npm run build),Bash(curl *),WebFetch"
+          claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Bash(npm test),Bash(npm run build),Bash(curl *),WebFetch"
+      # The runner discards this file, and it is the only place a Claude failure is explained.
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-log
+          path: ${{ runner.temp }}/claude-execution-output.json
+          if-no-files-found: ignore
       - if: steps.pick.outputs.call != ''
         uses: peter-evans/create-pull-request@v7
         with:
