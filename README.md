@@ -70,7 +70,7 @@ Every compiled file carries `schemaVersion`, currently `1`, bumped only for a br
 npm test              # validate + build + checks
 npm run fetch         # refresh registry, mirrors, cuts, activations (GITHUB_TOKEN or gh auth)
 npm run backfill      # one-off Meta EIP history seed
-node scripts/new-calls.mjs   # calls waiting for extraction
+node scripts/new-calls.mjs   # calls waiting for extraction (PoC: since 2026-07-20; pass a date to widen)
 ```
 
 ## Known gaps
