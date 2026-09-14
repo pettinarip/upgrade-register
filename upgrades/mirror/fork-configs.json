@@ -1,0 +1,147 @@
+{
+  "fetchedAt": "2026-09-14T12:32:44.037Z",
+  "source": "eth-clients configs + consensus-specs mainnet.yaml",
+  "note": "what client configs ship; the build checks recorded slots against this",
+  "configs": {
+    "sepolia": {
+      "url": "https://github.com/eth-clients/sepolia/blob/main/metadata/config.yaml",
+      "forks": {
+        "altair": {
+          "epoch": 50,
+          "date": "2022-06-20",
+          "activated": true
+        },
+        "the-merge": {
+          "epoch": 100,
+          "date": "2022-06-21",
+          "activated": true
+        },
+        "shapella": {
+          "epoch": 56832,
+          "date": "2023-02-28",
+          "activated": true
+        },
+        "dencun": {
+          "epoch": 132608,
+          "date": "2024-01-30",
+          "activated": true
+        },
+        "pectra": {
+          "epoch": 222464,
+          "date": "2025-03-05",
+          "activated": true
+        },
+        "fusaka": {
+          "epoch": 272640,
+          "date": "2025-10-14",
+          "activated": true
+        }
+      }
+    },
+    "holesky": {
+      "url": "https://github.com/eth-clients/holesky/blob/main/metadata/config.yaml",
+      "forks": {
+        "altair": {
+          "epoch": 0,
+          "date": "2023-09-28",
+          "activated": true
+        },
+        "the-merge": {
+          "epoch": 0,
+          "date": "2023-09-28",
+          "activated": true
+        },
+        "shapella": {
+          "epoch": 256,
+          "date": "2023-09-29",
+          "activated": true
+        },
+        "dencun": {
+          "epoch": 29696,
+          "date": "2024-02-07",
+          "activated": true
+        },
+        "pectra": {
+          "epoch": 115968,
+          "date": "2025-02-24",
+          "activated": true
+        },
+        "fusaka": {
+          "epoch": 165120,
+          "date": "2025-10-01",
+          "activated": true
+        }
+      }
+    },
+    "mainnet": {
+      "url": "https://github.com/eth-clients/mainnet/blob/main/metadata/config.yaml",
+      "forks": {
+        "altair": {
+          "epoch": 74240,
+          "date": "2021-10-27",
+          "activated": true
+        },
+        "the-merge": {
+          "epoch": 144896,
+          "date": "2022-09-06",
+          "activated": true
+        },
+        "shapella": {
+          "epoch": 194048,
+          "date": "2023-04-12",
+          "activated": true
+        },
+        "dencun": {
+          "epoch": 269568,
+          "date": "2024-03-13",
+          "activated": true
+        },
+        "pectra": {
+          "epoch": 364032,
+          "date": "2025-05-07",
+          "activated": true
+        },
+        "fusaka": {
+          "epoch": 411392,
+          "date": "2025-12-03",
+          "activated": true
+        }
+      }
+    },
+    "hoodi": {
+      "url": "https://github.com/eth-clients/hoodi/blob/main/metadata/config.yaml",
+      "forks": {
+        "altair": {
+          "epoch": 0,
+          "date": "2025-03-17",
+          "activated": true
+        },
+        "the-merge": {
+          "epoch": 0,
+          "date": "2025-03-17",
+          "activated": true
+        },
+        "shapella": {
+          "epoch": 0,
+          "date": "2025-03-17",
+          "activated": true
+        },
+        "dencun": {
+          "epoch": 0,
+          "date": "2025-03-17",
+          "activated": true
+        },
+        "pectra": {
+          "epoch": 2048,
+          "date": "2025-03-26",
+          "activated": true
+        },
+        "fusaka": {
+          "epoch": 50688,
+          "date": "2025-10-28",
+          "activated": true
+        }
+      }
+    }
+  }
+}

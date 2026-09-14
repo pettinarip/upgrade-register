@@ -1,0 +1,1462 @@
+{
+  "fetchedAt": "2026-09-14T12:34:24.237Z",
+  "source": "ethereum/EIPs@master",
+  "eips": {
+    "606": {
+      "title": "\"Hardfork Meta: Homestead\"",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "607": {
+      "title": "\"Hardfork Meta: Spurious Dragon\"",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "608": {
+      "title": "\"Hardfork Meta: Tangerine Whistle\"",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "609": {
+      "title": "\"Hardfork Meta: Byzantium\"",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "663": {
+      "title": "SWAPN, DUPN and EXCHANGE instructions",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "779": {
+      "title": "\"Hardfork Meta: DAO Fork\"",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "1013": {
+      "title": "\"Hardfork Meta: Constantinople\"",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "1153": {
+      "title": "Transient storage opcodes",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "1679": {
+      "title": "\"Hardfork Meta: Istanbul\"",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "1716": {
+      "title": "\"Hardfork Meta: Petersburg\"",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "2387": {
+      "title": "\"Hardfork Meta: Muir Glacier\"",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "2488": {
+      "title": "Deprecate the CALLCODE opcode",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "2537": {
+      "title": "Precompile for BLS12-381 curve operations",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "2780": {
+      "title": "Resource-based intrinsic transaction gas",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "2926": {
+      "title": "Chunk-Based Code Merkleization",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "2935": {
+      "title": "Serve historical block hashes from state",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "3298": {
+      "title": "Remove storage-clear refund and refund cap",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "3540": {
+      "title": "EOF - EVM Object Format v1",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "3670": {
+      "title": "EOF - Code Validation",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "4200": {
+      "title": "EOF - Static relative jumps",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "4750": {
+      "title": "EOF - Functions",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "4758": {
+      "title": "Deactivate SELFDESTRUCT",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "4762": {
+      "title": "Statelessness gas cost changes",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "4788": {
+      "title": "Beacon block root in the EVM",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "4844": {
+      "title": "Shard Blob Transactions",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "5450": {
+      "title": "EOF - Stack Validation",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "5656": {
+      "title": "MCOPY - Memory copying instruction",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "5920": {
+      "title": "PAY opcode",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "6110": {
+      "title": "Supply validator deposits on chain",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "6206": {
+      "title": "EOF - JUMPF and non-returning functions",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "6404": {
+      "title": "SSZ transactions",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "6466": {
+      "title": "SSZ receipts",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "6780": {
+      "title": "SELFDESTRUCT only in same transaction",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "6800": {
+      "title": "Ethereum state using a unified verkle tree",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "6873": {
+      "title": "Preimage retention",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7002": {
+      "title": "Execution layer triggerable withdrawals",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7044": {
+      "title": "Perpetually Valid Signed Voluntary Exits",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7045": {
+      "title": "Increase max attestation inclusion slot",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7069": {
+      "title": "Revamped CALL instructions",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7212": {
+      "title": null,
+      "status": null,
+      "type": null,
+      "category": null,
+      "layer": null
+    },
+    "7251": {
+      "title": "Increase the MAX_EFFECTIVE_BALANCE",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "7480": {
+      "title": "EOF - Data section access instructions",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7514": {
+      "title": "Add Max Epoch Churn Limit",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7516": {
+      "title": "BLOBBASEFEE instruction",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7545": {
+      "title": "Verkle proof verification precompile",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7547": {
+      "title": "Inclusion lists",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7549": {
+      "title": "Move committee index outside Attestation",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "7568": {
+      "title": "Hardfork Meta Backfill - Berlin to Shapella",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "7569": {
+      "title": "Hardfork Meta - Dencun",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "7594": {
+      "title": "PeerDAS - Peer Data Availability Sampling",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "7600": {
+      "title": "Hardfork Meta - Pectra",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "7607": {
+      "title": "Hardfork Meta - Fusaka",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "7609": {
+      "title": "Decrease base cost of TLOAD/TSTORE",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7610": {
+      "title": "Revert creation in case of non-empty storage",
+      "status": "Last Call",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7619": {
+      "title": "Precompile Falcon512 generic verifier",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7620": {
+      "title": "EOF Contract Creation",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7623": {
+      "title": "Increase calldata cost",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7642": {
+      "title": "eth/69 - history expiry and simpler receipts",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Networking",
+      "layer": "EL"
+    },
+    "7645": {
+      "title": "Alias ORIGIN to SENDER",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7666": {
+      "title": "EVM-ify the identity precompile",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7667": {
+      "title": "Raise gas costs of hash functions",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7668": {
+      "title": "Remove bloom filters",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7685": {
+      "title": "General purpose execution layer requests",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7686": {
+      "title": "Linear EVM memory limits",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7688": {
+      "title": "Forward compatible consensus data structures",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "7691": {
+      "title": "Blob throughput increase",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7692": {
+      "title": "EVM Object Format (EOFv1) Meta",
+      "status": "Stagnant",
+      "type": "Meta",
+      "category": null,
+      "layer": "EL"
+    },
+    "7698": {
+      "title": "EOF - Creation transaction",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7702": {
+      "title": "Set Code for EOAs",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7708": {
+      "title": "ETH transfers emit a log",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7709": {
+      "title": "Read BLOCKHASH from Storage and Update Cost",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7716": {
+      "title": "Anti-correlation attestation penalties",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "7732": {
+      "title": "Enshrined Proposer-Builder Separation",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "7742": {
+      "title": "Uncouple blob count between CL and EL",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7745": {
+      "title": "Trustless log and transaction index",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7761": {
+      "title": "EXTCODETYPE instruction",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7762": {
+      "title": "Increase MIN_BASE_FEE_PER_BLOB_GAS",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7773": {
+      "title": "Hardfork Meta - Glamsterdam",
+      "status": "Review",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "7778": {
+      "title": "Block Gas Accounting without Refunds",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7782": {
+      "title": "Reduce Block Latency",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "7783": {
+      "title": "Add Controlled Gas Limit Increase Strategy",
+      "status": "Stagnant",
+      "type": "Informational",
+      "category": null,
+      "layer": null
+    },
+    "7791": {
+      "title": "GAS2ETH opcode",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7793": {
+      "title": "Conditional Transactions",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7805": {
+      "title": "Fork-choice enforced Inclusion Lists (FOCIL)",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "7807": {
+      "title": "SSZ execution blocks",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7819": {
+      "title": "SETDELEGATE instruction",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7823": {
+      "title": "Set upper bounds for MODEXP",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7825": {
+      "title": "Transaction Gas Limit Cap",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7834": {
+      "title": "Separate Metadata Section for EOF",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7840": {
+      "title": "Add blob schedule to EL config files",
+      "status": "Final",
+      "type": "Informational",
+      "category": null,
+      "layer": "EL"
+    },
+    "7843": {
+      "title": "SLOTNUM opcode",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7851": {
+      "title": "Code-Controlled EOA Delegation",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7862": {
+      "title": "Delayed State Root",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7863": {
+      "title": "Block-level Warming",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7872": {
+      "title": "Max blob flag for local builders",
+      "status": "Review",
+      "type": "Meta",
+      "category": null,
+      "layer": "EL"
+    },
+    "7873": {
+      "title": "EOF - TXCREATE and InitcodeTransaction type",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7880": {
+      "title": "EOF - EXTCODEADDRESS instruction",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7883": {
+      "title": "ModExp Gas Cost Increase",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7886": {
+      "title": "Delayed execution",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7889": {
+      "title": "Emit log on revert",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7892": {
+      "title": "Blob Parameter Only Hardforks",
+      "status": "Final",
+      "type": "Informational",
+      "category": null,
+      "layer": "EL"
+    },
+    "7898": {
+      "title": "Uncouple execution payload from beacon block",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7903": {
+      "title": "Remove Initcode Size Limit",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7904": {
+      "title": "Compute Gas Cost Analysis",
+      "status": "Review",
+      "type": "Informational",
+      "category": null,
+      "layer": "EL"
+    },
+    "7906": {
+      "title": "Transaction Assertions via State Diff Opcode",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7907": {
+      "title": "Meter Contract Code Size And Increase Limit",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7910": {
+      "title": "eth_config JSON-RPC Method",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Interface",
+      "layer": "EL"
+    },
+    "7912": {
+      "title": "Pragmatic stack manipulation tools",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7915": {
+      "title": "Adaptive mean reversion blob pricing",
+      "status": "Stagnant",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7917": {
+      "title": "Deterministic proposer lookahead",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "7918": {
+      "title": "Blob base fee bounded by execution cost",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7919": {
+      "title": "Pureth Meta",
+      "status": "Stagnant",
+      "type": "Meta",
+      "category": null,
+      "layer": "EL"
+    },
+    "7923": {
+      "title": "Linear, Page-Based Memory Costing",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7928": {
+      "title": "Block-Level Access Lists",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7932": {
+      "title": "Secondary Signature Algorithms",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7934": {
+      "title": "RLP Execution Block Size Limit",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7935": {
+      "title": "Set default gas limit to 60M",
+      "status": "Final",
+      "type": "Informational",
+      "category": null,
+      "layer": "EL"
+    },
+    "7937": {
+      "title": "EVM64 - 64-bit mode EVM opcodes",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7939": {
+      "title": "Count leading zeros (CLZ) opcode",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7942": {
+      "title": "Available Attestation",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "7949": {
+      "title": "Genesis File Format",
+      "status": "Draft",
+      "type": "Informational",
+      "category": null,
+      "layer": "EL"
+    },
+    "7951": {
+      "title": "Precompile for secp256r1 Curve Support",
+      "status": "Final",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7954": {
+      "title": "Increase Maximum Contract Size",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7971": {
+      "title": "Hard Limits for Transient Storage",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7973": {
+      "title": "Warm Account Write Metering",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7975": {
+      "title": "eth/70 - partial block receipt lists",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Networking",
+      "layer": "EL"
+    },
+    "7976": {
+      "title": "Increase Calldata Floor Cost",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7979": {
+      "title": "Call and Return Opcodes for the EVM",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7980": {
+      "title": "Ed25519 transaction support",
+      "status": "Withdrawn",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "7981": {
+      "title": "Increase Access List Cost",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7997": {
+      "title": "Deterministic Factory Contract",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "7999": {
+      "title": "Unified multidimensional fee market",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8011": {
+      "title": "Multidimensional Gas Metering",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8013": {
+      "title": "Static relative jumps and calls for the EVM",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8015": {
+      "title": "Remove `deposit` and `eth1data` fields",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8024": {
+      "title": "Backward compatible SWAPN, DUPN, EXCHANGE",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8025": {
+      "title": "Optional Execution Proofs",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8030": {
+      "title": "P256 algorithm support",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8032": {
+      "title": "Size-Based Storage Gas Pricing",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8037": {
+      "title": "State Creation Gas Cost Increase",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8038": {
+      "title": "State-access gas cost update",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8045": {
+      "title": "Exclude slashed validators from proposing",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8051": {
+      "title": "Precompile for ML-DSA signature verification",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8053": {
+      "title": "Milli-gas for High-precision Gas Metering",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8057": {
+      "title": "Inter-Block Temporal Locality Gas Discounts",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8058": {
+      "title": "Contract Bytecode Deduplication Discount",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8059": {
+      "title": "Gas Units Rebase for High-precision Metering",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8061": {
+      "title": "Increase exit and consolidation churn",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8062": {
+      "title": "Add sweep withdrawal fee for 0x01 validators",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8068": {
+      "title": "Neutral effective balance design",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8070": {
+      "title": "eth/72 - Sparse Blobpool",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Networking",
+      "layer": "EL"
+    },
+    "8071": {
+      "title": "Prevent using consolidations as withdrawals",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8077": {
+      "title": "eth/XX - announce transactions with nonce",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Networking",
+      "layer": "EL"
+    },
+    "8080": {
+      "title": "Let exits use the consolidation queue",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8081": {
+      "title": "Hardfork Meta - Hegotá",
+      "status": "Draft",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "8094": {
+      "title": "eth/vhash - Blob-Aware Mempool",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Networking",
+      "layer": "EL"
+    },
+    "8115": {
+      "title": "Batch priority fees at end of block",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8116": {
+      "title": "Replace cumulative receipt fields",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8131": {
+      "title": "Unified Transaction Content Floor",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8134": {
+      "title": "Hardfork Meta - BPO1",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "8135": {
+      "title": "Hardfork Meta - BPO2",
+      "status": "Final",
+      "type": "Meta",
+      "category": null,
+      "layer": null
+    },
+    "8136": {
+      "title": "Cell-Level Deltas for Data Column Broadcast",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Networking",
+      "layer": "CL"
+    },
+    "8141": {
+      "title": "Frame Transaction",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8142": {
+      "title": "Block-in-Blobs (BiB)",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8146": {
+      "title": "Block Access List Sidecars",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8148": {
+      "title": "Custom sweep threshold for validators",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8151": {
+      "title": "Account Code Restricted ecRecover",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8159": {
+      "title": "eth/71 - Block Access List Exchange",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Networking",
+      "layer": "EL"
+    },
+    "8163": {
+      "title": "Reserve `EXTENSION (0xae)` opcode",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8173": {
+      "title": "Foundations of EVM Control Flow",
+      "status": "Draft",
+      "type": "Informational",
+      "category": null,
+      "layer": "EL"
+    },
+    "8182": {
+      "title": "Private ETH and ERC-20 Transfers",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8188": {
+      "title": "Last-Written Block for Accounts and Slots",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8189": {
+      "title": "snap/2 - BAL-Based State Healing",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Networking",
+      "layer": "EL"
+    },
+    "8198": {
+      "title": "Quick Slots",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8200": {
+      "title": "EVMification",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8205": {
+      "title": "Withdrawal credentials preregistration",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8219": {
+      "title": "Checked Arithmetic Opcodes",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8237": {
+      "title": "Independent CL/EL Sync",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8243": {
+      "title": "Batching Attestations at Source",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8246": {
+      "title": "Remove SELFDESTRUCT Burn",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8250": {
+      "title": "Keyed Nonces for Frame Transactions",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8253": {
+      "title": "Bump nonce of zero-nonce storage accounts",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8254": {
+      "title": "Cap Deposit Requests Per Block",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8261": {
+      "title": "Gas Limit Schedule",
+      "status": "Review",
+      "type": "Informational",
+      "category": null,
+      "layer": "CL"
+    },
+    "8268": {
+      "title": "Storage Roots in Block Access Lists",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "8272": {
+      "title": "Recent Roots for Frame Transactions",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8279": {
+      "title": "Block Access List Byte Floor",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8282": {
+      "title": "Builder Execution Requests",
+      "status": "Review",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8298": {
+      "title": "SETCODEFROM Code Reuse Instruction",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8304": {
+      "title": "Trustless log and transaction index",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8321": {
+      "title": "Hash-Chain RANDAO",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8333": {
+      "title": "Align Checkpoint with Epoch Boundary Block",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8334": {
+      "title": "EIP-8334: Bundled Attestation Propagation",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Networking",
+      "layer": "CL"
+    },
+    "8341": {
+      "title": "EIP-8341: Partial Execution Payload Commitments",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8355": {
+      "title": "Precompiles for ML-DSA Verification",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8358": {
+      "title": "EIP-8358: Net Gas Metering for Account Changes",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8359": {
+      "title": "EIP-8359: Beacon Block Reporting Field",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8360": {
+      "title": "TCREATE Opcode",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": null
+    },
+    "8363": {
+      "title": "Tapered Issuance Burn",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8365": {
+      "title": "EIP-8365: BLS withdrawal credential retirement",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8367": {
+      "title": "EIP-8367: Balance sunset for retired BLS validators",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8368": {
+      "title": "CPSB Recalibration for New Gas Limit",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8369": {
+      "title": "VOPS Profiles for FOCIL Eligibility",
+      "status": "Draft",
+      "type": "Informational",
+      "category": null,
+      "layer": "CL"
+    },
+    "8371": {
+      "title": "RowDAS - Distributed Blob Reconstruction",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Networking",
+      "layer": "CL"
+    },
+    "8372": {
+      "title": "Normalized state gas limit",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8374": {
+      "title": "EIP-8374: Persist Warm Access Sets Across Reverts",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "EL"
+    },
+    "8375": {
+      "title": "EIP-8375: ePBS Mandatory Burn of Execution Rewards",
+      "status": "Draft",
+      "type": "Standards Track",
+      "category": "Core",
+      "layer": "CL"
+    },
+    "8383": {
+      "title": "EIP-8383: Reduce CL Block Retention Window",
+      "status": "Draft",
+      "type": "Informational",
+      "category": null,
+      "layer": "CL"
+    }
+  }
+}

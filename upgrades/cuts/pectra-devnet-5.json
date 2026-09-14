@@ -1,0 +1,19 @@
+{
+  "id": "pectra-devnet-5",
+  "group": "pectra",
+  "upgrade": "pectra",
+  "active": false,
+  "genesis": "2025-01-16",
+  "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/devnet-5/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-devnet-5",
+  "eips": [],
+  "specs": {
+    "consensus": {
+      "tag": "v1.5.0-beta.0",
+      "url": "https://github.com/ethereum/consensus-specs/releases/tag/v1.5.0-beta.0",
+      "commit": null
+    },
+    "execution": null
+  },
+  "clients": []
+}

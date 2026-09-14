@@ -1,0 +1,217 @@
+{
+  "source": {
+    "kind": "config",
+    "ref": "ethereum/pm all-forks.json",
+    "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+  },
+  "recordedBy": "bot",
+  "events": [
+    {
+      "type": "network.fork",
+      "upgrade": "frontier",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2015-07-30",
+      "block": 0,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "homestead",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2016-03-14",
+      "block": 1150000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "dao-fork",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2016-07-20",
+      "block": 1920000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "tangerine-whistle",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2016-10-18",
+      "block": 2463000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "spurious-dragon",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2016-11-22",
+      "block": 2675000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "byzantium",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2017-10-16",
+      "block": 4370000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "constantinople",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2019-02-28",
+      "block": 7280000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "petersburg",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2019-02-28",
+      "block": 7280000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "istanbul",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2019-12-08",
+      "block": 9069000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "muir-glacier",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2020-01-02",
+      "block": 9200000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "phase-0",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2020-12-01",
+      "epoch": 0,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "berlin",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2021-04-15",
+      "block": 12244000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "london",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2021-08-05",
+      "block": 12965000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "altair",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2021-10-27",
+      "epoch": 74240,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "arrow-glacier",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2021-12-09",
+      "block": 13773000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "gray-glacier",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2022-06-30",
+      "block": 15050000,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "the-merge",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2022-09-06",
+      "epoch": 144896,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "shapella",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2023-04-12",
+      "epoch": 194048,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "dencun",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2024-03-13",
+      "epoch": 269568,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "pectra",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2025-05-07",
+      "epoch": 364032,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "fusaka",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2025-12-03",
+      "epoch": 411392,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "bpo1",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2025-12-09",
+      "epoch": 412672,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "bpo2",
+      "network": "mainnet",
+      "status": "activated",
+      "date": "2026-01-07",
+      "epoch": 419072,
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "glamsterdam-devnet-11",
+  "group": "glamsterdam",
+  "upgrade": "glamsterdam",
+  "active": true,
+  "genesis": "2026-09-09",
+  "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-11/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-11",
+  "eips": [
+    2780,
+    7610,
+    7688,
+    7708,
+    7732,
+    7778,
+    7843,
+    7904,
+    7928,
+    7954,
+    7975,
+    7976,
+    7981,
+    7997,
+    8024,
+    8037,
+    8038,
+    8045,
+    8061,
+    8070,
+    8136,
+    8159,
+    8189,
+    8246,
+    8261,
+    8282,
+    8253
+  ],
+  "specs": {
+    "consensus": {
+      "tag": "consensus-specs v1.7.0-beta.0",
+      "url": "https://github.com/ethereum/consensus-specs/releases/tag/v1.7.0-beta.0",
+      "commit": "756f49cf"
+    },
+    "execution": {
+      "tag": "tests-glamsterdam-devnet@v8.1.4",
+      "url": "https://github.com/ethereum/execution-specs/releases/tag/tests-glamsterdam-devnet@v8.1.4",
+      "commit": null
+    }
+  },
+  "clients": [
+    {
+      "name": "Geth",
+      "image": "geth:master",
+      "spec": "v8.1.4",
+      "status": "✅ 7610 removed, 8037 [#35633](https://github.com/ethereum/go-ethereum/pull/35633)"
+    },
+    {
+      "name": "Besu",
+      "image": "besu:main",
+      "spec": "v8.1.4",
+      "status": "⚠️ 7610 still enforced ([#11191](https://github.com/besu-eth/besu/pull/11191) draft); OOM + `eth_estimateGas` exception under load ([#11248](https://github.com/besu-eth/besu/issues/11248))"
+    },
+    {
+      "name": "Reth",
+      "image": "reth:main",
+      "spec": "pre-#12265",
+      "status": "❌ revm 43.0.0; the fix ([revm #3893](https://github.com/bluealloy/revm/pull/3893)) is unreleased, no bump PR. Hive still tests the devnet-8 tag"
+    },
+    {
+      "name": "Nethermind",
+      "image": "nethermind:master",
+      "spec": "v8.1.4",
+      "status": "✅"
+    },
+    {
+      "name": "Erigon",
+      "image": "erigon:main",
+      "spec": "v8.1.4",
+      "status": "✅ (`engine_getBlobsV4` cells fail 145/170 fixtures; no eth/72)"
+    },
+    {
+      "name": "Nimbus-EL",
+      "image": "nimbus-eth1:master",
+      "spec": "v8.1.4",
+      "status": "⚠️ 7610 still enforced, no PR"
+    },
+    {
+      "name": "Ethrex",
+      "image": "ethrex:main",
+      "spec": "v8.1.4 ([#7254](https://github.com/lambdaclass/ethrex/pull/7254))",
+      "status": "⚠️ 7610 still enforced, no PR; `getBlobsV4` cells 137/170 fail"
+    },
+    {
+      "name": "Lighthouse",
+      "image": "lighthouse:unstable",
+      "spec": "alpha.14 (+ #5594 [#9970](https://github.com/sigp/lighthouse/pull/9970))",
+      "status": "⚠️ state-equivalent to beta.0; image rebuilt 09-08 12:30 UTC (`b9ae2c6`); 8261 [#9878](https://github.com/sigp/lighthouse/pull/9878) WIP"
+    },
+    {
+      "name": "Lodestar",
+      "image": "lodestar:unstable",
+      "spec": "beta.0 ([#9955](https://github.com/ChainSafe/lodestar/pull/9955))",
+      "status": "✅"
+    },
+    {
+      "name": "Prysm",
+      "image": "prysm-beacon-chain:develop",
+      "spec": "alpha.12",
+      "status": "❌ zero-filled fork bid fields, no #5594 — forks as on devnet-9. Needs [#17382](https://github.com/OffchainLabs/prysm/pull/17382) + [#17440](https://github.com/OffchainLabs/prysm/pull/17440) + [#17412](https://github.com/OffchainLabs/prysm/pull/17412); fallback is the devnet-8 tag `f9c6081` (alpha.14 + #5594)"
+    },
+    {
+      "name": "Teku",
+      "image": "teku:master",
+      "spec": "beta.0 ([#11221](https://github.com/Consensys-Incorporated/teku/pull/11221))",
+      "status": "✅ image rebuilt 09-08 12:26 UTC (`c48f0225`, beta.0 + #5594); [#11239](https://github.com/Consensys-Incorporated/teku/pull/11239) open"
+    },
+    {
+      "name": "Nimbus",
+      "image": "nimbus-eth2:unstable",
+      "spec": "beta.0 ([#8990](https://github.com/status-im/nimbus-eth2/pull/8990))",
+      "status": "⚠️ `f370c3` (first image with the [#7921](https://github.com/status-im/nimbus-eth2/pull/7921) sync rewrite) sends no FCU on devnet-8; pinned back to `6391f9`"
+    },
+    {
+      "name": "Grandine",
+      "image": "grandine:develop",
+      "spec": "alpha.14, no #5594/#5580",
+      "status": "❌ accepts a bid every beta.0 client rejects ([#910](https://github.com/grandinetech/grandine/issues/910)); image rebuilt 09-08 12:23 UTC; 8261 [#854](https://github.com/grandinetech/grandine/pull/854)"
+    }
+  ]
+}

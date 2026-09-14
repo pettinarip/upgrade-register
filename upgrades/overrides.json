@@ -1,0 +1,19 @@
+{
+  "upgrades": {},
+  "networks": {},
+  "devnets": {},
+  "eipAliases": {
+    "7928": [
+      "BAL",
+      "block-level access lists"
+    ],
+    "7732": [
+      "ePBS",
+      "enshrined PBS"
+    ],
+    "7805": [
+      "FOCIL",
+      "inclusion lists"
+    ]
+  }
+}

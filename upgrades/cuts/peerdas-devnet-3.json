@@ -1,0 +1,19 @@
+{
+  "id": "peerdas-devnet-3",
+  "group": "peerdas",
+  "upgrade": null,
+  "active": false,
+  "genesis": "2024-10-04",
+  "configUrl": "https://github.com/ethpandaops/peerdas-devnets/blob/master/network-configs/devnet-3/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/peerdas-devnet-3",
+  "eips": [],
+  "specs": {
+    "consensus": {
+      "tag": "v1.5.0-alpha.5",
+      "url": "https://github.com/ethereum/consensus-specs/releases/tag/v1.5.0-alpha.5",
+      "commit": null
+    },
+    "execution": null
+  },
+  "clients": []
+}

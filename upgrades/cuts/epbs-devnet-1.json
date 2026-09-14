@@ -1,0 +1,19 @@
+{
+  "id": "epbs-devnet-1",
+  "group": "epbs",
+  "upgrade": null,
+  "active": false,
+  "genesis": "2026-03-31",
+  "configUrl": "https://github.com/ethpandaops/epbs-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/epbs-devnet-1",
+  "eips": [],
+  "specs": {
+    "consensus": {
+      "tag": "v1.7.0-alpha.4",
+      "url": "https://github.com/ethereum/consensus-specs/releases/tag/v1.7.0-alpha.4",
+      "commit": null
+    },
+    "execution": null
+  },
+  "clients": []
+}

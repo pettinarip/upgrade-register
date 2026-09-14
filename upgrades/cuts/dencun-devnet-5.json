@@ -1,0 +1,15 @@
+{
+  "id": "dencun-devnet-5",
+  "group": "dencun",
+  "upgrade": "dencun",
+  "active": false,
+  "genesis": null,
+  "configUrl": null,
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-5",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "bal-devnet-3",
+  "group": "bal",
+  "upgrade": null,
+  "active": false,
+  "genesis": "2026-04-08",
+  "configUrl": "https://github.com/ethpandaops/bal-devnets/blob/master/network-configs/devnet-3/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/bal-devnet-3",
+  "eips": [
+    7708,
+    7778,
+    7843,
+    7928,
+    7954,
+    7975,
+    8024,
+    8037,
+    8159
+  ],
+  "specs": {
+    "consensus": {
+      "tag": "v1.6.1",
+      "url": "https://github.com/ethereum/consensus-specs/releases/tag/v1.6.1",
+      "commit": null
+    },
+    "execution": null
+  },
+  "clients": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dencun-sepolia-sf1",
+  "group": "dencun",
+  "upgrade": "dencun",
+  "active": false,
+  "genesis": null,
+  "configUrl": null,
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-sepolia-sf1",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

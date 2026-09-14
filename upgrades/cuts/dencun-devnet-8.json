@@ -1,0 +1,19 @@
+{
+  "id": "dencun-devnet-8",
+  "group": "dencun",
+  "upgrade": "dencun",
+  "active": false,
+  "genesis": null,
+  "configUrl": null,
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-8",
+  "eips": [],
+  "specs": {
+    "consensus": {
+      "tag": "v1.4.0-beta.1",
+      "url": "https://github.com/ethereum/consensus-specs/releases/tag/v1.4.0-beta.1",
+      "commit": null
+    },
+    "execution": null
+  },
+  "clients": []
+}

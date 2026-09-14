@@ -1,0 +1,19 @@
+{
+  "id": "fusaka-devnet-0",
+  "group": "fusaka",
+  "upgrade": "fusaka",
+  "active": false,
+  "genesis": "2025-05-26",
+  "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-devnet-0",
+  "eips": [],
+  "specs": {
+    "consensus": {
+      "tag": "v1.6.0-alpha.0",
+      "url": "https://github.com/ethereum/consensus-specs/releases/tag/v1.6.0-alpha.0",
+      "commit": null
+    },
+    "execution": null
+  },
+  "clients": []
+}

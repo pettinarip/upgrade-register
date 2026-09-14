@@ -1,0 +1,82 @@
+{
+  "fetchedAt": "2026-09-14T12:32:39.517Z",
+  "source": "eips.ethereum.org/meta",
+  "metaEips": [
+    {
+      "eip": 606,
+      "name": "Homestead"
+    },
+    {
+      "eip": 607,
+      "name": "Spurious Dragon"
+    },
+    {
+      "eip": 608,
+      "name": "Tangerine Whistle"
+    },
+    {
+      "eip": 609,
+      "name": "Byzantium"
+    },
+    {
+      "eip": 779,
+      "name": "DAO Fork"
+    },
+    {
+      "eip": 1013,
+      "name": "Constantinople"
+    },
+    {
+      "eip": 1679,
+      "name": "Istanbul"
+    },
+    {
+      "eip": 1716,
+      "name": "Petersburg"
+    },
+    {
+      "eip": 2387,
+      "name": "Muir Glacier"
+    },
+    {
+      "eip": 7569,
+      "name": "Dencun"
+    },
+    {
+      "eip": 7600,
+      "name": "Pectra"
+    },
+    {
+      "eip": 7607,
+      "name": "Fusaka"
+    },
+    {
+      "eip": 8134,
+      "name": "BPO1"
+    },
+    {
+      "eip": 8135,
+      "name": "BPO2"
+    },
+    {
+      "eip": 7773,
+      "name": "Glamsterdam"
+    },
+    {
+      "eip": 8081,
+      "name": "Hegotá"
+    },
+    {
+      "eip": 8138,
+      "name": "BPO3"
+    },
+    {
+      "eip": 1588,
+      "name": "Ethereum ProgPoW"
+    },
+    {
+      "eip": 2070,
+      "name": "Berlin"
+    }
+  ]
+}

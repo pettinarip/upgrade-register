@@ -1,0 +1,15 @@
+{
+  "id": "nft-devnet-8",
+  "group": "nft",
+  "upgrade": null,
+  "active": false,
+  "genesis": "2025-08-01",
+  "configUrl": "https://github.com/ethpandaops/nft-devnets/blob/master/network-configs/devnet-8/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/nft-devnet-8",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

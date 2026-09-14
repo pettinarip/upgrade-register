@@ -1,0 +1,15 @@
+{
+  "id": "perf-devnet-2",
+  "group": "perf",
+  "upgrade": null,
+  "active": false,
+  "genesis": "2025-07-08",
+  "configUrl": "https://github.com/ethpandaops/perf-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/perf-devnet-2",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

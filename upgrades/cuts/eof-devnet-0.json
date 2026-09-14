@@ -1,0 +1,19 @@
+{
+  "id": "eof-devnet-0",
+  "group": "eof",
+  "upgrade": null,
+  "active": false,
+  "genesis": "2025-02-12",
+  "configUrl": "https://github.com/ethpandaops/eof-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/eof-devnet-0",
+  "eips": [],
+  "specs": {
+    "consensus": {
+      "tag": "v1.5.0-beta.1",
+      "url": "https://github.com/ethereum/consensus-specs/releases/tag/v1.5.0-beta.1",
+      "commit": null
+    },
+    "execution": null
+  },
+  "clients": []
+}

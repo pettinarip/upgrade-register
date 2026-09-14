@@ -1,0 +1,15 @@
+{
+  "id": "peerdas-devnet-5",
+  "group": "peerdas",
+  "upgrade": null,
+  "active": false,
+  "genesis": "2025-02-20",
+  "configUrl": "https://github.com/ethpandaops/peerdas-devnets/blob/master/network-configs/devnet-5/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/peerdas-devnet-5",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

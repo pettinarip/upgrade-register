@@ -1,0 +1,15 @@
+{
+  "id": "fusaka-holsf-0",
+  "group": "fusaka",
+  "upgrade": "fusaka",
+  "active": false,
+  "genesis": "2025-09-26",
+  "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/holsf-0/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-holsf-0",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

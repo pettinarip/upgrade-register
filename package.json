@@ -1,0 +1,19 @@
+{
+  "name": "upgrade-register",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node scripts/check.mjs",
+    "fetch": "node scripts/fetch/all-forks.mjs && node scripts/fetch/fork-configs.mjs && node scripts/fetch/cuts.mjs && node scripts/fetch/eips.mjs && node scripts/fetch/pm-calls.mjs",
+    "backfill": "node scripts/backfill/meta-eip-history.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

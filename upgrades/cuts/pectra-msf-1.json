@@ -1,0 +1,15 @@
+{
+  "id": "pectra-msf-1",
+  "group": "pectra",
+  "upgrade": "pectra",
+  "active": false,
+  "genesis": "2025-04-28",
+  "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/msf-1/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-msf-1",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

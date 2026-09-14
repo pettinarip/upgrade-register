@@ -1,0 +1,599 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema.json",
+  "title": "upgrade-register",
+  "description": "Every shape in this repo. Inputs: events, cut, network, allForks, overrides. Outputs: distUpgrade, distEip, distIndex, distResolve.",
+  "$defs": {
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\\d|3[01]))?|-Q[1-4])?$",
+      "description": "ISO prefix at the known precision: 2027, 2027-Q2, 2026-12, 2026-12-02"
+    },
+    "nullableDate": {"oneOf": [{"$ref": "#/$defs/date"}, {"type": "null"}]},
+    "stage": {"enum": ["proposed", "considered", "scheduled", "declined", "included", "withdrawn"]},
+    "track": {"enum": ["core", "networking", "informational"]},
+    "forkStatus": {"enum": ["estimated", "proposed", "agreed", "activated", "cancelled"]},
+    "source": {
+      "type": "object",
+      "required": ["kind"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": ["call", "pm-issue", "meta-eip", "config", "ethmagicians", "blog", "chain", "ethpandaops", "other"]
+        },
+        "ref": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "date": {"$ref": "#/$defs/date"}
+      }
+    },
+    "eipStage": {
+      "type": "object",
+      "required": ["type", "date", "confidence", "eip", "upgrade", "stage"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"const": "eip.stage"},
+        "date": {"$ref": "#/$defs/nullableDate"},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "quote": {"type": "string"},
+        "timestamp": {"type": "string", "pattern": "^\\d{1,2}:\\d{2}(:\\d{2})?$"},
+        "note": {"type": "string"},
+        "ref": {"type": "string"},
+        "url": {"type": "string"},
+        "observedAt": {"$ref": "#/$defs/date"},
+        "eip": {"type": "integer"},
+        "upgrade": {"type": "string"},
+        "stage": {"$ref": "#/$defs/stage"},
+        "track": {"$ref": "#/$defs/track"}
+      }
+    },
+    "headliner": {
+      "type": "object",
+      "required": ["type", "date", "confidence", "eip", "upgrade", "action"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"const": "upgrade.headliner"},
+        "date": {"$ref": "#/$defs/nullableDate"},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "quote": {"type": "string"},
+        "timestamp": {"type": "string", "pattern": "^\\d{1,2}:\\d{2}(:\\d{2})?$"},
+        "note": {"type": "string"},
+        "ref": {"type": "string"},
+        "url": {"type": "string"},
+        "observedAt": {"$ref": "#/$defs/date"},
+        "eip": {"type": "integer"},
+        "upgrade": {"type": "string"},
+        "action": {"enum": ["proposed", "presented", "selected", "declined"]}
+      }
+    },
+    "networkFork": {
+      "type": "object",
+      "required": ["type", "date", "confidence", "upgrade", "network", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"const": "network.fork"},
+        "date": {"$ref": "#/$defs/date"},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "quote": {"type": "string"},
+        "timestamp": {"type": "string", "pattern": "^\\d{1,2}:\\d{2}(:\\d{2})?$"},
+        "note": {"type": "string"},
+        "ref": {"type": "string"},
+        "url": {"type": "string"},
+        "observedAt": {"$ref": "#/$defs/date"},
+        "upgrade": {"type": "string"},
+        "network": {"type": "string"},
+        "status": {"$ref": "#/$defs/forkStatus"},
+        "epoch": {"type": "integer"},
+        "slot": {"type": "integer"},
+        "block": {"type": "integer"}
+      }
+    },
+    "deadline": {
+      "type": "object",
+      "required": ["type", "date", "confidence", "upgrade", "stage"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"const": "upgrade.deadline"},
+        "date": {"$ref": "#/$defs/date"},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "quote": {"type": "string"},
+        "timestamp": {"type": "string", "pattern": "^\\d{1,2}:\\d{2}(:\\d{2})?$"},
+        "note": {"type": "string"},
+        "ref": {"type": "string"},
+        "url": {"type": "string"},
+        "observedAt": {"$ref": "#/$defs/date"},
+        "upgrade": {"type": "string"},
+        "stage": {"enum": ["proposed", "considered", "scheduled"], "description": "stage an EIP must reach by date"}
+      }
+    },
+    "event": {
+      "oneOf": [
+        {"$ref": "#/$defs/eipStage"},
+        {"$ref": "#/$defs/headliner"},
+        {"$ref": "#/$defs/networkFork"},
+        {"$ref": "#/$defs/deadline"}
+      ]
+    },
+    "events": {
+      "type": "object",
+      "required": ["source", "recordedBy", "events"],
+      "additionalProperties": false,
+      "properties": {
+        "source": {"$ref": "#/$defs/source"},
+        "recordedBy": {"enum": ["human", "agent", "bot"]},
+        "events": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/event"}}
+      },
+      "description": "One file per source: a call, a Meta EIP or a network config."
+    },
+    "specRef": {
+      "oneOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "required": ["tag", "url"],
+          "additionalProperties": false,
+          "properties": {"tag": {"type": "string"}, "url": {"type": "string"}, "commit": {"type": ["string", "null"]}}
+        }
+      ]
+    },
+    "cut": {
+      "type": "object",
+      "required": ["id", "group", "upgrade", "active", "genesis", "configUrl", "specUrl", "eips", "specs", "clients"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "group": {"type": "string", "description": "ethpandaops repository group, e.g. glamsterdam or bal"},
+        "upgrade": {"type": ["string", "null"]},
+        "active": {"type": "boolean"},
+        "genesis": {"$ref": "#/$defs/nullableDate"},
+        "configUrl": {"type": ["string", "null"]},
+        "specUrl": {"type": "string"},
+        "eips": {"type": "array", "items": {"type": "integer"}},
+        "specs": {
+          "type": "object",
+          "required": [],
+          "additionalProperties": false,
+          "properties": {"consensus": {"$ref": "#/$defs/specRef"}, "execution": {"$ref": "#/$defs/specRef"}}
+        },
+        "clients": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "image", "spec"],
+            "additionalProperties": false,
+            "properties": {
+              "name": {"type": "string"},
+              "image": {"type": ["string", "null"]},
+              "spec": {"type": ["string", "null"]},
+              "status": {"type": ["string", "null"]}
+            }
+          }
+        }
+      },
+      "description": "One devnet: spec releases, client builds, config, EIP list."
+    },
+    "network": {
+      "type": "object",
+      "required": ["id", "name", "kind", "chainId", "genesisTime", "deprecated", "links"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "name": {"type": "string"},
+        "kind": {"enum": ["mainnet", "testnet"]},
+        "chainId": {"type": "integer"},
+        "genesisTime": {"type": "integer"},
+        "deprecated": {"type": "boolean"},
+        "links": {"type": "object", "additionalProperties": {"type": "string"}}
+      }
+    },
+    "allForks": {
+      "type": "object",
+      "required": ["schema_version", "network", "forks"],
+      "description": "ethereum/pm all-forks.json as it is today",
+      "properties": {
+        "schema_version": {"type": ["integer", "string"]},
+        "network": {"type": "string"},
+        "chain_id": {"type": "integer"},
+        "genesis_time": {"type": "integer"},
+        "beacon_genesis_time": {"type": "integer"},
+        "seconds_per_slot": {"type": "integer"},
+        "slots_per_epoch": {"type": "integer"},
+        "forks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "combined_name", "type", "status"],
+            "properties": {
+              "name": {
+                "type": "object",
+                "properties": {"execution": {"type": ["string", "null"]}, "consensus": {"type": ["string", "null"]}}
+              },
+              "combined_name": {"type": ["string", "null"]},
+              "type": {"enum": ["execution", "consensus", "combined", "irregular"]},
+              "activation": {
+                "type": "object",
+                "properties": {
+                  "block": {"type": ["integer", "null"]},
+                  "timestamp": {"type": ["integer", "null"]},
+                  "epoch": {"type": ["integer", "null"]},
+                  "ttd": {"type": ["string", "integer", "null"]}
+                }
+              },
+              "eips": {"type": "array", "items": {"type": "integer"}},
+              "meta_eips": {"type": "array", "items": {"type": "integer"}},
+              "status": {"enum": ["active", "planned"]},
+              "notes": {"type": ["string", "null"]}
+            }
+          }
+        }
+      }
+    },
+    "overrides": {
+      "type": "object",
+      "required": [],
+      "additionalProperties": false,
+      "properties": {
+        "upgrades": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": [],
+            "additionalProperties": false,
+            "properties": {
+              "name": {"type": "string"},
+              "layers": {
+                "type": "object",
+                "properties": {"execution": {"type": ["string", "null"]}, "consensus": {"type": ["string", "null"]}}
+              },
+              "hidden": {"type": "boolean"}
+            }
+          }
+        },
+        "networks": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": [],
+            "additionalProperties": false,
+            "properties": {"name": {"type": "string"}, "deprecated": {"type": "boolean"}}
+          }
+        },
+        "devnets": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": [],
+            "additionalProperties": false,
+            "properties": {"upgrade": {"type": ["string", "null"]}, "eips": {"type": "array", "items": {"type": "integer"}}}
+          }
+        },
+        "eipAliases": {
+          "type": "object",
+          "additionalProperties": {"type": "array", "items": {"type": "string"}},
+          "description": "spoken nicknames by EIP number"
+        }
+      }
+    },
+    "sourceOut": {
+      "type": "object",
+      "required": ["kind", "file", "recordedBy", "confidence"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": ["call", "pm-issue", "meta-eip", "config", "ethmagicians", "blog", "chain", "ethpandaops", "other"]
+        },
+        "ref": {"type": ["string", "null"]},
+        "url": {"type": ["string", "null"]},
+        "file": {"type": "string"},
+        "recordedBy": {"enum": ["human", "agent", "bot"]},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "quote": {"type": "string"},
+        "timestamp": {"type": "string"},
+        "note": {"type": "string"}
+      }
+    },
+    "fork": {
+      "type": "object",
+      "required": ["status", "date"],
+      "additionalProperties": false,
+      "properties": {
+        "status": {"enum": ["estimated", "proposed", "agreed", "activated", "cancelled"]},
+        "date": {"$ref": "#/$defs/date"},
+        "epoch": {"type": "integer"},
+        "slot": {"type": "integer"},
+        "block": {"type": "integer"}
+      }
+    },
+    "forkRow": {
+      "type": "object",
+      "required": ["status", "date", "sources"],
+      "additionalProperties": false,
+      "properties": {
+        "status": {"enum": ["estimated", "proposed", "agreed", "activated", "cancelled"]},
+        "date": {"$ref": "#/$defs/date"},
+        "epoch": {"type": "integer"},
+        "slot": {"type": "integer"},
+        "block": {"type": "integer"},
+        "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/sourceOut"}}
+      }
+    },
+    "networkForkOut": {
+      "type": "object",
+      "required": ["id", "name", "fork", "history"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "fork": {"$ref": "#/$defs/fork"},
+        "history": {"type": "array", "items": {"$ref": "#/$defs/forkRow"}}
+      }
+    },
+    "stageRow": {
+      "type": "object",
+      "required": ["stage", "date", "sources"],
+      "additionalProperties": false,
+      "properties": {
+        "stage": {"$ref": "#/$defs/stage"},
+        "track": {"$ref": "#/$defs/track"},
+        "date": {"$ref": "#/$defs/date"},
+        "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/sourceOut"}}
+      }
+    },
+    "eipOut": {
+      "type": "object",
+      "required": ["eip", "title", "layer", "stage", "track", "history"],
+      "additionalProperties": false,
+      "properties": {
+        "eip": {"type": "integer"},
+        "title": {"type": ["string", "null"]},
+        "layer": {"type": ["string", "null"]},
+        "stage": {"$ref": "#/$defs/stage"},
+        "track": {"$ref": "#/$defs/track"},
+        "history": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/stageRow"}}
+      }
+    },
+    "headlinerOut": {
+      "type": "object",
+      "required": ["eip", "title", "selected", "history"],
+      "additionalProperties": false,
+      "properties": {
+        "eip": {"type": "integer"},
+        "title": {"type": ["string", "null"]},
+        "selected": {"type": "boolean"},
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["action", "date", "sources"],
+            "additionalProperties": false,
+            "properties": {
+              "action": {"enum": ["proposed", "presented", "selected", "declined"]},
+              "date": {"$ref": "#/$defs/nullableDate"},
+              "url": {"type": "string"},
+              "sources": {"type": "array", "items": {"$ref": "#/$defs/sourceOut"}}
+            }
+          }
+        }
+      }
+    },
+    "deadlineOut": {
+      "type": "object",
+      "required": ["stage", "date", "sources"],
+      "additionalProperties": false,
+      "properties": {
+        "stage": {"enum": ["proposed", "considered", "scheduled"]},
+        "date": {"$ref": "#/$defs/date"},
+        "sources": {"type": "array", "items": {"$ref": "#/$defs/sourceOut"}}
+      }
+    },
+    "cutRow": {
+      "type": "object",
+      "required": ["id", "active", "genesis", "eips", "specs"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "group": {"type": "string", "description": "ethpandaops repository group, e.g. glamsterdam or bal"},
+        "active": {"type": "boolean"},
+        "genesis": {"$ref": "#/$defs/nullableDate"},
+        "configUrl": {"type": ["string", "null"]},
+        "specUrl": {"type": "string"},
+        "eips": {"type": "array", "items": {"type": "integer"}},
+        "specs": {
+          "type": "object",
+          "required": [],
+          "additionalProperties": false,
+          "properties": {"consensus": {"$ref": "#/$defs/specRef"}, "execution": {"$ref": "#/$defs/specRef"}}
+        },
+        "clients": {"type": "integer", "description": "count; full table in upgrades/cuts/<id>.json"}
+      }
+    },
+    "distUpgrade": {
+      "type": "object",
+      "required": [
+        "schemaVersion",
+        "id",
+        "name",
+        "type",
+        "layers",
+        "metaEips",
+        "links",
+        "status",
+        "mainnet",
+        "testnets",
+        "devnets",
+        "featureDevnets",
+        "deadlines",
+        "headliners",
+        "eips",
+        "unsourced"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": {"const": 1, "description": "bumped only for a breaking change"},
+        "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "name": {"type": "string"},
+        "type": {"oneOf": [{"enum": ["execution", "consensus", "combined", "irregular"]}, {"type": "null"}]},
+        "layers": {
+          "type": "object",
+          "required": ["execution", "consensus"],
+          "additionalProperties": false,
+          "properties": {"execution": {"type": ["string", "null"]}, "consensus": {"type": ["string", "null"]}}
+        },
+        "metaEips": {"type": "array", "items": {"type": "integer"}},
+        "links": {"type": "object", "additionalProperties": {"type": "string"}},
+        "status": {"enum": ["research", "planning", "development", "upcoming", "live"], "description": "derived, never recorded"},
+        "mainnet": {"oneOf": [{"$ref": "#/$defs/networkForkOut"}, {"type": "null"}]},
+        "testnets": {"type": "array", "items": {"$ref": "#/$defs/networkForkOut"}},
+        "devnets": {"type": "array", "items": {"$ref": "#/$defs/cutRow"}},
+        "featureDevnets": {"type": "array", "items": {"$ref": "#/$defs/cutRow"}},
+        "deadlines": {"type": "array", "items": {"$ref": "#/$defs/deadlineOut"}},
+        "headliners": {"type": "array", "items": {"$ref": "#/$defs/headlinerOut"}},
+        "eips": {"type": "array", "items": {"$ref": "#/$defs/eipOut"}},
+        "unsourced": {"type": "integer", "description": "events with no date or low confidence"}
+      },
+      "description": "Everything known about one upgrade."
+    },
+    "distEip": {
+      "type": "object",
+      "required": ["schemaVersion", "eip", "title", "upstreamStatus", "layer", "upgrades", "devnets"],
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": {"const": 1, "description": "bumped only for a breaking change"},
+        "eip": {"type": "integer"},
+        "title": {"type": ["string", "null"]},
+        "upstreamStatus": {"type": ["string", "null"]},
+        "layer": {"type": ["string", "null"]},
+        "devnets": {"type": "array", "items": {"type": "string"}},
+        "upgrades": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["upgrade", "stage", "track", "headliner", "history"],
+            "additionalProperties": false,
+            "properties": {
+              "upgrade": {"type": "string"},
+              "stage": {"$ref": "#/$defs/stage"},
+              "track": {"$ref": "#/$defs/track"},
+              "headliner": {"type": "boolean"},
+              "history": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/stageRow"}}
+            }
+          }
+        }
+      },
+      "description": "One EIP across every upgrade it was considered for."
+    },
+    "distIndex": {
+      "type": "object",
+      "required": ["schemaVersion", "generatedAt", "upgrades", "networks", "devnetGroups", "events", "eips"],
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": {"const": 1, "description": "bumped only for a breaking change"},
+        "generatedAt": {"type": "string", "format": "date-time"},
+        "upgrades": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "type", "status", "mainnet", "eips", "events"],
+            "additionalProperties": false,
+            "properties": {
+              "id": {"type": "string"},
+              "name": {"type": "string"},
+              "type": {"type": ["string", "null"]},
+              "status": {"enum": ["research", "planning", "development", "upcoming", "live"]},
+              "mainnet": {"oneOf": [{"$ref": "#/$defs/fork"}, {"type": "null"}]},
+              "eips": {"type": "integer"},
+              "events": {"type": "integer"}
+            }
+          }
+        },
+        "networks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "kind", "chainId", "genesisTime", "deprecated"],
+            "additionalProperties": false,
+            "properties": {
+              "id": {"type": "string"},
+              "name": {"type": "string"},
+              "kind": {"enum": ["mainnet", "testnet"]},
+              "chainId": {"type": "integer"},
+              "genesisTime": {"type": "integer"},
+              "deprecated": {"type": "boolean"}
+            }
+          }
+        },
+        "devnetGroups": {"type": "array", "items": {"type": "string"}},
+        "events": {"type": "integer"},
+        "eips": {"type": "integer"}
+      }
+    },
+    "distResolve": {
+      "type": "object",
+      "required": ["schemaVersion", "generatedAt", "note", "upgrades", "networks", "devnets", "eips", "vocabulary"],
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": {"const": 1, "description": "bumped only for a breaking change"},
+        "generatedAt": {"type": "string", "format": "date-time"},
+        "note": {"type": "string"},
+        "upgrades": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "aliases"],
+            "additionalProperties": false,
+            "properties": {
+              "id": {"type": "string"},
+              "name": {"type": "string"},
+              "aliases": {"type": "array", "items": {"type": "string"}}
+            }
+          }
+        },
+        "networks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "kind", "deprecated", "aliases"],
+            "additionalProperties": false,
+            "properties": {
+              "id": {"type": "string"},
+              "name": {"type": "string"},
+              "kind": {"type": "string"},
+              "deprecated": {"type": "boolean"},
+              "aliases": {"type": "array", "items": {"type": "string"}}
+            }
+          }
+        },
+        "devnets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["context", "note", "ids"],
+            "additionalProperties": false,
+            "properties": {
+              "context": {"type": "string"},
+              "note": {"type": "string"},
+              "ids": {"type": "array", "items": {"type": "string"}}
+            }
+          }
+        },
+        "eips": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["eip", "title", "aliases"],
+            "additionalProperties": false,
+            "properties": {
+              "eip": {"type": "integer"},
+              "title": {"type": ["string", "null"]},
+              "aliases": {"type": "array", "items": {"type": "string"}}
+            }
+          }
+        },
+        "vocabulary": {
+          "type": "object",
+          "additionalProperties": {"type": "object", "additionalProperties": {"type": "string"}}
+        }
+      },
+      "description": "Every valid id with the names it answers to."
+    }
+  }
+}

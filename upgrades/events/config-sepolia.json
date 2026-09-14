@@ -1,0 +1,64 @@
+{
+  "source": {
+    "kind": "config",
+    "ref": "eth-clients/sepolia",
+    "url": "https://github.com/eth-clients/sepolia/blob/main/metadata/config.yaml"
+  },
+  "recordedBy": "bot",
+  "events": [
+    {
+      "type": "network.fork",
+      "upgrade": "altair",
+      "network": "sepolia",
+      "status": "activated",
+      "date": "2022-06-20",
+      "epoch": 50,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "the-merge",
+      "network": "sepolia",
+      "status": "activated",
+      "date": "2022-06-21",
+      "epoch": 100,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "shapella",
+      "network": "sepolia",
+      "status": "activated",
+      "date": "2023-02-28",
+      "epoch": 56832,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "dencun",
+      "network": "sepolia",
+      "status": "activated",
+      "date": "2024-01-30",
+      "epoch": 132608,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "pectra",
+      "network": "sepolia",
+      "status": "activated",
+      "date": "2025-03-05",
+      "epoch": 222464,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "fusaka",
+      "network": "sepolia",
+      "status": "activated",
+      "date": "2025-10-14",
+      "epoch": 272640,
+      "confidence": "high"
+    }
+  ]
+}

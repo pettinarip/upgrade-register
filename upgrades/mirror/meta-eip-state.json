@@ -1,0 +1,5389 @@
+{
+  "7569": {
+    "lastSha": "b6258ba219eb2c65ef610db95142061e45f0cbec",
+    "membership": {
+      "1153": {
+        "stage": "included",
+        "track": "core"
+      },
+      "4788": {
+        "stage": "included",
+        "track": "core"
+      },
+      "4844": {
+        "stage": "included",
+        "track": "core"
+      },
+      "5656": {
+        "stage": "included",
+        "track": "core"
+      },
+      "6780": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7044": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7045": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7514": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7516": {
+        "stage": "included",
+        "track": "core"
+      }
+    },
+    "events": [
+      {
+        "type": "eip.stage",
+        "eip": 1153,
+        "upgrade": "dencun",
+        "stage": "included",
+        "date": "2023-12-07",
+        "confidence": "high",
+        "ref": "babb441",
+        "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+        "note": "Add EIP: Hardfork Meta - Dencun"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4788,
+        "upgrade": "dencun",
+        "stage": "included",
+        "date": "2023-12-07",
+        "confidence": "high",
+        "ref": "babb441",
+        "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+        "note": "Add EIP: Hardfork Meta - Dencun"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4844,
+        "upgrade": "dencun",
+        "stage": "included",
+        "date": "2023-12-07",
+        "confidence": "high",
+        "ref": "babb441",
+        "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+        "note": "Add EIP: Hardfork Meta - Dencun"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 5656,
+        "upgrade": "dencun",
+        "stage": "included",
+        "date": "2023-12-07",
+        "confidence": "high",
+        "ref": "babb441",
+        "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+        "note": "Add EIP: Hardfork Meta - Dencun"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6780,
+        "upgrade": "dencun",
+        "stage": "included",
+        "date": "2023-12-07",
+        "confidence": "high",
+        "ref": "babb441",
+        "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+        "note": "Add EIP: Hardfork Meta - Dencun"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7044,
+        "upgrade": "dencun",
+        "stage": "included",
+        "date": "2023-12-07",
+        "confidence": "high",
+        "ref": "babb441",
+        "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+        "note": "Add EIP: Hardfork Meta - Dencun"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7045,
+        "upgrade": "dencun",
+        "stage": "included",
+        "date": "2023-12-07",
+        "confidence": "high",
+        "ref": "babb441",
+        "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+        "note": "Add EIP: Hardfork Meta - Dencun"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7514,
+        "upgrade": "dencun",
+        "stage": "included",
+        "date": "2023-12-07",
+        "confidence": "high",
+        "ref": "babb441",
+        "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+        "note": "Add EIP: Hardfork Meta - Dencun"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7516,
+        "upgrade": "dencun",
+        "stage": "included",
+        "date": "2023-12-07",
+        "confidence": "high",
+        "ref": "babb441",
+        "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+        "note": "Add EIP: Hardfork Meta - Dencun"
+      }
+    ]
+  },
+  "7600": {
+    "lastSha": "b6258ba219eb2c65ef610db95142061e45f0cbec",
+    "membership": {
+      "2537": {
+        "stage": "included",
+        "track": "core"
+      },
+      "2935": {
+        "stage": "included",
+        "track": "core"
+      },
+      "6110": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7002": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7251": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7549": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7623": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7642": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7685": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7691": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7702": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7840": {
+        "stage": "included",
+        "track": "core"
+      }
+    },
+    "events": [
+      {
+        "type": "eip.stage",
+        "eip": 2537,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-02-12",
+        "confidence": "high",
+        "ref": "92daa1d",
+        "url": "https://github.com/ethereum/EIPs/commit/92daa1df9f48c0f1edf945ed516a1d696fadb5fc",
+        "note": "Add EIP: Hardfork Meta - Pectra"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6110,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2024-02-12",
+        "confidence": "high",
+        "ref": "92daa1d",
+        "url": "https://github.com/ethereum/EIPs/commit/92daa1df9f48c0f1edf945ed516a1d696fadb5fc",
+        "note": "Add EIP: Hardfork Meta - Pectra"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7002,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2024-02-12",
+        "confidence": "high",
+        "ref": "92daa1d",
+        "url": "https://github.com/ethereum/EIPs/commit/92daa1df9f48c0f1edf945ed516a1d696fadb5fc",
+        "note": "Add EIP: Hardfork Meta - Pectra"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7549,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2024-02-12",
+        "confidence": "high",
+        "ref": "92daa1d",
+        "url": "https://github.com/ethereum/EIPs/commit/92daa1df9f48c0f1edf945ed516a1d696fadb5fc",
+        "note": "Add EIP: Hardfork Meta - Pectra"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2537,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2024-02-15",
+        "confidence": "high",
+        "ref": "9381210",
+        "url": "https://github.com/ethereum/EIPs/commit/9381210fbf7cbee8f1d389609743f7adf2434f44",
+        "note": "Update EIP-7600: Mark 2537 as Included"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7547,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-03-21",
+        "confidence": "high",
+        "ref": "810c347",
+        "url": "https://github.com/ethereum/EIPs/commit/810c347a48052ab36a53a6aa684737ce386f6093",
+        "note": "Update EIP-7600: Add MaxEB + ILs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 663,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 3540,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 3670,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4200,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4750,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 5450,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6206,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7069,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7480,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7620,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7623,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7212,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-04-26",
+        "confidence": "high",
+        "ref": "acac81a",
+        "url": "https://github.com/ethereum/EIPs/commit/acac81a3432cccdd5ad20a387233e4643b9900fd",
+        "note": "Update EIP-7600: Move to Review"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7692,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-05-09",
+        "confidence": "high",
+        "ref": "bfb7e60",
+        "url": "https://github.com/ethereum/EIPs/commit/bfb7e601854572e16ec82af0de0adac9dbe5f5b4",
+        "note": "Update EIP-7600: Update eip-7600.md"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7698,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-05-09",
+        "confidence": "high",
+        "ref": "bfb7e60",
+        "url": "https://github.com/ethereum/EIPs/commit/bfb7e601854572e16ec82af0de0adac9dbe5f5b4",
+        "note": "Update EIP-7600: Update eip-7600.md"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7702,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-05-29",
+        "confidence": "high",
+        "ref": "d822c33",
+        "url": "https://github.com/ethereum/EIPs/commit/d822c33eb6dcd94929c9da8ed33579a3f7c5af9a",
+        "note": "Update EIP-7600: Add 7702, remove 3074"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 663,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 3540,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 3670,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4200,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4750,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 5450,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6206,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7069,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7480,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7620,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7692,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7698,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7702,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-06-06",
+        "confidence": "high",
+        "ref": "69efa08",
+        "url": "https://github.com/ethereum/EIPs/commit/69efa08ab2ffd3c32d0ef2e6eebe9336512b3f0b",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add Included EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7212,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-08-21",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#8779",
+        "url": "https://github.com/ethereum/EIPs/pull/8779",
+        "note": "Removed from EIP-7600: Update EIP-7600: Delete EIPS/eip-7212.md (#8779)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2537,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2935,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6110,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7002,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7251,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7549,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7685,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7702,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7742,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7762,
+        "upgrade": "pectra",
+        "stage": "considered",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7547,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Removed from EIP-7600: Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7742,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2024-10-24",
+        "confidence": "high",
+        "ref": "e6d9cfa",
+        "url": "https://github.com/ethereum/EIPs/commit/e6d9cfae0843689c49807fa93b4ea33db119ae79",
+        "note": "Update EIP-7600: Update eip-7600.md"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7623,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2024-12-18",
+        "confidence": "high",
+        "ref": "6770dfd",
+        "url": "https://github.com/ethereum/EIPs/commit/6770dfdd2e58bc65975a5c46d27839857ee48b63",
+        "note": "Update EIP-7600: Add EIPs 7623 & 7691"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7691,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2024-12-18",
+        "confidence": "high",
+        "ref": "6770dfd",
+        "url": "https://github.com/ethereum/EIPs/commit/6770dfdd2e58bc65975a5c46d27839857ee48b63",
+        "note": "Update EIP-7600: Add EIPs 7623 & 7691"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7742,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-12-18",
+        "confidence": "high",
+        "ref": "6770dfd",
+        "url": "https://github.com/ethereum/EIPs/commit/6770dfdd2e58bc65975a5c46d27839857ee48b63",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add EIPs 7623 & 7691"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7762,
+        "upgrade": "pectra",
+        "stage": "declined",
+        "date": "2024-12-18",
+        "confidence": "high",
+        "ref": "6770dfd",
+        "url": "https://github.com/ethereum/EIPs/commit/6770dfdd2e58bc65975a5c46d27839857ee48b63",
+        "note": "Removed from EIP-7600: Update EIP-7600: Add EIPs 7623 & 7691"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7840,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2025-01-15",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#9164",
+        "url": "https://github.com/ethereum/EIPs/pull/9164",
+        "note": "Update EIP-7600: Add EIP-7840 (#9164)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7642,
+        "upgrade": "pectra",
+        "stage": "scheduled",
+        "date": "2025-04-17",
+        "confidence": "high",
+        "ref": "0ddb8e9",
+        "url": "https://github.com/ethereum/EIPs/commit/0ddb8e9192410753ad4896b9b96510ebb2f4f6d8",
+        "note": "Update EIP-7600: Move to Last Call"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2537,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2935,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6110,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7002,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7251,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7549,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7623,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7642,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7685,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7691,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7702,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7840,
+        "upgrade": "pectra",
+        "stage": "included",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "78b5037",
+        "url": "https://github.com/ethereum/EIPs/commit/78b50371c43732d7d984c0a53046db43d5bc851d",
+        "note": "Update EIP-7600: Move to Final"
+      }
+    ]
+  },
+  "7607": {
+    "lastSha": "3b1edfd68cdfa6710510f52dbf1f6035b53e085b",
+    "membership": {
+      "7594": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7642": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7823": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7825": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7883": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7892": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7910": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7917": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7918": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7934": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7935": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7939": {
+        "stage": "included",
+        "track": "core"
+      },
+      "7951": {
+        "stage": "included",
+        "track": "core"
+      }
+    },
+    "events": [
+      {
+        "type": "eip.stage",
+        "eip": 4762,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2024-02-15",
+        "confidence": "high",
+        "ref": "31f2c52",
+        "url": "https://github.com/ethereum/EIPs/commit/31f2c52634f0017c38283f3c86aaf9f343937013",
+        "note": "Add EIP: Hardfork Meta - Osaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6800,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2024-02-15",
+        "confidence": "high",
+        "ref": "31f2c52",
+        "url": "https://github.com/ethereum/EIPs/commit/31f2c52634f0017c38283f3c86aaf9f343937013",
+        "note": "Add EIP: Hardfork Meta - Osaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6873,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2024-02-15",
+        "confidence": "high",
+        "ref": "31f2c52",
+        "url": "https://github.com/ethereum/EIPs/commit/31f2c52634f0017c38283f3c86aaf9f343937013",
+        "note": "Add EIP: Hardfork Meta - Osaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7545,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2024-02-15",
+        "confidence": "high",
+        "ref": "31f2c52",
+        "url": "https://github.com/ethereum/EIPs/commit/31f2c52634f0017c38283f3c86aaf9f343937013",
+        "note": "Add EIP: Hardfork Meta - Osaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7667,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2024-04-11",
+        "confidence": "high",
+        "ref": "14d770b",
+        "url": "https://github.com/ethereum/EIPs/commit/14d770b9d5c3bd6c2de918a3cf8b2948e54a8cc0",
+        "note": "Update EIP-7600: ACDE 185 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 663,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 3540,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 3670,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4200,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4750,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 5450,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6206,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7069,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7480,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7594,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7620,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7692,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7698,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4762,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Removed from EIP-7607: Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6800,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Removed from EIP-7607: Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6873,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Removed from EIP-7607: Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7545,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Removed from EIP-7607: Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7667,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Removed from EIP-7607: Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7666,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2024-12-19",
+        "confidence": "high",
+        "ref": "b282200",
+        "url": "https://github.com/ethereum/EIPs/commit/b282200fd91c77bd198f25387a117e27b2a4ad11",
+        "note": "Update EIP-7607: Add EIP-7666 (EVM-ify the identity precompile) to proposed-for-inclusion in Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7823,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-01-23",
+        "confidence": "high",
+        "ref": "a2ed823",
+        "url": "https://github.com/ethereum/EIPs/commit/a2ed82327dfeabc41f9b9d2bb884e1d7970b7b9d",
+        "note": "Update EIP-7607: Add EIP-7823 (Set upper bounds for MODEXP) to proposeed-for-inclusion in Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7863,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-01-24",
+        "confidence": "high",
+        "ref": "28619e6",
+        "url": "https://github.com/ethereum/EIPs/commit/28619e64b12ce4c89009d9cb8b4dabc6dc07e1ee",
+        "note": "Update EIP-7607: Propose EIP-7863 for Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7793,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-01-29",
+        "confidence": "high",
+        "ref": "8cd1fa6",
+        "url": "https://github.com/ethereum/EIPs/commit/8cd1fa621242f3c1695588fce3bbbf6f6ff6fdd9",
+        "note": "Update EIP-7607: Add EIP-7793 & EIP-7843 to proposed-for-inclusion in Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7843,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-01-29",
+        "confidence": "high",
+        "ref": "8cd1fa6",
+        "url": "https://github.com/ethereum/EIPs/commit/8cd1fa621242f3c1695588fce3bbbf6f6ff6fdd9",
+        "note": "Update EIP-7607: Add EIP-7793 & EIP-7843 to proposed-for-inclusion in Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7732,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-01-30",
+        "confidence": "high",
+        "ref": "f27ddf2",
+        "url": "https://github.com/ethereum/EIPs/commit/f27ddf2b0af7e862a967ee38ceeaa7d980786ca1",
+        "note": "Update EIP-7607: Proposing 7732 for fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7805,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-02-12",
+        "confidence": "high",
+        "ref": "bf56d4b",
+        "url": "https://github.com/ethereum/EIPs/commit/bf56d4bc947ce207fa96a284a1979a715ef049ec",
+        "note": "Update EIP-7607: Proposing 7805 for fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7825,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-02-21",
+        "confidence": "high",
+        "ref": "ce71fb1",
+        "url": "https://github.com/ethereum/EIPs/commit/ce71fb1cd0dfa18ab337860d3611a67110f5fc14",
+        "note": "Update EIP-7607: Proposing 7825 for Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7883,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-02-21",
+        "confidence": "high",
+        "ref": "c585cb4",
+        "url": "https://github.com/ethereum/EIPs/commit/c585cb4a35ef3bffb9cb42000be2b029ef65f6c0",
+        "note": "Update EIP-7607: ModExp Gas Cost Increase to Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7642,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-02-21",
+        "confidence": "high",
+        "ref": "314aab3",
+        "url": "https://github.com/ethereum/EIPs/commit/314aab3afd8d0f1feb379ed663750421dd95243d",
+        "note": "Update EIP-7607: proposes eth/69 inclusion in Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7783,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-02-21",
+        "confidence": "high",
+        "ref": "44743cc",
+        "url": "https://github.com/ethereum/EIPs/commit/44743ccd5780b058faa4b882f8c4302ce0729266",
+        "note": "Update EIP-7607: propose EIP-7783"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 5920,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-02-22",
+        "confidence": "high",
+        "ref": "3b1de49",
+        "url": "https://github.com/ethereum/EIPs/commit/3b1de495c2a5dc2352f958d1676c39f29ded21a7",
+        "note": "Update EIP-7607: Propose EIP-5920 for inclusion in Osaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7761,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-02-24",
+        "confidence": "high",
+        "ref": "ff5fc95",
+        "url": "https://github.com/ethereum/EIPs/commit/ff5fc95c8f1adc8b5f8865536630e70e2817c99b",
+        "note": "Update EIP-7607: Update EIP-7606 Add EOF testnet Osaka-2 EIPs."
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7834,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-02-24",
+        "confidence": "high",
+        "ref": "ff5fc95",
+        "url": "https://github.com/ethereum/EIPs/commit/ff5fc95c8f1adc8b5f8865536630e70e2817c99b",
+        "note": "Update EIP-7607: Update EIP-7606 Add EOF testnet Osaka-2 EIPs."
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7873,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-02-24",
+        "confidence": "high",
+        "ref": "ff5fc95",
+        "url": "https://github.com/ethereum/EIPs/commit/ff5fc95c8f1adc8b5f8865536630e70e2817c99b",
+        "note": "Update EIP-7607: Update EIP-7606 Add EOF testnet Osaka-2 EIPs."
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7880,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-02-24",
+        "confidence": "high",
+        "ref": "ff5fc95",
+        "url": "https://github.com/ethereum/EIPs/commit/ff5fc95c8f1adc8b5f8865536630e70e2817c99b",
+        "note": "Update EIP-7607: Update EIP-7606 Add EOF testnet Osaka-2 EIPs."
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7863,
+        "upgrade": "fusaka",
+        "stage": "withdrawn",
+        "date": "2025-03-13",
+        "confidence": "high",
+        "ref": "2fb7443",
+        "url": "https://github.com/ethereum/EIPs/commit/2fb744367e5a65ff3afaf30025cba27ec36b1b3f",
+        "note": "Removed from EIP-7607: Update EIP-7607: Remove block-level-warming EIP from PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7819,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-14",
+        "confidence": "high",
+        "ref": "5ca944b",
+        "url": "https://github.com/ethereum/EIPs/commit/5ca944b277c22696f4e4f0c3575006655e6698e9",
+        "note": "Update EIP-7607: Add EIP-7819 to the candidate for inclusion in Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7688,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-18",
+        "confidence": "high",
+        "ref": "de5b7db",
+        "url": "https://github.com/ethereum/EIPs/commit/de5b7db64a83363bfb44996ce78fffcda9259533",
+        "note": "Update EIP-7607: Add EIP-7688 to the candidate for inclusion in Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7791,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-25",
+        "confidence": "high",
+        "ref": "7867e75",
+        "url": "https://github.com/ethereum/EIPs/commit/7867e75dff3dafc2558ad0383f5aa344c10d3fa4",
+        "note": "Update EIP-7607: propose eips 7791 and 7903 for inclusion in osaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7903,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-25",
+        "confidence": "high",
+        "ref": "7867e75",
+        "url": "https://github.com/ethereum/EIPs/commit/7867e75dff3dafc2558ad0383f5aa344c10d3fa4",
+        "note": "Update EIP-7607: propose eips 7791 and 7903 for inclusion in osaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7892,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-25",
+        "confidence": "high",
+        "ref": "31e9f15",
+        "url": "https://github.com/ethereum/EIPs/commit/31e9f151073dbb7d99a9fe68e574530dc5ce53ff",
+        "note": "Update EIP-7607: Add EIP-7892 to the candidate for inclusion in Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7907,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-25",
+        "confidence": "high",
+        "ref": "f1fd967",
+        "url": "https://github.com/ethereum/EIPs/commit/f1fd967eb5e4e43de9ca50be4b59cb8752bfa5d8",
+        "note": "Update EIP-7607: add eip-7907 to fusaka meta"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7917,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-25",
+        "confidence": "high",
+        "ref": "5bbb673",
+        "url": "https://github.com/ethereum/EIPs/commit/5bbb673ef92b2af188c69520752845cbc6006a27",
+        "note": "Update EIP-7607: Propose EIP-7917 for inclusion in Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7915,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-25",
+        "confidence": "high",
+        "ref": "83edea5",
+        "url": "https://github.com/ethereum/EIPs/commit/83edea571cbfa6a2dd77b7c039d9cb63e18edc4c",
+        "note": "Update EIP-7607: Add EIP-7915 *Adaptive mean reversion blob pricing* as PFI in Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7762,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-25",
+        "confidence": "high",
+        "ref": "c941b5c",
+        "url": "https://github.com/ethereum/EIPs/commit/c941b5c4519dcf24f39a1bc9163ed28cc5ac5a11",
+        "note": "Update EIP-7607: add EIP-7762 to PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7668,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-25",
+        "confidence": "high",
+        "ref": "5065558",
+        "url": "https://github.com/ethereum/EIPs/commit/506555880792360117711ff84be30ebccb9fe5e1",
+        "note": "Update EIP-7607: Add \"remove bloom filters\" (EIP 7668) to PFI Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7919,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-26",
+        "confidence": "high",
+        "ref": "34827c1",
+        "url": "https://github.com/ethereum/EIPs/commit/34827c1b523fa182274e82438df34b4988632cf0",
+        "note": "Update EIP-7607: Add EIP-7919 to Fusaka PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7898,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-26",
+        "confidence": "high",
+        "ref": "2f5e53e",
+        "url": "https://github.com/ethereum/EIPs/commit/2f5e53eed8f224ad930e5762d584eef6dc212489",
+        "note": "Update EIP-7607: Add EIP-7898 to Fusaka PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7918,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-26",
+        "confidence": "high",
+        "ref": "a86dce8",
+        "url": "https://github.com/ethereum/EIPs/commit/a86dce8773ac667e01a4e1de56ba286c64c297d3",
+        "note": "Update EIP-7607: Switch out EIP-7915 in favor of new EIP *Blob base fee bounded by execution cost*"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7915,
+        "upgrade": "fusaka",
+        "stage": "withdrawn",
+        "date": "2025-03-26",
+        "confidence": "high",
+        "ref": "a86dce8",
+        "url": "https://github.com/ethereum/EIPs/commit/a86dce8773ac667e01a4e1de56ba286c64c297d3",
+        "note": "Removed from EIP-7607: Update EIP-7607: Switch out EIP-7915 in favor of new EIP *Blob base fee bounded by execution cost*"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7889,
+        "upgrade": "fusaka",
+        "stage": "proposed",
+        "date": "2025-03-27",
+        "confidence": "high",
+        "ref": "19724d7",
+        "url": "https://github.com/ethereum/EIPs/commit/19724d73badc283eed4fb8b85c5dec1152302128",
+        "note": "Update EIP-7607: Propose EIP-7889"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 5920,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-03-27",
+        "confidence": "high",
+        "ref": "4a8bf58",
+        "url": "https://github.com/ethereum/EIPs/commit/4a8bf58f80cfaa62ccdbb1e0c7463bdf20615d2f",
+        "note": "Update EIP-7607: ACDE#208 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7692,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-03-27",
+        "confidence": "high",
+        "ref": "4a8bf58",
+        "url": "https://github.com/ethereum/EIPs/commit/4a8bf58f80cfaa62ccdbb1e0c7463bdf20615d2f",
+        "note": "Update EIP-7607: ACDE#208 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7761,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-03-27",
+        "confidence": "high",
+        "ref": "4a8bf58",
+        "url": "https://github.com/ethereum/EIPs/commit/4a8bf58f80cfaa62ccdbb1e0c7463bdf20615d2f",
+        "note": "Update EIP-7607: ACDE#208 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7834,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-03-27",
+        "confidence": "high",
+        "ref": "4a8bf58",
+        "url": "https://github.com/ethereum/EIPs/commit/4a8bf58f80cfaa62ccdbb1e0c7463bdf20615d2f",
+        "note": "Update EIP-7607: ACDE#208 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7873,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-03-27",
+        "confidence": "high",
+        "ref": "4a8bf58",
+        "url": "https://github.com/ethereum/EIPs/commit/4a8bf58f80cfaa62ccdbb1e0c7463bdf20615d2f",
+        "note": "Update EIP-7607: ACDE#208 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7880,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-03-27",
+        "confidence": "high",
+        "ref": "4a8bf58",
+        "url": "https://github.com/ethereum/EIPs/commit/4a8bf58f80cfaa62ccdbb1e0c7463bdf20615d2f",
+        "note": "Update EIP-7607: ACDE#208 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7883,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-03-27",
+        "confidence": "high",
+        "ref": "4a8bf58",
+        "url": "https://github.com/ethereum/EIPs/commit/4a8bf58f80cfaa62ccdbb1e0c7463bdf20615d2f",
+        "note": "Update EIP-7607: ACDE#208 Updates"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7642,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7666,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7668,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7762,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7783,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7791,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7793,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7805,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7819,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7823,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7825,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7843,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7889,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7892,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7903,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7907,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7918,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7919,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-14",
+        "confidence": "high",
+        "ref": "9d17611",
+        "url": "https://github.com/ethereum/EIPs/commit/9d17611c87100a66bf5631ffe1406bf638f7f3e1",
+        "note": "Update EIP-7600: ACDE#209 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7688,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-19",
+        "confidence": "high",
+        "ref": "fc9a8d9",
+        "url": "https://github.com/ethereum/EIPs/commit/fc9a8d9a4d43ba0ce798b9466984dd21026251c3",
+        "note": "Update EIP-7607: update Fusaka CFI and SFI list"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7732,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-19",
+        "confidence": "high",
+        "ref": "fc9a8d9",
+        "url": "https://github.com/ethereum/EIPs/commit/fc9a8d9a4d43ba0ce798b9466984dd21026251c3",
+        "note": "Update EIP-7607: update Fusaka CFI and SFI list"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7892,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-04-19",
+        "confidence": "high",
+        "ref": "fc9a8d9",
+        "url": "https://github.com/ethereum/EIPs/commit/fc9a8d9a4d43ba0ce798b9466984dd21026251c3",
+        "note": "Update EIP-7607: update Fusaka CFI and SFI list"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7898,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-19",
+        "confidence": "high",
+        "ref": "fc9a8d9",
+        "url": "https://github.com/ethereum/EIPs/commit/fc9a8d9a4d43ba0ce798b9466984dd21026251c3",
+        "note": "Update EIP-7607: update Fusaka CFI and SFI list"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7917,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-04-19",
+        "confidence": "high",
+        "ref": "fc9a8d9",
+        "url": "https://github.com/ethereum/EIPs/commit/fc9a8d9a4d43ba0ce798b9466984dd21026251c3",
+        "note": "Update EIP-7607: update Fusaka CFI and SFI list"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 663,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 3540,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 3670,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4200,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4750,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 5450,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6206,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7069,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7480,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7620,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7692,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7698,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7761,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7834,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7873,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7880,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-04-28",
+        "confidence": "high",
+        "ref": "1c702d9",
+        "url": "https://github.com/ethereum/EIPs/commit/1c702d9d797878e1b7c7b5732548af6444aad873",
+        "note": "Update EIP-7607: Remove EOF from Fusaka "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7912,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-05-05",
+        "confidence": "high",
+        "ref": "b086000",
+        "url": "https://github.com/ethereum/EIPs/commit/b086000f7d79e25eb675d3412160c76bab18c43b",
+        "note": "Update EIP-7607: Add \"Pragmatic expansion of stack manipulation tools\" as DFI for Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7934,
+        "upgrade": "fusaka",
+        "stage": "considered",
+        "date": "2025-05-09",
+        "confidence": "high",
+        "ref": "9d880b9",
+        "url": "https://github.com/ethereum/EIPs/commit/9d880b910da73181fd23758f1516c325ea26e3b9",
+        "note": "Update EIP-7607: Add ACDE#211 SFI & CFI'd EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7935,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-05-09",
+        "confidence": "high",
+        "ref": "9d880b9",
+        "url": "https://github.com/ethereum/EIPs/commit/9d880b910da73181fd23758f1516c325ea26e3b9",
+        "note": "Update EIP-7607: Add ACDE#211 SFI & CFI'd EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7823,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-05-21",
+        "confidence": "high",
+        "ref": "48d580c",
+        "url": "https://github.com/ethereum/EIPs/commit/48d580cf3838acb8c74eb2dea1eeec8c6711a42b",
+        "note": "Update EIP-7607: Fix Fusaka SFI Changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7883,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-05-21",
+        "confidence": "high",
+        "ref": "48d580c",
+        "url": "https://github.com/ethereum/EIPs/commit/48d580cf3838acb8c74eb2dea1eeec8c6711a42b",
+        "note": "Update EIP-7607: Fix Fusaka SFI Changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7762,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-05-22",
+        "confidence": "high",
+        "ref": "831645e",
+        "url": "https://github.com/ethereum/EIPs/commit/831645ee89d86b9ee0a5d295707785fd34a80597",
+        "note": "Update EIP-7607: ACDE#212 Changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7825,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-05-22",
+        "confidence": "high",
+        "ref": "831645e",
+        "url": "https://github.com/ethereum/EIPs/commit/831645ee89d86b9ee0a5d295707785fd34a80597",
+        "note": "Update EIP-7607: ACDE#212 Changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7918,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-05-22",
+        "confidence": "high",
+        "ref": "831645e",
+        "url": "https://github.com/ethereum/EIPs/commit/831645ee89d86b9ee0a5d295707785fd34a80597",
+        "note": "Update EIP-7607: ACDE#212 Changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7917,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-06-02",
+        "confidence": "high",
+        "ref": "92639db",
+        "url": "https://github.com/ethereum/EIPs/commit/92639db6cbeda20eabb20212c291410cf0d60d5f",
+        "note": "Update EIP-7607: EIP-7607: add deterministic proposer lookahead to scheduled"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 5920,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-06-05",
+        "confidence": "high",
+        "ref": "7ef3b8b",
+        "url": "https://github.com/ethereum/EIPs/commit/7ef3b8bc6904c9293316f6c643e94c04264d84a4",
+        "note": "Update EIP-7607: ACDE#213 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7907,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-07-02",
+        "confidence": "high",
+        "ref": "ca4fda0",
+        "url": "https://github.com/ethereum/EIPs/commit/ca4fda0074fe0298f56abd0ffa7286de8d30531e",
+        "note": "Update EIP-7607: ACDE#214 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7934,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-07-02",
+        "confidence": "high",
+        "ref": "ca4fda0",
+        "url": "https://github.com/ethereum/EIPs/commit/ca4fda0074fe0298f56abd0ffa7286de8d30531e",
+        "note": "Update EIP-7607: ACDE#214 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7939,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-07-02",
+        "confidence": "high",
+        "ref": "ca4fda0",
+        "url": "https://github.com/ethereum/EIPs/commit/ca4fda0074fe0298f56abd0ffa7286de8d30531e",
+        "note": "Update EIP-7607: ACDE#214 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7951,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-07-02",
+        "confidence": "high",
+        "ref": "ca4fda0",
+        "url": "https://github.com/ethereum/EIPs/commit/ca4fda0074fe0298f56abd0ffa7286de8d30531e",
+        "note": "Update EIP-7607: ACDE#214 changes"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7910,
+        "upgrade": "fusaka",
+        "stage": "scheduled",
+        "date": "2025-07-10",
+        "confidence": "high",
+        "ref": "ec9133c",
+        "url": "https://github.com/ethereum/EIPs/commit/ec9133c32b174cfc315d2992f208a1d65cd45c92",
+        "note": "Update EIP-7607: add EIP-7910 to fusaka scope as other EIP"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7907,
+        "upgrade": "fusaka",
+        "stage": "declined",
+        "date": "2025-07-17",
+        "confidence": "high",
+        "ref": "7a20cd0",
+        "url": "https://github.com/ethereum/EIPs/commit/7a20cd0f63182ce51583333ed48b40593daed742",
+        "note": "Removed from EIP-7607: Update EIP-7607: Remove EIP-7907 from Fusaka"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7594,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7642,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7823,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7825,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7883,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7892,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7910,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7917,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7918,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7934,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7935,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7939,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7951,
+        "upgrade": "fusaka",
+        "stage": "included",
+        "date": "2026-02-04",
+        "confidence": "high",
+        "ref": "ethereum/EIPs#11237",
+        "url": "https://github.com/ethereum/EIPs/pull/11237",
+        "note": "Update EIP-7607: Move to Final (#11237)"
+      }
+    ]
+  },
+  "7773": {
+    "lastSha": "8f63233aa33ac7bdd82dccb93a456d526842e5f7",
+    "membership": {
+      "2780": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "7688": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "7708": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "7732": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "7778": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "7843": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "7904": {
+        "stage": "scheduled",
+        "track": "informational"
+      },
+      "7928": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "7954": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "7975": {
+        "stage": "scheduled",
+        "track": "networking"
+      },
+      "7976": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "7981": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "7997": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "8024": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "8037": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "8038": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "8045": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "8061": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "8070": {
+        "stage": "scheduled",
+        "track": "networking"
+      },
+      "8136": {
+        "stage": "scheduled",
+        "track": "networking"
+      },
+      "8159": {
+        "stage": "scheduled",
+        "track": "networking"
+      },
+      "8189": {
+        "stage": "scheduled",
+        "track": "networking"
+      },
+      "8246": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "8261": {
+        "stage": "scheduled",
+        "track": "informational"
+      },
+      "8282": {
+        "stage": "scheduled",
+        "track": "core"
+      }
+    },
+    "events": [
+      {
+        "type": "eip.stage",
+        "eip": 4762,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6800,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6873,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7545,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7667,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2024-09-27",
+        "confidence": "high",
+        "ref": "1d4ce54",
+        "url": "https://github.com/ethereum/EIPs/commit/1d4ce5462677c5af8852cae6105ebf4c941f363b",
+        "note": "Add EIP: Hardfork Meta - Amsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7793,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "1401a3a",
+        "url": "https://github.com/ethereum/EIPs/commit/1401a3a89244cbfc0941eabe3c2025f55970cbbd",
+        "note": "Update EIP-7773: PFI Amsterdam EIP-7793 & EIP-7843"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7843,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-06-09",
+        "confidence": "high",
+        "ref": "1401a3a",
+        "url": "https://github.com/ethereum/EIPs/commit/1401a3a89244cbfc0941eabe3c2025f55970cbbd",
+        "note": "Update EIP-7773: PFI Amsterdam EIP-7793 & EIP-7843"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7919,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-06-10",
+        "confidence": "high",
+        "ref": "abc053c",
+        "url": "https://github.com/ethereum/EIPs/commit/abc053c18913fa1c765e482986996b48b7b33a40",
+        "note": "Update EIP-7773: Move to Draft"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6873,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-07-04",
+        "confidence": "high",
+        "ref": "6d2709f",
+        "url": "https://github.com/ethereum/EIPs/commit/6d2709f84b44c7a70c2c22edb8a95bf02a3e9ea5",
+        "note": "Update EIP-7773: Move previously CFI'd Glamsterdam EIPs to PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7667,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-07-04",
+        "confidence": "high",
+        "ref": "6d2709f",
+        "url": "https://github.com/ethereum/EIPs/commit/6d2709f84b44c7a70c2c22edb8a95bf02a3e9ea5",
+        "note": "Update EIP-7773: Move previously CFI'd Glamsterdam EIPs to PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4762,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-07-04",
+        "confidence": "high",
+        "ref": "6d2709f",
+        "url": "https://github.com/ethereum/EIPs/commit/6d2709f84b44c7a70c2c22edb8a95bf02a3e9ea5",
+        "note": "Removed from EIP-7773: Update EIP-7773: Move previously CFI'd Glamsterdam EIPs to PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6800,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-07-04",
+        "confidence": "high",
+        "ref": "6d2709f",
+        "url": "https://github.com/ethereum/EIPs/commit/6d2709f84b44c7a70c2c22edb8a95bf02a3e9ea5",
+        "note": "Removed from EIP-7773: Update EIP-7773: Move previously CFI'd Glamsterdam EIPs to PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7545,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-07-04",
+        "confidence": "high",
+        "ref": "6d2709f",
+        "url": "https://github.com/ethereum/EIPs/commit/6d2709f84b44c7a70c2c22edb8a95bf02a3e9ea5",
+        "note": "Removed from EIP-7773: Update EIP-7773: Move previously CFI'd Glamsterdam EIPs to PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7819,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-07-24",
+        "confidence": "high",
+        "ref": "6d1834d",
+        "url": "https://github.com/ethereum/EIPs/commit/6d1834d7e4fdcdd05e399abef9e16c4659890f98",
+        "note": "Update EIP-7773: Add EIP-7819 to Glamsterdam's PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7732,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2025-07-24",
+        "confidence": "high",
+        "ref": "c809bed",
+        "url": "https://github.com/ethereum/EIPs/commit/c809bed1f14c9922465bb13afd80def7ae03b672",
+        "note": "Update EIP-7773: Move EIPs 7732, 7782, and 7805 from PFI to CFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7782,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2025-07-24",
+        "confidence": "high",
+        "ref": "c809bed",
+        "url": "https://github.com/ethereum/EIPs/commit/c809bed1f14c9922465bb13afd80def7ae03b672",
+        "note": "Update EIP-7773: Move EIPs 7732, 7782, and 7805 from PFI to CFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7805,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2025-07-24",
+        "confidence": "high",
+        "ref": "c809bed",
+        "url": "https://github.com/ethereum/EIPs/commit/c809bed1f14c9922465bb13afd80def7ae03b672",
+        "note": "Update EIP-7773: Move EIPs 7732, 7782, and 7805 from PFI to CFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7928,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2025-07-31",
+        "confidence": "high",
+        "ref": "31a120b",
+        "url": "https://github.com/ethereum/EIPs/commit/31a120b00c173f7e8bc626e1ebc59e77dc215258",
+        "note": "Update EIP-7773: CFI EIP-7928 for Glamsterdam "
+      },
+      {
+        "type": "eip.stage",
+        "eip": 5920,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-11",
+        "confidence": "high",
+        "ref": "2b3e2ed",
+        "url": "https://github.com/ethereum/EIPs/commit/2b3e2ed3453daf1775962c62c852cf359d1734cb",
+        "note": "Update EIP-7773: add PFI EIPs for glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7791,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-11",
+        "confidence": "high",
+        "ref": "2b3e2ed",
+        "url": "https://github.com/ethereum/EIPs/commit/2b3e2ed3453daf1775962c62c852cf359d1734cb",
+        "note": "Update EIP-7773: add PFI EIPs for glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7903,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-11",
+        "confidence": "high",
+        "ref": "2b3e2ed",
+        "url": "https://github.com/ethereum/EIPs/commit/2b3e2ed3453daf1775962c62c852cf359d1734cb",
+        "note": "Update EIP-7773: add PFI EIPs for glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7907,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-11",
+        "confidence": "high",
+        "ref": "2b3e2ed",
+        "url": "https://github.com/ethereum/EIPs/commit/2b3e2ed3453daf1775962c62c852cf359d1734cb",
+        "note": "Update EIP-7773: add PFI EIPs for glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7923,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-11",
+        "confidence": "high",
+        "ref": "2b3e2ed",
+        "url": "https://github.com/ethereum/EIPs/commit/2b3e2ed3453daf1775962c62c852cf359d1734cb",
+        "note": "Update EIP-7773: add PFI EIPs for glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2926,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-14",
+        "confidence": "high",
+        "ref": "199b45a",
+        "url": "https://github.com/ethereum/EIPs/commit/199b45a0a34e76dd12171b658f6568ed8c6e0d0b",
+        "note": "Update EIP-7773: propose eip 2926 for inclusion in Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7732,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2025-08-14",
+        "confidence": "high",
+        "ref": "b50e544",
+        "url": "https://github.com/ethereum/EIPs/commit/b50e544d3390eed1021bbd460959c0822a85002c",
+        "note": "Update EIP-7773: Move EIP-7732 and EIP-7928 to SFI, EIP-7792 to DFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7782,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-08-14",
+        "confidence": "high",
+        "ref": "b50e544",
+        "url": "https://github.com/ethereum/EIPs/commit/b50e544d3390eed1021bbd460959c0822a85002c",
+        "note": "Update EIP-7773: Move EIP-7732 and EIP-7928 to SFI, EIP-7792 to DFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7928,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2025-08-14",
+        "confidence": "high",
+        "ref": "b50e544",
+        "url": "https://github.com/ethereum/EIPs/commit/b50e544d3390eed1021bbd460959c0822a85002c",
+        "note": "Update EIP-7773: Move EIP-7732 and EIP-7928 to SFI, EIP-7792 to DFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7997,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-21",
+        "confidence": "high",
+        "ref": "cecf127",
+        "url": "https://github.com/ethereum/EIPs/commit/cecf1273e2c2bd493e670fae3d94fb2aec72ec01",
+        "note": "Update EIP-7773: Propose EIP-7997 for inclusion"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7979,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-26",
+        "confidence": "high",
+        "ref": "4eaa847",
+        "url": "https://github.com/ethereum/EIPs/commit/4eaa8478fe93ce35f63987f5c78ed1162acd1fcc",
+        "note": "Update EIP-7773: Call and Return Opcodes for the EVM"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7932,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-26",
+        "confidence": "high",
+        "ref": "b2bce97",
+        "url": "https://github.com/ethereum/EIPs/commit/b2bce97a0a6898faf5a37c5948b7bc58a1cd1bc5",
+        "note": "Update EIP-7773: Add EIPs 7981, 7999, 7932 and 7980 to PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7980,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-26",
+        "confidence": "high",
+        "ref": "b2bce97",
+        "url": "https://github.com/ethereum/EIPs/commit/b2bce97a0a6898faf5a37c5948b7bc58a1cd1bc5",
+        "note": "Update EIP-7773: Add EIPs 7981, 7999, 7932 and 7980 to PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7981,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-26",
+        "confidence": "high",
+        "ref": "b2bce97",
+        "url": "https://github.com/ethereum/EIPs/commit/b2bce97a0a6898faf5a37c5948b7bc58a1cd1bc5",
+        "note": "Update EIP-7773: Add EIPs 7981, 7999, 7932 and 7980 to PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7999,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-08-26",
+        "confidence": "high",
+        "ref": "b2bce97",
+        "url": "https://github.com/ethereum/EIPs/commit/b2bce97a0a6898faf5a37c5948b7bc58a1cd1bc5",
+        "note": "Update EIP-7773: Add EIPs 7981, 7999, 7932 and 7980 to PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7778,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-09-03",
+        "confidence": "high",
+        "ref": "8553e5e",
+        "url": "https://github.com/ethereum/EIPs/commit/8553e5e1d468a981425a9a91ec2b8c8d3e3d8ee8",
+        "note": "Update EIP-7773: Propose 7778 and 7976"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7976,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-09-03",
+        "confidence": "high",
+        "ref": "8553e5e",
+        "url": "https://github.com/ethereum/EIPs/commit/8553e5e1d468a981425a9a91ec2b8c8d3e3d8ee8",
+        "note": "Update EIP-7773: Propose 7778 and 7976"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7688,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-09-03",
+        "confidence": "high",
+        "ref": "315fdd8",
+        "url": "https://github.com/ethereum/EIPs/commit/315fdd8b68c398e7abad23844d42e89826eccca5",
+        "note": "Update EIP-7773: Propose EIP-7688 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2780,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-09-12",
+        "confidence": "high",
+        "ref": "fe3466c",
+        "url": "https://github.com/ethereum/EIPs/commit/fe3466ce52869891f0c3fd83e1352efd2bb611df",
+        "note": "Update EIP-7773: Propose 2780"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7610,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-09-24",
+        "confidence": "high",
+        "ref": "92d429a",
+        "url": "https://github.com/ethereum/EIPs/commit/92d429a833d7f63333e3d474cd5d9f05d6c4b833",
+        "note": "Update EIP-7773: PFI 7610 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7668,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-15",
+        "confidence": "high",
+        "ref": "46c6c4a",
+        "url": "https://github.com/ethereum/EIPs/commit/46c6c4a7b256e1f471634dcb2ca54ab100f3f409",
+        "note": "Update EIP-7773: PFI Remove bloom filters Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7692,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-10-15",
+        "confidence": "high",
+        "ref": "c106995",
+        "url": "https://github.com/ethereum/EIPs/commit/c1069953f58af5733b467c2d2261e8dfad45781d",
+        "note": "Update EIP-7773: DFI unselected headliners"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7886,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-10-15",
+        "confidence": "high",
+        "ref": "c106995",
+        "url": "https://github.com/ethereum/EIPs/commit/c1069953f58af5733b467c2d2261e8dfad45781d",
+        "note": "Update EIP-7773: DFI unselected headliners"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7919,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-10-15",
+        "confidence": "high",
+        "ref": "c106995",
+        "url": "https://github.com/ethereum/EIPs/commit/c1069953f58af5733b467c2d2261e8dfad45781d",
+        "note": "Update EIP-7773: DFI unselected headliners"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7937,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-10-15",
+        "confidence": "high",
+        "ref": "c106995",
+        "url": "https://github.com/ethereum/EIPs/commit/c1069953f58af5733b467c2d2261e8dfad45781d",
+        "note": "Update EIP-7773: DFI unselected headliners"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7942,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-10-15",
+        "confidence": "high",
+        "ref": "c106995",
+        "url": "https://github.com/ethereum/EIPs/commit/c1069953f58af5733b467c2d2261e8dfad45781d",
+        "note": "Update EIP-7773: DFI unselected headliners"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8030,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-15",
+        "confidence": "high",
+        "ref": "c0381bd",
+        "url": "https://github.com/ethereum/EIPs/commit/c0381bd751913bc0cc70015a05c89d63649df530",
+        "note": "Update EIP-7773: Change Ed25519 EIP to P256 EIP"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7980,
+        "upgrade": "glamsterdam",
+        "stage": "withdrawn",
+        "date": "2025-10-15",
+        "confidence": "high",
+        "ref": "c0381bd",
+        "url": "https://github.com/ethereum/EIPs/commit/c0381bd751913bc0cc70015a05c89d63649df530",
+        "note": "Removed from EIP-7773: Update EIP-7773: Change Ed25519 EIP to P256 EIP"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8032,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-15",
+        "confidence": "high",
+        "ref": "0941850",
+        "url": "https://github.com/ethereum/EIPs/commit/0941850dbe60c19bd61f600a254f25de6e929abd",
+        "note": "Update EIP-7773: put up eip 8032 for PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6466,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-15",
+        "confidence": "high",
+        "ref": "7ca84bb",
+        "url": "https://github.com/ethereum/EIPs/commit/7ca84bbceca202dfbf7216075e37ee92b796b222",
+        "note": "Update EIP-7773: Reduce SSZ scope"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7904,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-16",
+        "confidence": "high",
+        "ref": "2bde10b",
+        "url": "https://github.com/ethereum/EIPs/commit/2bde10bce66f4782aede71822a3e7c906456888f",
+        "note": "Update EIP-7773: PFI EIP-7904, EIP-8011, EIP-8037, and EIP-8038 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8011,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-16",
+        "confidence": "high",
+        "ref": "2bde10b",
+        "url": "https://github.com/ethereum/EIPs/commit/2bde10bce66f4782aede71822a3e7c906456888f",
+        "note": "Update EIP-7773: PFI EIP-7904, EIP-8011, EIP-8037, and EIP-8038 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8037,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-16",
+        "confidence": "high",
+        "ref": "2bde10b",
+        "url": "https://github.com/ethereum/EIPs/commit/2bde10bce66f4782aede71822a3e7c906456888f",
+        "note": "Update EIP-7773: PFI EIP-7904, EIP-8011, EIP-8037, and EIP-8038 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8038,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-16",
+        "confidence": "high",
+        "ref": "2bde10b",
+        "url": "https://github.com/ethereum/EIPs/commit/2bde10bce66f4782aede71822a3e7c906456888f",
+        "note": "Update EIP-7773: PFI EIP-7904, EIP-8011, EIP-8037, and EIP-8038 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8045,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-21",
+        "confidence": "high",
+        "ref": "bffddd5",
+        "url": "https://github.com/ethereum/EIPs/commit/bffddd59e3922375ab0f8c981efee5a72cd69cf5",
+        "note": "Update EIP-7773: proposes eip-8045 for inclusion in Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7708,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-22",
+        "confidence": "high",
+        "ref": "30de1c7",
+        "url": "https://github.com/ethereum/EIPs/commit/30de1c75683baaef510856fa30f205c4e2dc0f42",
+        "note": "Update EIP-7773: PFI EIP-7708 in Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7999,
+        "upgrade": "glamsterdam",
+        "stage": "withdrawn",
+        "date": "2025-10-23",
+        "confidence": "high",
+        "ref": "d745736",
+        "url": "https://github.com/ethereum/EIPs/commit/d745736563d1d1a6a6f91c6fa8387859ca762f93",
+        "note": "Removed from EIP-7773: Update EIP-7773: Removed PFI for EIP-7999"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7872,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-28",
+        "confidence": "high",
+        "ref": "c8ab87c",
+        "url": "https://github.com/ethereum/EIPs/commit/c8ab87ca47b640fa413454fc8fa6be285c57aeb7",
+        "note": "Update EIP-7773: Add EIP-7872 (Max Blobs flag) to Glamsterdam PFI list"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8057,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-28",
+        "confidence": "high",
+        "ref": "025883a",
+        "url": "https://github.com/ethereum/EIPs/commit/025883a7dc4a8646041ee3fea027b16a07b40fda",
+        "note": "Update EIP-7773: Propose EIP-8057"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7949,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-28",
+        "confidence": "high",
+        "ref": "2d042b1",
+        "url": "https://github.com/ethereum/EIPs/commit/2d042b1bace215b0af7bd0c46ba6431d163699aa",
+        "note": "Update EIP-7773: Add 7949"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8024,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-29",
+        "confidence": "high",
+        "ref": "e3edd85",
+        "url": "https://github.com/ethereum/EIPs/commit/e3edd851a80c68b41f2fe84db635594a6911cc49",
+        "note": "Update EIP-7773: Propose EIP-8024 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8061,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-29",
+        "confidence": "high",
+        "ref": "ba4aad8",
+        "url": "https://github.com/ethereum/EIPs/commit/ba4aad8623c98e10280953a3b683b51824429486",
+        "note": "Update EIP-7773: Propose EIP-8061 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7973,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-29",
+        "confidence": "high",
+        "ref": "baf2154",
+        "url": "https://github.com/ethereum/EIPs/commit/baf2154cc3809676b7ba5a7e0c576c243e2795dc",
+        "note": "Update EIP-7773: Propose EIP-7973"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7686,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-30",
+        "confidence": "high",
+        "ref": "e9b0212",
+        "url": "https://github.com/ethereum/EIPs/commit/e9b0212eab2ab8d7522c222a441df758618a49ed",
+        "note": "Update EIP-7773: PFI 7686 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7745,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-10-30",
+        "confidence": "high",
+        "ref": "89d2a6e",
+        "url": "https://github.com/ethereum/EIPs/commit/89d2a6e7195397420386847bfca2156e74748f12",
+        "note": "Update EIP-7773: Propose EIP-7745 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8058,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-11-01",
+        "confidence": "high",
+        "ref": "4450132",
+        "url": "https://github.com/ethereum/EIPs/commit/445013289ddf1d7a5b58963797fd089317d0c27b",
+        "note": "Update EIP-7773: Add EIP-8058 to Glamsterdam PFI list"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7971,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-11-04",
+        "confidence": "high",
+        "ref": "126e5a0",
+        "url": "https://github.com/ethereum/EIPs/commit/126e5a087598d151c14b8b2b5cb02e5485ca4b3c",
+        "note": "Update EIP-7773: Propose 7971, 8053, and 8059"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8053,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-11-04",
+        "confidence": "high",
+        "ref": "126e5a0",
+        "url": "https://github.com/ethereum/EIPs/commit/126e5a087598d151c14b8b2b5cb02e5485ca4b3c",
+        "note": "Update EIP-7773: Propose 7971, 8053, and 8059"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8059,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-11-04",
+        "confidence": "high",
+        "ref": "126e5a0",
+        "url": "https://github.com/ethereum/EIPs/commit/126e5a087598d151c14b8b2b5cb02e5485ca4b3c",
+        "note": "Update EIP-7773: Propose 7971, 8053, and 8059"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6873,
+        "upgrade": "glamsterdam",
+        "stage": "withdrawn",
+        "date": "2025-11-10",
+        "confidence": "high",
+        "ref": "55c0c96",
+        "url": "https://github.com/ethereum/EIPs/commit/55c0c96ccfa369e8708dca6e47fd338c13b9a8bc",
+        "note": "Removed from EIP-7773: Update EIP-7773: remove EIPs 6873 & 7667 (withdrawn 23 Oct, ACDE #223)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7667,
+        "upgrade": "glamsterdam",
+        "stage": "withdrawn",
+        "date": "2025-11-10",
+        "confidence": "high",
+        "ref": "55c0c96",
+        "url": "https://github.com/ethereum/EIPs/commit/55c0c96ccfa369e8708dca6e47fd338c13b9a8bc",
+        "note": "Removed from EIP-7773: Update EIP-7773: remove EIPs 6873 & 7667 (withdrawn 23 Oct, ACDE #223)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8062,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-11-11",
+        "confidence": "high",
+        "ref": "38fb3cd",
+        "url": "https://github.com/ethereum/EIPs/commit/38fb3cd5ae688294827370c322718db45e3cbc7d",
+        "note": "Update EIP-7773: PFI EIP-8062 & Neutral effective balance design & Prevent consolidation overflow withdrawals"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8068,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-11-11",
+        "confidence": "high",
+        "ref": "38fb3cd",
+        "url": "https://github.com/ethereum/EIPs/commit/38fb3cd5ae688294827370c322718db45e3cbc7d",
+        "note": "Update EIP-7773: PFI EIP-8062 & Neutral effective balance design & Prevent consolidation overflow withdrawals"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8071,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-11-11",
+        "confidence": "high",
+        "ref": "431a941",
+        "url": "https://github.com/ethereum/EIPs/commit/431a94133bf5dd206fc09c3a8b9d4c7399055c57",
+        "note": "Update EIP-7773: Propose EIP-8071 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8013,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-11-12",
+        "confidence": "high",
+        "ref": "2fa95cc",
+        "url": "https://github.com/ethereum/EIPs/commit/2fa95ccb9cb4fb0723c608e56dd2532851522e18",
+        "note": "Update EIP-7773: Add EIP-8013 to the list of EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8070,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-11-12",
+        "confidence": "high",
+        "ref": "1d83d38",
+        "url": "https://github.com/ethereum/EIPs/commit/1d83d3884d205413ac11269cfe1fd78d57be0d6d",
+        "note": "Update EIP-7773: PFI Sparse Blobpool in Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6404,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-11-26",
+        "confidence": "high",
+        "ref": "24acfe5",
+        "url": "https://github.com/ethereum/EIPs/commit/24acfe5636902779d085889996cdd8844e4c0e58",
+        "note": "Update EIP-7773: add 6404 to 7773"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8080,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-11-26",
+        "confidence": "high",
+        "ref": "ca6f659",
+        "url": "https://github.com/ethereum/EIPs/commit/ca6f659d97d841095feaec4f90a4a60170a2c49e",
+        "note": "Update EIP-7773: PFI 8080"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8068,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-11-27",
+        "confidence": "high",
+        "ref": "de6431a",
+        "url": "https://github.com/ethereum/EIPs/commit/de6431a6deb7d653ef0f8281e09e3882ce51563e",
+        "note": "Update EIP-7773: Move EIP-8068 to DFI for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8045,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2025-12-03",
+        "confidence": "high",
+        "ref": "f699aa6",
+        "url": "https://github.com/ethereum/EIPs/commit/f699aa6d201c2780671cfc713da4bf3f919a5cdf",
+        "note": "Update EIP-7773: update glamsterdam scope"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8062,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-03",
+        "confidence": "high",
+        "ref": "f699aa6",
+        "url": "https://github.com/ethereum/EIPs/commit/f699aa6d201c2780671cfc713da4bf3f919a5cdf",
+        "note": "Update EIP-7773: update glamsterdam scope"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8071,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-03",
+        "confidence": "high",
+        "ref": "f699aa6",
+        "url": "https://github.com/ethereum/EIPs/commit/f699aa6d201c2780671cfc713da4bf3f919a5cdf",
+        "note": "Update EIP-7773: update glamsterdam scope"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6404,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 6466,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7708,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7778,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7791,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7819,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7843,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7932,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7979,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8011,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8013,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8024,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8030,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8053,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8057,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8059,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "febe0e8",
+        "url": "https://github.com/ethereum/EIPs/commit/febe0e850bcc7b3b69516d3fa2e869eb89e5371e",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 225"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7619,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "d42ee1f",
+        "url": "https://github.com/ethereum/EIPs/commit/d42ee1fcb983f6f9a16f98b3defc78e98eb7ddd2",
+        "note": "Update EIP-7773: Add PQC precompiles to Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8051,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "d42ee1f",
+        "url": "https://github.com/ethereum/EIPs/commit/d42ee1fcb983f6f9a16f98b3defc78e98eb7ddd2",
+        "note": "Update EIP-7773: Add PQC precompiles to Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7619,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2025-12-18",
+        "confidence": "high",
+        "ref": "ed37594",
+        "url": "https://github.com/ethereum/EIPs/commit/ed37594f96e4bf8aa90caf2903583516a453bbde",
+        "note": "Update EIP-7773: DFI 7619"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2780,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-02",
+        "confidence": "high",
+        "ref": "49dfa40",
+        "url": "https://github.com/ethereum/EIPs/commit/49dfa40e94e996b96fc6e805edb9c2501f92aa32",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 226"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2926,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-02",
+        "confidence": "high",
+        "ref": "49dfa40",
+        "url": "https://github.com/ethereum/EIPs/commit/49dfa40e94e996b96fc6e805edb9c2501f92aa32",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 226"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7686,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-02",
+        "confidence": "high",
+        "ref": "49dfa40",
+        "url": "https://github.com/ethereum/EIPs/commit/49dfa40e94e996b96fc6e805edb9c2501f92aa32",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 226"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7904,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-02",
+        "confidence": "high",
+        "ref": "49dfa40",
+        "url": "https://github.com/ethereum/EIPs/commit/49dfa40e94e996b96fc6e805edb9c2501f92aa32",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 226"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7923,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-02",
+        "confidence": "high",
+        "ref": "49dfa40",
+        "url": "https://github.com/ethereum/EIPs/commit/49dfa40e94e996b96fc6e805edb9c2501f92aa32",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 226"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7973,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-02",
+        "confidence": "high",
+        "ref": "49dfa40",
+        "url": "https://github.com/ethereum/EIPs/commit/49dfa40e94e996b96fc6e805edb9c2501f92aa32",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 226"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7976,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-02",
+        "confidence": "high",
+        "ref": "49dfa40",
+        "url": "https://github.com/ethereum/EIPs/commit/49dfa40e94e996b96fc6e805edb9c2501f92aa32",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 226"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7981,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-02",
+        "confidence": "high",
+        "ref": "49dfa40",
+        "url": "https://github.com/ethereum/EIPs/commit/49dfa40e94e996b96fc6e805edb9c2501f92aa32",
+        "note": "Update EIP-7773: Update EIP-7773 with EIP status decisions from ACDE 226"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7688,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-05",
+        "confidence": "high",
+        "ref": "1708a6c",
+        "url": "https://github.com/ethereum/EIPs/commit/1708a6cb84d683e9baa7ff9b5afc118e51b8415b",
+        "note": "Update EIP-7773: update EIP status for glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7805,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-05",
+        "confidence": "high",
+        "ref": "1708a6c",
+        "url": "https://github.com/ethereum/EIPs/commit/1708a6cb84d683e9baa7ff9b5afc118e51b8415b",
+        "note": "Update EIP-7773: update EIP status for glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8061,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-05",
+        "confidence": "high",
+        "ref": "1708a6c",
+        "url": "https://github.com/ethereum/EIPs/commit/1708a6cb84d683e9baa7ff9b5afc118e51b8415b",
+        "note": "Update EIP-7773: update EIP status for glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8080,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-05",
+        "confidence": "high",
+        "ref": "1708a6c",
+        "url": "https://github.com/ethereum/EIPs/commit/1708a6cb84d683e9baa7ff9b5afc118e51b8415b",
+        "note": "Update EIP-7773: update EIP status for glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7668,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-08",
+        "confidence": "high",
+        "ref": "dde975a",
+        "url": "https://github.com/ethereum/EIPs/commit/dde975ae99337bd3c4db5ec699102efb60f86e3f",
+        "note": "Update EIP-7773: status updates from ACDE227"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7745,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-08",
+        "confidence": "high",
+        "ref": "dde975a",
+        "url": "https://github.com/ethereum/EIPs/commit/dde975ae99337bd3c4db5ec699102efb60f86e3f",
+        "note": "Update EIP-7773: status updates from ACDE227"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7997,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-08",
+        "confidence": "high",
+        "ref": "dde975a",
+        "url": "https://github.com/ethereum/EIPs/commit/dde975ae99337bd3c4db5ec699102efb60f86e3f",
+        "note": "Update EIP-7773: status updates from ACDE227"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8038,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-08",
+        "confidence": "high",
+        "ref": "dde975a",
+        "url": "https://github.com/ethereum/EIPs/commit/dde975ae99337bd3c4db5ec699102efb60f86e3f",
+        "note": "Update EIP-7773: status updates from ACDE227"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8058,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-08",
+        "confidence": "high",
+        "ref": "dde975a",
+        "url": "https://github.com/ethereum/EIPs/commit/dde975ae99337bd3c4db5ec699102efb60f86e3f",
+        "note": "Update EIP-7773: status updates from ACDE227"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8070,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-13",
+        "confidence": "high",
+        "ref": "2e36401",
+        "url": "https://github.com/ethereum/EIPs/commit/2e36401fce6450ca037b29cfdea4bf19c4473731",
+        "note": "Update EIP-7773: EIP-8070 decision from ACDC172"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 5920,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-20",
+        "confidence": "high",
+        "ref": "4665e0e",
+        "url": "https://github.com/ethereum/EIPs/commit/4665e0edd51d9da68554557632778ce44a3991d7",
+        "note": "Update EIP-7773: CFI/DFI as per ACDE 228"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7793,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-20",
+        "confidence": "high",
+        "ref": "4665e0e",
+        "url": "https://github.com/ethereum/EIPs/commit/4665e0edd51d9da68554557632778ce44a3991d7",
+        "note": "Update EIP-7773: CFI/DFI as per ACDE 228"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7903,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-20",
+        "confidence": "high",
+        "ref": "4665e0e",
+        "url": "https://github.com/ethereum/EIPs/commit/4665e0edd51d9da68554557632778ce44a3991d7",
+        "note": "Update EIP-7773: CFI/DFI as per ACDE 228"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7907,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-20",
+        "confidence": "high",
+        "ref": "4665e0e",
+        "url": "https://github.com/ethereum/EIPs/commit/4665e0edd51d9da68554557632778ce44a3991d7",
+        "note": "Update EIP-7773: CFI/DFI as per ACDE 228"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7954,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-20",
+        "confidence": "high",
+        "ref": "4665e0e",
+        "url": "https://github.com/ethereum/EIPs/commit/4665e0edd51d9da68554557632778ce44a3991d7",
+        "note": "Update EIP-7773: CFI/DFI as per ACDE 228"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7971,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-20",
+        "confidence": "high",
+        "ref": "4665e0e",
+        "url": "https://github.com/ethereum/EIPs/commit/4665e0edd51d9da68554557632778ce44a3991d7",
+        "note": "Update EIP-7773: CFI/DFI as per ACDE 228"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8032,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-20",
+        "confidence": "high",
+        "ref": "4665e0e",
+        "url": "https://github.com/ethereum/EIPs/commit/4665e0edd51d9da68554557632778ce44a3991d7",
+        "note": "Update EIP-7773: CFI/DFI as per ACDE 228"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8051,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-01-20",
+        "confidence": "high",
+        "ref": "4665e0e",
+        "url": "https://github.com/ethereum/EIPs/commit/4665e0edd51d9da68554557632778ce44a3991d7",
+        "note": "Update EIP-7773: CFI/DFI as per ACDE 228"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8037,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-01-20",
+        "confidence": "high",
+        "ref": "34a80f2",
+        "url": "https://github.com/ethereum/EIPs/commit/34a80f249de50ab10607d51353843f609211dfcf",
+        "note": "Update EIP-7773: CFI EIP-8037"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7975,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-02-16",
+        "confidence": "high",
+        "ref": "2d7e3d2",
+        "url": "https://github.com/ethereum/EIPs/commit/2d7e3d25985be2997b880da25575ed2cff4ce1a0",
+        "note": "Update EIP-7773: Add EIP-7975 and EIP-8159 to the CFI list"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8159,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-02-16",
+        "confidence": "high",
+        "ref": "2d7e3d2",
+        "url": "https://github.com/ethereum/EIPs/commit/2d7e3d25985be2997b880da25575ed2cff4ce1a0",
+        "note": "Update EIP-7773: Add EIP-7975 and EIP-8159 to the CFI list"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7872,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-02-19",
+        "confidence": "high",
+        "ref": "2786dd8",
+        "url": "https://github.com/ethereum/EIPs/commit/2786dd8026141d5fcdb69cea34716285d8aebc63",
+        "note": "Update EIP-7773: CFI/DFI as per ACDE 229"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7949,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-02-19",
+        "confidence": "high",
+        "ref": "2786dd8",
+        "url": "https://github.com/ethereum/EIPs/commit/2786dd8026141d5fcdb69cea34716285d8aebc63",
+        "note": "Update EIP-7773: CFI/DFI as per ACDE 229"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7975,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "track": "networking",
+        "date": "2026-04-16",
+        "confidence": "high",
+        "ref": "c79a376",
+        "url": "https://github.com/ethereum/EIPs/commit/c79a3768c1d52d939b07acb8576d207ea5b7d9fa",
+        "note": "Update EIP-7773: Add Networking EIPs section"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8070,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "track": "networking",
+        "date": "2026-04-16",
+        "confidence": "high",
+        "ref": "c79a376",
+        "url": "https://github.com/ethereum/EIPs/commit/c79a3768c1d52d939b07acb8576d207ea5b7d9fa",
+        "note": "Update EIP-7773: Add Networking EIPs section"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8136,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "track": "networking",
+        "date": "2026-04-16",
+        "confidence": "high",
+        "ref": "c79a376",
+        "url": "https://github.com/ethereum/EIPs/commit/c79a3768c1d52d939b07acb8576d207ea5b7d9fa",
+        "note": "Update EIP-7773: Add Networking EIPs section"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8159,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "track": "networking",
+        "date": "2026-04-16",
+        "confidence": "high",
+        "ref": "c79a376",
+        "url": "https://github.com/ethereum/EIPs/commit/c79a3768c1d52d939b07acb8576d207ea5b7d9fa",
+        "note": "Update EIP-7773: Add Networking EIPs section"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7979,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2026-04-28",
+        "confidence": "high",
+        "ref": "1037d6e",
+        "url": "https://github.com/ethereum/EIPs/commit/1037d6ef44bd42f1e744a09bda5af33b8d986cf9",
+        "note": "Update EIP-7773: PFI EIP-7979 and EIP-8163"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8163,
+        "upgrade": "glamsterdam",
+        "stage": "proposed",
+        "date": "2026-04-28",
+        "confidence": "high",
+        "ref": "1037d6e",
+        "url": "https://github.com/ethereum/EIPs/commit/1037d6ef44bd42f1e744a09bda5af33b8d986cf9",
+        "note": "Update EIP-7773: PFI EIP-7979 and EIP-8163"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8246,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-05-10",
+        "confidence": "high",
+        "ref": "e88ce59",
+        "url": "https://github.com/ethereum/EIPs/commit/e88ce5971abb73ba526a6e3653313a82ca3f2ebe",
+        "note": "Update EIP-7773: CFI EIP-8246 for Glamsterdam"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7708,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-05-11",
+        "confidence": "high",
+        "ref": "ffebcbc",
+        "url": "https://github.com/ethereum/EIPs/commit/ffebcbc15d49445bbc8d59021d85484ef9d7a69c",
+        "note": "Update EIP-7773: SFI 8 EL Amsterdam EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7778,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-05-11",
+        "confidence": "high",
+        "ref": "ffebcbc",
+        "url": "https://github.com/ethereum/EIPs/commit/ffebcbc15d49445bbc8d59021d85484ef9d7a69c",
+        "note": "Update EIP-7773: SFI 8 EL Amsterdam EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7843,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-05-11",
+        "confidence": "high",
+        "ref": "ffebcbc",
+        "url": "https://github.com/ethereum/EIPs/commit/ffebcbc15d49445bbc8d59021d85484ef9d7a69c",
+        "note": "Update EIP-7773: SFI 8 EL Amsterdam EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7954,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-05-11",
+        "confidence": "high",
+        "ref": "ffebcbc",
+        "url": "https://github.com/ethereum/EIPs/commit/ffebcbc15d49445bbc8d59021d85484ef9d7a69c",
+        "note": "Update EIP-7773: SFI 8 EL Amsterdam EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7976,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-05-11",
+        "confidence": "high",
+        "ref": "ffebcbc",
+        "url": "https://github.com/ethereum/EIPs/commit/ffebcbc15d49445bbc8d59021d85484ef9d7a69c",
+        "note": "Update EIP-7773: SFI 8 EL Amsterdam EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7981,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-05-11",
+        "confidence": "high",
+        "ref": "ffebcbc",
+        "url": "https://github.com/ethereum/EIPs/commit/ffebcbc15d49445bbc8d59021d85484ef9d7a69c",
+        "note": "Update EIP-7773: SFI 8 EL Amsterdam EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8024,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-05-11",
+        "confidence": "high",
+        "ref": "ffebcbc",
+        "url": "https://github.com/ethereum/EIPs/commit/ffebcbc15d49445bbc8d59021d85484ef9d7a69c",
+        "note": "Update EIP-7773: SFI 8 EL Amsterdam EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8037,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-05-11",
+        "confidence": "high",
+        "ref": "ffebcbc",
+        "url": "https://github.com/ethereum/EIPs/commit/ffebcbc15d49445bbc8d59021d85484ef9d7a69c",
+        "note": "Update EIP-7773: SFI 8 EL Amsterdam EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7979,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-05-21",
+        "confidence": "high",
+        "ref": "8e5113e",
+        "url": "https://github.com/ethereum/EIPs/commit/8e5113ee9d1006b062cd2d8132e1a6c14d11911c",
+        "note": "Update EIP-7773: move PFI above DFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8189,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "track": "networking",
+        "date": "2026-06-21",
+        "confidence": "high",
+        "ref": "d05499b",
+        "url": "https://github.com/ethereum/EIPs/commit/d05499b016236765dc5ea6835e1757eb05124750",
+        "note": "Update EIP-7773: Add EIP-8189 to Glamsterdam CFI networking EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2780,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7610,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7688,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7904,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "track": "informational",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7997,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8038,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8045,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8061,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8080,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8136,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8189,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8246,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8282,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8163,
+        "upgrade": "glamsterdam",
+        "stage": "withdrawn",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "e338bc9",
+        "url": "https://github.com/ethereum/EIPs/commit/e338bc94c99e69ef86eed3cf6c5f7825073a61b1",
+        "note": "Removed from EIP-7773: Update EIP-7773: Update upgrade stages"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2780,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "7a8f203",
+        "url": "https://github.com/ethereum/EIPs/commit/7a8f203e5e8be01dfa6c928765eec709cb42e6fe",
+        "note": "Update EIP-7773: re-add CFI/restore EIP-8136/EIP-8189 status"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7610,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "7a8f203",
+        "url": "https://github.com/ethereum/EIPs/commit/7a8f203e5e8be01dfa6c928765eec709cb42e6fe",
+        "note": "Update EIP-7773: re-add CFI/restore EIP-8136/EIP-8189 status"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7688,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "7a8f203",
+        "url": "https://github.com/ethereum/EIPs/commit/7a8f203e5e8be01dfa6c928765eec709cb42e6fe",
+        "note": "Update EIP-7773: re-add CFI/restore EIP-8136/EIP-8189 status"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7997,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "7a8f203",
+        "url": "https://github.com/ethereum/EIPs/commit/7a8f203e5e8be01dfa6c928765eec709cb42e6fe",
+        "note": "Update EIP-7773: re-add CFI/restore EIP-8136/EIP-8189 status"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8038,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "7a8f203",
+        "url": "https://github.com/ethereum/EIPs/commit/7a8f203e5e8be01dfa6c928765eec709cb42e6fe",
+        "note": "Update EIP-7773: re-add CFI/restore EIP-8136/EIP-8189 status"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8045,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "7a8f203",
+        "url": "https://github.com/ethereum/EIPs/commit/7a8f203e5e8be01dfa6c928765eec709cb42e6fe",
+        "note": "Update EIP-7773: re-add CFI/restore EIP-8136/EIP-8189 status"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8061,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "7a8f203",
+        "url": "https://github.com/ethereum/EIPs/commit/7a8f203e5e8be01dfa6c928765eec709cb42e6fe",
+        "note": "Update EIP-7773: re-add CFI/restore EIP-8136/EIP-8189 status"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8136,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "track": "networking",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "7a8f203",
+        "url": "https://github.com/ethereum/EIPs/commit/7a8f203e5e8be01dfa6c928765eec709cb42e6fe",
+        "note": "Update EIP-7773: re-add CFI/restore EIP-8136/EIP-8189 status"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8189,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "track": "networking",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "7a8f203",
+        "url": "https://github.com/ethereum/EIPs/commit/7a8f203e5e8be01dfa6c928765eec709cb42e6fe",
+        "note": "Update EIP-7773: re-add CFI/restore EIP-8136/EIP-8189 status"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8246,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "7a8f203",
+        "url": "https://github.com/ethereum/EIPs/commit/7a8f203e5e8be01dfa6c928765eec709cb42e6fe",
+        "note": "Update EIP-7773: re-add CFI/restore EIP-8136/EIP-8189 status"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8282,
+        "upgrade": "glamsterdam",
+        "stage": "considered",
+        "date": "2026-07-13",
+        "confidence": "high",
+        "ref": "7a8f203",
+        "url": "https://github.com/ethereum/EIPs/commit/7a8f203e5e8be01dfa6c928765eec709cb42e6fe",
+        "note": "Update EIP-7773: re-add CFI/restore EIP-8136/EIP-8189 status"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2780,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-08-05",
+        "confidence": "high",
+        "ref": "7b761e3",
+        "url": "https://github.com/ethereum/EIPs/commit/7b761e3d176730c488bfc4f1e3b261e3d93898b8",
+        "note": "Update EIP-7773: Promote CFI to SFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7610,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-08-05",
+        "confidence": "high",
+        "ref": "7b761e3",
+        "url": "https://github.com/ethereum/EIPs/commit/7b761e3d176730c488bfc4f1e3b261e3d93898b8",
+        "note": "Update EIP-7773: Promote CFI to SFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7688,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-08-05",
+        "confidence": "high",
+        "ref": "7b761e3",
+        "url": "https://github.com/ethereum/EIPs/commit/7b761e3d176730c488bfc4f1e3b261e3d93898b8",
+        "note": "Update EIP-7773: Promote CFI to SFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7997,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-08-05",
+        "confidence": "high",
+        "ref": "7b761e3",
+        "url": "https://github.com/ethereum/EIPs/commit/7b761e3d176730c488bfc4f1e3b261e3d93898b8",
+        "note": "Update EIP-7773: Promote CFI to SFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8038,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-08-05",
+        "confidence": "high",
+        "ref": "7b761e3",
+        "url": "https://github.com/ethereum/EIPs/commit/7b761e3d176730c488bfc4f1e3b261e3d93898b8",
+        "note": "Update EIP-7773: Promote CFI to SFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8045,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-08-05",
+        "confidence": "high",
+        "ref": "7b761e3",
+        "url": "https://github.com/ethereum/EIPs/commit/7b761e3d176730c488bfc4f1e3b261e3d93898b8",
+        "note": "Update EIP-7773: Promote CFI to SFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8061,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-08-05",
+        "confidence": "high",
+        "ref": "7b761e3",
+        "url": "https://github.com/ethereum/EIPs/commit/7b761e3d176730c488bfc4f1e3b261e3d93898b8",
+        "note": "Update EIP-7773: Promote CFI to SFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8246,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-08-05",
+        "confidence": "high",
+        "ref": "7b761e3",
+        "url": "https://github.com/ethereum/EIPs/commit/7b761e3d176730c488bfc4f1e3b261e3d93898b8",
+        "note": "Update EIP-7773: Promote CFI to SFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8282,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "date": "2026-08-05",
+        "confidence": "high",
+        "ref": "7b761e3",
+        "url": "https://github.com/ethereum/EIPs/commit/7b761e3d176730c488bfc4f1e3b261e3d93898b8",
+        "note": "Update EIP-7773: Promote CFI to SFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8254,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-08-05",
+        "confidence": "high",
+        "ref": "6e35ab2",
+        "url": "https://github.com/ethereum/EIPs/commit/6e35ab23896d23d936bbb690b1df018fae42af9a",
+        "note": "Update EIP-7773: Add EIP-8254 to DFI EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8261,
+        "upgrade": "glamsterdam",
+        "stage": "scheduled",
+        "track": "informational",
+        "date": "2026-08-13",
+        "confidence": "high",
+        "ref": "0287194",
+        "url": "https://github.com/ethereum/EIPs/commit/0287194c3065066d61d59fcc268aab2e9f5f8239",
+        "note": "Update EIP-7773: Add EIP-8261 to Informational EIPs list"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7610,
+        "upgrade": "glamsterdam",
+        "stage": "declined",
+        "date": "2026-08-20",
+        "confidence": "high",
+        "ref": "f9976e6",
+        "url": "https://github.com/ethereum/EIPs/commit/f9976e6848a26919b98369d5ed21dc2d5fd7aca1",
+        "note": "Update EIP-7773: Remove EIP-7610 from Glamsterdam"
+      }
+    ]
+  },
+  "8081": {
+    "lastSha": "260de0b47ee34d8afd5e9b2314a5679e3ee3725e",
+    "membership": {
+      "2488": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "3298": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "4758": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "5920": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7645": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7666": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7668": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7709": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7716": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7805": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "7807": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7819": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7851": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7862": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7906": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7923": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "7979": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8015": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8025": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8077": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8094": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8115": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8116": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8131": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8141": {
+        "stage": "scheduled",
+        "track": "core"
+      },
+      "8142": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8146": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8148": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8151": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8163": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8173": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8182": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8188": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8198": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8200": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8205": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8237": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8243": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8250": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8253": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8272": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8279": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8298": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8304": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8321": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8333": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8355": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8363": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8368": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8369": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8371": {
+        "stage": "proposed",
+        "track": "core"
+      },
+      "8372": {
+        "stage": "proposed",
+        "track": "core"
+      }
+    },
+    "events": [
+      {
+        "type": "eip.stage",
+        "eip": 7805,
+        "upgrade": "hegota",
+        "stage": "considered",
+        "date": "2025-12-19",
+        "confidence": "high",
+        "ref": "0226b7b",
+        "url": "https://github.com/ethereum/EIPs/commit/0226b7b2f180ed82286458370f59365166c47284",
+        "note": "Update EIP-8081: Portmanteau selected (Hegota)"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7805,
+        "upgrade": "hegota",
+        "stage": "scheduled",
+        "date": "2026-02-20",
+        "confidence": "high",
+        "ref": "2175b81",
+        "url": "https://github.com/ethereum/EIPs/commit/2175b810f3fd7aa07f356e5e9799985ad47d04a5",
+        "note": "Update EIP-8081: move FOCIL to SFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7716,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-04-30",
+        "confidence": "high",
+        "ref": "2215c17",
+        "url": "https://github.com/ethereum/EIPs/commit/2215c17cde2c7ee0bb5068f2beb573c4776e92ac",
+        "note": "Update EIP-8081: Add EIP-8141 to CFI; EIP-7716 and EIP-8205 to PFI in Hegotá meta EIP"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8141,
+        "upgrade": "hegota",
+        "stage": "considered",
+        "date": "2026-04-30",
+        "confidence": "high",
+        "ref": "2215c17",
+        "url": "https://github.com/ethereum/EIPs/commit/2215c17cde2c7ee0bb5068f2beb573c4776e92ac",
+        "note": "Update EIP-8081: Add EIP-8141 to CFI; EIP-7716 and EIP-8205 to PFI in Hegotá meta EIP"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8205,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-04-30",
+        "confidence": "high",
+        "ref": "2215c17",
+        "url": "https://github.com/ethereum/EIPs/commit/2215c17cde2c7ee0bb5068f2beb573c4776e92ac",
+        "note": "Update EIP-8081: Add EIP-8141 to CFI; EIP-7716 and EIP-8205 to PFI in Hegotá meta EIP"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 4758,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-05-22",
+        "confidence": "high",
+        "ref": "357eb4d",
+        "url": "https://github.com/ethereum/EIPs/commit/357eb4d2cd6210e3517778b123e55d9e9411c9e3",
+        "note": "Update EIP-8081: add EIP-4758"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8188,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-05-22",
+        "confidence": "high",
+        "ref": "be9148d",
+        "url": "https://github.com/ethereum/EIPs/commit/be9148dd97582cc51bd43caf362830f2872fc21f",
+        "note": "Update EIP-8081: add EIP-8188"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8253,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-05-25",
+        "confidence": "high",
+        "ref": "5845a5d",
+        "url": "https://github.com/ethereum/EIPs/commit/5845a5dfe12149f1d5c444335f594dcf603d20e2",
+        "note": "Update EIP-8081: add EIP-8253"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7709,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-05-25",
+        "confidence": "high",
+        "ref": "883c41d",
+        "url": "https://github.com/ethereum/EIPs/commit/883c41d020e101ae2b3e4db21028d0c6a43e8182",
+        "note": "Update EIP-8081: Add EIP-7709 and EIP-8025"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8025,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-05-25",
+        "confidence": "high",
+        "ref": "883c41d",
+        "url": "https://github.com/ethereum/EIPs/commit/883c41d020e101ae2b3e4db21028d0c6a43e8182",
+        "note": "Update EIP-8081: Add EIP-7709 and EIP-8025"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8148,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-04",
+        "confidence": "high",
+        "ref": "137011d",
+        "url": "https://github.com/ethereum/EIPs/commit/137011d1535d9a85a3d7176861fee095af38892a",
+        "note": "Update EIP-8081: Propose EIP-8148 for inclusion in Hegotá"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7851,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-09",
+        "confidence": "high",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7979,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-09",
+        "confidence": "high",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8131,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-09",
+        "confidence": "high",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8151,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-09",
+        "confidence": "high",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8163,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-09",
+        "confidence": "high",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8173,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-09",
+        "confidence": "high",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8182,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-09",
+        "confidence": "high",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8237,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-09",
+        "confidence": "high",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8146,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-17",
+        "confidence": "high",
+        "ref": "37c28f7",
+        "url": "https://github.com/ethereum/EIPs/commit/37c28f7661b81585d9015b8bedb38dcd0e3cea3c",
+        "note": "Update EIP-8081: PFI EIPs 8131, 8146 and 8250 for Hegota"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8250,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-17",
+        "confidence": "high",
+        "ref": "37c28f7",
+        "url": "https://github.com/ethereum/EIPs/commit/37c28f7661b81585d9015b8bedb38dcd0e3cea3c",
+        "note": "Update EIP-8081: PFI EIPs 8131, 8146 and 8250 for Hegota"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8279,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-06-26",
+        "confidence": "high",
+        "ref": "171cece",
+        "url": "https://github.com/ethereum/EIPs/commit/171cece4aed833493f00d976f7053f1db6596fdd",
+        "note": "Update EIP-8081: PFI EIP-8279"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8298,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-16",
+        "confidence": "high",
+        "ref": "e5d76e5",
+        "url": "https://github.com/ethereum/EIPs/commit/e5d76e51fbd3a886a7c89e03883b277608ee4ebc",
+        "note": "Update EIP-8081: Propose EIP-8298 for inclusion"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7862,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-16",
+        "confidence": "high",
+        "ref": "ed96a02",
+        "url": "https://github.com/ethereum/EIPs/commit/ed96a02e0ff734e4dd6e6ac25c06b986c05b7f9e",
+        "note": "Update EIP-8081: PFI EIP-7862"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8304,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-17",
+        "confidence": "high",
+        "ref": "2731764",
+        "url": "https://github.com/ethereum/EIPs/commit/2731764b142583055b012e3118fb56ef46c3b65a",
+        "note": "Update EIP-8081: Add EIP-8304 as PFI"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8272,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-19",
+        "confidence": "high",
+        "ref": "e197522",
+        "url": "https://github.com/ethereum/EIPs/commit/e19752239c6cbe44a841cf1736d87d52de4dcd86",
+        "note": "Update EIP-8081: propose EIP-8272 for Hegotá"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 2488,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-20",
+        "confidence": "high",
+        "ref": "3beda78",
+        "url": "https://github.com/ethereum/EIPs/commit/3beda786ed6d50143b386e0fe44fcaa81e69525c",
+        "note": "Update EIP-8081: Propose EIP-2488 and EIP-7645 for inclusion"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7645,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-20",
+        "confidence": "high",
+        "ref": "3beda78",
+        "url": "https://github.com/ethereum/EIPs/commit/3beda786ed6d50143b386e0fe44fcaa81e69525c",
+        "note": "Update EIP-8081: Propose EIP-2488 and EIP-7645 for inclusion"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8268,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-20",
+        "confidence": "high",
+        "ref": "625ec78",
+        "url": "https://github.com/ethereum/EIPs/commit/625ec7821972c0888b03307e8c76b1963bc8a63e",
+        "note": "Update EIP-8081: PFI EIP-8268"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8015,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-26",
+        "confidence": "high",
+        "ref": "345cca8",
+        "url": "https://github.com/ethereum/EIPs/commit/345cca82fec46575c3bf0521f025699f1d0c382d",
+        "note": "Update EIP-8081: Propose EIP-8015 for inclusion"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8115,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-30",
+        "confidence": "high",
+        "ref": "0a941be",
+        "url": "https://github.com/ethereum/EIPs/commit/0a941beaafff425f59c902f2eb27b49bf4eb3de1",
+        "note": "Update EIP-8081: Propose EIP-8115 for inclusion"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7807,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-30",
+        "confidence": "high",
+        "ref": "4cf894a",
+        "url": "https://github.com/ethereum/EIPs/commit/4cf894a308cd63e2fc7a2903188ef27af256fe28",
+        "note": "Update EIP-8081: Propose EIP-7807 for inclusion"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8116,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-30",
+        "confidence": "high",
+        "ref": "e045b21",
+        "url": "https://github.com/ethereum/EIPs/commit/e045b2118fc65b2af40aa6dd5f24c75216899414",
+        "note": "Update EIP-8081: Propose EIP-8116 for inclusion"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7906,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-30",
+        "confidence": "high",
+        "ref": "e14c90b",
+        "url": "https://github.com/ethereum/EIPs/commit/e14c90bcf3dd6195bba9455d05c90c9d7c23a8b6",
+        "note": "Update EIP-8081: PFI EIP-7906"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7668,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-07-30",
+        "confidence": "high",
+        "ref": "05469aa",
+        "url": "https://github.com/ethereum/EIPs/commit/05469aa96bf65b532b6239d37c1a5d8b2eca15e6",
+        "note": "Update EIP-8081: PFI EIP-7668"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7819,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-04",
+        "confidence": "high",
+        "ref": "7341dfa",
+        "url": "https://github.com/ethereum/EIPs/commit/7341dfa3186f7ad4f0e63d0c038c131c0529507f",
+        "note": "Update EIP-8081: Propose EIP-7819 for inclusion in Hegota"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7666,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-04",
+        "confidence": "high",
+        "ref": "72a8f0a",
+        "url": "https://github.com/ethereum/EIPs/commit/72a8f0a725561d350a0da759beaf28a8a39a7d64",
+        "note": "Update EIP-8081: PFI EIP-8200 & EIP-7666"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8200,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-04",
+        "confidence": "high",
+        "ref": "72a8f0a",
+        "url": "https://github.com/ethereum/EIPs/commit/72a8f0a725561d350a0da759beaf28a8a39a7d64",
+        "note": "Update EIP-8081: PFI EIP-8200 & EIP-7666"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8243,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-06",
+        "confidence": "high",
+        "ref": "1b63195",
+        "url": "https://github.com/ethereum/EIPs/commit/1b63195831b9b6edbe4b2bb0115b078a10afed96",
+        "note": "Update EIP-8081: Propose EIP-8243 for inclusion"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8333,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-07",
+        "confidence": "high",
+        "ref": "e18e618",
+        "url": "https://github.com/ethereum/EIPs/commit/e18e618c4214bab35c755e7bbd00d7961816e251",
+        "note": "Update EIP-8081: Propose EIP-8333 for inclusion"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 3298,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-20",
+        "confidence": "high",
+        "ref": "4e203d1",
+        "url": "https://github.com/ethereum/EIPs/commit/4e203d1911dc7728bf6edd548f545e120eb6675e",
+        "note": "Update EIP-8081: PFI EIP-5920 and EIP-7923"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 5920,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-20",
+        "confidence": "high",
+        "ref": "4e203d1",
+        "url": "https://github.com/ethereum/EIPs/commit/4e203d1911dc7728bf6edd548f545e120eb6675e",
+        "note": "Update EIP-8081: PFI EIP-5920 and EIP-7923"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 7923,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-20",
+        "confidence": "high",
+        "ref": "4e203d1",
+        "url": "https://github.com/ethereum/EIPs/commit/4e203d1911dc7728bf6edd548f545e120eb6675e",
+        "note": "Update EIP-8081: PFI EIP-5920 and EIP-7923"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8363,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-21",
+        "confidence": "high",
+        "ref": "275bc16",
+        "url": "https://github.com/ethereum/EIPs/commit/275bc1631a855bca7b8c9b162e68e4d8dab5043b",
+        "note": "Update EIP-8081: PFI EIP-8361"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8077,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-21",
+        "confidence": "high",
+        "ref": "5578fa8",
+        "url": "https://github.com/ethereum/EIPs/commit/5578fa85212631cd59d9b2a53de99bda45b4b175",
+        "note": "Update EIP-8081: remove 8268, add 8077, 8094, 8372"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8094,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-21",
+        "confidence": "high",
+        "ref": "5578fa8",
+        "url": "https://github.com/ethereum/EIPs/commit/5578fa85212631cd59d9b2a53de99bda45b4b175",
+        "note": "Update EIP-8081: remove 8268, add 8077, 8094, 8372"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8372,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-21",
+        "confidence": "high",
+        "ref": "5578fa8",
+        "url": "https://github.com/ethereum/EIPs/commit/5578fa85212631cd59d9b2a53de99bda45b4b175",
+        "note": "Update EIP-8081: remove 8268, add 8077, 8094, 8372"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8268,
+        "upgrade": "hegota",
+        "stage": "withdrawn",
+        "date": "2026-08-21",
+        "confidence": "high",
+        "ref": "5578fa8",
+        "url": "https://github.com/ethereum/EIPs/commit/5578fa85212631cd59d9b2a53de99bda45b4b175",
+        "note": "Removed from EIP-8081: Update EIP-8081: remove 8268, add 8077, 8094, 8372"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8368,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-08-25",
+        "confidence": "high",
+        "ref": "ac450a4",
+        "url": "https://github.com/ethereum/EIPs/commit/ac450a4ab2f37387385ee9c54b62f518d97e6cc9",
+        "note": "Update EIP-8081: PFI EIP-8368"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8141,
+        "upgrade": "hegota",
+        "stage": "scheduled",
+        "date": "2026-08-27",
+        "confidence": "high",
+        "ref": "e400af2",
+        "url": "https://github.com/ethereum/EIPs/commit/e400af2874d6728bfd369f1851c24f250c8825f7",
+        "note": "Update EIP-8081: SFI EIP-8141"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8142,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-09-02",
+        "confidence": "high",
+        "ref": "84cc044",
+        "url": "https://github.com/ethereum/EIPs/commit/84cc044fe46b063d4efcbd81d229e03312f726cc",
+        "note": "Update EIP-8081: Add new EIPs to the list in eip-8081.md"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8198,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-09-02",
+        "confidence": "high",
+        "ref": "84cc044",
+        "url": "https://github.com/ethereum/EIPs/commit/84cc044fe46b063d4efcbd81d229e03312f726cc",
+        "note": "Update EIP-8081: Add new EIPs to the list in eip-8081.md"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8321,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-09-02",
+        "confidence": "high",
+        "ref": "84cc044",
+        "url": "https://github.com/ethereum/EIPs/commit/84cc044fe46b063d4efcbd81d229e03312f726cc",
+        "note": "Update EIP-8081: Add new EIPs to the list in eip-8081.md"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8369,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-09-02",
+        "confidence": "high",
+        "ref": "84cc044",
+        "url": "https://github.com/ethereum/EIPs/commit/84cc044fe46b063d4efcbd81d229e03312f726cc",
+        "note": "Update EIP-8081: Add new EIPs to the list in eip-8081.md"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8371,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-09-02",
+        "confidence": "high",
+        "ref": "84cc044",
+        "url": "https://github.com/ethereum/EIPs/commit/84cc044fe46b063d4efcbd81d229e03312f726cc",
+        "note": "Update EIP-8081: Add new EIPs to the list in eip-8081.md"
+      },
+      {
+        "type": "eip.stage",
+        "eip": 8355,
+        "upgrade": "hegota",
+        "stage": "proposed",
+        "date": "2026-09-02",
+        "confidence": "high",
+        "ref": "260de0b",
+        "url": "https://github.com/ethereum/EIPs/commit/260de0b47ee34d8afd5e9b2314a5679e3ee3725e",
+        "note": "Update EIP-8081: Frame Transaction"
+      }
+    ]
+  },
+  "8134": {
+    "lastSha": "b6987717bc23fc21e982d4126e93ab2fb8ae13d2",
+    "membership": {},
+    "events": []
+  },
+  "8135": {
+    "lastSha": "d0077d3098cefad07bdac422358d207f7c850cc9",
+    "membership": {},
+    "events": []
+  },
+  "8138": {
+    "lastSha": "84f6a01dd9f4df660c0c64c0b8ea1e5612af4743",
+    "membership": {},
+    "events": []
+  }
+}

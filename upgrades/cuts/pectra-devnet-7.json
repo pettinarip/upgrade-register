@@ -1,0 +1,15 @@
+{
+  "id": "pectra-devnet-7",
+  "group": "pectra",
+  "upgrade": "pectra",
+  "active": false,
+  "genesis": "2025-02-26",
+  "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/devnet-7/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-devnet-7",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

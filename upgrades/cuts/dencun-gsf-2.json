@@ -1,0 +1,15 @@
+{
+  "id": "dencun-gsf-2",
+  "group": "dencun",
+  "upgrade": "dencun",
+  "active": false,
+  "genesis": null,
+  "configUrl": null,
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-gsf-2",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

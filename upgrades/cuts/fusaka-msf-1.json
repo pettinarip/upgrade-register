@@ -1,0 +1,15 @@
+{
+  "id": "fusaka-msf-1",
+  "group": "fusaka",
+  "upgrade": "fusaka",
+  "active": false,
+  "genesis": "2025-11-26",
+  "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/msf-1/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-msf-1",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

@@ -1,0 +1,44 @@
+name: Extract events from new calls
+on:
+  schedule:
+    - cron: "41 * * * *"
+  workflow_dispatch:
+    inputs:
+      call:
+        description: "Call ref to extract, e.g. acde/245 (empty = oldest pending)"
+        required: false
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: node scripts/fetch/pm-calls.mjs
+      - run: npm run build   # writes dist/resolve.json, the agent's name-to-id table
+      - id: pick
+        run: |
+          CALL="${{ inputs.call }}"
+          [ -z "$CALL" ] && CALL=$(node scripts/new-calls.mjs | head -n1)
+          echo "call=$CALL" >> "$GITHUB_OUTPUT"
+      - if: steps.pick.outputs.call != ''
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            CALL_REF=${{ steps.pick.outputs.call }}
+            Follow agent/extract-call.md for this call. Write the events file and run npm test.
+          claude_args: "--allowedTools Read,Write,Edit,Bash(npm test),Bash(npm run build),Bash(curl *),WebFetch"
+      - if: steps.pick.outputs.call != ''
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: events/${{ steps.pick.outputs.call }}
+          title: "events: ${{ steps.pick.outputs.call }}"
+          commit-message: "events: ${{ steps.pick.outputs.call }}"
+          body: "Agent-extracted events for ${{ steps.pick.outputs.call }}. Review each quote against the recording before merging."
+          add-paths: upgrades/events

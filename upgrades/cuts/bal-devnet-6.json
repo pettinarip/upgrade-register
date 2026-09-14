@@ -1,0 +1,38 @@
+{
+  "id": "bal-devnet-6",
+  "group": "bal",
+  "upgrade": null,
+  "active": false,
+  "genesis": "2026-05-01",
+  "configUrl": "https://github.com/ethpandaops/bal-devnets/blob/master/network-configs/devnet-6/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/bal-devnet-6",
+  "eips": [
+    7708,
+    7778,
+    7843,
+    7928,
+    7954,
+    7975,
+    8024,
+    8037,
+    8159,
+    7976,
+    7981
+  ],
+  "specs": {
+    "consensus": {
+      "tag": "v1.6.1",
+      "url": "https://github.com/ethereum/consensus-specs/releases/tag/v1.6.1",
+      "commit": null
+    },
+    "execution": null
+  },
+  "clients": [
+    {
+      "name": "EIP-7928 block access index",
+      "image": "uint64",
+      "spec": "`uint32` — [EIPs#11550](https://github.com/ethereum/EIPs/pull/11550) merged 2026-04-20",
+      "status": null
+    }
+  ]
+}

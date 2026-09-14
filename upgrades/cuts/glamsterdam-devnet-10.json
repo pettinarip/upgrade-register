@@ -1,0 +1,15 @@
+{
+  "id": "glamsterdam-devnet-10",
+  "group": "glamsterdam",
+  "upgrade": "glamsterdam",
+  "active": false,
+  "genesis": "2026-09-05",
+  "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-10/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-10",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

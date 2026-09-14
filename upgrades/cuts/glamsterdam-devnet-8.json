@@ -1,0 +1,50 @@
+{
+  "id": "glamsterdam-devnet-8",
+  "group": "glamsterdam",
+  "upgrade": "glamsterdam",
+  "active": true,
+  "genesis": "2026-08-13",
+  "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-8/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-8",
+  "eips": [
+    2780,
+    7610,
+    7688,
+    7708,
+    7732,
+    7778,
+    7843,
+    7904,
+    7928,
+    7954,
+    7975,
+    7976,
+    7981,
+    7997,
+    8024,
+    8037,
+    8038,
+    8045,
+    8061,
+    8070,
+    8136,
+    8159,
+    8189,
+    8246,
+    8261,
+    8282
+  ],
+  "specs": {
+    "consensus": {
+      "tag": "v1.7.0-alpha.14",
+      "url": "https://github.com/ethereum/consensus-specs/releases/tag/v1.7.0-alpha.14",
+      "commit": null
+    },
+    "execution": {
+      "tag": "tests-glamsterdam-devnet@v8.1.4",
+      "url": "https://github.com/ethereum/execution-specs/releases/tag/tests-glamsterdam-devnet@v8.1.4",
+      "commit": null
+    }
+  },
+  "clients": []
+}

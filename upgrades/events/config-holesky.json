@@ -1,0 +1,64 @@
+{
+  "source": {
+    "kind": "config",
+    "ref": "eth-clients/holesky",
+    "url": "https://github.com/eth-clients/holesky/blob/main/metadata/config.yaml"
+  },
+  "recordedBy": "bot",
+  "events": [
+    {
+      "type": "network.fork",
+      "upgrade": "altair",
+      "network": "holesky",
+      "status": "activated",
+      "date": "2023-09-28",
+      "epoch": 0,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "the-merge",
+      "network": "holesky",
+      "status": "activated",
+      "date": "2023-09-28",
+      "epoch": 0,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "shapella",
+      "network": "holesky",
+      "status": "activated",
+      "date": "2023-09-29",
+      "epoch": 256,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "dencun",
+      "network": "holesky",
+      "status": "activated",
+      "date": "2024-02-07",
+      "epoch": 29696,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "pectra",
+      "network": "holesky",
+      "status": "activated",
+      "date": "2025-02-24",
+      "epoch": 115968,
+      "confidence": "high"
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "fusaka",
+      "network": "holesky",
+      "status": "activated",
+      "date": "2025-10-01",
+      "epoch": 165120,
+      "confidence": "high"
+    }
+  ]
+}

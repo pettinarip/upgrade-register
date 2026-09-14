@@ -1,0 +1,109 @@
+{
+  "source": {
+    "kind": "meta-eip",
+    "ref": "EIP-7569",
+    "url": "https://eips.ethereum.org/EIPS/eip-7569"
+  },
+  "recordedBy": "bot",
+  "events": [
+    {
+      "type": "eip.stage",
+      "eip": 1153,
+      "upgrade": "dencun",
+      "stage": "included",
+      "date": "2023-12-07",
+      "confidence": "high",
+      "ref": "babb441",
+      "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+      "note": "Add EIP: Hardfork Meta - Dencun"
+    },
+    {
+      "type": "eip.stage",
+      "eip": 4788,
+      "upgrade": "dencun",
+      "stage": "included",
+      "date": "2023-12-07",
+      "confidence": "high",
+      "ref": "babb441",
+      "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+      "note": "Add EIP: Hardfork Meta - Dencun"
+    },
+    {
+      "type": "eip.stage",
+      "eip": 4844,
+      "upgrade": "dencun",
+      "stage": "included",
+      "date": "2023-12-07",
+      "confidence": "high",
+      "ref": "babb441",
+      "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+      "note": "Add EIP: Hardfork Meta - Dencun"
+    },
+    {
+      "type": "eip.stage",
+      "eip": 5656,
+      "upgrade": "dencun",
+      "stage": "included",
+      "date": "2023-12-07",
+      "confidence": "high",
+      "ref": "babb441",
+      "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+      "note": "Add EIP: Hardfork Meta - Dencun"
+    },
+    {
+      "type": "eip.stage",
+      "eip": 6780,
+      "upgrade": "dencun",
+      "stage": "included",
+      "date": "2023-12-07",
+      "confidence": "high",
+      "ref": "babb441",
+      "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+      "note": "Add EIP: Hardfork Meta - Dencun"
+    },
+    {
+      "type": "eip.stage",
+      "eip": 7044,
+      "upgrade": "dencun",
+      "stage": "included",
+      "date": "2023-12-07",
+      "confidence": "high",
+      "ref": "babb441",
+      "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+      "note": "Add EIP: Hardfork Meta - Dencun"
+    },
+    {
+      "type": "eip.stage",
+      "eip": 7045,
+      "upgrade": "dencun",
+      "stage": "included",
+      "date": "2023-12-07",
+      "confidence": "high",
+      "ref": "babb441",
+      "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+      "note": "Add EIP: Hardfork Meta - Dencun"
+    },
+    {
+      "type": "eip.stage",
+      "eip": 7514,
+      "upgrade": "dencun",
+      "stage": "included",
+      "date": "2023-12-07",
+      "confidence": "high",
+      "ref": "babb441",
+      "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+      "note": "Add EIP: Hardfork Meta - Dencun"
+    },
+    {
+      "type": "eip.stage",
+      "eip": 7516,
+      "upgrade": "dencun",
+      "stage": "included",
+      "date": "2023-12-07",
+      "confidence": "high",
+      "ref": "babb441",
+      "url": "https://github.com/ethereum/EIPs/commit/babb441bd425764799403e2a4d76a5306af5d479",
+      "note": "Add EIP: Hardfork Meta - Dencun"
+    }
+  ]
+}

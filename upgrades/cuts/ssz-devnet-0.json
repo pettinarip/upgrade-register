@@ -1,0 +1,15 @@
+{
+  "id": "ssz-devnet-0",
+  "group": "ssz",
+  "upgrade": null,
+  "active": false,
+  "genesis": "2025-06-19",
+  "configUrl": "https://github.com/ethpandaops/ssz-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/ssz-devnet-0",
+  "eips": [],
+  "specs": {
+    "consensus": null,
+    "execution": null
+  },
+  "clients": []
+}

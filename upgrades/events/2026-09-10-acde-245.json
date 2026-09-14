@@ -1,0 +1,196 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acde/245",
+    "url": "https://github.com/ethereum/pm/issues/2211",
+    "date": "2026-09-10"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "eip.stage",
+      "eip": 8253,
+      "upgrade": "glamsterdam",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "Okay, perfect. Then, decision is to not, last minute add this to… to Glamsterdam.",
+      "timestamp": "00:21:20",
+      "note": "Late-add of EIP-8253 (replacement for the DFI'd EIP-7610) to Glamsterdam was considered and rejected. Jochem asked to formalize SFI for Hegota; facilitator deferred it to the Hegota block and it was never returned to on voice, so no Hegota stage is recorded from this call."
+    },
+    {
+      "type": "eip.stage",
+      "eip": 8141,
+      "upgrade": "hegota",
+      "stage": "scheduled",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "quote": "briefly, frames transition… transactions. We left this, last call two weeks ago, by making the SFI decision.",
+      "timestamp": "00:23:12",
+      "note": "Confirmation of the acde/244 SFI decision, not a new decision on this call."
+    },
+    {
+      "type": "upgrade.headliner",
+      "eip": 8141,
+      "upgrade": "hegota",
+      "action": "selected",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "decision is made. Frame Transactions is going to be a headliner for Hegota. My understanding is that there's also still active work on, basically, on iterating on the spec, so the exact spec might still change, but FrameTransactions will be a headliner for Hecota.",
+      "timestamp": "00:24:11"
+    },
+    {
+      "type": "eip.stage",
+      "eip": 7819,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "So, we are talking about two EIPs right now, which is EIP 7819, the set delegate instruction, and EIP 7851, code-controlled EI delegation. Those two would both be DFI as a proposal here, unless someone speaks up now.",
+      "timestamp": "00:35:36",
+      "note": "Confirmed at 00:36:00: \"Okay, then, those two are the first two DFI decisions.\""
+    },
+    {
+      "type": "eip.stage",
+      "eip": 7851,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "So, we are talking about two EIPs right now, which is EIP 7819, the set delegate instruction, and EIP 7851, code-controlled EI delegation. Those two would both be DFI as a proposal here, unless someone speaks up now.",
+      "timestamp": "00:35:36",
+      "note": "Confirmed at 00:36:00: \"Okay, then, those two are the first two DFI decisions.\""
+    },
+    {
+      "type": "eip.stage",
+      "eip": 2488,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "2488, deprecate the callCode opcode. EIP8219, checked arithmetic opcodes. EIP8182, private ETH and ESC20 transfers, and EIP 7645.",
+      "timestamp": "00:38:42",
+      "note": "Confirmed at 00:39:24: \"Okay, then I would say it's a DFI for all four of those.\""
+    },
+    {
+      "type": "eip.stage",
+      "eip": 8219,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "2488, deprecate the callCode opcode. EIP8219, checked arithmetic opcodes. EIP8182, private ETH and ESC20 transfers, and EIP 7645.",
+      "timestamp": "00:38:42",
+      "note": "Confirmed at 00:39:24: \"Okay, then I would say it's a DFI for all four of those.\""
+    },
+    {
+      "type": "eip.stage",
+      "eip": 8182,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "2488, deprecate the callCode opcode. EIP8219, checked arithmetic opcodes. EIP8182, private ETH and ESC20 transfers, and EIP 7645.",
+      "timestamp": "00:38:42",
+      "note": "Confirmed at 00:39:24: \"Okay, then I would say it's a DFI for all four of those.\""
+    },
+    {
+      "type": "eip.stage",
+      "eip": 7645,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "2488, deprecate the callCode opcode. EIP8219, checked arithmetic opcodes. EIP8182, private ETH and ESC20 transfers, and EIP 7645.",
+      "timestamp": "00:38:42",
+      "note": "Confirmed at 00:39:24: \"Okay, then I would say it's a DFI for all four of those.\""
+    },
+    {
+      "type": "eip.stage",
+      "eip": 7923,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "medium",
+      "quote": "And, 7923 is a DFI. Last question then, just because I guess I spoke up in favor of delaying, 8163. Is there any client team interested in delaying, or would we want to stick with the DFI decision today?",
+      "timestamp": "00:55:18",
+      "note": "Contested: Nethermind and Ben Adams floated a delay; facilitator went with DFI after a chat temperature check (two DFI, one delay) and said it can be revisited if there is room."
+    },
+    {
+      "type": "eip.stage",
+      "eip": 8188,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "Let's maybe start with the 1.0, they were both even somewhat worse rated, like, let EIP8188, last written blocks for counted slots, and EIP8358, and that gas metering for count changes. Is there anyone specifically that wants to speak up against DFI-ing them right now? Those two?",
+      "timestamp": "01:02:20",
+      "note": "Confirmed at 01:02:51: \"then I would say we just make the DFI decision for those two now.\""
+    },
+    {
+      "type": "eip.stage",
+      "eip": 8358,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "Let's maybe start with the 1.0, they were both even somewhat worse rated, like, let EIP8188, last written blocks for counted slots, and EIP8358, and that gas metering for count changes. Is there anyone specifically that wants to speak up against DFI-ing them right now? Those two?",
+      "timestamp": "01:02:20",
+      "note": "Confirmed at 01:02:51: \"then I would say we just make the DFI decision for those two now.\""
+    },
+    {
+      "type": "eip.stage",
+      "eip": 8115,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "Okay, then I think we make the DFI decision on this one as well now, 8115 DFI, and again, if there is room in the end, we can always check if we made a premature decision on any of these, but then it's DFI.",
+      "timestamp": "01:04:54",
+      "note": "Nethermind ranked it highly but did not block."
+    },
+    {
+      "type": "eip.stage",
+      "eip": 8200,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "Okay, yeah, then I would just say on this one specifically as well, I think the other two we can discuss at a later time, but I think this one, so EIP8200, EVMification.",
+      "timestamp": "01:10:35",
+      "note": "Confirmed at 01:10:46: \"then I would say we DFI it for today, for Hegota.\" ethrex in favour but did not block; likely revisited in a later fork."
+    },
+    {
+      "type": "eip.stage",
+      "eip": 7862,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "Okay, so then we are DFI-ing EIP7862, delayed state route.",
+      "timestamp": "01:22:17",
+      "note": "May be revisited in a later fork alongside binary trie work."
+    },
+    {
+      "type": "eip.stage",
+      "eip": 7807,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "Okay, so we are DFI-ing EIP7807 as the Execution blocks for Hegota.",
+      "timestamp": "01:26:11"
+    },
+    {
+      "type": "eip.stage",
+      "eip": 8094,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "Then, going to the last EIP to discuss, so we have the networking section, there's two EIPs, but the one that would be a candidate for DFI is EIP8094, ETH VHash.",
+      "timestamp": "01:38:38",
+      "note": "Author (Csaba) agreed to DFI. Confirmed at 01:40:08: \"we just go ahead and make the DFI decision, just because there was no… No client, wanting to reconsider.\""
+    }
+  ]
+}
