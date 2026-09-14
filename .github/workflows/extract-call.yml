@@ -7,6 +7,10 @@ on:
       call:
         description: "Call ref to extract, e.g. acde/245 (empty = oldest pending)"
         required: false
+# Bulk-dispatching a batch of calls should queue, not run a dozen agents at once.
+concurrency:
+  group: extract-call
+  cancel-in-progress: false
 permissions:
   contents: write
   pull-requests: write
