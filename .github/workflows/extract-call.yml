@@ -59,6 +59,12 @@ jobs:
           name: claude-log
           path: ${{ runner.temp }}/claude-execution-output.json
           if-no-files-found: ignore
+      - if: always() && steps.pick.outputs.call != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-output
+          path: ${{ runner.temp }}/claude-execution-output.json
+          if-no-files-found: ignore
       - if: steps.pick.outputs.call != ''
         uses: peter-evans/create-pull-request@v7
         with:
