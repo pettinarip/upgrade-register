@@ -1256,7 +1256,7 @@
     },
     "8246": {
       "title": "Remove SELFDESTRUCT Burn",
-      "status": "Review",
+      "status": "Last Call",
       "type": "Standards Track",
       "category": "Core",
       "layer": "EL"

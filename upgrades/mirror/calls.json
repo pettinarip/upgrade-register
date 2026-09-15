@@ -2184,6 +2184,18 @@
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-09-14_096/tldr.json",
       "transcript": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-09-14_096/transcript_corrected.vtt",
       "chat": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-09-14_096/chat.txt"
+    },
+    {
+      "ref": "focil/42",
+      "series": "focil",
+      "seriesName": "FOCIL Breakout",
+      "number": 42,
+      "date": "2026-09-15",
+      "issue": 2218,
+      "videoUrl": "https://www.youtube.com/watch?v=skrZKWT5fNg",
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-09-15_042/tldr.json",
+      "transcript": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-09-15_042/transcript_corrected.vtt",
+      "chat": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-09-15_042/chat.txt"
     }
   ]
 }
