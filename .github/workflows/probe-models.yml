@@ -7,13 +7,15 @@ jobs:
       - env:
           KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          echo "--- key limits and credit:"
-          curl -s https://openrouter.ai/api/v1/key -H "Authorization: Bearer $KEY" | head -c 400; echo
-          echo "--- per-model reachability (1 token each):"
-          for m in anthropic/claude-sonnet-5 anthropic/claude-sonnet-4.6 anthropic/claude-sonnet-4.5 \
-                   anthropic/claude-haiku-4.5 anthropic/claude-opus-4.5 anthropic/claude-fable-5.1; do
-            code=$(curl -s -o /tmp/r.json -w '%{http_code}' https://openrouter.ai/api/v1/messages \
-              -H "Authorization: Bearer $KEY" -H 'content-type: application/json' \
-              -d "{\"model\":\"$m\",\"max_tokens\":1,\"messages\":[{\"role\":\"user\",\"content\":\"hi\"}]}")
-            printf '%-32s %s %s\n' "$m" "$code" "$(head -c 150 /tmp/r.json | tr -d '\n')"
-          done
+          echo "length: ${#KEY}"
+          echo "trimmed length: $(printf '%s' "$KEY" | tr -d '[:space:]' | wc -c)"
+          echo "starts with sk-or: $(printf '%s' "$KEY" | grep -c '^sk-or' || true)"
+          echo "starts with sk-ant: $(printf '%s' "$KEY" | grep -c '^sk-ant' || true)"
+          CLEAN=$(printf '%s' "$KEY" | tr -d '[:space:]')
+          echo "--- openrouter /key with trimmed value:"
+          curl -s https://openrouter.ai/api/v1/key -H "Authorization: Bearer $CLEAN" | head -c 300; echo
+          echo "--- anthropic api with trimmed value:"
+          curl -s -o /tmp/a.json -w 'status %{http_code} ' https://api.anthropic.com/v1/messages \
+            -H "x-api-key: $CLEAN" -H 'anthropic-version: 2023-06-01' -H 'content-type: application/json' \
+            -d '{"model":"claude-sonnet-4-5","max_tokens":1,"messages":[{"role":"user","content":"hi"}]}'
+          head -c 200 /tmp/a.json; echo
