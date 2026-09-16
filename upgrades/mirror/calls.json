@@ -2198,6 +2198,18 @@
       "chat": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-09-15_042/chat.txt"
     },
     {
+      "ref": "encryptthemempool/10",
+      "series": "encryptthemempool",
+      "seriesName": "Encrypt the Mempool",
+      "number": 10,
+      "date": "2026-09-16",
+      "issue": 2219,
+      "videoUrl": "https://www.youtube.com/watch?v=u2eIAnIsvAQ",
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/encryptthemempool/2026-09-16_010/tldr.json",
+      "transcript": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/encryptthemempool/2026-09-16_010/transcript_corrected.vtt",
+      "chat": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/encryptthemempool/2026-09-16_010/chat.txt"
+    },
+    {
       "ref": "pqtransactionsignatures/15",
       "series": "pqtransactionsignatures",
       "seriesName": "PQ Transaction Signatures",
