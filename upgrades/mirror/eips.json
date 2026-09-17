@@ -1395,7 +1395,7 @@
       "layer": "CL"
     },
     "8365": {
-      "title": "EIP-8365: BLS withdrawal credential retirement",
+      "title": "BLS withdrawal credential retirement",
       "status": "Draft",
       "type": "Standards Track",
       "category": "Core",
