@@ -2232,6 +2232,30 @@
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdc/2026-09-17_187/tldr.json",
       "transcript": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdc/2026-09-17_187/transcript_corrected.vtt",
       "chat": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdc/2026-09-17_187/chat.txt"
+    },
+    {
+      "ref": "acdt/97",
+      "series": "acdt",
+      "seriesName": "All Core Devs - Testing",
+      "number": 97,
+      "date": "2026-09-21",
+      "issue": 2225,
+      "videoUrl": "https://www.youtube.com/watch?v=ESJMv-hVxPw",
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-09-21_097/tldr.json",
+      "transcript": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-09-21_097/transcript_corrected.vtt",
+      "chat": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-09-21_097/chat.txt"
+    },
+    {
+      "ref": "rpcstandards/35",
+      "series": "rpcstandards",
+      "seriesName": "RPC Standards",
+      "number": 35,
+      "date": "2026-09-21",
+      "issue": 2228,
+      "videoUrl": "https://www.youtube.com/watch?v=L4_CuLJ231U",
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-09-21_035/tldr.json",
+      "transcript": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-09-21_035/transcript_corrected.vtt",
+      "chat": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-09-21_035/chat.txt"
     }
   ]
 }
