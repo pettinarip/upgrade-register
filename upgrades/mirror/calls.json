@@ -2256,6 +2256,18 @@
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-09-21_035/tldr.json",
       "transcript": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-09-21_035/transcript_corrected.vtt",
       "chat": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-09-21_035/chat.txt"
+    },
+    {
+      "ref": "nativeaa/5",
+      "series": "nativeaa",
+      "seriesName": "Frame Transaction Breakout",
+      "number": 5,
+      "date": "2026-09-22",
+      "issue": 2221,
+      "videoUrl": "https://www.youtube.com/watch?v=Uhrx_xh_Hhg",
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/nativeaa/2026-09-22_005/tldr.json",
+      "transcript": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/nativeaa/2026-09-22_005/transcript_corrected.vtt",
+      "chat": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/nativeaa/2026-09-22_005/chat.txt"
     }
   ]
 }
