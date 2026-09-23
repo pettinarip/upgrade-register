@@ -2,7 +2,7 @@
   "id": "glamsterdam-devnet-11",
   "group": "glamsterdam",
   "upgrade": "glamsterdam",
-  "active": true,
+  "active": false,
   "genesis": "2026-09-09",
   "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-11/metadata/config.yaml",
   "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-11",
