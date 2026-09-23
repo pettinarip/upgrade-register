@@ -1451,10 +1451,10 @@
       "layer": "CL"
     },
     "8383": {
-      "title": "EIP-8383: Reduce CL Block Retention Window",
+      "title": "Reduce CL Block Retention Window",
       "status": "Draft",
-      "type": "Informational",
-      "category": null,
+      "type": "Standards Track",
+      "category": "Networking",
       "layer": "CL"
     }
   }
