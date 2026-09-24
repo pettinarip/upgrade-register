@@ -1,0 +1,21 @@
+{
+  "id": "frames-devnet-0",
+  "group": "frames",
+  "upgrade": null,
+  "active": true,
+  "genesis": "2026-09-24",
+  "configUrl": "https://github.com/ethpandaops/frames-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+  "specUrl": "https://notes.ethereum.org/@ethpandaops/frames-devnet-0",
+  "eips": [
+    8141
+  ],
+  "specs": {
+    "consensus": null,
+    "execution": {
+      "tag": "tests-frames-devnet@v0.3.0",
+      "url": "https://github.com/ethereum/execution-specs/releases/tag/tests-frames-devnet@v0.3.0",
+      "commit": null
+    }
+  },
+  "clients": []
+}
