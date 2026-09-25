@@ -1,0 +1,109 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acde/242",
+    "url": "https://github.com/ethereum/pm/issues/2166",
+    "date": "2026-07-30"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "upgrade.deadline",
+      "date": "2026-08-07",
+      "confidence": "high",
+      "quote": "next week, no, next week is obviously ACDC, so on the ACDC side, any EIP proposed before the ACDC call is in time. On the ACDE side, what I was thinking is basically have the same deadline, so basically, like, the beginning of the ACDC call is the cutoff time",
+      "timestamp": "0:35:21",
+      "note": "Ansgar states the Hegota proposal deadline is the start of the ACDC call next Thursday, approximately August 7, 2026. Both GitHub comment on ACDE agenda and PR against meta EIP accepted.",
+      "upgrade": "hegota",
+      "stage": "proposed"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "quote": "first up, we had, 3 EIPs from Etan... The first one is 8115.",
+      "timestamp": "0:36:40",
+      "note": "EIP-8115 presented as PFI for Hegota. Decision to PFI confirmed at 1:15:30 per summary; transcript shows all EIPs presented in this section were proposed for inclusion in Hegota. Deciding cue is at 1:17:47 where Ansgar says 'now that this EIP is PFI'd'.",
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "eip": 8115
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "quote": "And then the next one, 8116, that one is also a UX thing.",
+      "timestamp": "0:38:07",
+      "note": "EIP-8116 presented as PFI for Hegota alongside 8115 and 7807 by Etan. Ansgar confirms all EIPs presented were PFI'd at 1:17:47.",
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "eip": 8116
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "quote": "And then… The last one is 7807. That one was originally proposed as a headliner, which got rejected. But now it's, like, scoped down, to a non-headliner",
+      "timestamp": "0:39:14",
+      "note": "EIP-7807 presented as PFI for Hegota (scoped down version). Ansgar confirms PFI at 1:17:47.",
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "eip": 7807
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "quote": "Derek, you wanted to propose EIP7819?",
+      "timestamp": "0:44:21",
+      "note": "EIP-7819 SETDELEGATE presented as PFI for Hegota by Derek Chiang and Hadrien Croubois. Ansgar confirms PFI at 1:17:47.",
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "eip": 7819
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "quote": "next up, we have… An EIP proposed by Alex? 7906, are you on the call?",
+      "timestamp": "0:49:41",
+      "note": "EIP-7906 Transaction Assertions presented as PFI for Hegota. Ansgar confirms PFI at 1:17:47.",
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "eip": 7906
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "quote": "next up is Jocham with EIP7668... EIP7668 is about to be moved. bloom field is... we should remove them.",
+      "timestamp": "1:04:49",
+      "note": "EIP-7668 Remove Bloom Filters presented as PFI for Hegota. Ansgar confirms PFI at 1:17:47.",
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "eip": 7668
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "quote": "then we can move on to Kev, who wanted to propose EIP 8200. Kev, are you on the call?",
+      "timestamp": "1:06:51",
+      "note": "EIP-8200 EVMification presented as PFI for Hegota. Ansgar confirms at 1:17:47 'now that this EIP is PFI'd'.",
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "eip": 8200
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "quote": "Eocon says we should also PFI the identity precompile for Hegota... Yeah, I agree. I think this EIP relied on it",
+      "timestamp": "1:11:48",
+      "note": "EIP-7666 EVMify Identity flagged as companion PFI to EIP-8200 for Hegota. Raised in chat by Eocon and agreed by Kevaundray. Not formally decided by facilitator on-call but treated as part of the same PFI batch per chat discussion.",
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "eip": 7666
+    }
+  ]
+}
