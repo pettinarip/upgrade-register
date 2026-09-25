@@ -1,0 +1,33 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdt/95",
+    "url": "https://github.com/ethereum/pm/issues/2209",
+    "date": "2026-09-07"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "eip.stage",
+      "date": "2026-09-07",
+      "confidence": "medium",
+      "eip": 8253,
+      "upgrade": "glamsterdam",
+      "stage": "declined",
+      "quote": "Looking at the reaction in the chat, it seems that most clients do seem to prefer to defer it to Hoga to, in Consensus, it's a little bit too late. Thriding it here.",
+      "timestamp": "0:42:15",
+      "note": "Rough consensus on the call was to defer EIP-8253 to Hegota as too late for Glamsterdam; decision formally deferred to Thursday ACDE (acde call). Toni at 0:43:44 suggested delaying the final decision to Thursday, but the rough consensus expressed here was Hegota. Recorded as medium confidence because the facilitator acknowledged it was rough consensus and some participants wanted to revisit Thursday."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-07",
+      "confidence": "medium",
+      "eip": 8253,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "I just wanted to say that if we had this EIP earlier, then we should have included it in Lambda, but yeah, it's now very late, so let's include it in a code.",
+      "timestamp": "0:34:23",
+      "note": "Multiple participants (Jochem, Toni, Dragan, Marius) converged on Hegota as the appropriate target; facilitator summarised rough consensus accordingly at 0:42:15."
+    }
+  ]
+}
