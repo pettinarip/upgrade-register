@@ -1,0 +1,44 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdt/97",
+    "url": "https://github.com/ethereum/pm/issues/2225",
+    "date": "2026-09-21"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "network.fork",
+      "date": "2026-10-06",
+      "confidence": "high",
+      "quote": "Sepolia is now confirmed for October the 6th.",
+      "timestamp": "0:30:05",
+      "upgrade": "glamsterdam",
+      "network": "sepolia",
+      "status": "agreed",
+      "note": "Epoch 353024 mentioned in summary; confirmed on ACDC the previous week and restated here as confirmed."
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-10-27",
+      "confidence": "medium",
+      "quote": "Hoodi is tentatively scheduled for the 27th of October. With a go, no-go on October 8th.",
+      "timestamp": "0:30:51",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "estimated",
+      "note": "Described as tentative with a go/no-go decision on October 8th."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-21",
+      "confidence": "high",
+      "quote": "8142 was withdrawn by its champion, and… Instead, he's proposed 8411, faster execution broadcast",
+      "timestamp": "0:45:12",
+      "eip": 8142,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "note": "Champion withdrew EIP-8142; facilitator announced DFI/withdrawal on the call."
+    }
+  ]
+}
