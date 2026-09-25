@@ -1,0 +1,160 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdc/187",
+    "url": "https://github.com/ethereum/pm/issues/2222",
+    "date": "2026-09-17"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "network.fork",
+      "date": "2026-10-06",
+      "confidence": "high",
+      "quote": "It seems like we agreed either last week or even, this week on ACDT that we would fork Sepolia to Glamsterdam on October 6th.",
+      "timestamp": "0:16:54",
+      "note": "Confirmed with no objections on this call. Stokes also said 'I'll assume that's good, because no one's saying anything' at 0:17:54.",
+      "upgrade": "glamsterdam",
+      "network": "sepolia",
+      "status": "agreed",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-10-27",
+      "confidence": "medium",
+      "quote": "if anything, we can have, like, a tentative plan for a Hoodi next week. As in, sure, like, I can even come and just propose a concrete time. Of course, that's pending Sepolia. And the point here is just to have these things pipelined, such that what we can do then is Sepolia fork on the 6th. Give it a day or two, such that by the ACD on the 8th, if everything looks good, we go ahead and say yes, Hoodi's happening, say, on the 27th.",
+      "timestamp": "0:33:38",
+      "note": "Explicitly tentative; go/no-go to be confirmed on ACD call October 8 after observing Sepolia. Stokes said 'Sound like a good plan to everyone?' and received thumbs up at 0:34:37.",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "estimated",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-17",
+      "confidence": "high",
+      "quote": "Okay, yeah. Seems to go to people then. So yeah, we'll go ahead and PFI it.",
+      "timestamp": "0:45:32",
+      "note": "EIP-8411 (Fast Execution Payload Broadcast via chunked gossip) PFI'd for Hegota. CFI decision explicitly deferred to a future call pending client ranking updates.",
+      "eip": 8411,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-17",
+      "confidence": "high",
+      "quote": "It has pretty strong client support, so I would say we go ahead and CFI this one. Anyone… Once. To add anything? … Okay, no one's saying there's any issues with this, so let's go ahead and CFI that. Pretty straightforward.",
+      "timestamp": "0:54:33",
+      "eip": 8015,
+      "upgrade": "hegota",
+      "stage": "considered",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-17",
+      "confidence": "medium",
+      "quote": "What I would suggest then is… yeah, again, it sounds like we're in alignment with CFI and the reduced scope version of this. So, then yeah, why don't then, in C, just get that merged and get 8365 adjusted. by the next call, and then we can revisit this on the next call, where I expect it'll be CFI'd.",
+      "timestamp": "1:08:08",
+      "note": "CFI agreed in principle pending revised EIP-8365 PR that removes forced exits from Hegota scope; exits deferred to I-Star. Decision to formally CFI deferred to next ACDC call once author NC updates the PR.",
+      "eip": 8365,
+      "upgrade": "hegota",
+      "stage": "considered",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-17",
+      "confidence": "high",
+      "quote": "suggestion would be to DFI 8237, 8341, 8367. We already have 8321. 8243-8146. 8375. Anyone have any issue with this? … Alright. Got some thumbs up.",
+      "timestamp": "1:19:18",
+      "eip": 8237,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-17",
+      "confidence": "high",
+      "quote": "suggestion would be to DFI 8237, 8341, 8367. We already have 8321. 8243-8146. 8375. Anyone have any issue with this? … Alright. Got some thumbs up.",
+      "timestamp": "1:19:18",
+      "eip": 8341,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-17",
+      "confidence": "high",
+      "quote": "suggestion would be to DFI 8237, 8341, 8367. We already have 8321. 8243-8146. 8375. Anyone have any issue with this? … Alright. Got some thumbs up.",
+      "timestamp": "1:19:18",
+      "eip": 8367,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-17",
+      "confidence": "high",
+      "quote": "we'll go ahead and, DFI… A through 21 today, but yeah, just have the general understanding that there will be PQ work that we want to do … So… okay, then we had DFI on… 8321",
+      "timestamp": "1:16:09",
+      "note": "DFI'd with explicit acknowledgement that hash-chain RANDAO / PQ-related work continues informally during H-Star.",
+      "eip": 8321,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-17",
+      "confidence": "high",
+      "quote": "suggestion would be to DFI 8237, 8341, 8367. We already have 8321. 8243-8146. 8375. Anyone have any issue with this? … Alright. Got some thumbs up.",
+      "timestamp": "1:19:18",
+      "eip": 8243,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-17",
+      "confidence": "high",
+      "quote": "suggestion would be to DFI 8237, 8341, 8367. We already have 8321. 8243-8146. 8375. Anyone have any issue with this? … Alright. Got some thumbs up.",
+      "timestamp": "1:19:18",
+      "eip": 8146,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-17",
+      "confidence": "high",
+      "quote": "suggestion would be to DFI 8237, 8341, 8367. We already have 8321. 8243-8146. 8375. Anyone have any issue with this? … Alright. Got some thumbs up.",
+      "timestamp": "1:19:18",
+      "eip": 8375,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "ref": "acdc/187",
+      "url": "https://github.com/ethereum/pm/issues/2222"
+    }
+  ]
+}
