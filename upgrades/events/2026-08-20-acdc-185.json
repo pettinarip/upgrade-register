@@ -1,0 +1,58 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdc/185",
+    "url": "https://github.com/ethereum/pm/issues/2187",
+    "date": "2026-08-20"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "eip.stage",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "eip": 7610,
+      "upgrade": "glamsterdam",
+      "stage": "declined",
+      "quote": "we decided to remove this from Glamsterdam. This is not a spec change, because this specifies behavior, but… Can impact this never happen? And after many debates, we settled that we don't want to do this",
+      "timestamp": "0:30:37",
+      "note": "Jochem confirmed it is cancelled, not postponed, superseded by EIP-8253 targeting Hegota. Formal sign-off confirmed by Parithosh at 0:32:04 with no objections."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "eip": 8253,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "we have EIP8253 for PFI via Hegota, and this directly solves this problem, because this ensures that no accounts of the type which EIP7610 targets are into the state tree",
+      "timestamp": "0:31:32",
+      "note": "Jochem stated EIP-8253 is PFI for Hegota as rationale for removing EIP-7610 from Glamsterdam."
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-09-28",
+      "confidence": "medium",
+      "upgrade": "glamsterdam",
+      "network": "sepolia",
+      "status": "proposed",
+      "quote": "The proposal is to do, the fork on 28th of September, so basically over a month from now.",
+      "timestamp": "0:27:49",
+      "epoch": 351232,
+      "slot": 11239424,
+      "note": "Parithosh stated no decision needed today; to be confirmed at next ACDC in two weeks. No objections raised on the call. Dima (Lido) asked via chat for dates to be shifted a week later."
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-10-26",
+      "confidence": "medium",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "proposed",
+      "quote": "the proposal was to then have Hoodi, end of October, so that would still give us plenty of time to see how Sepolia pans out",
+      "timestamp": "0:28:53",
+      "epoch": 132352,
+      "note": "Explicitly stated as contingent on stable DevNets and Sepolia outcome. No formal decision made on this call."
+    }
+  ]
+}
