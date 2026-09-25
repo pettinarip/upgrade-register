@@ -2,6 +2,16 @@
 
 Structured, sourced data about Ethereum network upgrades, laid out as it would sit inside `ethereum/pm`. Which EIPs are in each fork and when that was decided, when each devnet, testnet and mainnet forks, and what was cut for each devnet. Every row points at a commit, a config file, a spec page or a call recording.
 
+## What it answers
+
+Two questions, at different levels of completeness.
+
+**What is in a fork.** Every EIP's stage per fork, with the date and the commit that moved it. Complete, because it is derivable from the Meta EIP files.
+
+**When it ships.** Past activations on mainnet and every public testnet, and devnet genesis dates, are complete, because client configs and devnet specs record them. Proposed testnet slots, mainnet targets and stage deadlines are not, because those exist only as spoken decisions on a call until a release ships weeks later. They arrive through call extraction.
+
+So a fork that has already shipped is fully described here. A fork still being planned has its EIP list but not yet its dates.
+
 ## Layout
 
 ```
