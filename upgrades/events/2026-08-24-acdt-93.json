@@ -1,0 +1,22 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdt/93",
+    "url": "https://github.com/ethereum/pm/issues/2195",
+    "date": "2026-08-24"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "network.fork",
+      "date": "2026-Q3",
+      "confidence": "medium",
+      "quote": "Could we actually try to set a deadline, for ACD, So that we can target, a launch of the next DevNet, by maybe early next week, Monday?",
+      "timestamp": "0:14:16",
+      "note": "Mario confirmed Thursday deadline at 0:14:50: 'Alright, I don't think we heard from Prysm. Is everyone okay with the, Thursday deadline for this?' with no objection. devnet-9 is glamsterdam-devnet-9 in context of Glamsterdam planning. Early next week (late August 2026) was the target for launch after Thursday client trunk branch deadline.",
+      "upgrade": "glamsterdam",
+      "network": "glamsterdam-devnet-9",
+      "status": "estimated"
+    }
+  ]
+}
