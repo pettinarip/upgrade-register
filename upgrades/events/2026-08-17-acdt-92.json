@@ -1,0 +1,33 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdt/92",
+    "url": "https://github.com/ethereum/pm/issues/2186",
+    "date": "2026-08-17"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "eip.stage",
+      "date": "2026-08-17",
+      "confidence": "medium",
+      "eip": 7610,
+      "upgrade": "glamsterdam",
+      "stage": "declined",
+      "quote": "I will raised this again at, I guess, ACDE in one and a half weeks, by the decision of ACDT that we will remove this EIP from Glamsterdam.",
+      "timestamp": "20:43",
+      "note": "ACDT reached consensus to remove EIP-7610 from Glamsterdam; jochem-brouwer to raise formally at ACDE in ~1.5 weeks for final decision. Geth and Reth already skip the affected tests. Confidence medium because the facilitator explicitly defers the formal decision to ACDE."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-17",
+      "confidence": "medium",
+      "eip": 8253,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "In Hegota, we should include that EIP that bumps the NOSS for those accounts, and just finish with this.",
+      "timestamp": "13:55",
+      "note": "draganrakita proposed EIP-8253 (nonce bump for 28 special mainnet accounts) for Hegota; jochem-brouwer agreed this was the preferred path alongside removing EIP-7610 from Glamsterdam. No formal vote taken on this call; confidence medium."
+    }
+  ]
+}
