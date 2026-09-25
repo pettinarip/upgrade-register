@@ -75,7 +75,39 @@ const out = await res.json();
 const answer = (out.content ?? []).filter((b) => b.type === 'text').map((b) => b.text).join('');
 const json = answer.match(/\{[\s\S]*\}/)?.[0];
 if (!json) throw new Error(`no JSON in response: ${answer.slice(0, 300)}`);
-const { events } = JSON.parse(json);
+let { events } = JSON.parse(json);
+
+// The register's worth is its provenance, so a quote that cannot be found in the
+// transcript is worse than a missing event. One retry naming the failures, then drop.
+const norm = (t) => t.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim();
+const hay = norm(transcript);
+const spans = (e) => (Array.isArray(e.quote) ? e.quote : e.quote ? [e.quote] : []);
+const bad = (list) => list.filter((e) => !spans(e).length || !spans(e).every((q) => hay.includes(norm(q))));
+
+let failed = bad(events);
+if (failed.length) {
+  console.log(`${failed.length} quote(s) not found verbatim, asking once more`);
+  const retry = await fetch(`${BASE}/messages`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', 'x-api-key': KEY, authorization: `Bearer ${KEY}`, 'anthropic-version': '2023-06-01' },
+    body: JSON.stringify({ ...body, messages: [
+      { role: 'user', content: user },
+      { role: 'assistant', content: JSON.stringify({ events }) },
+      { role: 'user', content: `These quotes are not present verbatim in the transcript:\n${failed.map((e) => `- ${e.type} ${e.eip ?? e.network}: ${JSON.stringify(e.quote)}`).join('\n')}\n\nReturn the full {"events": [...]} again. For each of those, copy an unbroken run of words exactly as it appears in the transcript, or use an array of exact spans. Drop any event you cannot ground this way. Change nothing else.` },
+    ] }),
+  });
+  if (retry.ok) {
+    const j = (await retry.json()).content?.filter((b) => b.type === 'text').map((b) => b.text).join('').match(/\{[\s\S]*\}/)?.[0];
+    if (j) events = JSON.parse(j).events ?? events;
+  }
+  failed = bad(events);
+}
+if (failed.length) {
+  console.log(`dropped ${failed.length} event(s) with unverifiable quotes:`);
+  for (const e of failed) console.log(`  - ${e.type} ${e.eip ?? e.network} ${JSON.stringify(e.quote)?.slice(0, 120)}`);
+  events = events.filter((e) => !failed.includes(e));
+}
+console.log(`${events.filter((e) => spans(e).every((q) => hay.includes(norm(q)))).length}/${events.length} events with verified quotes`);
 console.log(`${ref}: ${events.length} event(s), ${out.usage?.input_tokens ?? '?'} in / ${out.usage?.output_tokens ?? '?'} out`);
 if (!events.length) { console.log('NO_EVENTS'); process.exit(0); }
 
@@ -94,5 +126,6 @@ for (const e of events) {
     : e.type === 'upgrade.headliner' ? `EIP-${e.eip} headliner ${e.action} for ${e.upgrade}`
     : e.type === 'upgrade.deadline' ? `${e.upgrade} ${e.stage} deadline ${e.date}`
     : `${e.network} fork ${e.status} ${e.date} for ${e.upgrade}`;
-  console.log(`- [ ] **${what}** (${e.confidence}) — "${e.quote ?? ''}" ${link(e)}`);
+  const q = (Array.isArray(e.quote) ? e.quote : [e.quote ?? '']).map((x) => `"${x}"`).join(' … ');
+  console.log(`- [ ] **${what}** (${e.confidence}) — ${q} ${link(e)}`);
 }
