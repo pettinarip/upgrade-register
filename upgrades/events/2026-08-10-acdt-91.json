@@ -1,0 +1,33 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdt/91",
+    "url": "https://github.com/ethereum/pm/issues/2181",
+    "date": "2026-08-10"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "network.fork",
+      "date": "2026-08-10",
+      "confidence": "high",
+      "quote": "next steps seems like we just wait until ACDE to have the final numbers, and then… Probably after that, if those numbers are final, we're gonna have an… yet another ELS release with the final, final numbers, and then, we can start testing, and then, we can schedule that merit.",
+      "timestamp": "0:31:48",
+      "note": "Decision to delay DevNet 8 launch until after ACDE (this week) to confirm repricing numbers are final. DevNet 8 resolves to glamsterdam-devnet-8.",
+      "upgrade": "glamsterdam",
+      "network": "glamsterdam-devnet-8",
+      "status": "estimated"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-10",
+      "confidence": "high",
+      "quote": "Alright, yeah, so, okay, so no objections to this, we should be proceeding with EIP-8070 mandatory for DevNet 8.",
+      "timestamp": "0:58:30",
+      "note": "EIP-8070 confirmed mandatory for glamsterdam-devnet-8 after last call for objections raised none.",
+      "eip": 8070,
+      "upgrade": "glamsterdam",
+      "stage": "scheduled"
+    }
+  ]
+}
