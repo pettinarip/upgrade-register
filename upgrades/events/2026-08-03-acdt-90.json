@@ -1,0 +1,33 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdt/90",
+    "url": "https://github.com/ethereum/pm/issues/2174",
+    "date": "2026-08-03"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "eip.stage",
+      "date": "2026-08-03",
+      "confidence": "high",
+      "eip": 8038,
+      "upgrade": "glamsterdam",
+      "stage": "included",
+      "quote": "Okay, great. It seems like there's consensus on this, so… Yeah, do whatever you need to do for the next steps on this.",
+      "timestamp": "0:34:15",
+      "note": "All EL clients (Geth, Nethermind, Besu, ethrex, Reth, Erigon) explicitly approved freezing the EIP-8038 repricing numbers: account writes set to 9K, SLOAD stays at 2100, anchor fixed at 75 Mgas/s. Justin Traglia confirmed consensus at 0:34:15 after round of client approvals from 0:29:32–0:34:12."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-03",
+      "confidence": "high",
+      "eip": 2780,
+      "upgrade": "glamsterdam",
+      "stage": "included",
+      "quote": "Okay, great. It seems like there's consensus on this, so… Yeah, do whatever you need to do for the next steps on this.",
+      "timestamp": "0:34:15",
+      "note": "EIP-2780 (ETransfers) repricing numbers frozen alongside EIP-8038; Maria confirmed ETransfers EIP remains unchanged at 0:11:09. Consensus confirmed at 0:34:15."
+    }
+  ]
+}
