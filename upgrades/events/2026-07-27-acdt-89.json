@@ -1,0 +1,55 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdt/89",
+    "url": "https://github.com/ethereum/pm/issues/2170",
+    "date": "2026-07-27"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "eip.stage",
+      "date": "2026-07-27",
+      "confidence": "high",
+      "eip": 8070,
+      "upgrade": "glamsterdam",
+      "stage": "scheduled",
+      "quote": "Okay, that sounds good. Okay, let's go with this. If there's any concerns about the EnginePI when clients start implementing it, please raise them as soon as possible so we can, like, pick up this discussion next week also, on the ACDT call, if there's any findings.",
+      "timestamp": "0:40:41",
+      "note": "Decision covers only the Engine API changes (GetBlobsV3/V4 and FCU custody_columns field) for devnet-8; cell-level DAS deferred. All EL clients (Besu, Geth, Nethermind, Reth, ethrex, Erigon) confirmed no opposition. Deciding cue at 0:40:41; EIP named at 0:25:13."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-07-27",
+      "confidence": "high",
+      "eip": 2780,
+      "upgrade": "glamsterdam",
+      "stage": "scheduled",
+      "quote": "If there are no objections, we should probably merge this on the spec side, and we can make a release, add it to the .NET release.",
+      "timestamp": "0:45:12",
+      "note": "EIP-2780 log cost simplification included in devnet-8 spec with no objections raised by any EL client."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-07-27",
+      "confidence": "high",
+      "eip": 8037,
+      "upgrade": "glamsterdam",
+      "stage": "scheduled",
+      "quote": "If not, also Luis also mentioned that he's fine with the changes, it's basically just a need. I think it's important, yes. But yeah, if there are no other comments, should we proceed to the next point?",
+      "timestamp": "0:49:49",
+      "note": "EIP-8037 rename of 'regular gas' to 'execution gas' included in devnet-8 spec with no objections. Pure rename, no behavior change."
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-08",
+      "confidence": "low",
+      "upgrade": "glamsterdam",
+      "network": "glamsterdam-devnet-8",
+      "status": "estimated",
+      "quote": "I think right now we have early August, set for, devnet 8.",
+      "timestamp": "0:21:50",
+      "note": "Launch date described as early August tentatively. Next ACDT to revisit once repricing numbers are available; Wednesday next week considered too tight per 0:23:36."
+    }
+  ]
+}
