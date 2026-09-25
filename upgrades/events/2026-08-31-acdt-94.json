@@ -1,0 +1,24 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdt/94",
+    "url": "https://github.com/ethereum/pm/issues/2204",
+    "date": "2026-08-31"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "eip.stage",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "eip": 8037,
+      "upgrade": "glamsterdam",
+      "stage": "declined",
+      "quote": "It seems like there's no support for this, so I think we are going ahead with not implementing this one, for now.",
+      "timestamp": "1:01:20",
+      "note": "Decision applies specifically to the self-destruct ephemeral refund change (EIPs PR#12249). Mario Vega summarized after polling all client teams. The cross-frame state gas bug (PR#12265) decision was deferred to ACDC.",
+      "ref": "acdt/94",
+      "url": "https://github.com/ethereum/pm/issues/2204"
+    }
+  ]
+}
