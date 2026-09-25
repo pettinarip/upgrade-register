@@ -1,0 +1,122 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdc/184",
+    "url": "https://github.com/ethereum/pm/issues/2177",
+    "date": "2026-08-06"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "eip.stage",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "eip": 8359,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "So I'm proposing EIP8359, which adds a beacon block body field for the Validator client and setup reporting.",
+      "timestamp": "0:18:51",
+      "note": "Batch PFI confirmed at 1:43:23: 'PFI for Hegota: EIP-8359 (Beacon Block Reporting)...'"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "eip": 8198,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "Alright, so, faster ethereum, a quick case for quick slots in Hegota.",
+      "timestamp": "0:23:41",
+      "note": "Batch PFI confirmed at 1:43:23. Scope clarified at 0:37:02: gas limit and blob count per block scale to hold throughput constant; other parameter changes require separate EIPs."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "eip": 8369,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "track": "informational",
+      "quote": "Yeah, the EIP I'm proposing is informational, so it's… Very much, like, it's just about making sure we agree on defining what Frames are eligible to benefit from FOCIL inclusion guarantees.",
+      "timestamp": "0:40:49",
+      "note": "Batch PFI confirmed at 1:43:23."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "eip": 8142,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "Yeah, we'd like to PFI blocks in blobs.",
+      "timestamp": "0:43:45",
+      "note": "Batch PFI confirmed at 1:43:23. Open concerns raised by potuz re ePBS/PTC deadline conflicts at 0:48:36."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "eip": 8371,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "Yeah, so it's EIP-8371 RowDAS, Distributed Blob Reconstruction.",
+      "timestamp": "0:52:29",
+      "note": "Batch PFI confirmed at 1:43:23."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "eip": 8363,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "I'm here to present you EIP 8363, called Tapered Issuance Burn.",
+      "timestamp": "0:57:54",
+      "note": "Batch PFI confirmed at 1:43:23. Greg (Lido) requested voluntary withdrawal; Jerome declined. Ansgar noted community consensus is a prerequisite for any future CFI. No CFI or SFI decision made."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "eip": 7716,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "just wanted to keep this pretty short and give a small update about a tweak to EIP7716, which is an EIP to increase the inactivity penalties when a larger amount of the network is offline",
+      "timestamp": "1:30:06",
+      "note": "Batch PFI confirmed at 1:43:23. Updated curve now ~2–22x higher than original draft; focuses on source/target only, drops head vote."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "eip": 8365,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "So, basically, it has a sign-in key and a, withdrawal key, both of BLS... the high-level idea is to tackle the existence of the 0x00, legacy validators, before they become a bigger trouble when we transition to PQ.",
+      "timestamp": "1:35:55",
+      "note": "Batch PFI confirmed at 1:43:23 covering EIP-8365/8367 together."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "eip": 8367,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "the balance, will decrease over time, slowly. So that, The goal is to get all of them to have a balance of zero by the time we transition to PQ",
+      "timestamp": "1:43:08",
+      "note": "Batch PFI confirmed at 1:43:23. Barnabas suggested simpler alternative: stop new 0x00 deposits in H*, force-exit in I*."
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "upgrade": "glamsterdam",
+      "network": "glamsterdam-devnet-8",
+      "status": "estimated",
+      "quote": "I think it would be better if we are targeting sometime next week, early next week. I would say possibly around Tuesday.",
+      "timestamp": "0:15:15",
+      "note": "Tuesday after the 2026-08-06 call would be approximately 2026-08-12."
+    }
+  ]
+}
