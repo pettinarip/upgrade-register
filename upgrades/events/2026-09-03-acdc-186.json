@@ -1,0 +1,24 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdc/186",
+    "url": "https://github.com/ethereum/pm/issues/2199",
+    "date": "2026-09-03"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "network.fork",
+      "date": "2026-10-06",
+      "confidence": "high",
+      "quote": "Okay, let's set, October 6th as the date for Sepolia, then.",
+      "timestamp": "0:29:35",
+      "upgrade": "glamsterdam",
+      "network": "sepolia",
+      "status": "agreed",
+      "note": "Discussion ran from ~0:23:06; September 28th was also proposed but rejected in favour of October 6th. Hoodi date explicitly deferred to a later call. Source: acdc/186, https://github.com/ethereum/pm/issues/2199",
+      "ref": "acdc/186",
+      "url": "https://github.com/ethereum/pm/issues/2199"
+    }
+  ]
+}
