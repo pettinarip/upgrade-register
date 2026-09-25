@@ -1,0 +1,88 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acde/244",
+    "url": "https://github.com/ethereum/pm/issues/2197",
+    "date": "2026-08-27"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "network.fork",
+      "date": "2026-09-28",
+      "confidence": "medium",
+      "quote": "September 28th has been floated as the day that Sepolia forks for Glamsterdam",
+      "timestamp": "0:15:59",
+      "upgrade": "glamsterdam",
+      "network": "sepolia",
+      "status": "proposed",
+      "note": "Nixo stated this was proposed on ACDC last week and will be confirmed on ACDC the following week. Not yet agreed."
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-10-26",
+      "confidence": "medium",
+      "quote": "September 28th has been floated as the day that Sepolia forks for Glamsterdam, and Hoodi forks for Glamsterdam. That's not confirmed.",
+      "timestamp": "0:15:59",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "proposed",
+      "note": "The transcript does not explicitly state October 26 for Hoodi in the spoken text; the pre-call summary lists it and nixo shows a calendar. The spoken cue confirms Hoodi forks but the specific date 'October 26' is from the calendar visual, not spoken aloud. Confidence medium accordingly."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "quote": "EIP-8037 SELFDESTRUCT gas refill not added to Glamsterdam; deferred to Hegota with proper EIP",
+      "timestamp": "0:32:07",
+      "eip": 8037,
+      "upgrade": "glamsterdam",
+      "stage": "declined",
+      "note": "nixo: 'I think it is quite late in the process... we will move ahead with' taking this offline. Maria confirmed spec and client code changes required. Decision confirmed at ~0:32:07 in discussion."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "quote": "7609 decreased base cost of T-load T-Store... If no one speaks for them, then all three of these will be dropped",
+      "timestamp": "0:40:03",
+      "eip": 7609,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "note": "No champion appeared. nixo confirmed drop at 0:41:10 and 0:42:03."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "quote": "For the contract code deduplication, that was where, sort of, set code from came from. So it achieves the same goal, but in a more general way.",
+      "timestamp": "0:40:48",
+      "eip": 8058,
+      "upgrade": "hegota",
+      "stage": "declined",
+      "note": "Ben Adams stated 8058 is superseded by SETCODEFROM (EIP-8298). nixo confirmed drop together with 7609 at 0:42:03."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-27",
+      "confidence": "medium",
+      "quote": "8360 was sort of already talked about... that one, because there's been conversation and people are, and somebody came to talk about it, that could be a placeholder for whatever solution that can go forward",
+      "timestamp": "0:40:03",
+      "eip": 8360,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "nixo retained 8360 as a placeholder PFI for an ephemeral-contract/SELFDESTRUCT-replacement solution for Hegota. Maria asked 'just make sure we are saying that the temporary create EIP will not be false for Hegota. Is this correct?' and nixo clarified it stays as placeholder. Not a full DFI like the other two."
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "quote": "Then, we will move ahead with SFI frames.",
+      "timestamp": "1:37:56",
+      "eip": 8141,
+      "upgrade": "hegota",
+      "stage": "scheduled",
+      "note": "Strong client support (Ethrex, Nethermind, Besu confirmed SFI). Ansgar's caveat agreed: SFI status must not impede continued spec iteration or block changes coming out of the 8130/8141 collaboration process."
+    }
+  ]
+}
