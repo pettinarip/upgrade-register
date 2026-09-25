@@ -1,0 +1,24 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdt/96",
+    "url": "https://github.com/ethereum/pm/issues/2217",
+    "date": "2026-09-14"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "network.fork",
+      "date": "2026-10-06",
+      "confidence": "high",
+      "quote": "I'd like to confirm with clients that we're still on track for the Sepolia upgrade on October 6th. Are there any clients that are against this, or is this still fine for everyone?... Thumbs up from Nethermind. Thumbs up from Nico, from… Lodestar Lighthouse. Breath. Eric on. Guess. Tycoon. Granty.",
+      "timestamp": "10:26",
+      "note": "All clients gave thumbs-up in chat/voice. Enrico (Teku) raised a concern about progressive list size pending CL breakout signal but did not block the date. Resolved as high confidence given unanimous thumbs-up.",
+      "upgrade": "glamsterdam",
+      "network": "sepolia",
+      "status": "agreed",
+      "ref": "acdt/96",
+      "url": "https://github.com/ethereum/pm/issues/2217"
+    }
+  ]
+}
