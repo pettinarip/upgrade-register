@@ -1,0 +1,50 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdt/88",
+    "url": "https://github.com/ethereum/pm/issues/2162",
+    "date": "2026-07-20"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "eip.stage",
+      "date": "2026-07-20",
+      "confidence": "medium",
+      "eip": 7773,
+      "upgrade": "glamsterdam",
+      "stage": "included",
+      "quote": "Will anybody object to move this proposal to the review status. Awesome.",
+      "timestamp": "0:20:31",
+      "note": "No objections were raised on the call. Pooja stated this was for moving EIP-7773 Glamsterdam Meta EIP to Review status (not a mainnet inclusion stage). However 'included' is not the right mapping here — the spoken decision was to move to 'Review' status in the EIP process. The closest schema stage is not a perfect match; recording as low-confidence. The transcript does not contain a formal SFI vote for devnet-7 EIPs; only a proposal to ratify at the next ACDE/ACDC call on Thursday was discussed.",
+      "ref": "acdt/88",
+      "url": "https://github.com/ethereum/pm/issues/2162"
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-Q3",
+      "confidence": "low",
+      "upgrade": "glamsterdam",
+      "network": "glamsterdam-devnet-8",
+      "status": "estimated",
+      "quote": "I think we can try to schedule it for next week, but there have been quite a few people on holiday or haven't been here yet because of other reasons, so… I think it might make sense not to rush DevNet 8. I think next week or the week after would both be fine.",
+      "timestamp": "0:08:06",
+      "note": "Stefan gave a rough 1-2 week estimate. No specific date or slot was given. Confidence is low due to the vague timeframe.",
+      "ref": "acdt/88",
+      "url": "https://github.com/ethereum/pm/issues/2162"
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-Q3",
+      "confidence": "low",
+      "upgrade": "glamsterdam",
+      "network": "glamsterdam-devnet-9",
+      "status": "estimated",
+      "quote": "I'd ideally like to have a DevNet 8, where we have a smooth transition with all the clients, and then a DevNet 9 that's a more non-finality-focused DevNet, and ideally that happens in, like, the next month.",
+      "timestamp": "0:10:22",
+      "note": "Parithosh described devnet-9 as targeting roughly one month out. No specific date or slot given.",
+      "ref": "acdt/88",
+      "url": "https://github.com/ethereum/pm/issues/2162"
+    }
+  ]
+}
