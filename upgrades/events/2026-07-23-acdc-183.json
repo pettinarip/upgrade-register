@@ -1,0 +1,62 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acdc/183",
+    "url": "https://github.com/ethereum/pm/issues/2158",
+    "date": "2026-07-23"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "eip.stage",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "eip": 8334,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "Yeah, makes sense. And yeah, like Daniel mentioned, I guess we can make it required for, Hegota if we do intend to ship this, so that, worst case, we know on the networking level, everyone has it post-star.",
+      "timestamp": "0:25:37",
+      "note": "Sukun presented EIP-8334 Bundled Attestation Propagation and proposed it for Hegota. Parithosh confirmed PFI with no objection from the call. The change is backwards compatible but would be made required at fork.",
+      "ref": "acdc/183",
+      "url": "https://github.com/ethereum/pm/issues/2158"
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-08",
+      "confidence": "medium",
+      "upgrade": "glamsterdam",
+      "network": "glamsterdam-devnet-8",
+      "status": "estimated",
+      "quote": "Yeah, I think timeline-wise, we're still looking at DevNet 8 early August.",
+      "timestamp": "0:22:23",
+      "note": "Parithosh stated early August target for devnet-8.",
+      "ref": "acdc/183",
+      "url": "https://github.com/ethereum/pm/issues/2158"
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-09",
+      "confidence": "medium",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "estimated",
+      "quote": "And that should still allow us to potentially have the first testnet in September.",
+      "timestamp": "0:22:36",
+      "note": "Parithosh stated September as target for first testnet (Glamsterdam). Network resolved to hoodi as the likely first testnet; no specific testnet name was spoken.",
+      "ref": "acdc/183",
+      "url": "https://github.com/ethereum/pm/issues/2158"
+    },
+    {
+      "type": "upgrade.deadline",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "quote": "I do want to mention that the non-headliner submission window closes on the 6th of August, so that's still about 17 days. So please get your submissions in by then.",
+      "timestamp": "1:04:11",
+      "note": "Parithosh stated August 6 as the deadline for non-headliner EIP submissions for Hegota.",
+      "ref": "acdc/183",
+      "url": "https://github.com/ethereum/pm/issues/2158"
+    }
+  ]
+}
