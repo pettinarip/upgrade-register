@@ -1,0 +1,219 @@
+{
+  "source": {
+    "kind": "call",
+    "ref": "acde/243",
+    "url": "https://github.com/ethereum/pm/issues/2178",
+    "date": "2026-08-13"
+  },
+  "recordedBy": "agent",
+  "events": [
+    {
+      "type": "network.fork",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "We launched, just a couple of hours ago. We are currently still on Fulu. We will have Gloas activated in about a week.",
+      "timestamp": "0:08:16",
+      "upgrade": "glamsterdam",
+      "network": "glamsterdam-devnet-8",
+      "status": "activated",
+      "note": "DevNet 8 (Plåtberget) launched on the call date; Gloas activation targeted for Thursday ~7:50 AM UTC per 0:09:05"
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "quote": "Blast will go live next week, Thursday, at 7.50 a.m. UTC time.",
+      "timestamp": "0:09:05",
+      "upgrade": "glamsterdam",
+      "network": "glamsterdam-devnet-8",
+      "status": "estimated",
+      "note": "Barnabas states Gloas activation on devnet-8 is Thursday of the following week; date estimated as approximately 2026-08-21"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "We can comfortably agree to securely raise the block gas limits at the Glamsterdam to 200 million guests.",
+      "timestamp": "0:11:27",
+      "eip": 2780,
+      "upgrade": "glamsterdam",
+      "stage": "included",
+      "note": "Gas repricing numbers confirmed final; specs unchanged; EIPs 2780, 8037, 8038 all confirmed as final per 0:10:40"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "We can comfortably agree to securely raise the block gas limits at the Glamsterdam to 200 million guests.",
+      "timestamp": "0:11:27",
+      "eip": 8037,
+      "upgrade": "glamsterdam",
+      "stage": "included",
+      "note": "Gas repricing numbers confirmed final; specs unchanged"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "We can comfortably agree to securely raise the block gas limits at the Glamsterdam to 200 million guests.",
+      "timestamp": "0:11:27",
+      "eip": 8038,
+      "upgrade": "glamsterdam",
+      "stage": "included",
+      "note": "Gas repricing numbers confirmed final; specs unchanged"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "Okay, great. Then we will move forward with, with this, change.",
+      "timestamp": "0:20:18",
+      "eip": 8261,
+      "upgrade": "glamsterdam",
+      "stage": "included",
+      "note": "nixo calls a decision after majority of CL clients approved; Dustin (Nimbus) skeptically neutral but did not block; described as optional CL config parameter"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "We'll move on to, some by jochem. We have, we'll start off with EIP7923, linear page-Based Memory Costing.",
+      "timestamp": "0:31:16",
+      "eip": 7923,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by jochem-brouwer; PFI batch decision at end of presentations per summary 01:17:19; quote is from the cue naming the EIP, batch decision timestamp 1:17:19"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "The next one is EIP23298, this is remove of refunds.",
+      "timestamp": "0:34:40",
+      "eip": 3298,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by jochem-brouwer with modification to remove only storage-clearing refund; PFI batch decision per summary 01:17:19"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "Okay, so the payout codes, what is this?",
+      "timestamp": "0:39:44",
+      "eip": 5920,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by jochem-brouwer who offered to champion; PFI batch decision per summary 01:17:19"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "We can move on to, Dragons, PFIs, 8030… 80… 8358 net gas metering for account changes.",
+      "timestamp": "0:42:17",
+      "eip": 8358,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by draganrakita; PFI batch decision per summary 01:17:19"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "Okay, if no questions on this one, you can move on to the next one, 8374 persist form access.",
+      "timestamp": "0:43:59",
+      "eip": 8374,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by draganrakita; Danno flagged implementation complexity; PFI batch decision per summary 01:17:19"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "Depending on what we do with the gas limit in Hegota, we should, CFI it in the meantime.",
+      "timestamp": "0:48:16",
+      "eip": 8368,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by Toni on Maria's behalf; Toni suggested CFI but the batch PFI decision per summary 01:17:19 governs; recorded as proposed per batch"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "Chavez. EIPs, we have 8077, VHash, blob-aware Mempool, and 8094 announced transactions with nonce.",
+      "timestamp": "0:49:03",
+      "eip": 8094,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by Csaba; PFI batch decision per summary 01:17:19"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "Chavez. EIPs, we have 8077, VHash, blob-aware Mempool, and 8094 announced transactions with nonce.",
+      "timestamp": "0:49:03",
+      "eip": 8077,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by Csaba; PFI batch decision per summary 01:17:19"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "We will move on to, Danno's, proposed EIP8355 precompiles for ML DSA verification.",
+      "timestamp": "0:53:43",
+      "eip": 8355,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by Danno Ferrin; PFI batch decision per summary 01:17:19"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "We will move on to, Anders' proposed, EIP8372, normalized state gas limit.",
+      "timestamp": "1:02:10",
+      "eip": 8372,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by Anders Elowsson; PFI batch decision per summary 01:17:19"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "We will move on to, Ben's EIP8375.",
+      "timestamp": "1:06:44",
+      "eip": 8375,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by Ben Adams; lightclient raised concern about ePBS adoption uncertainty; PFI batch decision per summary 01:17:19"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "quote": "This one's EIP8219, checked arithmetic. op codes.",
+      "timestamp": "1:11:37",
+      "eip": 8219,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Presented by Hubert Ritzdorf; PFI batch decision per summary 01:17:19"
+    },
+    {
+      "type": "upgrade.deadline",
+      "date": "2026-09-10",
+      "confidence": "high",
+      "quote": "if EL clients can come up with their preference list by September 10th, that would be great",
+      "timestamp": "0:28:56",
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "nixo sets September 10 (ACDE #245) as deadline for EL client preference lists on Hegota PFIs; no opposition voiced"
+    }
+  ]
+}
