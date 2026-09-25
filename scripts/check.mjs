@@ -6,7 +6,8 @@ const e7610 = g.eips.find((e) => e.eip === 7610);
 assert.equal(e7610.stage, 'declined', 'latest stage wins');
 assert.equal(e7610.history.at(-1).date, '2026-08-20', 'declined on the Meta EIP merge date');
 assert.ok(e7610.history[0].sources[0].url.includes('github.com/ethereum/EIPs'), 'every row points at a commit or PR');
-assert.equal(g.status, 'development', 'cuts exist, no testnet slot recorded yet');
+// Moves to 'upcoming' as soon as a call records a testnet slot, so accept either.
+assert.ok(['development', 'upcoming'].includes(g.status), `unexpected status ${g.status}`);
 assert.ok(g.devnets.some((d) => d.id === 'glamsterdam-devnet-8' && d.genesis === '2026-08-13'), 'cuts attach by repository and carry genesis');
 assert.ok(g.devnets.some((d) => d.specs.consensus?.tag && d.clients > 0), 'a cut sheet carries spec releases and client builds');
 assert.ok(g.featureDevnets.some((d) => d.group === 'bal'), 'feature devnets attach through shared EIPs');
