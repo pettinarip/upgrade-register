@@ -155,7 +155,11 @@ if (events.length) {
   events.forEach((e, i) => {
     const v = verdicts.find((x) => x.id === `c${i}` || x.index === i) ?? { verdict: 'keep' };
     if (v.verdict === 'drop') { reviewerNotes.push(`dropped: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); return; }
-    if (v.verdict === 'fix' && v.event) { reviewerNotes.push(`fixed: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); next.push(v.event); return; }
+    if (v.verdict === 'fix' && v.event) {
+      // The original already passed the quote check; a fix that fails it is worse than no fix.
+      if (bad([v.event]).length) { reviewerNotes.push(`fix rejected (quote not in transcript), kept original: ${e.type} ${e.eip ?? e.network}`); next.push(e); return; }
+      reviewerNotes.push(`fixed: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); next.push(v.event); return;
+    }
     next.push(e);
   });
   const stillBad = bad(next);
