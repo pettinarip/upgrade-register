@@ -46,6 +46,7 @@ jobs:
             CALL=$(node scripts/new-calls.mjs | grep -vxF -f /tmp/open-calls.txt | head -n1)
           fi
           echo "call=$CALL" >> "$GITHUB_OUTPUT"
+          echo "slug=${CALL//\//-}" >> "$GITHUB_OUTPUT"
       - if: steps.pick.outputs.call != ''
         id: extract
         env:
@@ -53,12 +54,13 @@ jobs:
           ANTHROPIC_BASE_URL: ${{ vars.ANTHROPIC_BASE_URL || 'https://api.anthropic.com/v1' }}
           EXTRACT_MODEL: ${{ inputs.model || vars.EXTRACT_MODEL || 'claude-sonnet-4-6' }}
         run: |
+          set -o pipefail
           node scripts/extract-call.mjs "${{ steps.pick.outputs.call }}" | tee /tmp/extract.log
           { echo "body<<EOF"; sed -n '/## Review checklist/,$p' /tmp/extract.log; echo EOF; } >> "$GITHUB_OUTPUT"
       - if: inputs.dry_run && steps.pick.outputs.call != ''
         uses: actions/upload-artifact@v4
         with:
-          name: dry-run-${{ steps.pick.outputs.call }}
+          name: dry-run-${{ steps.pick.outputs.slug }}
           path: |
             upgrades/events/*.json
             /tmp/extract.log

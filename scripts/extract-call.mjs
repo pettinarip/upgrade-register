@@ -5,6 +5,8 @@
 import { readFileSync, writeFileSync, existsSync, unlinkSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { readJson, loadUpgrades } from './lib.mjs';
+import Ajv from 'ajv/dist/2020.js';
+import addFormats from 'ajv-formats';
 
 const ref = process.argv[2];
 if (!ref) throw new Error('usage: node scripts/extract-call.mjs <series>/<number>');
@@ -79,7 +81,7 @@ ${tldr ? `\nPre-call summary (a guide to where to look; the transcript decides):
 Transcript, one line per cue as "H:MM:SS text":
 ${transcript}`;
 
-const body = { model: MODEL, max_tokens: 16000, system, messages: [{ role: 'user', content: user }] };
+const body = { model: MODEL, max_tokens: 32000, system, messages: [{ role: 'user', content: user }] };
 const res = await fetch(`${BASE}/messages`, {
   method: 'POST',
   headers: { 'content-type': 'application/json', 'x-api-key': KEY, authorization: `Bearer ${KEY}`, 'anthropic-version': '2023-06-01' },
@@ -87,10 +89,38 @@ const res = await fetch(`${BASE}/messages`, {
 });
 if (!res.ok) throw new Error(`${res.status} ${(await res.text()).slice(0, 400)}`);
 const out = await res.json();
+if (out.stop_reason === 'max_tokens') throw new Error(`first pass truncated at ${body.max_tokens} output tokens; the model is writing too much`);
 const answer = (out.content ?? []).filter((b) => b.type === 'text').map((b) => b.text).join('');
 const json = firstJson(answer);
 if (!json) throw new Error(`no JSON in response: ${answer.slice(0, 300)}`);
 let { events } = JSON.parse(json);
+
+// Models add fields the schema forbids. Strip them, validate here, and ask once about what is left;
+// anything still invalid is dropped and reported rather than sinking the whole call.
+const ajv = new Ajv({ allErrors: true, strict: false }); addFormats(ajv); ajv.addSchema(schema);
+const validEvent = ajv.getSchema('schema.json#/$defs/event') ?? ajv.compile({ $ref: 'schema.json#/$defs/event' });
+const allowedKeys = new Set(Object.values(schema.$defs).filter((d) => d.properties?.type?.const).flatMap((d) => Object.keys(d.properties)));
+const clean = (e) => Object.fromEntries(Object.entries(e).filter(([k]) => allowedKeys.has(k)));
+const invalidOf = (list) => list.map((e) => (validEvent(e) ? null : ajv.errorsText(validEvent.errors, { separator: '; ' }))).map((err, i) => err && { i, err }).filter(Boolean);
+events = events.map(clean);
+let schemaErrors = invalidOf(events);
+if (schemaErrors.length) {
+  console.log(`${schemaErrors.length} event(s) fail the schema, asking once more`);
+  const r2 = await fetch(`${BASE}/messages`, { method: 'POST',
+    headers: { 'content-type': 'application/json', 'x-api-key': KEY, authorization: `Bearer ${KEY}`, 'anthropic-version': '2023-06-01' },
+    body: JSON.stringify({ ...body, messages: [
+      { role: 'user', content: user },
+      { role: 'assistant', content: JSON.stringify({ events }) },
+      { role: 'user', content: `These events do not match the schema:\n${schemaErrors.map(({ i, err }) => `- event ${i} (${events[i].type} ${events[i].eip ?? events[i].network}): ${err}`).join('\n')}\n\nReturn the full {"events": [...]} again with only the fields the schema defines and valid enum values. Change nothing else.` },
+    ] }) });
+  if (r2.ok) { const j2 = firstJson((await r2.json()).content?.filter((b) => b.type === 'text').map((b) => b.text).join('') ?? ''); if (j2) events = (JSON.parse(j2).events ?? events).map(clean); }
+  schemaErrors = invalidOf(events);
+  if (schemaErrors.length) {
+    console.log(`dropped ${schemaErrors.length} event(s) that still fail the schema:`);
+    for (const { i, err } of schemaErrors) console.log(`  - ${events[i].type} ${events[i].eip ?? events[i].network}: ${err}`);
+    const badIdx = new Set(schemaErrors.map((x) => x.i)); events = events.filter((_, i) => !badIdx.has(i));
+  }
+}
 
 // The register's worth is its provenance, so a quote that cannot be found in the
 // transcript is worse than a missing event. One retry naming the failures, then drop.
@@ -132,7 +162,7 @@ if (failed.length) {
 const call2 = async (systemText, userText) => {
   const r = await fetch(`${BASE}/messages`, { method: 'POST',
     headers: { 'content-type': 'application/json', 'x-api-key': KEY, authorization: `Bearer ${KEY}`, 'anthropic-version': '2023-06-01' },
-    body: JSON.stringify({ model: MODEL, max_tokens: 16000, system: systemText, messages: [{ role: 'user', content: userText }] }) });
+    body: JSON.stringify({ model: MODEL, max_tokens: 32000, system: systemText, messages: [{ role: 'user', content: userText }] }) });
   if (!r.ok) throw new Error(`${r.status} ${(await r.text()).slice(0, 300)}`);
   const j = await r.json();
   return { text: (j.content ?? []).filter((b) => b.type === 'text').map((b) => b.text).join(''), usage: j.usage };
@@ -154,10 +184,14 @@ if (events.length) {
   const next = [];
   events.forEach((e, i) => {
     const v = verdicts.find((x) => x.id === `c${i}` || x.index === i) ?? { verdict: 'keep' };
+    if (v.verdict === 'drop' && /not (in|found in|present in|appear)|absent|cannot be (found|located)|does not appear|no such (quote|span)|not grounded/i.test(v.reason ?? '') && !bad([e]).length) {
+      reviewerNotes.push(`drop overruled (quote is verified in the transcript): ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); next.push(e); return;
+    }
     if (v.verdict === 'drop') { reviewerNotes.push(`dropped: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); return; }
     if (v.verdict === 'fix' && v.event) {
       // The original already passed the quote check; a fix that fails it is worse than no fix.
-      if (bad([v.event]).length) { reviewerNotes.push(`fix rejected (quote not in transcript), kept original: ${e.type} ${e.eip ?? e.network}`); next.push(e); return; }
+      v.event = clean(v.event);
+      if (bad([v.event]).length || !validEvent(v.event)) { reviewerNotes.push(`fix rejected (quote not in transcript or invalid), kept original: ${e.type} ${e.eip ?? e.network}`); next.push(e); return; }
       reviewerNotes.push(`fixed: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); next.push(v.event); return;
     }
     next.push(e);

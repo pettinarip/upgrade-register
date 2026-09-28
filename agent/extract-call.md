@@ -56,6 +56,8 @@ Also: record every PFI the call takes. An EIP becomes `proposed` when its champi
 
 ## Fields
 
+Use only the fields the schema defines. Keep `note` to one short sentence, and only when something needs explaining. No `ref`, `url`, `source` or `reasoning` fields on events.
+
 - `date` is what the event refers to: the decision date for a stage change, the fork date for a fork. It may be less precise than a day (`2027-Q2`, `2026-12`).
 - `confidence`: `high` when the facilitator states the outcome and nobody objects, `medium` when the facilitator states it after a contested discussion or a split poll, `low` when the outcome itself is unclear. Never drop a low-confidence event, flag it.
 - Source is `{ "kind": "call", "ref": "<series>/<number>", "url": "<pm issue url>", "date": "<call date>" }` and `recordedBy` is `"agent"`.
