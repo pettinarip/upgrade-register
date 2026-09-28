@@ -2,7 +2,7 @@
 // Inputs are gathered here and the output is validated here, so the model does one
 // structured job: read the transcript, return events. Works against any
 // Anthropic-compatible endpoint (ANTHROPIC_BASE_URL), including a gateway.
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, unlinkSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { readJson, loadUpgrades } from './lib.mjs';
 
@@ -33,6 +33,7 @@ for (let i = 0; i < lines.length; i++) {
 const transcript = flat.join('\n');
 const tldr = await text(call.tldr);
 
+const file = `upgrades/events/${call.date}-${call.series}-${call.number}.json`;
 const prompt = readFileSync('agent/extract-call.md', 'utf8');
 const resolve = JSON.parse(readFileSync('dist/resolve.json', 'utf8'));
 const schema = JSON.parse(readFileSync('upgrades/schema/schema.json', 'utf8'));
@@ -127,12 +128,12 @@ if (events.length) {
   const cues = flat.map((l) => { const m = l.match(/^(\d+):(\d\d):(\d\d) /); return m ? { s: toSec(`${m[1]}:${m[2]}:${m[3]}`), t: l } : null; }).filter(Boolean);
   const around = (e) => { if (!e.timestamp) return '(no timestamp)'; const c = toSec(e.timestamp); return cues.filter((x) => Math.abs(x.s - c) <= 90).map((x) => x.t).join('\n'); };
   const reviewUser = `Call ${ref} on ${call.date}.\n\n## Current Meta EIP membership per upgrade (stage per EIP)\n${JSON.stringify(metaList)}\n\n## Candidates\n\n` +
-    events.map((e, i) => `### candidate ${i}\n${JSON.stringify(e)}\n\nTranscript within 90s of ${e.timestamp ?? '?'}:\n${around(e)}`).join('\n\n');
+    events.map((e, i) => `### candidate id c${i}\n${JSON.stringify(e)}\n\nTranscript within 90s of ${e.timestamp ?? '?'}:\n${around(e)}`).join('\n\n');
   const rv = await call2(readFileSync('agent/review-call.md', 'utf8'), reviewUser);
   const verdicts = JSON.parse(rv.text.match(/\{[\s\S]*\}/)?.[0] ?? '{"verdicts":[]}').verdicts ?? [];
   const next = [];
   events.forEach((e, i) => {
-    const v = verdicts.find((x) => x.index === i) ?? { verdict: 'keep' };
+    const v = verdicts.find((x) => x.id === `c${i}` || x.index === i) ?? { verdict: 'keep' };
     if (v.verdict === 'drop') { reviewerNotes.push(`dropped: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); return; }
     if (v.verdict === 'fix' && v.event) { reviewerNotes.push(`fixed: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); next.push(v.event); return; }
     next.push(e);
@@ -144,9 +145,13 @@ if (events.length) {
 }
 console.log(`${events.length} events kept, all quotes verified`);
 console.log(`${ref}: ${events.length} event(s), ${out.usage?.input_tokens ?? '?'} in / ${out.usage?.output_tokens ?? '?'} out`);
-if (!events.length) { console.log('NO_EVENTS'); process.exit(0); }
+if (reviewerNotes.length) { console.log('\n### Reviewer notes\n'); for (const n of reviewerNotes) console.log(`- ${n}`); }
+if (!events.length) {
+  // A re-run that finds nothing must retract the old file, or the stale events stay on main.
+  if (existsSync(file)) { unlinkSync(file); console.log(`removed stale ${file}`); }
+  console.log('NO_EVENTS'); process.exit(0);
+}
 
-const file = `upgrades/events/${call.date}-${call.series}-${call.number}.json`;
 writeFileSync(file, JSON.stringify({
   source: { kind: 'call', ref, url: `https://github.com/ethereum/pm/issues/${call.issue}`, date: call.date },
   recordedBy: 'agent', events,
@@ -164,4 +169,3 @@ for (const e of events) {
   const q = (Array.isArray(e.quote) ? e.quote : [e.quote ?? '']).map((x) => `"${x}"`).join(' … ');
   console.log(`- [ ] **${what}** (${e.confidence}) — ${q} ${link(e)}`);
 }
-if (reviewerNotes.length) { console.log('\n### Reviewer notes\n'); for (const n of reviewerNotes) console.log(`- ${n}`); }

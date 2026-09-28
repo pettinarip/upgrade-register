@@ -65,6 +65,7 @@ Nothing under `upgrades/` is hand-written. Bots write the mirrors, cut sheets an
 | `dist/resolve.json` | name-to-id table for agents |
 | `dist/maintenance/backlog.json` | facts lacking a call reference; the agent's work queue, not part of the contract |
 | `dist/maintenance/validation.json` | where the register and upstream disagree; not part of the contract |
+| `dist/maintenance/meta-eip-drift.json` | call decisions the Meta EIP does not reflect yet; not part of the contract |
 
 Every compiled file carries `schemaVersion`, currently `1`, bumped only for a breaking change. The build validates its output against the `dist*` definitions in `upgrades/schema/schema.json` and exits non-zero on a mismatch.
 

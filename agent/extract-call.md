@@ -26,13 +26,13 @@ Record only decisions the call made. Every event carries a verbatim `quote` and 
 - `eip.stage`: an EIP moved to proposed, considered, scheduled, declined, included or withdrawn for a named upgrade. Set `track` to networking or informational when the call says so.
 - `upgrade.headliner`: an EIP was proposed, presented, selected or declined as a headliner.
 - `network.fork`: a fork slot or date for a devnet, testnet or mainnet. Use `estimated` for a target someone is aiming at, `proposed` for a slot put forward, `agreed` once accepted, `activated` once it has happened. Include `epoch`, `slot` or `block` whenever a number is spoken.
-- `upgrade.deadline`: a PFI, CFI or SFI cut-off date stated for an upgrade.
+- `upgrade.deadline`: the date by which EIPs must reach proposed, considered or scheduled for an upgrade. Dates for preference lists, test releases, devnet cuts or spec freezes are not deadlines here.
 
 ## The mistakes to avoid
 
 Each of these has happened. Check every candidate event against all five before you keep it.
 
-**A decision about part of an EIP is not a decision about the EIP.** "We're dropping the SELFDESTRUCT refund change from 8037" leaves 8037 scheduled. Only record a stage change when the whole EIP moves. If a call changes what an EIP contains, that is not an event here.
+**A decision about part of an EIP is not a decision about the EIP.** "We're dropping the SELFDESTRUCT refund change from 8037" and "there's no support for this, we're going ahead with not implementing it" about one mechanism inside 8037 both leave 8037 scheduled. Only record a stage change when the whole EIP moves. Before writing `declined`, ask: is the EIP number leaving the fork, or is one piece of it changing? If the Meta EIP still lists it and the words are about a piece, it is not an event.
 
 **Deferred is not decided.** "Let's CFI 8365 next call", "we'll come back to this", "no objections so far but let's give it a week" are not stage changes. If the facilitator does not close the decision on this call, do not record it.
 

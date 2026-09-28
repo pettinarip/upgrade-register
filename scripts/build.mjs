@@ -75,7 +75,8 @@ const cutRow = ({ id, group, active, genesis, eips, configUrl, specUrl, specs, c
 
 rmSync('dist', { recursive: true, force: true });
 for (const d of ['upgrades', 'eips', 'maintenance']) mkdirSync(join('dist', d), { recursive: true });
-const eipViews = {}, index = [], validation = [];
+const eipViews = {}, index = [], validation = [], drift = [];
+const metaState = readJson('upgrades/mirror/meta-eip-state.json', {});
 
 for (const u of upgrades) {
   const mine = events.filter((e) => e.upgrade === u.id);
@@ -111,6 +112,15 @@ for (const u of upgrades) {
       validation.push({ kind: 'fork-slot-mismatch', upgrade: u.id, network, message: `${network}: register says ${recorded.status} epoch ${recorded.epoch}, ${cfg.url} ships epoch ${shipped.epoch}` });
     if (shipped && !shipped.activated && !recorded)
       validation.push({ kind: 'fork-slot-unrecorded', upgrade: u.id, network, message: `${network}: config ships ${u.name} at epoch ${shipped.epoch} (${shipped.date}) but the register has no decision for it` });
+  }
+  // Call decisions the Meta EIP does not reflect yet: the facilitator's to-do list for Meta EIP PRs,
+  // and where a wrong extraction shows up first. Drift, not error, because the list lags calls.
+  const metaNow = Object.assign({}, ...u.metaEips.map((m) => metaState[m]?.membership ?? {}));
+  for (const [eip, v] of Object.entries(eips)) {
+    const last = v.history[v.history.length - 1];
+    if (!last.sources.some((s) => s.kind === 'call')) continue;
+    const meta = metaNow[eip]?.stage;
+    if (meta && meta !== last.stage) drift.push({ upgrade: u.id, eip: Number(eip), call: last.stage, metaEip: meta, date: last.date, source: last.sources.find((s) => s.kind === 'call')?.ref });
   }
   if (u.type === 'combined' && (!u.layers.execution || !u.layers.consensus))
     validation.push({ kind: 'upgrade-missing-layers', upgrade: u.id, message: `${u.name} has no layer names in all-forks.json` });
@@ -157,6 +167,7 @@ const backlog = events.filter((e) => e.date == null || e.confidence === 'low' ||
   .map((e) => ({ file: e.file, type: e.type, upgrade: e.upgrade, eip: e.eip, network: e.network, value: e.stage ?? e.status ?? e.action, date: e.date, confidence: e.confidence, reason: e.date == null ? 'no date' : e.confidence === 'low' ? 'low confidence' : 'no call reference yet' }));
 maintenance('backlog.json', { count: backlog.length, items: backlog });
 maintenance('validation.json', { count: validation.length, items: validation });
+maintenance('meta-eip-drift.json', { count: drift.length, note: 'call decisions the Meta EIP does not reflect yet; a wrong extraction also lands here', items: drift });
 emit('index.json', 'distIndex', { generatedAt: new Date().toISOString(), upgrades: index, networks: networks.map(({ links, ...n }) => n), devnetGroups: [...new Set(cuts.map((c) => c.group))], events: events.length, eips: Object.keys(eipViews).length });
 
 writeFileSync('dist/index.html', `<!doctype html><meta charset="utf-8"><title>upgrade-register</title>
