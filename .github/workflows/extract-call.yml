@@ -7,9 +7,16 @@ on:
       call:
         description: "Call ref to extract, e.g. acde/245 (empty = oldest pending)"
         required: false
+      model:
+        description: "Model override for this run (empty = repo default)"
+        required: false
+      dry_run:
+        description: "Upload the result as an artifact instead of opening a pull request"
+        type: boolean
+        default: false
 # Bulk-dispatching a batch of calls should queue, not run a dozen agents at once.
 concurrency:
-  group: extract-call
+  group: extract-${{ inputs.dry_run && inputs.model || 'call' }}
   cancel-in-progress: false
 permissions:
   contents: write
@@ -44,11 +51,19 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_BASE_URL: ${{ vars.ANTHROPIC_BASE_URL || 'https://api.anthropic.com/v1' }}
-          EXTRACT_MODEL: ${{ vars.EXTRACT_MODEL || 'claude-sonnet-4-6' }}
+          EXTRACT_MODEL: ${{ inputs.model || vars.EXTRACT_MODEL || 'claude-sonnet-4-6' }}
         run: |
           node scripts/extract-call.mjs "${{ steps.pick.outputs.call }}" | tee /tmp/extract.log
           { echo "body<<EOF"; sed -n '/## Review checklist/,$p' /tmp/extract.log; echo EOF; } >> "$GITHUB_OUTPUT"
-      - if: steps.pick.outputs.call != ''
+      - if: inputs.dry_run && steps.pick.outputs.call != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: dry-run-${{ steps.pick.outputs.call }}
+          path: |
+            upgrades/events/*.json
+            /tmp/extract.log
+          if-no-files-found: ignore
+      - if: ${{ !inputs.dry_run && steps.pick.outputs.call != '' }}
         uses: peter-evans/create-pull-request@v7
         with:
           branch: events/${{ steps.pick.outputs.call }}

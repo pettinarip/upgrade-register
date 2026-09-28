@@ -79,7 +79,7 @@ ${tldr ? `\nPre-call summary (a guide to where to look; the transcript decides):
 Transcript, one line per cue as "H:MM:SS text":
 ${transcript}`;
 
-const body = { model: MODEL, max_tokens: 16000, temperature: 0, system, messages: [{ role: 'user', content: user }] };
+const body = { model: MODEL, max_tokens: 16000, system, messages: [{ role: 'user', content: user }] };
 const res = await fetch(`${BASE}/messages`, {
   method: 'POST',
   headers: { 'content-type': 'application/json', 'x-api-key': KEY, authorization: `Bearer ${KEY}`, 'anthropic-version': '2023-06-01' },
@@ -132,7 +132,7 @@ if (failed.length) {
 const call2 = async (systemText, userText) => {
   const r = await fetch(`${BASE}/messages`, { method: 'POST',
     headers: { 'content-type': 'application/json', 'x-api-key': KEY, authorization: `Bearer ${KEY}`, 'anthropic-version': '2023-06-01' },
-    body: JSON.stringify({ model: MODEL, max_tokens: 16000, temperature: 0, system: systemText, messages: [{ role: 'user', content: userText }] }) });
+    body: JSON.stringify({ model: MODEL, max_tokens: 16000, system: systemText, messages: [{ role: 'user', content: userText }] }) });
   if (!r.ok) throw new Error(`${r.status} ${(await r.text()).slice(0, 300)}`);
   const j = await r.json();
   return { text: (j.content ?? []).filter((b) => b.type === 'text').map((b) => b.text).join(''), usage: j.usage };
