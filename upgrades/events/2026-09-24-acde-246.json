@@ -17,118 +17,104 @@
       "network": "sepolia",
       "status": "agreed",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
-    },
-    {
-      "type": "network.fork",
-      "date": "2026-10-06",
-      "confidence": "high",
-      "quote": "Okay, given all that conversation, Is… it sounds like the, consensus is… We do $200 million at the fork. … Okay. Great. Glad we have solved that. So we will, schedule $200 million at the… at the fork, for Sepolia.",
-      "timestamp": "0:30:08",
-      "upgrade": "glamsterdam",
-      "network": "sepolia",
-      "status": "agreed",
-      "note": "Decision to signal 200M gas limit at the Glamsterdam fork for Sepolia; gas limit trends up via 1/1024 voting mechanism post-fork",
-      "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     },
     {
       "type": "eip.stage",
       "date": "2026-09-24",
       "confidence": "high",
-      "quote": "so 8304 is DFI for Hegota and Joel will continue working on it.",
+      "quote": "So 8304 is DFI for Hegota and Joel will continue working on it.",
       "timestamp": "0:50:04",
       "eip": 8304,
       "upgrade": "hegota",
       "stage": "declined",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     },
     {
       "type": "eip.stage",
       "date": "2026-09-24",
       "confidence": "high",
-      "quote": "We're getting thumbs up on CFI and move forward. Great. Let's see Fi. 7979.",
-      "timestamp": "1:02:43",
+      "quote": "I'm gonna propose that we move it to CFI. Does anybody want to strongly… Oppose that?",
+      "timestamp": "1:02:27",
       "eip": 7979,
       "upgrade": "hegota",
       "stage": "considered",
+      "note": "Facilitator proposed CFI, thumbs up in chat, no opposition. Confirmed at 1:02:43 and 1:02:48 with 'We're getting thumbs up on CFI and move forward. Great. Let's see Fi. 7979.'",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     },
     {
       "type": "eip.stage",
       "date": "2026-09-24",
       "confidence": "high",
-      "quote": "Okay, 8163, is the CFI, then.",
-      "timestamp": "1:06:14",
+      "quote": "Are we okay CFI-ing this?",
+      "timestamp": "1:05:53",
       "eip": 8163,
       "upgrade": "hegota",
       "stage": "considered",
+      "note": "Confirmed at 1:06:14: 'Okay, 8163, is the CFI, then.'",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     },
     {
       "type": "eip.stage",
       "date": "2026-09-24",
       "confidence": "high",
-      "quote": "My proposal is that we leave both of these in PFI. … Okay, I would just leave them. There, then.",
-      "timestamp": "1:16:57",
+      "quote": "My proposal is that we leave both of these in PFI.",
+      "timestamp": "1:16:48",
       "eip": 8368,
       "upgrade": "hegota",
       "stage": "proposed",
-      "note": "Explicitly left as PFI pending at least 30 days of mainnet Glamsterdam data before decision",
+      "note": "Explicitly left in PFI; requires >=30 days of mainnet Glamsterdam data before a decision can be made.",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     },
     {
       "type": "eip.stage",
       "date": "2026-09-24",
       "confidence": "high",
-      "quote": "My proposal is that we leave both of these in PFI. … Okay, I would just leave them. There, then.",
-      "timestamp": "1:16:57",
+      "quote": "My proposal is that we leave both of these in PFI.",
+      "timestamp": "1:16:48",
       "eip": 8372,
       "upgrade": "hegota",
       "stage": "proposed",
-      "note": "Explicitly left as PFI pending at least 30 days of mainnet Glamsterdam data before decision",
+      "note": "Explicitly left in PFI alongside 8368; requires >=30 days of mainnet Glamsterdam data before a decision can be made.",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     },
     {
       "type": "eip.stage",
       "date": "2026-09-24",
       "confidence": "high",
-      "quote": "if there's no opposition, then we can move this to CFI. … Great. Let's move 7906 to CFI and move on to the next one.",
+      "quote": "if there's no opposition, then we can move this to CFI.",
       "timestamp": "1:18:45",
       "eip": 7906,
       "upgrade": "hegota",
       "stage": "considered",
+      "note": "Confirmed at 1:19:07: 'Great. Let's move 7906 to CFI and move on to the next one.'",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     },
     {
       "type": "eip.stage",
       "date": "2026-09-24",
       "confidence": "high",
-      "quote": "Great, then we can move this to CFI. I think this was a Batch of… Account Objection 1, so yeah, 8272 is the other one.",
+      "quote": "Great, then we can move this to CFI.",
       "timestamp": "1:19:46",
       "eip": 8250,
       "upgrade": "hegota",
       "stage": "considered",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
-    },
-    {
-      "type": "eip.stage",
-      "date": "2026-09-24",
-      "confidence": "high",
-      "quote": "Another frame transactions, one recent roots for frame transactions. Makes sense to CFI these. All together. … Moving this one to CFI.",
-      "timestamp": "1:20:35",
-      "eip": 8272,
-      "upgrade": "hegota",
-      "stage": "considered",
-      "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     },
     {
       "type": "eip.stage",
@@ -140,20 +126,8 @@
       "upgrade": "hegota",
       "stage": "considered",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
-    },
-    {
-      "type": "eip.stage",
-      "date": "2026-09-24",
-      "confidence": "high",
-      "quote": "Okay. Let's see if I got one, then.",
-      "timestamp": "1:23:23",
-      "eip": 8253,
-      "upgrade": "hegota",
-      "stage": "considered",
-      "note": "Framed as replacement for EIP-7610 which was SFI'd then DFI'd for Glamsterdam",
-      "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     },
     {
       "type": "eip.stage",
@@ -165,7 +139,8 @@
       "upgrade": "hegota",
       "stage": "considered",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     },
     {
       "type": "eip.stage",
@@ -177,20 +152,22 @@
       "upgrade": "hegota",
       "stage": "considered",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     },
     {
       "type": "eip.stage",
       "date": "2026-09-24",
       "confidence": "high",
-      "quote": "CFI, this one, going once, going twice. CFI.",
-      "timestamp": "1:28:48",
+      "quote": "CFI, this one, going once, going twice.",
+      "timestamp": "1:28:37",
       "eip": 8279,
       "upgrade": "hegota",
       "stage": "considered",
-      "note": "Block access list byte floor EIP CFI'd as a bundle with EIP-8131 per Ansgar and Toni's recommendation that both must go together to price all payload bytes at the floor",
+      "note": "CFI'd as a bundle with EIP-8131; the block access list byte floor EIP. Ansgar and Toni argued both must be done together to price all payload bytes at the floor.",
       "ref": "acde/246",
-      "url": "https://github.com/ethereum/pm/issues/2223"
+      "url": "https://github.com/ethereum/pm/issues/2223",
+      "observedAt": "2026-09-24"
     }
   ]
 }
