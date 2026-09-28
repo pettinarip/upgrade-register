@@ -79,7 +79,7 @@ ${tldr ? `\nPre-call summary (a guide to where to look; the transcript decides):
 Transcript, one line per cue as "H:MM:SS text":
 ${transcript}`;
 
-const body = { model: MODEL, max_tokens: 16000, system, messages: [{ role: 'user', content: user }] };
+const body = { model: MODEL, max_tokens: 16000, temperature: 0, system, messages: [{ role: 'user', content: user }] };
 const res = await fetch(`${BASE}/messages`, {
   method: 'POST',
   headers: { 'content-type': 'application/json', 'x-api-key': KEY, authorization: `Bearer ${KEY}`, 'anthropic-version': '2023-06-01' },
@@ -112,8 +112,12 @@ if (failed.length) {
     ] }),
   });
   if (retry.ok) {
-    const j = firstJson((await retry.json()).content?.filter((b) => b.type === 'text').map((b) => b.text).join(''));
-    if (j) events = JSON.parse(j).events ?? events;
+    const j = firstJson((await retry.json()).content?.filter((b) => b.type === 'text').map((b) => b.text).join('') ?? '');
+    const revised = j ? JSON.parse(j).events ?? [] : [];
+    const key = (e) => `${e.type}|${e.eip ?? e.network}|${e.upgrade}|${e.stage ?? e.status ?? e.action}`;
+    const good = events.filter((e) => !failed.includes(e));
+    const fixedRows = revised.filter((r) => failed.some((f) => key(f) === key(r)) && !good.some((g) => key(g) === key(r)));
+    events = [...good, ...fixedRows];
   }
   failed = bad(events);
 }
@@ -128,13 +132,15 @@ if (failed.length) {
 const call2 = async (systemText, userText) => {
   const r = await fetch(`${BASE}/messages`, { method: 'POST',
     headers: { 'content-type': 'application/json', 'x-api-key': KEY, authorization: `Bearer ${KEY}`, 'anthropic-version': '2023-06-01' },
-    body: JSON.stringify({ model: MODEL, max_tokens: 16000, system: systemText, messages: [{ role: 'user', content: userText }] }) });
+    body: JSON.stringify({ model: MODEL, max_tokens: 16000, temperature: 0, system: systemText, messages: [{ role: 'user', content: userText }] }) });
   if (!r.ok) throw new Error(`${r.status} ${(await r.text()).slice(0, 300)}`);
   const j = await r.json();
   return { text: (j.content ?? []).filter((b) => b.type === 'text').map((b) => b.text).join(''), usage: j.usage };
 };
 const reviewerNotes = [];
+let reviewerRan = false;
 if (events.length) {
+  reviewerRan = true;
   const metaState = readJson('upgrades/mirror/meta-eip-state.json', {});
   const metaList = {};
   for (const u of loadUpgrades()) if (events.some((e) => e.upgrade === u.id)) for (const m of u.metaEips) Object.assign((metaList[u.id] ??= {}), metaState[m]?.membership ?? {});
@@ -161,8 +167,12 @@ console.log(`${events.length} events kept, all quotes verified`);
 console.log(`${ref}: ${events.length} event(s), ${out.usage?.input_tokens ?? '?'} in / ${out.usage?.output_tokens ?? '?'} out`);
 if (reviewerNotes.length) { console.log('\n### Reviewer notes\n'); for (const n of reviewerNotes) console.log(`- ${n}`); }
 if (!events.length) {
-  // A re-run that finds nothing must retract the old file, or the stale events stay on main.
-  if (existsSync(file)) { unlinkSync(file); console.log(`removed stale ${file}`); }
+  // A re-run that finds nothing must retract the old file, or stale events stay on main. But an
+  // empty first pass against a file that has events is more likely variance than a finding.
+  if (existsSync(file)) {
+    if (!reviewerRan) { console.log(`WARNING: nothing survived before review but ${file} exists; leaving it untouched`); process.exit(0); }
+    unlinkSync(file); console.log(`removed stale ${file}`);
+  }
   console.log('NO_EVENTS'); process.exit(0);
 }
 
