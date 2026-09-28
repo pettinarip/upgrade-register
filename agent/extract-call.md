@@ -25,7 +25,7 @@ Record only decisions the call made. Every event carries a verbatim `quote` and 
 
 - `eip.stage`: an EIP moved to proposed, considered, scheduled, declined, included or withdrawn for a named upgrade. Set `track` to networking or informational when the call says so.
 - `upgrade.headliner`: an EIP was proposed, presented, selected or declined as a headliner.
-- `network.fork`: a fork slot or date for a devnet, testnet or mainnet. Use `estimated` for a target someone is aiming at, `proposed` for a slot put forward, `agreed` once accepted, `activated` once it has happened. Include `epoch`, `slot` or `block` whenever a number is spoken.
+- `network.fork`: a fork slot or date for a devnet, testnet or mainnet. Use `estimated` for a target someone is aiming at, `proposed` for a slot put forward, `agreed` once accepted, `activated` once it has happened. Include `epoch`, `slot` or `block` whenever a number is spoken. **A date does not need to be confirmed to be an event.** "The proposal is to fork Sepolia on the 28th", "we're floating Hoodi for end of October, not confirmed yet" are `proposed`. Record them; the later call that confirms or moves the date is a separate event. Only skip a date when no slot or date for the network was actually put forward.
 - `upgrade.deadline`: the date by which EIPs must reach proposed, considered or scheduled for an upgrade. Dates for preference lists, test releases, devnet cuts or spec freezes are not deadlines here.
 
 ## The mistakes to avoid
