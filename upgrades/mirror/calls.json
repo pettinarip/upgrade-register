@@ -2280,6 +2280,18 @@
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acde/2026-09-24_246/tldr.json",
       "transcript": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acde/2026-09-24_246/transcript_corrected.vtt",
       "chat": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acde/2026-09-24_246/chat.txt"
+    },
+    {
+      "ref": "acdt/98",
+      "series": "acdt",
+      "seriesName": "All Core Devs - Testing",
+      "number": 98,
+      "date": "2026-09-28",
+      "issue": 2230,
+      "videoUrl": "https://www.youtube.com/watch?v=-7l2yAQQSm8",
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-09-28_098/tldr.json",
+      "transcript": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-09-28_098/transcript_corrected.vtt",
+      "chat": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-09-28_098/chat.txt"
     }
   ]
 }
