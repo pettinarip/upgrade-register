@@ -13,6 +13,20 @@ const MODEL = process.env.EXTRACT_MODEL ?? 'claude-sonnet-4-6';
 const KEY = process.env.ANTHROPIC_API_KEY;
 if (!KEY) throw new Error('ANTHROPIC_API_KEY is not set');
 
+// Models sometimes wrap JSON in prose or a code fence, or emit two objects. Take the first balanced one.
+const firstJson = (text) => {
+  const start = text.indexOf('{');
+  if (start < 0) return null;
+  let depth = 0, inStr = false, esc = false;
+  for (let i = start; i < text.length; i++) {
+    const ch = text[i];
+    if (inStr) { if (esc) esc = false; else if (ch === '\\') esc = true; else if (ch === '"') inStr = false; continue; }
+    if (ch === '"') inStr = true;
+    else if (ch === '{') depth++;
+    else if (ch === '}' && --depth === 0) return text.slice(start, i + 1);
+  }
+  return null;
+};
 const call = readJson('upgrades/mirror/calls.json').calls.find((c) => c.ref === ref);
 if (!call) throw new Error(`unknown call ${ref}`);
 const text = async (u) => (u ? ((r) => (r.ok ? r.text() : null))(await fetch(u)) : null);
@@ -74,7 +88,7 @@ const res = await fetch(`${BASE}/messages`, {
 if (!res.ok) throw new Error(`${res.status} ${(await res.text()).slice(0, 400)}`);
 const out = await res.json();
 const answer = (out.content ?? []).filter((b) => b.type === 'text').map((b) => b.text).join('');
-const json = answer.match(/\{[\s\S]*\}/)?.[0];
+const json = firstJson(answer);
 if (!json) throw new Error(`no JSON in response: ${answer.slice(0, 300)}`);
 let { events } = JSON.parse(json);
 
@@ -98,7 +112,7 @@ if (failed.length) {
     ] }),
   });
   if (retry.ok) {
-    const j = (await retry.json()).content?.filter((b) => b.type === 'text').map((b) => b.text).join('').match(/\{[\s\S]*\}/)?.[0];
+    const j = firstJson((await retry.json()).content?.filter((b) => b.type === 'text').map((b) => b.text).join(''));
     if (j) events = JSON.parse(j).events ?? events;
   }
   failed = bad(events);
@@ -130,7 +144,7 @@ if (events.length) {
   const reviewUser = `Call ${ref} on ${call.date}.\n\n## Current Meta EIP membership per upgrade (stage per EIP)\n${JSON.stringify(metaList)}\n\n## Candidates\n\n` +
     events.map((e, i) => `### candidate id c${i}\n${JSON.stringify(e)}\n\nTranscript within 90s of ${e.timestamp ?? '?'}:\n${around(e)}`).join('\n\n');
   const rv = await call2(readFileSync('agent/review-call.md', 'utf8'), reviewUser);
-  const verdicts = JSON.parse(rv.text.match(/\{[\s\S]*\}/)?.[0] ?? '{"verdicts":[]}').verdicts ?? [];
+  const verdicts = JSON.parse(firstJson(rv.text) ?? '{"verdicts":[]}').verdicts ?? [];
   const next = [];
   events.forEach((e, i) => {
     const v = verdicts.find((x) => x.id === `c${i}` || x.index === i) ?? { verdict: 'keep' };
