@@ -42,7 +42,7 @@ Each of these has happened. Check every candidate event against all five before 
 
 **A number in a fork conversation is not a fork date.** Gas limits, blob counts, epoch arithmetic and dollar figures come up right next to slot discussions. A `network.fork` event needs a date or slot for the network to fork, stated as such.
 
-Also: record every PFI request the call takes, not only the contested ones. Do not record intentions, "we should", or anything only in the pre-call summary and not in the transcript. Upgrade status is derived by the build, never recorded.
+Also: record every PFI the call takes. An EIP becomes `proposed` when its champion presents it as a candidate for the fork and nobody rejects it; no facilitator ruling is needed for that stage. The stages above `proposed` do need one. Do not record intentions, "we should", or anything only in the pre-call summary and not in the transcript. Upgrade status is derived by the build, never recorded.
 
 ## Quotes
 
