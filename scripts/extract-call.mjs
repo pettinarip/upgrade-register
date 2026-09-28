@@ -4,7 +4,7 @@
 // Anthropic-compatible endpoint (ANTHROPIC_BASE_URL), including a gateway.
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
-import { readJson } from './lib.mjs';
+import { readJson, loadUpgrades } from './lib.mjs';
 
 const ref = process.argv[2];
 if (!ref) throw new Error('usage: node scripts/extract-call.mjs <series>/<number>');
@@ -107,7 +107,42 @@ if (failed.length) {
   for (const e of failed) console.log(`  - ${e.type} ${e.eip ?? e.network} ${JSON.stringify(e.quote)?.slice(0, 120)}`);
   events = events.filter((e) => !failed.includes(e));
 }
-console.log(`${events.filter((e) => spans(e).every((q) => hay.includes(norm(q)))).length}/${events.length} events with verified quotes`);
+// Second pass: a reviewer that argues against each candidate, with the transcript around it
+// and the fork's current Meta EIP list in hand. Judgment stays with the model; the checks
+// above stay in code.
+const call2 = async (systemText, userText) => {
+  const r = await fetch(`${BASE}/messages`, { method: 'POST',
+    headers: { 'content-type': 'application/json', 'x-api-key': KEY, authorization: `Bearer ${KEY}`, 'anthropic-version': '2023-06-01' },
+    body: JSON.stringify({ model: MODEL, max_tokens: 16000, system: systemText, messages: [{ role: 'user', content: userText }] }) });
+  if (!r.ok) throw new Error(`${r.status} ${(await r.text()).slice(0, 300)}`);
+  const j = await r.json();
+  return { text: (j.content ?? []).filter((b) => b.type === 'text').map((b) => b.text).join(''), usage: j.usage };
+};
+const reviewerNotes = [];
+if (events.length) {
+  const metaState = readJson('upgrades/mirror/meta-eip-state.json', {});
+  const metaList = {};
+  for (const u of loadUpgrades()) if (events.some((e) => e.upgrade === u.id)) for (const m of u.metaEips) Object.assign((metaList[u.id] ??= {}), metaState[m]?.membership ?? {});
+  const toSec = (t) => t.split(':').reverse().reduce((a, v, i) => a + Number(v) * 60 ** i, 0);
+  const cues = flat.map((l) => { const m = l.match(/^(\d+):(\d\d):(\d\d) /); return m ? { s: toSec(`${m[1]}:${m[2]}:${m[3]}`), t: l } : null; }).filter(Boolean);
+  const around = (e) => { if (!e.timestamp) return '(no timestamp)'; const c = toSec(e.timestamp); return cues.filter((x) => Math.abs(x.s - c) <= 90).map((x) => x.t).join('\n'); };
+  const reviewUser = `Call ${ref} on ${call.date}.\n\n## Current Meta EIP membership per upgrade (stage per EIP)\n${JSON.stringify(metaList)}\n\n## Candidates\n\n` +
+    events.map((e, i) => `### candidate ${i}\n${JSON.stringify(e)}\n\nTranscript within 90s of ${e.timestamp ?? '?'}:\n${around(e)}`).join('\n\n');
+  const rv = await call2(readFileSync('agent/review-call.md', 'utf8'), reviewUser);
+  const verdicts = JSON.parse(rv.text.match(/\{[\s\S]*\}/)?.[0] ?? '{"verdicts":[]}').verdicts ?? [];
+  const next = [];
+  events.forEach((e, i) => {
+    const v = verdicts.find((x) => x.index === i) ?? { verdict: 'keep' };
+    if (v.verdict === 'drop') { reviewerNotes.push(`dropped: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); return; }
+    if (v.verdict === 'fix' && v.event) { reviewerNotes.push(`fixed: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); next.push(v.event); return; }
+    next.push(e);
+  });
+  const stillBad = bad(next);
+  for (const e of stillBad) reviewerNotes.push(`dropped after review: ${e.type} ${e.eip ?? e.network} — quote not in transcript`);
+  events = next.filter((e) => !stillBad.includes(e));
+  console.log(`reviewer: ${verdicts.filter((v) => v.verdict === 'keep').length} keep, ${verdicts.filter((v) => v.verdict === 'fix').length} fix, ${verdicts.filter((v) => v.verdict === 'drop').length} drop (${rv.usage?.input_tokens ?? '?'} in / ${rv.usage?.output_tokens ?? '?'} out)`);
+}
+console.log(`${events.length} events kept, all quotes verified`);
 console.log(`${ref}: ${events.length} event(s), ${out.usage?.input_tokens ?? '?'} in / ${out.usage?.output_tokens ?? '?'} out`);
 if (!events.length) { console.log('NO_EVENTS'); process.exit(0); }
 
@@ -129,3 +164,4 @@ for (const e of events) {
   const q = (Array.isArray(e.quote) ? e.quote : [e.quote ?? '']).map((x) => `"${x}"`).join(' … ');
   console.log(`- [ ] **${what}** (${e.confidence}) — ${q} ${link(e)}`);
 }
+if (reviewerNotes.length) { console.log('\n### Reviewer notes\n'); for (const n of reviewerNotes) console.log(`- ${n}`); }

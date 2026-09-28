@@ -34,6 +34,7 @@ const metaEips = readJson('upgrades/mirror/meta-eips.json', { metaEips: [] }).me
 const forkConfigs = readJson('upgrades/mirror/fork-configs.json', { configs: {} }).configs;
 
 const upgradeIds = new Set(upgrades.map((u) => u.id));
+const metaEipIds = new Set(upgrades.flatMap((u) => u.metaEips));
 const networkIds = new Set([...networks.map((n) => n.id), ...cuts.map((c) => c.id)]);
 const events = [];
 for (const f of readdirSync('upgrades/events').filter((f) => f.endsWith('.json'))) {
@@ -42,6 +43,7 @@ for (const f of readdirSync('upgrades/events').filter((f) => f.endsWith('.json')
   data.events?.forEach((ev, i) => {
     if (!upgradeIds.has(ev.upgrade)) errors.push(`${file} #${i}: unknown upgrade ${ev.upgrade}`);
     if (ev.type === 'network.fork' && !networkIds.has(ev.network)) errors.push(`${file} #${i}: unknown network ${ev.network}`);
+    if (ev.eip != null && metaEipIds.has(ev.eip)) errors.push(`${file} #${i}: EIP-${ev.eip} is a Hardfork Meta EIP and cannot be the subject of a stage event`);
     events.push({ ...ev, source: data.source, recordedBy: data.recordedBy, file: `upgrades/events/${f}`, observedAt: ev.observedAt ?? data.source.date ?? ev.date });
   });
 }
@@ -60,7 +62,7 @@ function history(list, key) {
   const rows = [];
   for (const e of list) {
     const last = rows[rows.length - 1];
-    if (last && last[key] === e[key] && (last.track ?? 'core') === (e.track ?? 'core') && e.date && last.date && daysApart(e.date, last.date) <= 45 && !last.sources.some((s) => s.kind === e.source.kind && s.ref === (e.ref ?? e.source.ref))) {
+    if (last && last[key] === e[key] && (!e.track || !last.track || last.track === e.track) && e.date && last.date && daysApart(e.date, last.date) <= 45 && !last.sources.some((s) => s.kind === e.source.kind && s.ref === (e.ref ?? e.source.ref))) {
       last.sources.push(src(e));
       if (e.source.kind === 'call') last.date = e.date; // the call is when it was decided
       continue;
@@ -80,7 +82,8 @@ for (const u of upgrades) {
   const eips = {};
   for (const [eip, list] of Object.entries(Object.groupBy(mine.filter((e) => e.type === 'eip.stage'), (e) => e.eip))) {
     const h = history(list, 'stage'), cur = h[h.length - 1];
-    eips[eip] = { eip: Number(eip), title: title(eip), layer: eipMeta[eip]?.layer ?? null, stage: cur.stage, track: cur.track ?? 'core', history: h };
+    // The track comes from the last row that states one; a call row rarely does.
+    eips[eip] = { eip: Number(eip), title: title(eip), layer: eipMeta[eip]?.layer ?? null, stage: cur.stage, track: [...h].reverse().find((r) => r.track)?.track ?? 'core', history: h };
   }
   const headliners = Object.entries(Object.groupBy(mine.filter((e) => e.type === 'upgrade.headliner'), (e) => e.eip)).map(([eip, list]) => ({ eip: Number(eip), title: title(eip), selected: list.some((e) => e.action === 'selected'), history: history(list, 'action') }));
   const deadlines = Object.values(Object.groupBy(mine.filter((e) => e.type === 'upgrade.deadline'), (e) => e.stage)).map((list) => { const h = history([...list].sort(by('observedAt')), 'stage'); const cur = h[h.length - 1]; return { stage: cur.stage, date: cur.date, sources: h.flatMap((r) => r.sources) }; });
