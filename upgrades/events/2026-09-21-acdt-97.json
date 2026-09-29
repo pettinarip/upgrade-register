@@ -16,29 +16,51 @@
       "upgrade": "glamsterdam",
       "network": "sepolia",
       "status": "agreed",
-      "note": "Epoch 353024 mentioned in summary; confirmed on ACDC the previous week and restated here as confirmed."
+      "note": "Client releases due September 29; activation PR merged and awaiting client approvals.",
+      "observedAt": "2026-09-21",
+      "ref": "acdt/97",
+      "url": "https://github.com/ethereum/pm/issues/2225"
     },
     {
       "type": "network.fork",
       "date": "2026-10-27",
       "confidence": "medium",
-      "quote": "Hoodi is tentatively scheduled for the 27th of October. With a go, no-go on October 8th.",
+      "quote": "Hoodi is tentatively scheduled for the 27th of October.",
       "timestamp": "0:30:51",
       "upgrade": "glamsterdam",
       "network": "hoodi",
-      "status": "estimated",
-      "note": "Described as tentative with a go/no-go decision on October 8th."
+      "status": "proposed",
+      "note": "Go/no-go decision set for October 8.",
+      "observedAt": "2026-09-21",
+      "ref": "acdt/97",
+      "url": "https://github.com/ethereum/pm/issues/2225"
     },
     {
       "type": "eip.stage",
       "date": "2026-09-21",
       "confidence": "high",
-      "quote": "8142 was withdrawn by its champion, and… Instead, he's proposed 8411, faster execution broadcast",
+      "quote": "8142 was withdrawn by its champion",
       "timestamp": "0:45:12",
       "eip": 8142,
       "upgrade": "hegota",
-      "stage": "declined",
-      "note": "Champion withdrew EIP-8142; facilitator announced DFI/withdrawal on the call."
+      "stage": "withdrawn",
+      "observedAt": "2026-09-21",
+      "ref": "acdt/97",
+      "url": "https://github.com/ethereum/pm/issues/2225"
+    },
+    {
+      "type": "eip.stage",
+      "date": "2026-09-21",
+      "confidence": "medium",
+      "quote": "Instead, he's proposed 8411, faster execution broadcast",
+      "timestamp": "0:45:17",
+      "eip": 8411,
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "note": "Proposed as replacement for EIP-8142; CL teams asked to add ratings ahead of next ACDC.",
+      "observedAt": "2026-09-21",
+      "ref": "acdt/97",
+      "url": "https://github.com/ethereum/pm/issues/2225"
     }
   ]
 }
