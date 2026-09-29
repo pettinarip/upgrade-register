@@ -1,9 +1,10 @@
 // Compiles every event into dist/. Current state is always the latest history row; nothing
 // here changes data, and disagreements with upstream only go to dist/checks.json.
 
-import { rmSync } from 'node:fs';
+import { rmSync, writeFileSync } from 'node:fs';
 import { subjectKey, validateEvent, VOCABULARY } from './lib/events.mjs';
 import { buildHistory, orderEvents } from './lib/history.mjs';
+import { renderIndexPage } from './lib/index-page.mjs';
 import { jsonFiles, readJson, writeJson } from './lib/io.mjs';
 import { NETWORKS, loadAliases, loadUpgrades } from './lib/registry.mjs';
 
@@ -173,8 +174,10 @@ for (const upgrade of compiled) writeJson(`dist/upgrades/${upgrade.id}.json`, up
 for (const view of eipViews(compiled)) writeJson(`dist/eips/${view.eip}.json`, view);
 writeJson('dist/resolve.json', resolveTable(compiled));
 writeJson('dist/checks.json', { note: 'Where the register differs from the current upstream snapshot. Flags only; nothing is changed.', count: checks.length, checks });
+const generatedAt = new Date().toISOString();
+writeFileSync('dist/index.html', renderIndexPage({ upgrades: compiled, checkCount: checks.length, generatedAt }));
 writeJson('dist/index.json', {
-  generatedAt: new Date().toISOString(),
+  generatedAt,
   upgrades: compiled.map(({ id, name, status, mainnet, eips }) => ({ id, name, status, mainnet: mainnet && { status: mainnet.status, forkDate: mainnet.forkDate }, eips: eips.length })),
   networks: Object.entries(NETWORKS).map(([id, n]) => ({ id, name: n.name })),
 });
