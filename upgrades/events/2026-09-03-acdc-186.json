@@ -16,7 +16,22 @@
       "upgrade": "glamsterdam",
       "network": "sepolia",
       "status": "agreed",
-      "note": "Discussion ran from ~0:23:06; September 28th was also proposed but rejected in favour of October 6th. Hoodi date explicitly deferred to a later call. Source: acdc/186, https://github.com/ethereum/pm/issues/2199",
+      "note": "Chosen over the alternative of September 28th; clients asked to approve the PM pull request.",
+      "observedAt": "2026-09-03",
+      "ref": "acdc/186",
+      "url": "https://github.com/ethereum/pm/issues/2199"
+    },
+    {
+      "type": "network.fork",
+      "date": "2026-10-26",
+      "confidence": "low",
+      "quote": "And support, Hoodi being the 26th of October.",
+      "timestamp": "0:23:27",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "proposed",
+      "note": "Put forward on the testnet-times PR but the Hoodi decision was explicitly deferred, with November 11 floated as an alternative.",
+      "observedAt": "2026-09-03",
       "ref": "acdc/186",
       "url": "https://github.com/ethereum/pm/issues/2199"
     }
