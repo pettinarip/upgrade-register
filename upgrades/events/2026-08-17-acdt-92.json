@@ -8,15 +8,29 @@
   "recordedBy": "agent",
   "events": [
     {
+      "type": "network.fork",
+      "date": "2026-08-20",
+      "confidence": "medium",
+      "upgrade": "glamsterdam",
+      "network": "glamsterdam-devnet-8",
+      "status": "agreed",
+      "quote": [
+        "Thanks, and the upgrade will happen in, like, 2 days, 17 hours, correct?",
+        "Yeah."
+      ],
+      "timestamp": "0:06:03",
+      "note": "Gloas transition on devnet-8 stated as ~2 days 17 hours from the call, i.e. around 2026-08-20."
+    },
+    {
       "type": "eip.stage",
       "date": "2026-08-17",
       "confidence": "medium",
       "eip": 7610,
       "upgrade": "glamsterdam",
       "stage": "declined",
-      "quote": "I will raised this again at, I guess, ACDE in one and a half weeks, by the decision of ACDT that we will remove this EIP from Glamsterdam.",
-      "timestamp": "20:43",
-      "note": "ACDT reached consensus to remove EIP-7610 from Glamsterdam; jochem-brouwer to raise formally at ACDE in ~1.5 weeks for final decision. Geth and Reth already skip the affected tests. Confidence medium because the facilitator explicitly defers the formal decision to ACDE."
+      "quote": "raised this again at, I guess, ACDE in one and a half weeks, by the decision of ACDT that we will remove this EIP from Glamsterdam.",
+      "timestamp": "0:20:33",
+      "note": "ACDT consensus to remove; jochem to take it to ACDE for the formal ruling."
     },
     {
       "type": "eip.stage",
@@ -25,9 +39,12 @@
       "eip": 8253,
       "upgrade": "hegota",
       "stage": "proposed",
-      "quote": "In Hegota, we should include that EIP that bumps the NOSS for those accounts, and just finish with this.",
-      "timestamp": "13:55",
-      "note": "draganrakita proposed EIP-8253 (nonce bump for 28 special mainnet accounts) for Hegota; jochem-brouwer agreed this was the preferred path alongside removing EIP-7610 from Glamsterdam. No formal vote taken on this call; confidence medium."
+      "quote": [
+        "either remove this EIP, or that dragan skips this, this test, and then it includes EIP 8253,",
+        "For Hegota."
+      ],
+      "timestamp": "0:15:41",
+      "note": "Dragan and Gary both supported targeting 8253 at Hegota to close the edge case (0:13:58)."
     }
   ]
 }
