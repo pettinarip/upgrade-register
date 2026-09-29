@@ -1,0 +1,88 @@
+{
+  "events": [
+    {
+      "type": "network.fork",
+      "upgrade": "altair",
+      "network": "hoodi",
+      "status": "activated",
+      "forkDate": "2025-03-17",
+      "epoch": 0,
+      "date": "2025-03-17",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/hoodi/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/hoodi/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "the-merge",
+      "network": "hoodi",
+      "status": "activated",
+      "forkDate": "2025-03-17",
+      "epoch": 0,
+      "date": "2025-03-17",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/hoodi/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/hoodi/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "shapella",
+      "network": "hoodi",
+      "status": "activated",
+      "forkDate": "2025-03-17",
+      "epoch": 0,
+      "date": "2025-03-17",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/hoodi/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/hoodi/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "dencun",
+      "network": "hoodi",
+      "status": "activated",
+      "forkDate": "2025-03-17",
+      "epoch": 0,
+      "date": "2025-03-17",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/hoodi/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/hoodi/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "pectra",
+      "network": "hoodi",
+      "status": "activated",
+      "forkDate": "2025-03-26",
+      "epoch": 2048,
+      "date": "2025-03-26",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/hoodi/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/hoodi/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "fusaka",
+      "network": "hoodi",
+      "status": "activated",
+      "forkDate": "2025-10-28",
+      "epoch": 50688,
+      "date": "2025-10-28",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/hoodi/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/hoodi/blob/main/metadata/config.yaml"
+      }
+    }
+  ]
+}

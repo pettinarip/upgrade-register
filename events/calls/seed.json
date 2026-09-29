@@ -1,0 +1,63 @@
+{
+  "note": "Facts only calls record, still open when the register started (2026-09-29). Every quote was checked against its transcript. Later calls are extracted one PR per call.",
+  "events": [
+    {
+      "type": "upgrade.headliner",
+      "upgrade": "hegota",
+      "eip": 7805,
+      "action": "selected",
+      "date": "2026-02-19",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/175",
+        "url": "https://github.com/ethereum/pm/issues/1930",
+        "quote": "So, FOCIL will be the headliner on the CL side for Hegota.",
+        "timestamp": "0:16:39"
+      }
+    },
+    {
+      "type": "upgrade.deadline",
+      "upgrade": "hegota",
+      "stage": "proposed",
+      "deadline": "2026-08-06",
+      "date": "2026-07-23",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/183",
+        "url": "https://github.com/ethereum/pm/issues/2158",
+        "quote": "the non-headliner submission window closes on the 6th of August",
+        "timestamp": "1:04:11"
+      }
+    },
+    {
+      "type": "upgrade.headliner",
+      "upgrade": "hegota",
+      "eip": 8141,
+      "action": "selected",
+      "date": "2026-09-10",
+      "source": {
+        "kind": "call",
+        "ref": "acde/245",
+        "url": "https://github.com/ethereum/pm/issues/2211",
+        "quote": "decision is made. Frame Transactions is going to be a headliner for Hegota.",
+        "timestamp": "0:24:11"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "proposed",
+      "forkDate": "2026-10-27",
+      "date": "2026-09-17",
+      "note": "Tentative; go/no-go on the ACD of 2026-10-08, after Sepolia forks.",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/187",
+        "url": "https://github.com/ethereum/pm/issues/2222",
+        "quote": "if everything looks good, we go ahead and say yes, Hoodi's happening, say, on the 27th.",
+        "timestamp": "0:33:54"
+      }
+    }
+  ]
+}

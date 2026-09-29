@@ -1,0 +1,1150 @@
+{
+  "metaEip": 8081,
+  "upgrade": "hegota",
+  "events": [
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7805,
+      "stage": "considered",
+      "date": "2025-12-19",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "0226b7b",
+        "url": "https://github.com/ethereum/EIPs/commit/0226b7b2f180ed82286458370f59365166c47284",
+        "note": "Update EIP-8081: Portmanteau selected (Hegota)"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7805,
+      "stage": "scheduled",
+      "date": "2026-02-20",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "2175b81",
+        "url": "https://github.com/ethereum/EIPs/commit/2175b810f3fd7aa07f356e5e9799985ad47d04a5",
+        "note": "Update EIP-8081: move FOCIL to SFI"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7716,
+      "stage": "proposed",
+      "date": "2026-04-30",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "2215c17",
+        "url": "https://github.com/ethereum/EIPs/commit/2215c17cde2c7ee0bb5068f2beb573c4776e92ac",
+        "note": "Update EIP-8081: Add EIP-8141 to CFI; EIP-7716 and EIP-8205 to PFI in Hegotá meta EIP"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8141,
+      "stage": "considered",
+      "date": "2026-04-30",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "2215c17",
+        "url": "https://github.com/ethereum/EIPs/commit/2215c17cde2c7ee0bb5068f2beb573c4776e92ac",
+        "note": "Update EIP-8081: Add EIP-8141 to CFI; EIP-7716 and EIP-8205 to PFI in Hegotá meta EIP"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8205,
+      "stage": "proposed",
+      "date": "2026-04-30",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "2215c17",
+        "url": "https://github.com/ethereum/EIPs/commit/2215c17cde2c7ee0bb5068f2beb573c4776e92ac",
+        "note": "Update EIP-8081: Add EIP-8141 to CFI; EIP-7716 and EIP-8205 to PFI in Hegotá meta EIP"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 4758,
+      "stage": "proposed",
+      "date": "2026-05-22",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "357eb4d",
+        "url": "https://github.com/ethereum/EIPs/commit/357eb4d2cd6210e3517778b123e55d9e9411c9e3",
+        "note": "Update EIP-8081: add EIP-4758"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8188,
+      "stage": "proposed",
+      "date": "2026-05-22",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "be9148d",
+        "url": "https://github.com/ethereum/EIPs/commit/be9148dd97582cc51bd43caf362830f2872fc21f",
+        "note": "Update EIP-8081: add EIP-8188"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8253,
+      "stage": "proposed",
+      "date": "2026-05-25",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "5845a5d",
+        "url": "https://github.com/ethereum/EIPs/commit/5845a5dfe12149f1d5c444335f594dcf603d20e2",
+        "note": "Update EIP-8081: add EIP-8253"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7709,
+      "stage": "proposed",
+      "date": "2026-05-25",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "883c41d",
+        "url": "https://github.com/ethereum/EIPs/commit/883c41d020e101ae2b3e4db21028d0c6a43e8182",
+        "note": "Update EIP-8081: Add EIP-7709 and EIP-8025"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8025,
+      "stage": "proposed",
+      "date": "2026-05-25",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "883c41d",
+        "url": "https://github.com/ethereum/EIPs/commit/883c41d020e101ae2b3e4db21028d0c6a43e8182",
+        "note": "Update EIP-8081: Add EIP-7709 and EIP-8025"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8148,
+      "stage": "proposed",
+      "date": "2026-06-04",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "137011d",
+        "url": "https://github.com/ethereum/EIPs/commit/137011d1535d9a85a3d7176861fee095af38892a",
+        "note": "Update EIP-8081: Propose EIP-8148 for inclusion in Hegotá"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7851,
+      "stage": "proposed",
+      "date": "2026-06-09",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7979,
+      "stage": "proposed",
+      "date": "2026-06-09",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8131,
+      "stage": "proposed",
+      "date": "2026-06-09",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8151,
+      "stage": "proposed",
+      "date": "2026-06-09",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8163,
+      "stage": "proposed",
+      "date": "2026-06-09",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8173,
+      "stage": "proposed",
+      "date": "2026-06-09",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8182,
+      "stage": "proposed",
+      "date": "2026-06-09",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8237,
+      "stage": "proposed",
+      "date": "2026-06-09",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "6e83382",
+        "url": "https://github.com/ethereum/EIPs/commit/6e833827ada359edcdf5f05f5c2547b57ca2eb9e",
+        "note": "Update EIP-8081: add newly PFId EIPs"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8146,
+      "stage": "proposed",
+      "date": "2026-06-17",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "37c28f7",
+        "url": "https://github.com/ethereum/EIPs/commit/37c28f7661b81585d9015b8bedb38dcd0e3cea3c",
+        "note": "Update EIP-8081: PFI EIPs 8131, 8146 and 8250 for Hegota"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8250,
+      "stage": "proposed",
+      "date": "2026-06-17",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "37c28f7",
+        "url": "https://github.com/ethereum/EIPs/commit/37c28f7661b81585d9015b8bedb38dcd0e3cea3c",
+        "note": "Update EIP-8081: PFI EIPs 8131, 8146 and 8250 for Hegota"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8279,
+      "stage": "proposed",
+      "date": "2026-06-26",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "171cece",
+        "url": "https://github.com/ethereum/EIPs/commit/171cece4aed833493f00d976f7053f1db6596fdd",
+        "note": "Update EIP-8081: PFI EIP-8279"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8298,
+      "stage": "proposed",
+      "date": "2026-07-16",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "e5d76e5",
+        "url": "https://github.com/ethereum/EIPs/commit/e5d76e51fbd3a886a7c89e03883b277608ee4ebc",
+        "note": "Update EIP-8081: Propose EIP-8298 for inclusion"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7862,
+      "stage": "proposed",
+      "date": "2026-07-16",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "ed96a02",
+        "url": "https://github.com/ethereum/EIPs/commit/ed96a02e0ff734e4dd6e6ac25c06b986c05b7f9e",
+        "note": "Update EIP-8081: PFI EIP-7862"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8304,
+      "stage": "proposed",
+      "date": "2026-07-17",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "2731764",
+        "url": "https://github.com/ethereum/EIPs/commit/2731764b142583055b012e3118fb56ef46c3b65a",
+        "note": "Update EIP-8081: Add EIP-8304 as PFI"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8272,
+      "stage": "proposed",
+      "date": "2026-07-19",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "e197522",
+        "url": "https://github.com/ethereum/EIPs/commit/e19752239c6cbe44a841cf1736d87d52de4dcd86",
+        "note": "Update EIP-8081: propose EIP-8272 for Hegotá"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 2488,
+      "stage": "proposed",
+      "date": "2026-07-20",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "3beda78",
+        "url": "https://github.com/ethereum/EIPs/commit/3beda786ed6d50143b386e0fe44fcaa81e69525c",
+        "note": "Update EIP-8081: Propose EIP-2488 and EIP-7645 for inclusion"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7645,
+      "stage": "proposed",
+      "date": "2026-07-20",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "3beda78",
+        "url": "https://github.com/ethereum/EIPs/commit/3beda786ed6d50143b386e0fe44fcaa81e69525c",
+        "note": "Update EIP-8081: Propose EIP-2488 and EIP-7645 for inclusion"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8268,
+      "stage": "proposed",
+      "date": "2026-07-20",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "625ec78",
+        "url": "https://github.com/ethereum/EIPs/commit/625ec7821972c0888b03307e8c76b1963bc8a63e",
+        "note": "Update EIP-8081: PFI EIP-8268"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8015,
+      "stage": "proposed",
+      "date": "2026-07-26",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "345cca8",
+        "url": "https://github.com/ethereum/EIPs/commit/345cca82fec46575c3bf0521f025699f1d0c382d",
+        "note": "Update EIP-8081: Propose EIP-8015 for inclusion"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8115,
+      "stage": "proposed",
+      "date": "2026-07-30",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "0a941be",
+        "url": "https://github.com/ethereum/EIPs/commit/0a941beaafff425f59c902f2eb27b49bf4eb3de1",
+        "note": "Update EIP-8081: Propose EIP-8115 for inclusion"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7807,
+      "stage": "proposed",
+      "date": "2026-07-30",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "4cf894a",
+        "url": "https://github.com/ethereum/EIPs/commit/4cf894a308cd63e2fc7a2903188ef27af256fe28",
+        "note": "Update EIP-8081: Propose EIP-7807 for inclusion"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8116,
+      "stage": "proposed",
+      "date": "2026-07-30",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "e045b21",
+        "url": "https://github.com/ethereum/EIPs/commit/e045b2118fc65b2af40aa6dd5f24c75216899414",
+        "note": "Update EIP-8081: Propose EIP-8116 for inclusion"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7906,
+      "stage": "proposed",
+      "date": "2026-07-30",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "e14c90b",
+        "url": "https://github.com/ethereum/EIPs/commit/e14c90bcf3dd6195bba9455d05c90c9d7c23a8b6",
+        "note": "Update EIP-8081: PFI EIP-7906"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7668,
+      "stage": "proposed",
+      "date": "2026-07-30",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "05469aa",
+        "url": "https://github.com/ethereum/EIPs/commit/05469aa96bf65b532b6239d37c1a5d8b2eca15e6",
+        "note": "Update EIP-8081: PFI EIP-7668"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7819,
+      "stage": "proposed",
+      "date": "2026-08-04",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "7341dfa",
+        "url": "https://github.com/ethereum/EIPs/commit/7341dfa3186f7ad4f0e63d0c038c131c0529507f",
+        "note": "Update EIP-8081: Propose EIP-7819 for inclusion in Hegota"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7666,
+      "stage": "proposed",
+      "date": "2026-08-04",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "72a8f0a",
+        "url": "https://github.com/ethereum/EIPs/commit/72a8f0a725561d350a0da759beaf28a8a39a7d64",
+        "note": "Update EIP-8081: PFI EIP-8200 & EIP-7666"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8200,
+      "stage": "proposed",
+      "date": "2026-08-04",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "72a8f0a",
+        "url": "https://github.com/ethereum/EIPs/commit/72a8f0a725561d350a0da759beaf28a8a39a7d64",
+        "note": "Update EIP-8081: PFI EIP-8200 & EIP-7666"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8243,
+      "stage": "proposed",
+      "date": "2026-08-06",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "1b63195",
+        "url": "https://github.com/ethereum/EIPs/commit/1b63195831b9b6edbe4b2bb0115b078a10afed96",
+        "note": "Update EIP-8081: Propose EIP-8243 for inclusion"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8333,
+      "stage": "proposed",
+      "date": "2026-08-07",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "e18e618",
+        "url": "https://github.com/ethereum/EIPs/commit/e18e618c4214bab35c755e7bbd00d7961816e251",
+        "note": "Update EIP-8081: Propose EIP-8333 for inclusion"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 3298,
+      "stage": "proposed",
+      "date": "2026-08-20",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "4e203d1",
+        "url": "https://github.com/ethereum/EIPs/commit/4e203d1911dc7728bf6edd548f545e120eb6675e",
+        "note": "Update EIP-8081: PFI EIP-5920 and EIP-7923"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 5920,
+      "stage": "proposed",
+      "date": "2026-08-20",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "4e203d1",
+        "url": "https://github.com/ethereum/EIPs/commit/4e203d1911dc7728bf6edd548f545e120eb6675e",
+        "note": "Update EIP-8081: PFI EIP-5920 and EIP-7923"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7923,
+      "stage": "proposed",
+      "date": "2026-08-20",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "4e203d1",
+        "url": "https://github.com/ethereum/EIPs/commit/4e203d1911dc7728bf6edd548f545e120eb6675e",
+        "note": "Update EIP-8081: PFI EIP-5920 and EIP-7923"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8363,
+      "stage": "proposed",
+      "date": "2026-08-21",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "275bc16",
+        "url": "https://github.com/ethereum/EIPs/commit/275bc1631a855bca7b8c9b162e68e4d8dab5043b",
+        "note": "Update EIP-8081: PFI EIP-8361"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8077,
+      "stage": "proposed",
+      "date": "2026-08-21",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "5578fa8",
+        "url": "https://github.com/ethereum/EIPs/commit/5578fa85212631cd59d9b2a53de99bda45b4b175",
+        "note": "Update EIP-8081: remove 8268, add 8077, 8094, 8372"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8094,
+      "stage": "proposed",
+      "date": "2026-08-21",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "5578fa8",
+        "url": "https://github.com/ethereum/EIPs/commit/5578fa85212631cd59d9b2a53de99bda45b4b175",
+        "note": "Update EIP-8081: remove 8268, add 8077, 8094, 8372"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8268,
+      "stage": "removed",
+      "date": "2026-08-21",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "5578fa8",
+        "url": "https://github.com/ethereum/EIPs/commit/5578fa85212631cd59d9b2a53de99bda45b4b175",
+        "note": "Update EIP-8081: remove 8268, add 8077, 8094, 8372"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8372,
+      "stage": "proposed",
+      "date": "2026-08-21",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "5578fa8",
+        "url": "https://github.com/ethereum/EIPs/commit/5578fa85212631cd59d9b2a53de99bda45b4b175",
+        "note": "Update EIP-8081: remove 8268, add 8077, 8094, 8372"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8368,
+      "stage": "proposed",
+      "date": "2026-08-25",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "ac450a4",
+        "url": "https://github.com/ethereum/EIPs/commit/ac450a4ab2f37387385ee9c54b62f518d97e6cc9",
+        "note": "Update EIP-8081: PFI EIP-8368"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8141,
+      "stage": "scheduled",
+      "date": "2026-08-27",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "e400af2",
+        "url": "https://github.com/ethereum/EIPs/commit/e400af2874d6728bfd369f1851c24f250c8825f7",
+        "note": "Update EIP-8081: SFI EIP-8141"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8142,
+      "stage": "proposed",
+      "date": "2026-09-02",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "84cc044",
+        "url": "https://github.com/ethereum/EIPs/commit/84cc044fe46b063d4efcbd81d229e03312f726cc",
+        "note": "Update EIP-8081: Add new EIPs to the list in eip-8081.md"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8198,
+      "stage": "proposed",
+      "date": "2026-09-02",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "84cc044",
+        "url": "https://github.com/ethereum/EIPs/commit/84cc044fe46b063d4efcbd81d229e03312f726cc",
+        "note": "Update EIP-8081: Add new EIPs to the list in eip-8081.md"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8321,
+      "stage": "proposed",
+      "date": "2026-09-02",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "84cc044",
+        "url": "https://github.com/ethereum/EIPs/commit/84cc044fe46b063d4efcbd81d229e03312f726cc",
+        "note": "Update EIP-8081: Add new EIPs to the list in eip-8081.md"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8369,
+      "stage": "proposed",
+      "date": "2026-09-02",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "84cc044",
+        "url": "https://github.com/ethereum/EIPs/commit/84cc044fe46b063d4efcbd81d229e03312f726cc",
+        "note": "Update EIP-8081: Add new EIPs to the list in eip-8081.md"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8371,
+      "stage": "proposed",
+      "date": "2026-09-02",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "84cc044",
+        "url": "https://github.com/ethereum/EIPs/commit/84cc044fe46b063d4efcbd81d229e03312f726cc",
+        "note": "Update EIP-8081: Add new EIPs to the list in eip-8081.md"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8355,
+      "stage": "proposed",
+      "date": "2026-09-02",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "260de0b",
+        "url": "https://github.com/ethereum/EIPs/commit/260de0b47ee34d8afd5e9b2314a5679e3ee3725e",
+        "note": "Update EIP-8081: Frame Transaction"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 2488,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7645,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7807,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7819,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7851,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7862,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7923,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8094,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8115,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8182,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8188,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8200,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "aad37d7",
+        "url": "https://github.com/ethereum/EIPs/commit/aad37d71f92291e4bec2966057a6b8e0287d9e2b",
+        "note": "Update EIP-8081: DFI decisions from ACDE245"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8379,
+      "stage": "proposed",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "9d98cc7",
+        "url": "https://github.com/ethereum/EIPs/commit/9d98cc796ddb1f895ef638d4d64c5f52092f75f9",
+        "note": "Update EIP-8081: Add 8379"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8219,
+      "stage": "declined",
+      "date": "2026-09-14",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "7c073a9",
+        "url": "https://github.com/ethereum/EIPs/commit/7c073a9d83c6e39f4ee14a71acbb513e2b987c12",
+        "note": "Update EIP-8081: DFI 8219"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8015,
+      "stage": "considered",
+      "date": "2026-09-21",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "24c0edb",
+        "url": "https://github.com/ethereum/EIPs/commit/24c0edb17b82cb65f26d29f03e084637ec2ae2d4",
+        "note": "Update EIP-8081: Decisions from ACDC187"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8146,
+      "stage": "declined",
+      "date": "2026-09-21",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "24c0edb",
+        "url": "https://github.com/ethereum/EIPs/commit/24c0edb17b82cb65f26d29f03e084637ec2ae2d4",
+        "note": "Update EIP-8081: Decisions from ACDC187"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8237,
+      "stage": "declined",
+      "date": "2026-09-21",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "24c0edb",
+        "url": "https://github.com/ethereum/EIPs/commit/24c0edb17b82cb65f26d29f03e084637ec2ae2d4",
+        "note": "Update EIP-8081: Decisions from ACDC187"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8243,
+      "stage": "declined",
+      "date": "2026-09-21",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "24c0edb",
+        "url": "https://github.com/ethereum/EIPs/commit/24c0edb17b82cb65f26d29f03e084637ec2ae2d4",
+        "note": "Update EIP-8081: Decisions from ACDC187"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8321,
+      "stage": "declined",
+      "date": "2026-09-21",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "24c0edb",
+        "url": "https://github.com/ethereum/EIPs/commit/24c0edb17b82cb65f26d29f03e084637ec2ae2d4",
+        "note": "Update EIP-8081: Decisions from ACDC187"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8365,
+      "stage": "proposed",
+      "date": "2026-09-21",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "24c0edb",
+        "url": "https://github.com/ethereum/EIPs/commit/24c0edb17b82cb65f26d29f03e084637ec2ae2d4",
+        "note": "Update EIP-8081: Decisions from ACDC187"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8383,
+      "stage": "proposed",
+      "date": "2026-09-23",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "10bc64e",
+        "url": "https://github.com/ethereum/EIPs/commit/10bc64e2ea592ac7ec8ee87812ca8a8955a68bac",
+        "note": "Update EIP-8081: add EIP-8383 to PFI'd"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 3298,
+      "stage": "considered",
+      "date": "2026-09-24",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "95176db",
+        "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
+        "note": "Update EIP-8081: Decisions from ACDE246"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7668,
+      "stage": "considered",
+      "date": "2026-09-24",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "95176db",
+        "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
+        "note": "Update EIP-8081: Decisions from ACDE246"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7906,
+      "stage": "considered",
+      "date": "2026-09-24",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "95176db",
+        "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
+        "note": "Update EIP-8081: Decisions from ACDE246"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7979,
+      "stage": "considered",
+      "date": "2026-09-24",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "95176db",
+        "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
+        "note": "Update EIP-8081: Decisions from ACDE246"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8131,
+      "stage": "considered",
+      "date": "2026-09-24",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "95176db",
+        "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
+        "note": "Update EIP-8081: Decisions from ACDE246"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8163,
+      "stage": "considered",
+      "date": "2026-09-24",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "95176db",
+        "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
+        "note": "Update EIP-8081: Decisions from ACDE246"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8250,
+      "stage": "considered",
+      "date": "2026-09-24",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "95176db",
+        "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
+        "note": "Update EIP-8081: Decisions from ACDE246"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8253,
+      "stage": "considered",
+      "date": "2026-09-24",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "95176db",
+        "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
+        "note": "Update EIP-8081: Decisions from ACDE246"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8272,
+      "stage": "considered",
+      "date": "2026-09-24",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "95176db",
+        "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
+        "note": "Update EIP-8081: Decisions from ACDE246"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8279,
+      "stage": "considered",
+      "date": "2026-09-24",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "95176db",
+        "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
+        "note": "Update EIP-8081: Decisions from ACDE246"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8304,
+      "stage": "declined",
+      "date": "2026-09-24",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "95176db",
+        "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
+        "note": "Update EIP-8081: Decisions from ACDE246"
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "events": [
+    {
+      "type": "network.fork",
+      "upgrade": "altair",
+      "network": "sepolia",
+      "status": "activated",
+      "forkDate": "2022-06-20",
+      "epoch": 50,
+      "date": "2022-06-20",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/sepolia/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/sepolia/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "the-merge",
+      "network": "sepolia",
+      "status": "activated",
+      "forkDate": "2022-06-21",
+      "epoch": 100,
+      "date": "2022-06-21",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/sepolia/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/sepolia/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "shapella",
+      "network": "sepolia",
+      "status": "activated",
+      "forkDate": "2023-02-28",
+      "epoch": 56832,
+      "date": "2023-02-28",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/sepolia/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/sepolia/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "dencun",
+      "network": "sepolia",
+      "status": "activated",
+      "forkDate": "2024-01-30",
+      "epoch": 132608,
+      "date": "2024-01-30",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/sepolia/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/sepolia/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "pectra",
+      "network": "sepolia",
+      "status": "activated",
+      "forkDate": "2025-03-05",
+      "epoch": 222464,
+      "date": "2025-03-05",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/sepolia/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/sepolia/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "fusaka",
+      "network": "sepolia",
+      "status": "activated",
+      "forkDate": "2025-10-14",
+      "epoch": 272640,
+      "date": "2025-10-14",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/sepolia/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/sepolia/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "glamsterdam",
+      "network": "sepolia",
+      "status": "agreed",
+      "forkDate": "2026-10-06",
+      "epoch": 353024,
+      "date": "2026-09-24",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/sepolia/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/sepolia/blob/main/metadata/config.yaml"
+      }
+    }
+  ]
+}

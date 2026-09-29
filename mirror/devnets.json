@@ -1,0 +1,653 @@
+{
+  "source": "https://ethpandaops-platform-production-cartographoor.ams3.digitaloceanspaces.com/networks.json",
+  "devnets": [
+    {
+      "id": "bal-devnet-0",
+      "group": "bal",
+      "active": false,
+      "genesis": "2025-11-04",
+      "configUrl": "https://github.com/ethpandaops/bal-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/bal-devnet-0"
+    },
+    {
+      "id": "bal-devnet-1",
+      "group": "bal",
+      "active": false,
+      "genesis": "2025-12-18",
+      "configUrl": "https://github.com/ethpandaops/bal-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/bal-devnet-1"
+    },
+    {
+      "id": "bal-devnet-2",
+      "group": "bal",
+      "active": false,
+      "genesis": "2026-02-06",
+      "configUrl": "https://github.com/ethpandaops/bal-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/bal-devnet-2"
+    },
+    {
+      "id": "bal-devnet-3",
+      "group": "bal",
+      "active": false,
+      "genesis": "2026-04-08",
+      "configUrl": "https://github.com/ethpandaops/bal-devnets/blob/master/network-configs/devnet-3/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/bal-devnet-3"
+    },
+    {
+      "id": "bal-devnet-5",
+      "group": "bal",
+      "active": false,
+      "genesis": "2026-04-29",
+      "configUrl": "https://github.com/ethpandaops/bal-devnets/blob/master/network-configs/devnet-5/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/bal-devnet-5"
+    },
+    {
+      "id": "bal-devnet-6",
+      "group": "bal",
+      "active": false,
+      "genesis": "2026-05-01",
+      "configUrl": "https://github.com/ethpandaops/bal-devnets/blob/master/network-configs/devnet-6/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/bal-devnet-6"
+    },
+    {
+      "id": "bal-devnet-7",
+      "group": "bal",
+      "active": false,
+      "genesis": "2026-05-19",
+      "configUrl": "https://github.com/ethpandaops/bal-devnets/blob/master/network-configs/devnet-7/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/bal-devnet-7"
+    },
+    {
+      "id": "berlinterop-devnet-2",
+      "group": "berlinterop",
+      "active": false,
+      "genesis": "2025-06-13",
+      "configUrl": "https://github.com/ethpandaops/berlinterop-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/berlinterop-devnet-2"
+    },
+    {
+      "id": "blob-devnet-0",
+      "group": "blob",
+      "active": false,
+      "genesis": "2026-01-21",
+      "configUrl": "https://github.com/ethpandaops/blob-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/blob-devnet-0"
+    },
+    {
+      "id": "dencun-devnet-4",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-4"
+    },
+    {
+      "id": "dencun-devnet-5",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-5"
+    },
+    {
+      "id": "dencun-devnet-6",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-6"
+    },
+    {
+      "id": "dencun-devnet-7",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-7"
+    },
+    {
+      "id": "dencun-devnet-8",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-8"
+    },
+    {
+      "id": "dencun-devnet-9",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-9"
+    },
+    {
+      "id": "dencun-devnet-10",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-10"
+    },
+    {
+      "id": "dencun-devnet-11",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-11"
+    },
+    {
+      "id": "dencun-devnet-12",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-12"
+    },
+    {
+      "id": "dencun-devnet-p",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-devnet-p"
+    },
+    {
+      "id": "dencun-gsf-1",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-gsf-1"
+    },
+    {
+      "id": "dencun-gsf-2",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-gsf-2"
+    },
+    {
+      "id": "dencun-msf-1",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-msf-1"
+    },
+    {
+      "id": "dencun-sepolia-sf1",
+      "group": "dencun",
+      "active": false,
+      "genesis": null,
+      "configUrl": null,
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/dencun-sepolia-sf1"
+    },
+    {
+      "id": "eof-devnet-0",
+      "group": "eof",
+      "active": false,
+      "genesis": "2025-02-12",
+      "configUrl": "https://github.com/ethpandaops/eof-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/eof-devnet-0"
+    },
+    {
+      "id": "epbs-devnet-0",
+      "group": "epbs",
+      "active": false,
+      "genesis": "2026-03-04",
+      "configUrl": "https://github.com/ethpandaops/epbs-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/epbs-devnet-0"
+    },
+    {
+      "id": "epbs-devnet-1",
+      "group": "epbs",
+      "active": false,
+      "genesis": "2026-03-31",
+      "configUrl": "https://github.com/ethpandaops/epbs-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/epbs-devnet-1"
+    },
+    {
+      "id": "frames-devnet-0",
+      "group": "frames",
+      "active": true,
+      "genesis": "2026-09-24",
+      "configUrl": "https://github.com/ethpandaops/frames-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/frames-devnet-0"
+    },
+    {
+      "id": "fusaka-devnet-0",
+      "group": "fusaka",
+      "active": false,
+      "genesis": "2025-05-26",
+      "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-devnet-0"
+    },
+    {
+      "id": "fusaka-devnet-1",
+      "group": "fusaka",
+      "active": false,
+      "genesis": "2025-06-09",
+      "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-devnet-1"
+    },
+    {
+      "id": "fusaka-devnet-2",
+      "group": "fusaka",
+      "active": false,
+      "genesis": "2025-06-26",
+      "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-devnet-2"
+    },
+    {
+      "id": "fusaka-devnet-3",
+      "group": "fusaka",
+      "active": false,
+      "genesis": "2025-07-23",
+      "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/devnet-3/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-devnet-3"
+    },
+    {
+      "id": "fusaka-devnet-4",
+      "group": "fusaka",
+      "active": false,
+      "genesis": "2025-08-08",
+      "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/devnet-4/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-devnet-4"
+    },
+    {
+      "id": "fusaka-devnet-5",
+      "group": "fusaka",
+      "active": false,
+      "genesis": "2025-09-10",
+      "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/devnet-5/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-devnet-5"
+    },
+    {
+      "id": "fusaka-holsf-0",
+      "group": "fusaka",
+      "active": false,
+      "genesis": "2025-09-26",
+      "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/holsf-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-holsf-0"
+    },
+    {
+      "id": "fusaka-holsf-1",
+      "group": "fusaka",
+      "active": false,
+      "genesis": "2025-09-29",
+      "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/holsf-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-holsf-1"
+    },
+    {
+      "id": "fusaka-msf-0",
+      "group": "fusaka",
+      "active": false,
+      "genesis": "2025-11-11",
+      "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/msf-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-msf-0"
+    },
+    {
+      "id": "fusaka-msf-1",
+      "group": "fusaka",
+      "active": false,
+      "genesis": "2025-11-26",
+      "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/msf-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-msf-1"
+    },
+    {
+      "id": "fusaka-sepsf-0",
+      "group": "fusaka",
+      "active": false,
+      "genesis": "2025-10-09",
+      "configUrl": "https://github.com/ethpandaops/fusaka-devnets/blob/master/network-configs/sepsf-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/fusaka-sepsf-0"
+    },
+    {
+      "id": "glamsterdam-devnet-2",
+      "group": "glamsterdam",
+      "active": false,
+      "genesis": "2026-05-01",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-2"
+    },
+    {
+      "id": "glamsterdam-devnet-3",
+      "group": "glamsterdam",
+      "active": false,
+      "genesis": "2026-05-06",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-3/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-3"
+    },
+    {
+      "id": "glamsterdam-devnet-4",
+      "group": "glamsterdam",
+      "active": false,
+      "genesis": "2026-05-22",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-4/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-4"
+    },
+    {
+      "id": "glamsterdam-devnet-5",
+      "group": "glamsterdam",
+      "active": false,
+      "genesis": "2026-06-04",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-5/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-5"
+    },
+    {
+      "id": "glamsterdam-devnet-6",
+      "group": "glamsterdam",
+      "active": false,
+      "genesis": "2026-06-25",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-6/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-6"
+    },
+    {
+      "id": "glamsterdam-devnet-7",
+      "group": "glamsterdam",
+      "active": false,
+      "genesis": "2026-07-14",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-7/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-7"
+    },
+    {
+      "id": "glamsterdam-devnet-8",
+      "group": "glamsterdam",
+      "active": true,
+      "genesis": "2026-08-13",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-8/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-8"
+    },
+    {
+      "id": "glamsterdam-devnet-9",
+      "group": "glamsterdam",
+      "active": false,
+      "genesis": "2026-09-01",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-9/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-9"
+    },
+    {
+      "id": "glamsterdam-devnet-10",
+      "group": "glamsterdam",
+      "active": false,
+      "genesis": "2026-09-05",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-10/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-10"
+    },
+    {
+      "id": "glamsterdam-devnet-11",
+      "group": "glamsterdam",
+      "active": false,
+      "genesis": "2026-09-09",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-11/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-11"
+    },
+    {
+      "id": "mekong-devnet-0",
+      "group": "mekong",
+      "active": false,
+      "genesis": "2024-11-05",
+      "configUrl": "https://github.com/ethpandaops/mekong-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/mekong-devnet-0"
+    },
+    {
+      "id": "nft-devnet-0",
+      "group": "nft",
+      "active": false,
+      "genesis": "2024-11-22",
+      "configUrl": "https://github.com/ethpandaops/nft-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/nft-devnet-0"
+    },
+    {
+      "id": "nft-devnet-2",
+      "group": "nft",
+      "active": false,
+      "genesis": "2025-05-09",
+      "configUrl": "https://github.com/ethpandaops/nft-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/nft-devnet-2"
+    },
+    {
+      "id": "nft-devnet-3",
+      "group": "nft",
+      "active": false,
+      "genesis": "2025-05-13",
+      "configUrl": "https://github.com/ethpandaops/nft-devnets/blob/master/network-configs/devnet-3/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/nft-devnet-3"
+    },
+    {
+      "id": "nft-devnet-4",
+      "group": "nft",
+      "active": false,
+      "genesis": "2025-05-13",
+      "configUrl": "https://github.com/ethpandaops/nft-devnets/blob/master/network-configs/devnet-4/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/nft-devnet-4"
+    },
+    {
+      "id": "nft-devnet-5",
+      "group": "nft",
+      "active": false,
+      "genesis": "2025-05-14",
+      "configUrl": "https://github.com/ethpandaops/nft-devnets/blob/master/network-configs/devnet-5/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/nft-devnet-5"
+    },
+    {
+      "id": "nft-devnet-6",
+      "group": "nft",
+      "active": false,
+      "genesis": "2025-05-14",
+      "configUrl": "https://github.com/ethpandaops/nft-devnets/blob/master/network-configs/devnet-6/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/nft-devnet-6"
+    },
+    {
+      "id": "nft-devnet-7",
+      "group": "nft",
+      "active": false,
+      "genesis": "2025-05-14",
+      "configUrl": "https://github.com/ethpandaops/nft-devnets/blob/master/network-configs/devnet-7/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/nft-devnet-7"
+    },
+    {
+      "id": "nft-devnet-8",
+      "group": "nft",
+      "active": false,
+      "genesis": "2025-08-01",
+      "configUrl": "https://github.com/ethpandaops/nft-devnets/blob/master/network-configs/devnet-8/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/nft-devnet-8"
+    },
+    {
+      "id": "nft-devnet-9",
+      "group": "nft",
+      "active": false,
+      "genesis": "2025-08-26",
+      "configUrl": "https://github.com/ethpandaops/nft-devnets/blob/master/network-configs/devnet-9/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/nft-devnet-9"
+    },
+    {
+      "id": "nft-devnet-10",
+      "group": "nft",
+      "active": false,
+      "genesis": "2026-02-10",
+      "configUrl": "https://github.com/ethpandaops/nft-devnets/blob/master/network-configs/devnet-10/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/nft-devnet-10"
+    },
+    {
+      "id": "pectra-devnet-0",
+      "group": "pectra",
+      "active": false,
+      "genesis": "2024-05-17",
+      "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-devnet-0"
+    },
+    {
+      "id": "pectra-devnet-1",
+      "group": "pectra",
+      "active": false,
+      "genesis": "2024-07-23",
+      "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-devnet-1"
+    },
+    {
+      "id": "pectra-devnet-2",
+      "group": "pectra",
+      "active": false,
+      "genesis": "2024-07-30",
+      "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-devnet-2"
+    },
+    {
+      "id": "pectra-devnet-3",
+      "group": "pectra",
+      "active": false,
+      "genesis": "2024-09-11",
+      "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/devnet-3/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-devnet-3"
+    },
+    {
+      "id": "pectra-devnet-4",
+      "group": "pectra",
+      "active": false,
+      "genesis": "2024-10-18",
+      "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/devnet-4/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-devnet-4"
+    },
+    {
+      "id": "pectra-devnet-5",
+      "group": "pectra",
+      "active": false,
+      "genesis": "2025-01-16",
+      "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/devnet-5/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-devnet-5"
+    },
+    {
+      "id": "pectra-devnet-6",
+      "group": "pectra",
+      "active": false,
+      "genesis": "2025-02-03",
+      "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/devnet-6/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-devnet-6"
+    },
+    {
+      "id": "pectra-devnet-7",
+      "group": "pectra",
+      "active": false,
+      "genesis": "2025-02-26",
+      "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/devnet-7/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-devnet-7"
+    },
+    {
+      "id": "pectra-msf-1",
+      "group": "pectra",
+      "active": false,
+      "genesis": "2025-04-28",
+      "configUrl": "https://github.com/ethpandaops/pectra-devnets/blob/master/network-configs/msf-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/pectra-msf-1"
+    },
+    {
+      "id": "peerdas-devnet-0",
+      "group": "peerdas",
+      "active": false,
+      "genesis": "2024-05-16",
+      "configUrl": "https://github.com/ethpandaops/peerdas-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/peerdas-devnet-0"
+    },
+    {
+      "id": "peerdas-devnet-1",
+      "group": "peerdas",
+      "active": false,
+      "genesis": "2024-06-25",
+      "configUrl": "https://github.com/ethpandaops/peerdas-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/peerdas-devnet-1"
+    },
+    {
+      "id": "peerdas-devnet-2",
+      "group": "peerdas",
+      "active": false,
+      "genesis": "2024-09-24",
+      "configUrl": "https://github.com/ethpandaops/peerdas-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/peerdas-devnet-2"
+    },
+    {
+      "id": "peerdas-devnet-3",
+      "group": "peerdas",
+      "active": false,
+      "genesis": "2024-10-04",
+      "configUrl": "https://github.com/ethpandaops/peerdas-devnets/blob/master/network-configs/devnet-3/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/peerdas-devnet-3"
+    },
+    {
+      "id": "peerdas-devnet-4",
+      "group": "peerdas",
+      "active": false,
+      "genesis": "2025-02-07",
+      "configUrl": "https://github.com/ethpandaops/peerdas-devnets/blob/master/network-configs/devnet-4/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/peerdas-devnet-4"
+    },
+    {
+      "id": "peerdas-devnet-5",
+      "group": "peerdas",
+      "active": false,
+      "genesis": "2025-02-20",
+      "configUrl": "https://github.com/ethpandaops/peerdas-devnets/blob/master/network-configs/devnet-5/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/peerdas-devnet-5"
+    },
+    {
+      "id": "peerdas-devnet-6",
+      "group": "peerdas",
+      "active": false,
+      "genesis": "2025-04-09",
+      "configUrl": "https://github.com/ethpandaops/peerdas-devnets/blob/master/network-configs/devnet-6/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/peerdas-devnet-6"
+    },
+    {
+      "id": "peerdas-devnet-7",
+      "group": "peerdas",
+      "active": false,
+      "genesis": "2025-05-09",
+      "configUrl": "https://github.com/ethpandaops/peerdas-devnets/blob/master/network-configs/devnet-7/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/peerdas-devnet-7"
+    },
+    {
+      "id": "perf-devnet-0",
+      "group": "perf",
+      "active": false,
+      "genesis": "2025-05-28",
+      "configUrl": "https://github.com/ethpandaops/perf-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/perf-devnet-0"
+    },
+    {
+      "id": "perf-devnet-1",
+      "group": "perf",
+      "active": false,
+      "genesis": "2025-05-30",
+      "configUrl": "https://github.com/ethpandaops/perf-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/perf-devnet-1"
+    },
+    {
+      "id": "perf-devnet-2",
+      "group": "perf",
+      "active": false,
+      "genesis": "2025-07-08",
+      "configUrl": "https://github.com/ethpandaops/perf-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/perf-devnet-2"
+    },
+    {
+      "id": "perf-devnet-3",
+      "group": "perf",
+      "active": false,
+      "genesis": "2026-02-18",
+      "configUrl": "https://github.com/ethpandaops/perf-devnets/blob/master/network-configs/devnet-3/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/perf-devnet-3"
+    },
+    {
+      "id": "ssz-devnet-0",
+      "group": "ssz",
+      "active": false,
+      "genesis": "2025-06-19",
+      "configUrl": "https://github.com/ethpandaops/ssz-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/ssz-devnet-0"
+    }
+  ]
+}

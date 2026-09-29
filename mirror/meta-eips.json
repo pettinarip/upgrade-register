@@ -1,0 +1,617 @@
+{
+  "7569": {
+    "upgrade": "dencun",
+    "lastSha": "b6258ba219eb2c65ef610db95142061e45f0cbec",
+    "membership": {
+      "1153": {
+        "stage": "included",
+        "track": "core",
+        "title": "Transient storage opcodes"
+      },
+      "4788": {
+        "stage": "included",
+        "track": "core",
+        "title": "Beacon block root in the EVM"
+      },
+      "4844": {
+        "stage": "included",
+        "track": "core",
+        "title": "Shard Blob Transactions"
+      },
+      "5656": {
+        "stage": "included",
+        "track": "core",
+        "title": "MCOPY - Memory copying instruction"
+      },
+      "6780": {
+        "stage": "included",
+        "track": "core",
+        "title": "SELFDESTRUCT only in same transaction"
+      },
+      "7044": {
+        "stage": "included",
+        "track": "core",
+        "title": "Perpetually Valid Signed Voluntary Exits"
+      },
+      "7045": {
+        "stage": "included",
+        "track": "core",
+        "title": "Increase Max Attestation Inclusion Slot"
+      },
+      "7514": {
+        "stage": "included",
+        "track": "core",
+        "title": "Add Max Epoch Churn Limit"
+      },
+      "7516": {
+        "stage": "included",
+        "track": "core",
+        "title": "BLOBBASEFEE opcode"
+      }
+    }
+  },
+  "7600": {
+    "upgrade": "pectra",
+    "lastSha": "b6258ba219eb2c65ef610db95142061e45f0cbec",
+    "membership": {
+      "2537": {
+        "stage": "included",
+        "track": "core",
+        "title": "Precompile for BLS12-381 curve operations"
+      },
+      "2935": {
+        "stage": "included",
+        "track": "core",
+        "title": "Save historical block hashes in state"
+      },
+      "6110": {
+        "stage": "included",
+        "track": "core",
+        "title": "Supply validator deposits on chain"
+      },
+      "7002": {
+        "stage": "included",
+        "track": "core",
+        "title": "Execution layer triggerable exits"
+      },
+      "7251": {
+        "stage": "included",
+        "track": "core",
+        "title": "Increase the MAX_EFFECTIVE_BALANCE"
+      },
+      "7549": {
+        "stage": "included",
+        "track": "core",
+        "title": "Move committee index outside Attestation"
+      },
+      "7623": {
+        "stage": "included",
+        "track": "core",
+        "title": "Increase calldata cost"
+      },
+      "7642": {
+        "stage": "included",
+        "track": "core",
+        "title": "eth/69 - Drop pre-merge fields (Networking)"
+      },
+      "7685": {
+        "stage": "included",
+        "track": "core",
+        "title": "General purpose execution layer requests"
+      },
+      "7691": {
+        "stage": "included",
+        "track": "core",
+        "title": "Blob throughput increase"
+      },
+      "7702": {
+        "stage": "included",
+        "track": "core",
+        "title": "Set EOA account code"
+      },
+      "7840": {
+        "stage": "included",
+        "track": "core",
+        "title": "Add blob schedule to EL config files (Informational)"
+      }
+    }
+  },
+  "7607": {
+    "upgrade": "fusaka",
+    "lastSha": "3b1edfd68cdfa6710510f52dbf1f6035b53e085b",
+    "membership": {
+      "7594": {
+        "stage": "included",
+        "track": "core",
+        "title": "PeerDAS - Peer Data Availability Sampling"
+      },
+      "7642": {
+        "stage": "included",
+        "track": "core",
+        "title": "eth/69 - Drop pre-merge fields"
+      },
+      "7823": {
+        "stage": "included",
+        "track": "core",
+        "title": "Set upper bounds for MODEXP"
+      },
+      "7825": {
+        "stage": "included",
+        "track": "core",
+        "title": "Transaction Gas Limit Cap"
+      },
+      "7883": {
+        "stage": "included",
+        "track": "core",
+        "title": "ModExp Gas Cost Increase"
+      },
+      "7892": {
+        "stage": "included",
+        "track": "core",
+        "title": "Blob Parameter Only Hardforks"
+      },
+      "7910": {
+        "stage": "included",
+        "track": "core",
+        "title": "eth_config JSON-RPC Method"
+      },
+      "7917": {
+        "stage": "included",
+        "track": "core",
+        "title": "Deterministic proposer lookahead"
+      },
+      "7918": {
+        "stage": "included",
+        "track": "core",
+        "title": "Blob base fee bounded by execution cost"
+      },
+      "7934": {
+        "stage": "included",
+        "track": "core",
+        "title": "RLP Execution Block Size Limit"
+      },
+      "7935": {
+        "stage": "included",
+        "track": "core",
+        "title": "Set default gas limit to 60M"
+      },
+      "7939": {
+        "stage": "included",
+        "track": "core",
+        "title": "Count leading zeros (CLZ) opcode"
+      },
+      "7951": {
+        "stage": "included",
+        "track": "core",
+        "title": "Precompile for secp256r1 Curve Support"
+      }
+    }
+  },
+  "7773": {
+    "upgrade": "glamsterdam",
+    "lastSha": "644b84799ba6873edcb13c0e21fdd319b4efbc08",
+    "membership": {
+      "2780": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Resource-based intrinsic transaction gas"
+      },
+      "7688": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Forward compatible consensus data structures"
+      },
+      "7708": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "ETH transfers emit a log"
+      },
+      "7732": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Enshrined Proposer-Builder Separation"
+      },
+      "7778": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Block Gas Accounting without Refunds"
+      },
+      "7843": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "SLOTNUM opcode"
+      },
+      "7904": {
+        "stage": "scheduled",
+        "track": "informational",
+        "title": "Compute Gas Cost Analysis"
+      },
+      "7928": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Block-Level Access Lists"
+      },
+      "7954": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Increase Maximum Contract Size"
+      },
+      "7975": {
+        "stage": "scheduled",
+        "track": "networking",
+        "title": "eth/70 - partial block receipt lists"
+      },
+      "7976": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Increase Calldata Floor Cost"
+      },
+      "7981": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Increase Access List Cost"
+      },
+      "7997": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Deterministic Factory Contract"
+      },
+      "8024": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Backward compatible SWAPN, DUPN, EXCHANGE"
+      },
+      "8037": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "State Creation Gas Cost Increase"
+      },
+      "8038": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "State-access gas cost update"
+      },
+      "8045": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Exclude slashed validators from proposing"
+      },
+      "8061": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Increase exit and consolidation churn"
+      },
+      "8070": {
+        "stage": "scheduled",
+        "track": "networking",
+        "title": "eth/72 - Sparse Blobpool"
+      },
+      "8136": {
+        "stage": "scheduled",
+        "track": "networking",
+        "title": "Cell-Level Deltas for Data Column Broadcast"
+      },
+      "8159": {
+        "stage": "scheduled",
+        "track": "networking",
+        "title": "eth/71 - Block Access List Exchange"
+      },
+      "8189": {
+        "stage": "scheduled",
+        "track": "networking",
+        "title": "snap/2 - BAL-Based State Healing"
+      },
+      "8246": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Remove SELFDESTRUCT Burn"
+      },
+      "8261": {
+        "stage": "scheduled",
+        "track": "informational",
+        "title": "Gas Limit Schedule"
+      },
+      "8282": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Builder Execution Requests"
+      }
+    }
+  },
+  "8081": {
+    "upgrade": "hegota",
+    "lastSha": "95176db61e5751e44964fb5e0766412cf2bf6e9a",
+    "membership": {
+      "2488": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Deprecate the CALLCODE opcode"
+      },
+      "3298": {
+        "stage": "considered",
+        "track": "core",
+        "title": "Remove storage-clear refund and refund cap"
+      },
+      "4758": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Deactivate SELFDESTRUCT"
+      },
+      "5920": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "PAY opcode"
+      },
+      "7645": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Alias ORIGIN to SENDER"
+      },
+      "7666": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "EVM-ify the identity precompile"
+      },
+      "7668": {
+        "stage": "considered",
+        "track": "core",
+        "title": "Remove bloom filters"
+      },
+      "7709": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Read BLOCKHASH from storage and update cost"
+      },
+      "7716": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Anti-correlation attestation penalties"
+      },
+      "7805": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Fork-choice enforced Inclusion Lists (FOCIL)"
+      },
+      "7807": {
+        "stage": "declined",
+        "track": "core",
+        "title": "SSZ execution blocks"
+      },
+      "7819": {
+        "stage": "declined",
+        "track": "core",
+        "title": "SETDELEGATE instruction"
+      },
+      "7851": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Code-Controlled EOA Delegation"
+      },
+      "7862": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Delayed State Root"
+      },
+      "7906": {
+        "stage": "considered",
+        "track": "core",
+        "title": "Transaction Assertions via State Diff Opcode"
+      },
+      "7923": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Linear, Page-Based Memory Costing"
+      },
+      "7979": {
+        "stage": "considered",
+        "track": "core",
+        "title": "Call and Return Opcodes for the EVM"
+      },
+      "8015": {
+        "stage": "considered",
+        "track": "core",
+        "title": "Remove `deposit` and `eth1data` fields"
+      },
+      "8025": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Optional Execution Proofs"
+      },
+      "8077": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "eth/XX - announce transactions with nonce"
+      },
+      "8094": {
+        "stage": "declined",
+        "track": "core",
+        "title": "eth/vhash - Blob-Aware Mempool"
+      },
+      "8115": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Batch priority fees at end of block"
+      },
+      "8116": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Replace cumulative receipt fields"
+      },
+      "8131": {
+        "stage": "considered",
+        "track": "core",
+        "title": "Unified Transaction Content Floor"
+      },
+      "8141": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "Frame Transaction"
+      },
+      "8142": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Block-in-Blobs (BiB)"
+      },
+      "8146": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Block Access List Sidecars"
+      },
+      "8148": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Custom sweep threshold for validators."
+      },
+      "8151": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Account Code Restricted ecRecover"
+      },
+      "8163": {
+        "stage": "considered",
+        "track": "core",
+        "title": "Reserve `EXTENSION (0xae)` opcode"
+      },
+      "8173": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Foundations of EVM Control Flow"
+      },
+      "8182": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Private ETH and ERC-20 Transfers"
+      },
+      "8188": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Last-Written Block for Accounts and Slots"
+      },
+      "8198": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Quick Slots"
+      },
+      "8200": {
+        "stage": "declined",
+        "track": "core",
+        "title": "EVMification"
+      },
+      "8205": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Withdrawal credentials preregistration"
+      },
+      "8219": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Checked Arithmetic Opcodes"
+      },
+      "8237": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Independent CL/EL Sync"
+      },
+      "8243": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Batching Attestations at Source"
+      },
+      "8250": {
+        "stage": "considered",
+        "track": "core",
+        "title": "Keyed Nonces for Frame Transactions"
+      },
+      "8253": {
+        "stage": "considered",
+        "track": "core",
+        "title": "Bump nonce of zero-nonce storage accounts"
+      },
+      "8272": {
+        "stage": "considered",
+        "track": "core",
+        "title": "Recent Roots for Frame Transactions"
+      },
+      "8279": {
+        "stage": "considered",
+        "track": "core",
+        "title": "Block Access List Byte Floor"
+      },
+      "8298": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "SETCODEFROM Code Reuse Instruction"
+      },
+      "8304": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Trustless log and transaction index"
+      },
+      "8321": {
+        "stage": "declined",
+        "track": "core",
+        "title": "Hash-Chain RANDAO"
+      },
+      "8333": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Align Checkpoint with Epoch Boundary Block"
+      },
+      "8355": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Precompiles for ML-DSA verification"
+      },
+      "8363": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Tapered Issuance Burn"
+      },
+      "8365": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "BLS withdrawal credential retirement"
+      },
+      "8368": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "CPSB Recalibration for New Gas Limit"
+      },
+      "8369": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "VOPS Profiles for FOCIL Eligibility"
+      },
+      "8371": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "RowDAS - Distributed Blob Reconstruction"
+      },
+      "8372": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Normalized state gas limit"
+      },
+      "8379": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Top-up Sync"
+      },
+      "8383": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Reduce CL Block Retention Window"
+      }
+    }
+  },
+  "8134": {
+    "upgrade": "bpo1",
+    "lastSha": "b6987717bc23fc21e982d4126e93ab2fb8ae13d2",
+    "membership": {}
+  },
+  "8135": {
+    "upgrade": "bpo2",
+    "lastSha": "d0077d3098cefad07bdac422358d207f7c850cc9",
+    "membership": {}
+  }
+}

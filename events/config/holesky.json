@@ -1,0 +1,88 @@
+{
+  "events": [
+    {
+      "type": "network.fork",
+      "upgrade": "altair",
+      "network": "holesky",
+      "status": "activated",
+      "forkDate": "2023-09-28",
+      "epoch": 0,
+      "date": "2023-09-28",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/holesky/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/holesky/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "the-merge",
+      "network": "holesky",
+      "status": "activated",
+      "forkDate": "2023-09-28",
+      "epoch": 0,
+      "date": "2023-09-28",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/holesky/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/holesky/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "shapella",
+      "network": "holesky",
+      "status": "activated",
+      "forkDate": "2023-09-29",
+      "epoch": 256,
+      "date": "2023-09-29",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/holesky/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/holesky/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "dencun",
+      "network": "holesky",
+      "status": "activated",
+      "forkDate": "2024-02-07",
+      "epoch": 29696,
+      "date": "2024-02-07",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/holesky/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/holesky/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "pectra",
+      "network": "holesky",
+      "status": "activated",
+      "forkDate": "2025-02-24",
+      "epoch": 115968,
+      "date": "2025-02-24",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/holesky/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/holesky/blob/main/metadata/config.yaml"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "fusaka",
+      "network": "holesky",
+      "status": "activated",
+      "forkDate": "2025-10-01",
+      "epoch": 165120,
+      "date": "2025-10-01",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/holesky/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/holesky/blob/main/metadata/config.yaml"
+      }
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "events": [
+    {
+      "type": "network.fork",
+      "upgrade": "frontier",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2015-07-30",
+      "block": 0,
+      "date": "2015-07-30",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "homestead",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2016-03-14",
+      "block": 1150000,
+      "date": "2016-03-14",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "dao-fork",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2016-07-20",
+      "block": 1920000,
+      "date": "2016-07-20",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "tangerine-whistle",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2016-10-18",
+      "block": 2463000,
+      "date": "2016-10-18",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "spurious-dragon",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2016-11-22",
+      "block": 2675000,
+      "date": "2016-11-22",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "byzantium",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2017-10-16",
+      "block": 4370000,
+      "date": "2017-10-16",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "constantinople",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2019-02-28",
+      "block": 7280000,
+      "date": "2019-02-28",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "petersburg",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2019-02-28",
+      "block": 7280000,
+      "date": "2019-02-28",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "istanbul",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2019-12-08",
+      "block": 9069000,
+      "date": "2019-12-08",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "muir-glacier",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2020-01-02",
+      "block": 9200000,
+      "date": "2020-01-02",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "phase-0",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2020-12-01",
+      "epoch": 0,
+      "date": "2020-12-01",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "berlin",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2021-04-15",
+      "block": 12244000,
+      "date": "2021-04-15",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "london",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2021-08-05",
+      "block": 12965000,
+      "date": "2021-08-05",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "altair",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2021-10-27",
+      "epoch": 74240,
+      "date": "2021-10-27",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "arrow-glacier",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2021-12-09",
+      "block": 13773000,
+      "date": "2021-12-09",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "gray-glacier",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2022-06-30",
+      "block": 15050000,
+      "date": "2022-06-30",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "the-merge",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2022-09-06",
+      "epoch": 144896,
+      "date": "2022-09-06",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "the-merge",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2022-09-15",
+      "block": 15537394,
+      "date": "2022-09-15",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "shapella",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2023-04-12",
+      "epoch": 194048,
+      "date": "2023-04-12",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "dencun",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2024-03-13",
+      "epoch": 269568,
+      "date": "2024-03-13",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "pectra",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2025-05-07",
+      "epoch": 364032,
+      "date": "2025-05-07",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "fusaka",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2025-12-03",
+      "epoch": 411392,
+      "date": "2025-12-03",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "bpo1",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2025-12-09",
+      "epoch": 412672,
+      "date": "2025-12-09",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "bpo2",
+      "network": "mainnet",
+      "status": "activated",
+      "forkDate": "2026-01-07",
+      "epoch": 419072,
+      "date": "2026-01-07",
+      "source": {
+        "kind": "config",
+        "ref": "ethereum/pm/all-forks.json",
+        "url": "https://github.com/ethereum/pm/blob/master/all-forks.json"
+      }
+    }
+  ]
+}

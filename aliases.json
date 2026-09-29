@@ -1,0 +1,54 @@
+{
+  "upgrades": {
+    "hegota": [
+      "Hegotá"
+    ],
+    "glamsterdam": [
+      "Glam"
+    ]
+  },
+  "networks": {
+    "holesky": [
+      "Holesky"
+    ]
+  },
+  "devnets": {
+    "glamsterdam-devnet-8": [
+      "Platåberget",
+      "Plataberget"
+    ]
+  },
+  "devnetGroups": {
+    "dencun": "dencun",
+    "pectra": "pectra",
+    "mekong": "pectra",
+    "fusaka": "fusaka",
+    "peerdas": "fusaka",
+    "glamsterdam": "glamsterdam",
+    "bal": "glamsterdam",
+    "epbs": "glamsterdam",
+    "frames": "hegota",
+    "focil": "hegota"
+  },
+  "eips": {
+    "7594": [
+      "PeerDAS"
+    ],
+    "7732": [
+      "ePBS",
+      "enshrined PBS"
+    ],
+    "7805": [
+      "FOCIL",
+      "inclusion lists"
+    ],
+    "7928": [
+      "BAL",
+      "block-level access lists"
+    ],
+    "8141": [
+      "Frame Transaction",
+      "frames"
+    ]
+  }
+}

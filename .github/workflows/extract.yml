@@ -1,0 +1,43 @@
+name: Extract call
+on:
+  schedule:
+    - cron: "41 * * * *"
+  workflow_dispatch:
+    inputs:
+      call:
+        description: "Call ref, e.g. acde/247 (empty: the oldest pending call)"
+        required: false
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: extract
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run compile
+      - name: List calls that already have an open PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr list --state open --json headRefName --jq '.[].headRefName' | sed -n 's|^calls/||p' > "$RUNNER_TEMP/open-calls.txt"
+      - id: extract
+        run: node scripts/extract.mjs ${{ inputs.call }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_REFS_FILE: ${{ runner.temp }}/open-calls.txt
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_BASE_URL: ${{ vars.ANTHROPIC_BASE_URL }}
+          EXTRACT_MODEL: ${{ vars.EXTRACT_MODEL }}
+      - if: steps.extract.outputs.call != ''
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: calls/${{ steps.extract.outputs.call }}
+          title: "calls: ${{ steps.extract.outputs.call }}"
+          commit-message: "calls: ${{ steps.extract.outputs.call }}"
+          body-path: extract-summary.md
+          add-paths: events/calls
