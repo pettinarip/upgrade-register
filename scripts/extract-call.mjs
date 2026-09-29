@@ -16,6 +16,18 @@ const KEY = process.env.ANTHROPIC_API_KEY;
 if (!KEY) throw new Error('ANTHROPIC_API_KEY is not set');
 
 // Models sometimes wrap JSON in prose or a code fence, or emit two objects. Take the first balanced one.
+const stripComments = (json) => {
+  let out = '', inStr = false, esc = false;
+  for (let i = 0; i < json.length; i++) {
+    const ch = json[i];
+    if (inStr) { out += ch; if (esc) esc = false; else if (ch === '\\') esc = true; else if (ch === '"') inStr = false; continue; }
+    if (ch === '"') { inStr = true; out += ch; continue; }
+    if (ch === '/' && json[i + 1] === '/') { while (i < json.length && json[i] !== '\n') i++; out += '\n'; continue; }
+    if (ch === '/' && json[i + 1] === '*') { i += 2; while (i < json.length && !(json[i] === '*' && json[i + 1] === '/')) i++; i++; continue; }
+    out += ch;
+  }
+  return out.replace(/,(\s*[\]}])/g, '$1');
+};
 const firstJson = (text) => {
   const start = text.indexOf('{');
   if (start < 0) return null;
@@ -25,7 +37,7 @@ const firstJson = (text) => {
     if (inStr) { if (esc) esc = false; else if (ch === '\\') esc = true; else if (ch === '"') inStr = false; continue; }
     if (ch === '"') inStr = true;
     else if (ch === '{') depth++;
-    else if (ch === '}' && --depth === 0) return text.slice(start, i + 1);
+    else if (ch === '}' && --depth === 0) return stripComments(text.slice(start, i + 1));
   }
   return null;
 };
@@ -177,20 +189,23 @@ if (events.length) {
   const toSec = (t) => t.split(':').reverse().reduce((a, v, i) => a + Number(v) * 60 ** i, 0);
   const cues = flat.map((l) => { const m = l.match(/^(\d+):(\d\d):(\d\d) /); return m ? { s: toSec(`${m[1]}:${m[2]}:${m[3]}`), t: l } : null; }).filter(Boolean);
   const around = (e) => { if (!e.timestamp) return '(no timestamp)'; const c = toSec(e.timestamp); return cues.filter((x) => Math.abs(x.s - c) <= 90).map((x) => x.t).join('\n'); };
-  const reviewUser = `Call ${ref} on ${call.date}.\n\n## Current Meta EIP membership per upgrade (stage per EIP)\n${JSON.stringify(metaList)}\n\n## Candidates\n\n` +
+  const reviewUser = `Call ${ref} on ${call.date}.\n\n## Vocabulary (fixed meanings)\n${JSON.stringify(resolve.vocabulary)}\n\n## Current Meta EIP membership per upgrade (stage per EIP)\n${JSON.stringify(metaList)}\n\n## Candidates\n\n` +
     events.map((e, i) => `### candidate id c${i}\n${JSON.stringify(e)}\n\nTranscript within 90s of ${e.timestamp ?? '?'}:\n${around(e)}`).join('\n\n');
   const rv = await call2(readFileSync('agent/review-call.md', 'utf8'), reviewUser);
   const verdicts = JSON.parse(firstJson(rv.text) ?? '{"verdicts":[]}').verdicts ?? [];
   const next = [];
   events.forEach((e, i) => {
     const v = verdicts.find((x) => x.id === `c${i}` || x.index === i) ?? { verdict: 'keep' };
-    if (v.verdict === 'drop' && /not (in|found in|present in|appear)|absent|cannot be (found|located)|does not appear|no such (quote|span)|not grounded/i.test(v.reason ?? '') && !bad([e]).length) {
+    const aboutQuote = /\b(quote|span|words|wording|text)\b/i.test(v.reason ?? '') && /not (in|found|present|appear)|absent|cannot be (found|located)|does not appear|not grounded/i.test(v.reason ?? '') && !/meta ?eip|list|number/i.test(v.reason ?? '');
+    if (v.verdict === 'drop' && aboutQuote && !bad([e]).length) {
       reviewerNotes.push(`drop overruled (quote is verified in the transcript): ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); next.push(e); return;
     }
     if (v.verdict === 'drop') { reviewerNotes.push(`dropped: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); return; }
     if (v.verdict === 'fix' && v.event) {
       // The original already passed the quote check; a fix that fails it is worse than no fix.
       v.event = clean(v.event);
+      const claim = (x) => [x.type, x.eip, x.network, x.upgrade, x.stage, x.status, x.action].join('|');
+      if (claim(v.event) !== claim(e)) { reviewerNotes.push(`fix rejected (changes the decision, not the evidence), kept original: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); next.push(e); return; }
       if (bad([v.event]).length || !validEvent(v.event)) { reviewerNotes.push(`fix rejected (quote not in transcript or invalid), kept original: ${e.type} ${e.eip ?? e.network}`); next.push(e); return; }
       reviewerNotes.push(`fixed: ${e.type} ${e.eip ?? e.network} — ${v.reason ?? ''}`); next.push(v.event); return;
     }

@@ -8,6 +8,12 @@ For every candidate return one verdict:
 - `fix`: the decision is real but a field is wrong. Return the corrected event in full.
 - `drop`: the call did not make this decision, or it cannot be grounded. Say why in one sentence.
 
+## Fixed vocabulary
+
+PFI = proposed for inclusion. CFI = considered for inclusion. SFI = scheduled for inclusion. **DFI = declined for inclusion**, a rejection. These meanings are fixed; do not reinterpret them.
+
+A `fix` corrects the evidence: quote, timestamp, date, confidence, track. It never changes the claim: type, EIP, network, upgrade, stage or status. If the claim itself is wrong, that is `drop`.
+
 ## Challenge each candidate on these points
 
 1. **Decision or discussion?** Did the facilitator close it on this call, or was it deferred, floated, or left open? Deferred is `drop`. Exception: `proposed` needs no ruling. An EIP is proposed for a fork the moment a champion presents it as a candidate on the call and nobody rejects it. Do not drop a `proposed` row for lacking a facilitator statement.
