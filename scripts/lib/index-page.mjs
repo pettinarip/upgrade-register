@@ -20,7 +20,7 @@ function eipLinks(upgrade) {
   return `<h3>${escape(upgrade.name)}</h3>${groups.join('')}`;
 }
 
-export function renderIndexPage({ upgrades, checkCount, generatedAt }) {
+export function renderIndexPage({ upgrades, checkCount, generatedAt, schemaVersion }) {
   const inProgress = upgrades.filter((u) => u.status !== 'live' && u.eips.length);
   const newestFirst = [...upgrades].reverse();
   return `<!doctype html>
@@ -48,6 +48,7 @@ export function renderIndexPage({ upgrades, checkCount, generatedAt }) {
   <li><code>eips/&lt;n&gt;.json</code>: one EIP across upgrades</li>
   <li>${link('resolve.json')}: every valid id and its aliases</li>
   <li>${link('checks.json')}: where the register differs from upstream (${checkCount} now)</li>
+  <li>${link('schema/output.schema.json')} and ${link('schema/events.schema.json')}: the data contract, version ${escape(schemaVersion)}</li>
 </ul>
 
 <h2>Upgrades</h2>

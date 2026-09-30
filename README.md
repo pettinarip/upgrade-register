@@ -17,7 +17,8 @@ mirror (cron)  →  extract calls (agent PR, human merges)  →  compile  →  p
 4. **A merged call event is a fact.** It overrides the Meta EIP until a later Meta EIP change moves that EIP again.
 5. **Map, don't infer.** Every event is one upstream line or one quote. An EIP leaving a Meta EIP list is `removed`, with `lastListed` giving the stage it had.
 6. **History rows merge on equal values.** Consecutive events with the same value become one row, dated by the earliest event and keeping every source.
-7. **Disagreements are flagged, never resolved.** `dist/checks.json` lists where the register differs from the current Meta EIPs or client configs.
+7. **Disagreements are flagged, never resolved.** `dist/checks.json` lists where the register differs from its owners and cross-checks.
+8. **The format is a contract.** Every event file and output is validated against `schema/`, and every output carries `schemaVersion`.
 
 ## Sources
 
@@ -31,16 +32,22 @@ mirror (cron)  →  extract calls (agent PR, human merges)  →  compile  →  p
 | Headliners, stage deadlines | ACD transcripts | call |
 | Devnets: existence, liveness, genesis | ethpandaops cartographoor and network-configs | snapshot |
 
+**Cross-checks** only flag, never write:
+- each Meta EIP's activation table
+- the deployment table in pm's `<fork>-pm.md`
+- the EIPs each execution-specs fork module lists under `### Changes`
+
 Calls are extracted from 2026-09-28 on. `events/calls/seed.json` holds the few call-only facts that were still open when the register started.
 
 ## Layout
 
 ```
-mirror/            snapshots: all-forks.json, calls.json, configs.json, devnets.json, meta-eips.json
+mirror/            snapshots: all-forks.json, calls.json, configs.json, devnets.json, meta-eips.json, cross-checks.json
 events/meta/       bot: stage changes per Meta EIP
 events/config/     bot: fork events per network
 events/calls/      call events, one file per call, plus seed.json
 aliases.json       spoken names for ids
+schema/            the data contract: events.schema.json, output.schema.json
 prompts/extract.md the extraction prompt
 scripts/           mirror.mjs, compile.mjs, extract.mjs, verify-calls.mjs, lib/
 test/              parser, history and transcript tests with Meta EIP fixtures
@@ -54,7 +61,15 @@ test/              parser, history and transcript tests with Meta EIP fixtures
 | `upgrades/<id>.json` | status, mainnet, testnets, devnets, headliners, deadlines, every EIP with its stage history |
 | `eips/<n>.json` | one EIP across upgrades |
 | `resolve.json` | every valid id with its aliases, and the vocabulary |
-| `checks.json` | differences from the current upstream snapshot |
+| `checks.json` | differences from the owners and cross-checks today |
+| `schema/` | the JSON Schemas for event files and outputs |
+
+## Data contract
+
+- `schema/events.schema.json` defines every event file.
+- `schema/output.schema.json` defines every published file (`upgradeFile`, `eipFile`, `indexFile`, `resolveFile`, `checksFile`).
+- Compile refuses to write an output that breaks its schema.
+- Every output carries `schemaVersion` (now `1.0.0`). Adding a field bumps the minor version. Renaming or removing one bumps the major version, and the previous major is served in parallel for one release cycle.
 
 ## Event shape
 

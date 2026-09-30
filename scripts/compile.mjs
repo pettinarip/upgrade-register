@@ -1,12 +1,13 @@
 // Compiles every event into dist/. Current state is always the latest history row; nothing
 // here changes data, and disagreements with upstream only go to dist/checks.json.
 
-import { rmSync, writeFileSync } from 'node:fs';
+import { cpSync, rmSync, writeFileSync } from 'node:fs';
 import { subjectKey, validateEvent, VOCABULARY } from './lib/events.mjs';
 import { buildHistory, orderEvents } from './lib/history.mjs';
 import { renderIndexPage } from './lib/index-page.mjs';
 import { jsonFiles, readJson, writeJson } from './lib/io.mjs';
 import { NETWORKS, loadAliases, loadUpgrades } from './lib/registry.mjs';
+import { SCHEMA_VERSION, outputProblems } from './lib/schema.mjs';
 
 const EVENT_DIRS = ['events/meta', 'events/config', 'events/calls'];
 
@@ -15,6 +16,7 @@ const aliases = loadAliases();
 const devnets = readJson('mirror/devnets.json').devnets;
 const metaState = readJson('mirror/meta-eips.json');
 const configs = readJson('mirror/configs.json').configs;
+const crossChecks = readJson('mirror/cross-checks.json');
 
 const known = {
   upgrades: new Set(upgrades.map((u) => u.id)),
@@ -78,30 +80,57 @@ function upgradeStatus(forks, eips, devnetCount) {
   return 'research';
 }
 
+const describeSource = (source) => `${source.kind} ${source.ref} (${source.date})`;
+
+// Every table that announces fork epochs, compared with the register's fork state.
+function epochTables(upgrade) {
+  const tables = [];
+  for (const [network, shipped] of Object.entries(configs)) {
+    const fork = shipped.forks[upgrade.id];
+    if (fork) tables.push({ kind: 'epoch-differs-from-config', label: `${network} config`, network, epoch: fork.epoch });
+  }
+  for (const number of upgrade.metaEips) {
+    for (const [network, row] of Object.entries(metaState[number]?.activations ?? {})) {
+      tables.push({ kind: 'epoch-differs-from-meta-eip-activation-table', label: `EIP-${number} activation table`, network, epoch: row.epoch });
+    }
+  }
+  for (const [network, row] of Object.entries(crossChecks.pmDeployments[upgrade.id]?.deployments ?? {})) {
+    tables.push({ kind: 'epoch-differs-from-pm-deployment-table', label: `${upgrade.id}-pm.md`, network, epoch: row.epoch });
+  }
+  return tables.filter((t) => t.epoch != null);
+}
+
+// An activated fork can carry one epoch per layer (The Merge), so any row of its history counts.
+const recordsEpoch = (fork, epoch) =>
+  fork?.epoch === epoch || (fork?.status === 'activated' && fork.history.some((row) => row.epoch === epoch));
+
 function checkAgainstUpstream(upgrade, eips, forks) {
   const checks = [];
+  const flag = (kind, message, details) => checks.push({ kind, upgrade: upgrade.id, message, ...details });
+
   const listed = Object.assign({}, ...upgrade.metaEips.map((n) => metaState[n]?.membership ?? {}));
   for (const entry of eips) {
     const meta = listed[entry.eip];
-    const metaStage = meta?.stage ?? 'removed';
-    const metaTrack = meta?.track ?? 'core';
     if (entry.stage === 'removed' && !meta) continue;
-    if (entry.stage !== metaStage || (meta && entry.track !== metaTrack)) {
-      const latest = entry.history.at(-1).sources.at(-1);
-      checks.push({
-        kind: 'stage-differs-from-meta-eip',
-        upgrade: upgrade.id,
-        eip: entry.eip,
-        register: entry.stage,
-        metaEip: meta ? meta.stage : 'not listed',
-        since: `${latest.kind} ${latest.ref} (${latest.date})`,
-      });
+    if (!meta || entry.stage !== meta.stage || entry.track !== meta.track) {
+      const since = describeSource(entry.history.at(-1).sources.at(-1));
+      flag('stage-differs-from-meta-eip', `EIP-${entry.eip} is ${entry.stage} in the register (since ${since}); the Meta EIP ${meta ? `lists it as ${meta.stage}` : 'does not list it'}`, { eip: entry.eip });
     }
   }
-  for (const fork of forks) {
-    const shipped = configs[fork.network]?.forks[upgrade.id];
-    if (shipped && fork.epoch != null && shipped.epoch !== fork.epoch) {
-      checks.push({ kind: 'epoch-differs-from-config', upgrade: upgrade.id, network: fork.network, register: fork.epoch, config: shipped.epoch });
+
+  for (const table of epochTables(upgrade)) {
+    const fork = forks.find((f) => f.network === table.network);
+    if (!recordsEpoch(fork, table.epoch)) {
+      const recorded = fork ? `${fork.status} at epoch ${fork.epoch ?? 'unknown'}` : 'no fork';
+      flag(table.kind, `${table.network}: ${table.label} says epoch ${table.epoch}; the register has ${recorded}`, { network: table.network });
+    }
+  }
+
+  const byEip = Object.fromEntries(eips.map((e) => [e.eip, e]));
+  for (const eip of crossChecks.executionSpecs[upgrade.id]?.eips ?? []) {
+    const stage = byEip[eip]?.stage;
+    if (stage !== 'scheduled' && stage !== 'included') {
+      flag('execution-specs-lists-unscheduled-eip', `execution-specs implements EIP-${eip} for ${upgrade.layers.execution}; the register has it as ${stage ?? 'absent'}`, { eip });
     }
   }
   return checks;
@@ -141,7 +170,7 @@ function resolveTable(compiled) {
   const eipNumbers = new Set(compiled.flatMap((u) => u.eips.map((e) => e.eip)));
   return {
     note: 'Every id an event may use. Spoken names resolve through aliases; anything else is unresolved.',
-    vocabulary: Object.fromEntries(Object.entries(VOCABULARY).map(([type, v]) => [type, v.meaning ?? v.values])),
+    vocabulary: VOCABULARY,
     upgrades: upgrades.map((u) => ({
       id: u.id,
       name: u.name,
@@ -169,17 +198,30 @@ const results = upgrades.map((u) => compileUpgrade(u, subjects));
 const compiled = results.map((r) => r.upgrade);
 const checks = results.flatMap((r) => r.checks);
 
-rmSync('dist', { recursive: true, force: true });
-for (const upgrade of compiled) writeJson(`dist/upgrades/${upgrade.id}.json`, upgrade);
-for (const view of eipViews(compiled)) writeJson(`dist/eips/${view.eip}.json`, view);
-writeJson('dist/resolve.json', resolveTable(compiled));
-writeJson('dist/checks.json', { note: 'Where the register differs from the current upstream snapshot. Flags only; nothing is changed.', count: checks.length, checks });
+// Every output passes its schema before anything is written.
 const generatedAt = new Date().toISOString();
-writeFileSync('dist/index.html', renderIndexPage({ upgrades: compiled, checkCount: checks.length, generatedAt }));
-writeJson('dist/index.json', {
-  generatedAt,
-  upgrades: compiled.map(({ id, name, status, mainnet, eips }) => ({ id, name, status, mainnet: mainnet && { status: mainnet.status, forkDate: mainnet.forkDate }, eips: eips.length })),
-  networks: Object.entries(NETWORKS).map(([id, n]) => ({ id, name: n.name })),
-});
+const outputs = [
+  ...compiled.map((upgrade) => ['upgrade', `upgrades/${upgrade.id}.json`, upgrade]),
+  ...eipViews(compiled).map((view) => ['eip', `eips/${view.eip}.json`, view]),
+  ['resolve', 'resolve.json', resolveTable(compiled)],
+  ['checks', 'checks.json', { note: 'Where the register differs from its owners today. Flags only; nothing is changed.', count: checks.length, checks }],
+  [
+    'index',
+    'index.json',
+    {
+      generatedAt,
+      upgrades: compiled.map(({ id, name, status, mainnet, eips }) => ({ id, name, status, mainnet: mainnet && { status: mainnet.status, forkDate: mainnet.forkDate }, eips: eips.length })),
+      networks: Object.entries(NETWORKS).map(([id, n]) => ({ id, name: n.name })),
+    },
+  ],
+].map(([kind, path, data]) => [kind, path, { schemaVersion: SCHEMA_VERSION, ...data }]);
+
+const invalid = outputs.flatMap(([kind, path, data]) => outputProblems(kind, data).map((problem) => `${path}: ${problem}`));
+if (invalid.length) throw new Error(`compiled output breaks the schema:\n${invalid.join('\n')}`);
+
+rmSync('dist', { recursive: true, force: true });
+for (const [, path, data] of outputs) writeJson(`dist/${path}`, data);
+cpSync('schema', 'dist/schema', { recursive: true });
+writeFileSync('dist/index.html', renderIndexPage({ upgrades: compiled, checkCount: checks.length, generatedAt, schemaVersion: SCHEMA_VERSION }));
 
 console.log(`compiled ${compiled.length} upgrades, ${subjects.length} subjects, ${checks.length} checks`);

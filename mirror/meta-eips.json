@@ -48,6 +48,20 @@
         "track": "core",
         "title": "BLOBBASEFEE opcode"
       }
+    },
+    "activations": {
+      "sepolia": {
+        "epoch": 132608,
+        "timestamp": 1706655072
+      },
+      "holesky": {
+        "epoch": 29696,
+        "timestamp": 1707305664
+      },
+      "mainnet": {
+        "epoch": 269568,
+        "timestamp": 1710338135
+      }
     }
   },
   "7600": {
@@ -113,6 +127,24 @@
         "stage": "included",
         "track": "core",
         "title": "Add blob schedule to EL config files (Informational)"
+      }
+    },
+    "activations": {
+      "holesky": {
+        "epoch": 115968,
+        "timestamp": 1740434112
+      },
+      "sepolia": {
+        "epoch": 222464,
+        "timestamp": 1741159776
+      },
+      "hoodi": {
+        "epoch": 2048,
+        "timestamp": 1742999832
+      },
+      "mainnet": {
+        "epoch": 364032,
+        "timestamp": 1746612311
       }
     }
   },
@@ -184,6 +216,24 @@
         "stage": "included",
         "track": "core",
         "title": "Precompile for secp256r1 Curve Support"
+      }
+    },
+    "activations": {
+      "holesky": {
+        "epoch": 165120,
+        "timestamp": 1759308480
+      },
+      "sepolia": {
+        "epoch": 272640,
+        "timestamp": 1760427360
+      },
+      "hoodi": {
+        "epoch": 50688,
+        "timestamp": 1761677592
+      },
+      "mainnet": {
+        "epoch": 411392,
+        "timestamp": 1764798551
       }
     }
   },
@@ -315,6 +365,20 @@
         "stage": "scheduled",
         "track": "core",
         "title": "Builder Execution Requests"
+      }
+    },
+    "activations": {
+      "sepolia": {
+        "epoch": 353024,
+        "timestamp": 1791294816
+      },
+      "hoodi": {
+        "epoch": null,
+        "timestamp": null
+      },
+      "mainnet": {
+        "epoch": null,
+        "timestamp": null
       }
     }
   },
@@ -602,16 +666,32 @@
         "track": "core",
         "title": "Reduce CL Block Retention Window"
       }
+    },
+    "activations": {
+      "sepolia": {
+        "epoch": null,
+        "timestamp": null
+      },
+      "hoodi": {
+        "epoch": null,
+        "timestamp": null
+      },
+      "mainnet": {
+        "epoch": null,
+        "timestamp": null
+      }
     }
   },
   "8134": {
     "upgrade": "bpo1",
     "lastSha": "b6987717bc23fc21e982d4126e93ab2fb8ae13d2",
-    "membership": {}
+    "membership": {},
+    "activations": {}
   },
   "8135": {
     "upgrade": "bpo2",
     "lastSha": "d0077d3098cefad07bdac422358d207f7c850cc9",
-    "membership": {}
+    "membership": {},
+    "activations": {}
   }
 }

@@ -4,6 +4,7 @@
 import { mirrorAllForks } from './mirror/all-forks.mjs';
 import { mirrorCalls } from './mirror/calls.mjs';
 import { mirrorConfigs } from './mirror/configs.mjs';
+import { mirrorCrossChecks } from './mirror/cross-checks.mjs';
 import { mirrorDevnets } from './mirror/devnets.mjs';
 import { mirrorMetaEips } from './mirror/meta-eips.mjs';
 
@@ -12,3 +13,4 @@ await mirrorCalls();
 await mirrorDevnets();
 await mirrorConfigs();
 await mirrorMetaEips();
+await mirrorCrossChecks();

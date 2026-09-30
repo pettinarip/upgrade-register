@@ -1,0 +1,318 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pettinarip.github.io/upgrade-register/schema/events.schema.json",
+  "title": "Event file",
+  "description": "One file under events/. Bots write events/meta and events/config; reviewed call PRs write events/calls.",
+  "type": "object",
+  "required": [
+    "events"
+  ],
+  "properties": {
+    "events": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/event"
+      }
+    }
+  },
+  "$defs": {
+    "day": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "fuzzyDate": {
+      "description": "A date that carries its precision: 2027, 2027-Q2, 2027-06 or 2027-06-16.",
+      "type": "string",
+      "pattern": "^\\d{4}(-Q[1-4]|-\\d{2}(-\\d{2})?)?$"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "eip": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "kind",
+        "ref"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "meta-eip",
+            "config",
+            "call"
+          ]
+        },
+        "ref": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Commit sha, config path, or call ref such as acde/246."
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "note": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Words copied exactly from the transcript."
+        },
+        "timestamp": {
+          "type": "string",
+          "pattern": "^(\\d+:)?\\d{1,2}:\\d{2}$"
+        }
+      },
+      "if": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "const": "call"
+          }
+        }
+      },
+      "then": {
+        "type": "object",
+        "required": [
+          "quote",
+          "timestamp"
+        ]
+      },
+      "additionalProperties": false
+    },
+    "common": {
+      "type": "object",
+      "required": [
+        "type",
+        "upgrade",
+        "date",
+        "source"
+      ],
+      "properties": {
+        "upgrade": {
+          "$ref": "#/$defs/id"
+        },
+        "date": {
+          "$ref": "#/$defs/day",
+          "description": "When the fact was decided or observed."
+        },
+        "note": {
+          "type": "string"
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      }
+    },
+    "eipStage": {
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/$defs/common"
+        }
+      ],
+      "properties": {
+        "type": {
+          "const": "eip.stage"
+        },
+        "eip": {
+          "$ref": "#/$defs/eip"
+        },
+        "stage": {
+          "enum": [
+            "proposed",
+            "considered",
+            "scheduled",
+            "declined",
+            "included",
+            "withdrawn",
+            "removed"
+          ]
+        },
+        "track": {
+          "enum": [
+            "core",
+            "networking",
+            "informational"
+          ]
+        },
+        "upgrade": true,
+        "date": true,
+        "note": true,
+        "source": true
+      },
+      "required": [
+        "eip",
+        "stage"
+      ],
+      "additionalProperties": false,
+      "if": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "const": "call"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "type": "object",
+        "properties": {
+          "stage": {
+            "not": {
+              "enum": [
+                "included",
+                "removed"
+              ]
+            }
+          }
+        },
+        "description": "Only the Meta EIP records inclusion and removal."
+      }
+    },
+    "networkFork": {
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/$defs/common"
+        }
+      ],
+      "properties": {
+        "type": {
+          "const": "network.fork"
+        },
+        "network": {
+          "$ref": "#/$defs/id"
+        },
+        "status": {
+          "enum": [
+            "estimated",
+            "proposed",
+            "agreed",
+            "activated",
+            "cancelled"
+          ]
+        },
+        "forkDate": {
+          "$ref": "#/$defs/fuzzyDate"
+        },
+        "epoch": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "block": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "upgrade": true,
+        "date": true,
+        "note": true,
+        "source": true
+      },
+      "required": [
+        "network",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "headliner": {
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/$defs/common"
+        }
+      ],
+      "properties": {
+        "type": {
+          "const": "upgrade.headliner"
+        },
+        "eip": {
+          "$ref": "#/$defs/eip"
+        },
+        "action": {
+          "enum": [
+            "proposed",
+            "selected",
+            "declined"
+          ]
+        },
+        "upgrade": true,
+        "date": true,
+        "note": true,
+        "source": true
+      },
+      "required": [
+        "eip",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "deadline": {
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/$defs/common"
+        }
+      ],
+      "properties": {
+        "type": {
+          "const": "upgrade.deadline"
+        },
+        "stage": {
+          "enum": [
+            "proposed",
+            "considered",
+            "scheduled"
+          ]
+        },
+        "deadline": {
+          "$ref": "#/$defs/fuzzyDate"
+        },
+        "upgrade": true,
+        "date": true,
+        "note": true,
+        "source": true
+      },
+      "required": [
+        "stage",
+        "deadline"
+      ],
+      "additionalProperties": false
+    },
+    "event": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "discriminator": {
+        "propertyName": "type"
+      },
+      "oneOf": [
+        {
+          "$ref": "#/$defs/eipStage"
+        },
+        {
+          "$ref": "#/$defs/networkFork"
+        },
+        {
+          "$ref": "#/$defs/headliner"
+        },
+        {
+          "$ref": "#/$defs/deadline"
+        }
+      ]
+    }
+  }
+}

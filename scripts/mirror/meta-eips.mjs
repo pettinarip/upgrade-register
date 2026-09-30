@@ -2,6 +2,7 @@
 // bucket change as an eip.stage event dated by its commit. The first run seeds the history.
 
 import { fetchAllPages, fetchText, readJson, writeJson } from '../lib/io.mjs';
+import { parseDeploymentTable } from '../lib/deployment-table.mjs';
 import { diffMembership, parseMetaEip } from '../lib/meta-eip.mjs';
 import { FIRST_BUCKETED_META_EIP, loadUpgrades } from '../lib/registry.mjs';
 
@@ -36,7 +37,8 @@ async function walkMetaEip(number, upgrade, state) {
   const path = `EIPS/eip-${number}.md`;
   const file = `events/meta/eip-${number}.json`;
   const { events } = readJson(file, { events: [] });
-  let { lastSha = null, membership = {} } = state[number] ?? {};
+  let { lastSha = null, membership = {}, activations } = state[number] ?? {};
+  let latest = null;
 
   for (const commit of await commitsSince(path, lastSha)) {
     const markdown = await fetchText(`https://raw.githubusercontent.com/${REPO}/${commit.sha}/${path}`);
@@ -45,10 +47,14 @@ async function walkMetaEip(number, upgrade, state) {
     events.push(...diffMembership(membership, next).map((change) => stageEvent(upgrade, change, commit)));
     membership = next;
     lastSha = commit.sha;
+    latest = markdown;
   }
+  latest ??= activations ? null : await fetchText(`https://raw.githubusercontent.com/${REPO}/${lastSha}/${path}`);
+  // The activation table is only a cross-check; the fork facts come from client configs.
+  if (latest) activations = parseDeploymentTable(latest, /activation/i);
 
   writeJson(file, { metaEip: number, upgrade, events });
-  state[number] = { upgrade, lastSha, membership };
+  state[number] = { upgrade, lastSha, membership, activations: activations ?? {} };
   return events.length;
 }
 

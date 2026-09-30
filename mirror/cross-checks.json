@@ -1,0 +1,86 @@
+{
+  "source": "ethereum/pm <fork>-pm.md tables, ethereum/execution-specs fork modules",
+  "pmDeployments": {
+    "glamsterdam": {
+      "url": "https://github.com/ethereum/pm/blob/master/glamsterdam-pm.md",
+      "deployments": {
+        "sepolia": {
+          "epoch": 353024,
+          "timestamp": 1791294816
+        },
+        "hoodi": {
+          "epoch": null,
+          "timestamp": null
+        },
+        "mainnet": {
+          "epoch": null,
+          "timestamp": null
+        }
+      }
+    }
+  },
+  "executionSpecs": {
+    "dencun": {
+      "url": "https://github.com/ethereum/execution-specs/blob/forks/amsterdam/src/ethereum/forks/cancun/__init__.py",
+      "eips": [
+        1153,
+        4788,
+        4844,
+        5656,
+        6780,
+        7516
+      ]
+    },
+    "pectra": {
+      "url": "https://github.com/ethereum/execution-specs/blob/forks/amsterdam/src/ethereum/forks/prague/__init__.py",
+      "eips": [
+        2537,
+        2935,
+        6110,
+        7002,
+        7251,
+        7549,
+        7623,
+        7685,
+        7691,
+        7702,
+        7840
+      ]
+    },
+    "fusaka": {
+      "url": "https://github.com/ethereum/execution-specs/blob/forks/amsterdam/src/ethereum/forks/osaka/__init__.py",
+      "eips": [
+        7594,
+        7642,
+        7823,
+        7825,
+        7883,
+        7892,
+        7910,
+        7918,
+        7934,
+        7939,
+        7951
+      ]
+    },
+    "glamsterdam": {
+      "url": "https://github.com/ethereum/execution-specs/blob/forks/amsterdam/src/ethereum/forks/amsterdam/__init__.py",
+      "eips": [
+        2780,
+        7708,
+        7778,
+        7843,
+        7928,
+        7954,
+        7976,
+        7981,
+        7997,
+        8024,
+        8037,
+        8038,
+        8246,
+        8282
+      ]
+    }
+  }
+}
