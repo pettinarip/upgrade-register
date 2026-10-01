@@ -210,6 +210,14 @@
       "specUrl": "https://notes.ethereum.org/@ethpandaops/epbs-devnet-1"
     },
     {
+      "id": "focil-devnet-0",
+      "group": "focil",
+      "active": true,
+      "genesis": "2026-10-01",
+      "configUrl": "https://github.com/ethpandaops/focil-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/focil-devnet-0"
+    },
+    {
       "id": "frames-devnet-0",
       "group": "frames",
       "active": true,
@@ -384,6 +392,14 @@
       "genesis": "2026-09-09",
       "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-11/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-11"
+    },
+    {
+      "id": "glamsterdam-sepsf-1",
+      "group": "glamsterdam",
+      "active": true,
+      "genesis": "2026-10-01",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/sepsf-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-sepsf-1"
     },
     {
       "id": "mekong-devnet-0",
