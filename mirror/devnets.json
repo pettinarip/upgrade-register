@@ -396,10 +396,18 @@
     {
       "id": "glamsterdam-sepsf-1",
       "group": "glamsterdam",
-      "active": true,
+      "active": false,
       "genesis": "2026-10-01",
       "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/sepsf-1/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-sepsf-1"
+    },
+    {
+      "id": "glamsterdam-sepsf-2",
+      "group": "glamsterdam",
+      "active": true,
+      "genesis": "2026-10-02",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/sepsf-2/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-sepsf-2"
     },
     {
       "id": "mekong-devnet-0",
