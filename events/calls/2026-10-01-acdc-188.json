@@ -1,0 +1,75 @@
+{
+  "call": "acdc/188",
+  "events": [
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8333,
+      "stage": "withdrawn",
+      "date": "2026-10-01",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/188",
+        "url": "https://github.com/ethereum/pm/issues/2227",
+        "quote": "So EIP-8333 is withdrawn.",
+        "timestamp": "0:19:03"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8363,
+      "stage": "withdrawn",
+      "date": "2026-10-01",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/188",
+        "url": "https://github.com/ethereum/pm/issues/2227",
+        "quote": "We have 8363 here. This has been withdrawn.",
+        "timestamp": "0:21:26"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8365,
+      "stage": "considered",
+      "date": "2026-10-01",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/188",
+        "url": "https://github.com/ethereum/pm/issues/2227",
+        "quote": "Let's go ahead and CFI this then.",
+        "timestamp": "0:23:28"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8198,
+      "stage": "considered",
+      "date": "2026-10-01",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/188",
+        "url": "https://github.com/ethereum/pm/issues/2227",
+        "quote": "So let's go in CFI and again the understanding here is that you know we still want some more data to validate the change from twelve to ten.",
+        "timestamp": "1:02:49"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8379,
+      "stage": "declined",
+      "date": "2026-10-01",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/188",
+        "url": "https://github.com/ethereum/pm/issues/2227",
+        "quote": "Let's go ahead and say DFI this.",
+        "timestamp": "1:27:12"
+      }
+    }
+  ]
+}
