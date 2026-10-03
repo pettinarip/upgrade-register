@@ -404,7 +404,7 @@
     {
       "id": "glamsterdam-sepsf-2",
       "group": "glamsterdam",
-      "active": true,
+      "active": false,
       "genesis": "2026-10-02",
       "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/sepsf-2/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-sepsf-2"
