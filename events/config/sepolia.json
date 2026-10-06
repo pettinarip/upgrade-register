@@ -97,6 +97,20 @@
         "ref": "eth-clients/sepolia/metadata/config.yaml",
         "url": "https://github.com/eth-clients/sepolia/blob/main/metadata/config.yaml"
       }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "glamsterdam",
+      "network": "sepolia",
+      "status": "activated",
+      "forkDate": "2026-10-06",
+      "epoch": 353024,
+      "date": "2026-10-06",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/sepolia/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/sepolia/blob/main/metadata/config.yaml"
+      }
     }
   ]
 }

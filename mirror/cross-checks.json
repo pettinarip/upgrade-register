@@ -21,7 +21,7 @@
   },
   "executionSpecs": {
     "dencun": {
-      "url": "https://github.com/ethereum/execution-specs/blob/forks/amsterdam/src/ethereum/forks/cancun/__init__.py",
+      "url": "https://github.com/ethereum/execution-specs/blob/forks/bogota/src/ethereum/forks/cancun/__init__.py",
       "eips": [
         1153,
         4788,
@@ -32,7 +32,7 @@
       ]
     },
     "pectra": {
-      "url": "https://github.com/ethereum/execution-specs/blob/forks/amsterdam/src/ethereum/forks/prague/__init__.py",
+      "url": "https://github.com/ethereum/execution-specs/blob/forks/bogota/src/ethereum/forks/prague/__init__.py",
       "eips": [
         2537,
         2935,
@@ -48,7 +48,7 @@
       ]
     },
     "fusaka": {
-      "url": "https://github.com/ethereum/execution-specs/blob/forks/amsterdam/src/ethereum/forks/osaka/__init__.py",
+      "url": "https://github.com/ethereum/execution-specs/blob/forks/bogota/src/ethereum/forks/osaka/__init__.py",
       "eips": [
         7594,
         7642,
@@ -64,7 +64,7 @@
       ]
     },
     "glamsterdam": {
-      "url": "https://github.com/ethereum/execution-specs/blob/forks/amsterdam/src/ethereum/forks/amsterdam/__init__.py",
+      "url": "https://github.com/ethereum/execution-specs/blob/forks/bogota/src/ethereum/forks/amsterdam/__init__.py",
       "eips": [
         2780,
         7708,

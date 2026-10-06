@@ -212,10 +212,18 @@
     {
       "id": "focil-devnet-0",
       "group": "focil",
-      "active": true,
+      "active": false,
       "genesis": "2026-10-01",
       "configUrl": "https://github.com/ethpandaops/focil-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/focil-devnet-0"
+    },
+    {
+      "id": "focil-devnet-1",
+      "group": "focil",
+      "active": true,
+      "genesis": "2026-10-06",
+      "configUrl": "https://github.com/ethpandaops/focil-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/focil-devnet-1"
     },
     {
       "id": "frames-devnet-0",
