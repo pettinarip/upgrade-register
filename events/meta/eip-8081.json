@@ -1145,6 +1145,58 @@
         "url": "https://github.com/ethereum/EIPs/commit/95176db61e5751e44964fb5e0766412cf2bf6e9a",
         "note": "Update EIP-8081: Decisions from ACDE246"
       }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8198,
+      "stage": "considered",
+      "date": "2026-10-05",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "69075f1",
+        "url": "https://github.com/ethereum/EIPs/commit/69075f1b54fc4a116b41f75461a9868755a83e41",
+        "note": "Update EIP-8081: Decisions from ACDC188"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8333,
+      "stage": "declined",
+      "date": "2026-10-05",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "69075f1",
+        "url": "https://github.com/ethereum/EIPs/commit/69075f1b54fc4a116b41f75461a9868755a83e41",
+        "note": "Update EIP-8081: Decisions from ACDC188"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8363,
+      "stage": "declined",
+      "date": "2026-10-05",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "69075f1",
+        "url": "https://github.com/ethereum/EIPs/commit/69075f1b54fc4a116b41f75461a9868755a83e41",
+        "note": "Update EIP-8081: Decisions from ACDC188"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8379,
+      "stage": "declined",
+      "date": "2026-10-05",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "69075f1",
+        "url": "https://github.com/ethereum/EIPs/commit/69075f1b54fc4a116b41f75461a9868755a83e41",
+        "note": "Update EIP-8081: Decisions from ACDC188"
+      }
     }
   ]
 }

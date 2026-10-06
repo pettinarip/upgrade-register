@@ -2339,6 +2339,31 @@
         "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdc/2026-10-01_188/transcript_corrected.vtt"
       ],
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdc/2026-10-01_188/tldr.json"
+    },
+    {
+      "ref": "acdt/99",
+      "series": "acdt",
+      "number": 99,
+      "date": "2026-10-05",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2242",
+      "videoUrl": "https://www.youtube.com/watch?v=E7Ix7U9lFEw",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-10-05_099/transcript_corrected.vtt",
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-10-05_099/transcript_cl.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-10-05_099/tldr.json"
+    },
+    {
+      "ref": "rpcstandards/36",
+      "series": "rpcstandards",
+      "number": 36,
+      "date": "2026-10-05",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2258",
+      "videoUrl": "https://www.youtube.com/watch?v=IMRx4guFBJs",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-10-05_036/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-10-05_036/tldr.json"
     }
   ]
 }

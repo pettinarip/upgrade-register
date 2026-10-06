@@ -384,7 +384,7 @@
   },
   "8081": {
     "upgrade": "hegota",
-    "lastSha": "95176db61e5751e44964fb5e0766412cf2bf6e9a",
+    "lastSha": "69075f1b54fc4a116b41f75461a9868755a83e41",
     "membership": {
       "2488": {
         "stage": "declined",
@@ -552,7 +552,7 @@
         "title": "Last-Written Block for Accounts and Slots"
       },
       "8198": {
-        "stage": "proposed",
+        "stage": "considered",
         "track": "core",
         "title": "Quick Slots"
       },
@@ -617,7 +617,7 @@
         "title": "Hash-Chain RANDAO"
       },
       "8333": {
-        "stage": "proposed",
+        "stage": "declined",
         "track": "core",
         "title": "Align Checkpoint with Epoch Boundary Block"
       },
@@ -627,7 +627,7 @@
         "title": "Precompiles for ML-DSA verification"
       },
       "8363": {
-        "stage": "proposed",
+        "stage": "declined",
         "track": "core",
         "title": "Tapered Issuance Burn"
       },
@@ -657,7 +657,7 @@
         "title": "Normalized state gas limit"
       },
       "8379": {
-        "stage": "proposed",
+        "stage": "declined",
         "track": "core",
         "title": "Top-up Sync"
       },
