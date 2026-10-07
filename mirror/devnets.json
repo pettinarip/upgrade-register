@@ -402,6 +402,14 @@
       "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-11"
     },
     {
+      "id": "glamsterdam-msf-1",
+      "group": "glamsterdam",
+      "active": true,
+      "genesis": "2026-10-07",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/msf-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-msf-1"
+    },
+    {
       "id": "glamsterdam-sepsf-1",
       "group": "glamsterdam",
       "active": false,

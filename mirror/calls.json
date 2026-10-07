@@ -2376,6 +2376,18 @@
         "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/nativeaa/2026-10-06_006/transcript_corrected.vtt"
       ],
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/nativeaa/2026-10-06_006/tldr.json"
+    },
+    {
+      "ref": "p2pnetworking/9",
+      "series": "p2pnetworking",
+      "number": 9,
+      "date": "2026-10-07",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2262",
+      "videoUrl": "https://www.youtube.com/watch?v=Av6VvmP6V_k",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/p2pnetworking/2026-10-07_009/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/p2pnetworking/2026-10-07_009/tldr.json"
     }
   ]
 }
