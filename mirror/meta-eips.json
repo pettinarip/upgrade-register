@@ -384,7 +384,7 @@
   },
   "8081": {
     "upgrade": "hegota",
-    "lastSha": "69075f1b54fc4a116b41f75461a9868755a83e41",
+    "lastSha": "f154af816c4e3467ea3a86e064e4d3493ab2a8e0",
     "membership": {
       "2488": {
         "stage": "declined",
@@ -397,12 +397,12 @@
         "title": "Remove storage-clear refund and refund cap"
       },
       "4758": {
-        "stage": "proposed",
+        "stage": "considered",
         "track": "core",
         "title": "Deactivate SELFDESTRUCT"
       },
       "5920": {
-        "stage": "proposed",
+        "stage": "considered",
         "track": "core",
         "title": "PAY opcode"
       },
@@ -412,7 +412,7 @@
         "title": "Alias ORIGIN to SENDER"
       },
       "7666": {
-        "stage": "proposed",
+        "stage": "declined",
         "track": "core",
         "title": "EVM-ify the identity precompile"
       },
@@ -422,7 +422,7 @@
         "title": "Remove bloom filters"
       },
       "7709": {
-        "stage": "proposed",
+        "stage": "considered",
         "track": "core",
         "title": "Read BLOCKHASH from storage and update cost"
       },
@@ -461,6 +461,11 @@
         "track": "core",
         "title": "Transaction Assertions via State Diff Opcode"
       },
+      "7907": {
+        "stage": "proposed",
+        "track": "core",
+        "title": "Meter Contract Code Size"
+      },
       "7923": {
         "stage": "declined",
         "track": "core",
@@ -482,7 +487,7 @@
         "title": "Optional Execution Proofs"
       },
       "8077": {
-        "stage": "proposed",
+        "stage": "considered",
         "track": "core",
         "title": "eth/XX - announce transactions with nonce"
       },
@@ -497,7 +502,7 @@
         "title": "Batch priority fees at end of block"
       },
       "8116": {
-        "stage": "proposed",
+        "stage": "considered",
         "track": "core",
         "title": "Replace cumulative receipt fields"
       },
@@ -527,7 +532,7 @@
         "title": "Custom sweep threshold for validators."
       },
       "8151": {
-        "stage": "proposed",
+        "stage": "considered",
         "track": "core",
         "title": "Account Code Restricted ecRecover"
       },
@@ -602,7 +607,7 @@
         "title": "Block Access List Byte Floor"
       },
       "8298": {
-        "stage": "proposed",
+        "stage": "considered",
         "track": "core",
         "title": "SETCODEFROM Code Reuse Instruction"
       },
@@ -622,9 +627,14 @@
         "title": "Align Checkpoint with Epoch Boundary Block"
       },
       "8355": {
-        "stage": "proposed",
+        "stage": "declined",
         "track": "core",
         "title": "Precompiles for ML-DSA verification"
+      },
+      "8360": {
+        "stage": "considered",
+        "track": "core",
+        "title": "TCREATE Opcode"
       },
       "8363": {
         "stage": "declined",
