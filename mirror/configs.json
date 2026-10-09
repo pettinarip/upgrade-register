@@ -111,6 +111,11 @@
           "epoch": 50688,
           "forkDate": "2025-10-28",
           "activated": true
+        },
+        "glamsterdam": {
+          "epoch": 132352,
+          "forkDate": "2026-10-26",
+          "activated": false
         }
       }
     },

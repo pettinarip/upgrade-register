@@ -83,6 +83,20 @@
         "ref": "eth-clients/hoodi/metadata/config.yaml",
         "url": "https://github.com/eth-clients/hoodi/blob/main/metadata/config.yaml"
       }
+    },
+    {
+      "type": "network.fork",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "agreed",
+      "forkDate": "2026-10-26",
+      "epoch": 132352,
+      "date": "2026-10-09",
+      "source": {
+        "kind": "config",
+        "ref": "eth-clients/hoodi/metadata/config.yaml",
+        "url": "https://github.com/eth-clients/hoodi/blob/main/metadata/config.yaml"
+      }
     }
   ]
 }
