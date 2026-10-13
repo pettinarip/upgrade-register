@@ -2420,9 +2420,11 @@
       "number": 44,
       "date": "2026-10-13",
       "issueUrl": "https://github.com/ethereum/pm/issues/2268",
-      "videoUrl": null,
-      "transcripts": [],
-      "tldr": null
+      "videoUrl": "https://www.youtube.com/watch?v=ngKMfNOyyDQ",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-10-13_044/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-10-13_044/tldr.json"
     }
   ]
 }
