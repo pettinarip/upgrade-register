@@ -2425,6 +2425,16 @@
         "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-10-13_044/transcript_corrected.vtt"
       ],
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-10-13_044/tldr.json"
+    },
+    {
+      "ref": "encryptthemempool/11",
+      "series": "encryptthemempool",
+      "number": 11,
+      "date": "2026-10-14",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2240",
+      "videoUrl": "https://www.youtube.com/watch?v=daie2AmdpOs",
+      "transcripts": [],
+      "tldr": null
     }
   ]
 }
