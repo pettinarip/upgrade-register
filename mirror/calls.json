@@ -2433,8 +2433,22 @@
       "date": "2026-10-14",
       "issueUrl": "https://github.com/ethereum/pm/issues/2240",
       "videoUrl": "https://www.youtube.com/watch?v=daie2AmdpOs",
-      "transcripts": [],
-      "tldr": null
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/encryptthemempool/2026-10-14_011/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/encryptthemempool/2026-10-14_011/tldr.json"
+    },
+    {
+      "ref": "zkevm/9",
+      "series": "zkevm",
+      "number": 9,
+      "date": "2026-10-14",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2269",
+      "videoUrl": "https://www.youtube.com/watch?v=VJnUl6udMGg",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/zkevm/2026-10-14_009/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/zkevm/2026-10-14_009/tldr.json"
     }
   ]
 }
