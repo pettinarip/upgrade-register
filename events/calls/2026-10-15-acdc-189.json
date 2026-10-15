@@ -1,0 +1,50 @@
+{
+  "call": "acdc/189",
+  "events": [
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8025,
+      "stage": "declined",
+      "date": "2026-10-15",
+      "note": "Facilitator closed on DFI after CL teams declined to CFI; reiterated at 1:17:15.",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/189",
+        "url": "https://github.com/ethereum/pm/issues/2247",
+        "quote": "But yeah, as of today, in terms of scoping, this seems like a DFI.",
+        "timestamp": "1:16:02"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8371,
+      "stage": "declined",
+      "date": "2026-10-15",
+      "note": "RowDAS - Distributed Blob Reconstruction, champion Csaba.",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/189",
+        "url": "https://github.com/ethereum/pm/issues/2247",
+        "quote": "Otherwise, we'll just go with DFI.",
+        "timestamp": "1:23:00"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 7716,
+      "stage": "declined",
+      "date": "2026-10-15",
+      "note": "Anti-correlation attestation penalties; facilitator said strong support was needed to CFI and none was voiced.",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/189",
+        "url": "https://github.com/ethereum/pm/issues/2247",
+        "quote": "Then we'll DFI. Thank you, everyone.",
+        "timestamp": "1:37:06"
+      }
+    }
+  ]
+}
