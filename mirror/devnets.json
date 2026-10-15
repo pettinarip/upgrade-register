@@ -228,10 +228,18 @@
     {
       "id": "frames-devnet-0",
       "group": "frames",
-      "active": true,
+      "active": false,
       "genesis": "2026-09-24",
       "configUrl": "https://github.com/ethpandaops/frames-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/frames-devnet-0"
+    },
+    {
+      "id": "frames-devnet-1",
+      "group": "frames",
+      "active": true,
+      "genesis": "2026-10-15",
+      "configUrl": "https://github.com/ethpandaops/frames-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/frames-devnet-1"
     },
     {
       "id": "fusaka-devnet-0",
@@ -420,7 +428,7 @@
     {
       "id": "glamsterdam-msf-2",
       "group": "glamsterdam",
-      "active": true,
+      "active": false,
       "genesis": "2026-10-12",
       "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/msf-2/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-msf-2"

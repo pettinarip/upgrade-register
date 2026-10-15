@@ -2449,6 +2449,18 @@
         "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/zkevm/2026-10-14_009/transcript_corrected.vtt"
       ],
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/zkevm/2026-10-14_009/tldr.json"
+    },
+    {
+      "ref": "acdc/189",
+      "series": "acdc",
+      "number": 189,
+      "date": "2026-10-15",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2247",
+      "videoUrl": "https://youtube.com/watch?v=6vu9F_j4rNk",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdc/2026-10-15_189/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdc/2026-10-15_189/tldr.json"
     }
   ]
 }
