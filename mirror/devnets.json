@@ -412,7 +412,7 @@
     {
       "id": "glamsterdam-devnet-12",
       "group": "glamsterdam",
-      "active": true,
+      "active": false,
       "genesis": "2026-10-14",
       "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/devnet-12/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-devnet-12"
