@@ -384,7 +384,7 @@
   },
   "8081": {
     "upgrade": "hegota",
-    "lastSha": "f154af816c4e3467ea3a86e064e4d3493ab2a8e0",
+    "lastSha": "6e69e49a99204fc7686b4975e95a9ac9ddb4fe7a",
     "membership": {
       "2488": {
         "stage": "declined",
@@ -427,7 +427,7 @@
         "title": "Read BLOCKHASH from storage and update cost"
       },
       "7716": {
-        "stage": "proposed",
+        "stage": "declined",
         "track": "core",
         "title": "Anti-correlation attestation penalties"
       },
@@ -482,7 +482,7 @@
         "title": "Remove `deposit` and `eth1data` fields"
       },
       "8025": {
-        "stage": "proposed",
+        "stage": "declined",
         "track": "core",
         "title": "Optional Execution Proofs"
       },
@@ -657,7 +657,7 @@
         "title": "VOPS Profiles for FOCIL Eligibility"
       },
       "8371": {
-        "stage": "proposed",
+        "stage": "declined",
         "track": "core",
         "title": "RowDAS - Distributed Blob Reconstruction"
       },
@@ -679,12 +679,12 @@
     },
     "activations": {
       "sepolia": {
-        "epoch": null,
-        "timestamp": null
+        "epoch": 353,
+        "timestamp": 2026
       },
       "hoodi": {
-        "epoch": null,
-        "timestamp": null
+        "epoch": 132,
+        "timestamp": 2026
       },
       "mainnet": {
         "epoch": null,
