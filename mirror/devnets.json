@@ -220,7 +220,7 @@
     {
       "id": "focil-devnet-1",
       "group": "focil",
-      "active": true,
+      "active": false,
       "genesis": "2026-10-06",
       "configUrl": "https://github.com/ethpandaops/focil-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/focil-devnet-1"
