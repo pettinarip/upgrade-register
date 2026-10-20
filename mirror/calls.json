@@ -2486,6 +2486,18 @@
         "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-10-19_037/transcript_corrected.vtt"
       ],
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-10-19_037/tldr.json"
+    },
+    {
+      "ref": "nativeaa/7",
+      "series": "nativeaa",
+      "number": 7,
+      "date": "2026-10-20",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2272",
+      "videoUrl": "https://www.youtube.com/watch?v=C0rD8pi3B3I",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/nativeaa/2026-10-20_007/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/nativeaa/2026-10-20_007/tldr.json"
     }
   ]
 }
