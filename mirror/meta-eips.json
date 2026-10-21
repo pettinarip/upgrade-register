@@ -239,7 +239,7 @@
   },
   "7773": {
     "upgrade": "glamsterdam",
-    "lastSha": "644b84799ba6873edcb13c0e21fdd319b4efbc08",
+    "lastSha": "25b1952395d99df32f4a540028c48ae5c1b837ec",
     "membership": {
       "2780": {
         "stage": "scheduled",
@@ -373,8 +373,8 @@
         "timestamp": 1791294816
       },
       "hoodi": {
-        "epoch": null,
-        "timestamp": null
+        "epoch": 132352,
+        "timestamp": 1793036568
       },
       "mainnet": {
         "epoch": null,
@@ -384,7 +384,7 @@
   },
   "8081": {
     "upgrade": "hegota",
-    "lastSha": "6e69e49a99204fc7686b4975e95a9ac9ddb4fe7a",
+    "lastSha": "25b1952395d99df32f4a540028c48ae5c1b837ec",
     "membership": {
       "2488": {
         "stage": "declined",
@@ -679,12 +679,12 @@
     },
     "activations": {
       "sepolia": {
-        "epoch": 353,
-        "timestamp": 2026
+        "epoch": null,
+        "timestamp": null
       },
       "hoodi": {
-        "epoch": 132,
-        "timestamp": 2026
+        "epoch": null,
+        "timestamp": null
       },
       "mainnet": {
         "epoch": null,
