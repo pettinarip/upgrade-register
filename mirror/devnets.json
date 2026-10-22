@@ -450,6 +450,14 @@
       "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-msf-2"
     },
     {
+      "id": "glamsterdam-pbt-1",
+      "group": "glamsterdam",
+      "active": true,
+      "genesis": "2026-10-22",
+      "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/pbt-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-pbt-1"
+    },
+    {
       "id": "glamsterdam-sepsf-1",
       "group": "glamsterdam",
       "active": false,
