@@ -2510,6 +2510,18 @@
         "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/p2pnetworking/2026-10-21_010/transcript_corrected.vtt"
       ],
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/p2pnetworking/2026-10-21_010/tldr.json"
+    },
+    {
+      "ref": "acde/248",
+      "series": "acde",
+      "number": 248,
+      "date": "2026-10-22",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2267",
+      "videoUrl": "https://youtube.com/watch?v=UFfPtJuRsI0",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acde/2026-10-22_248/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acde/2026-10-22_248/tldr.json"
     }
   ]
 }

@@ -239,22 +239,22 @@
   },
   "7773": {
     "upgrade": "glamsterdam",
-    "lastSha": "25b1952395d99df32f4a540028c48ae5c1b837ec",
+    "lastSha": "f1ade090fd315895461fc3e249cb1a675aeb55a9",
     "membership": {
       "2780": {
         "stage": "scheduled",
         "track": "core",
-        "title": "Resource-based intrinsic transaction gas"
+        "title": "Resource-Based Intrinsic Transaction Gas"
       },
       "7688": {
         "stage": "scheduled",
         "track": "core",
-        "title": "Forward compatible consensus data structures"
+        "title": "Forward Compatible Consensus Data Structures"
       },
       "7708": {
         "stage": "scheduled",
         "track": "core",
-        "title": "ETH transfers emit a log"
+        "title": "ETH Transfers Emit a Log"
       },
       "7732": {
         "stage": "scheduled",
@@ -269,7 +269,7 @@
       "7843": {
         "stage": "scheduled",
         "track": "core",
-        "title": "SLOTNUM opcode"
+        "title": "SLOTNUM Opcode"
       },
       "7904": {
         "stage": "scheduled",
@@ -289,7 +289,7 @@
       "7975": {
         "stage": "scheduled",
         "track": "networking",
-        "title": "eth/70 - partial block receipt lists"
+        "title": "eth/70 - Partial Block Receipt Lists"
       },
       "7976": {
         "stage": "scheduled",
@@ -309,7 +309,7 @@
       "8024": {
         "stage": "scheduled",
         "track": "core",
-        "title": "Backward compatible SWAPN, DUPN, EXCHANGE"
+        "title": "Backward Compatible SWAPN, DUPN, EXCHANGE"
       },
       "8037": {
         "stage": "scheduled",
@@ -319,17 +319,17 @@
       "8038": {
         "stage": "scheduled",
         "track": "core",
-        "title": "State-access gas cost update"
+        "title": "State-Access Gas Cost Update"
       },
       "8045": {
         "stage": "scheduled",
         "track": "core",
-        "title": "Exclude slashed validators from proposing"
+        "title": "Exclude Slashed Validators from Proposing"
       },
       "8061": {
         "stage": "scheduled",
         "track": "core",
-        "title": "Increase exit and consolidation churn"
+        "title": "Increase Exit and Consolidation Churn"
       },
       "8070": {
         "stage": "scheduled",
