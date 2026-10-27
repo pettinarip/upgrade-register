@@ -2534,6 +2534,18 @@
         "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-10-26_102/transcript_corrected.vtt"
       ],
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdt/2026-10-26_102/tldr.json"
+    },
+    {
+      "ref": "focil/45",
+      "series": "focil",
+      "number": 45,
+      "date": "2026-10-27",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2286",
+      "videoUrl": "https://www.youtube.com/watch?v=zvxg617rOkQ",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-10-27_045/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-10-27_045/tldr.json"
     }
   ]
 }
