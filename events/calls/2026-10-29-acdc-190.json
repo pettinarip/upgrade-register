@@ -1,0 +1,63 @@
+{
+  "call": "acdc/190",
+  "events": [
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8015,
+      "stage": "scheduled",
+      "date": "2026-10-29",
+      "note": "Facilitator confirms the number immediately after: \"Let me just quadruple check the number, 8015.\"",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/190",
+        "url": "https://github.com/ethereum/pm/issues/2276",
+        "quote": "Okay, lots of thumbs up. Okay, great. So then, we will SFI…",
+        "timestamp": "0:37:54"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8383,
+      "stage": "considered",
+      "date": "2026-10-29",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/190",
+        "url": "https://github.com/ethereum/pm/issues/2276",
+        "quote": "Then, let's go ahead and move 8383 to CFI.",
+        "timestamp": "0:59:31"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8205,
+      "stage": "declined",
+      "date": "2026-10-29",
+      "note": "Facilitator names the EIP seconds later: \"What's DFI 8205.\"",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/190",
+        "url": "https://github.com/ethereum/pm/issues/2276",
+        "quote": "I think the right way to move forward right now is to go ahead and DFI this EIP today",
+        "timestamp": "1:15:19"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8148,
+      "stage": "considered",
+      "date": "2026-10-29",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/190",
+        "url": "https://github.com/ethereum/pm/issues/2276",
+        "quote": "Too many numbers today. 8148, we'll go ahead and move this to CFI.",
+        "timestamp": "1:27:34"
+      }
+    }
+  ]
+}
