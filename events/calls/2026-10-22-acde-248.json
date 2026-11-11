@@ -1,0 +1,20 @@
+{
+  "call": "acde/248",
+  "events": [
+    {
+      "type": "network.fork",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "cancelled",
+      "date": "2026-10-22",
+      "note": "The Oct 26 Hoodi Glamsterdam fork was aborted following the ChainSecurity findings on EIP-8037/8038; no replacement date was set.",
+      "source": {
+        "kind": "call",
+        "ref": "acde/248",
+        "url": "https://github.com/ethereum/pm/issues/2267",
+        "quote": "So for now, mainnet is just implicitly halted, but yes, Hoodi specifically is canceled, hereby.",
+        "timestamp": "1:11:01"
+      }
+    }
+  ]
+}
