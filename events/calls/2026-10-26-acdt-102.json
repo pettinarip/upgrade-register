@@ -1,0 +1,21 @@
+{
+  "call": "acdt/102",
+  "events": [
+    {
+      "type": "network.fork",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "cancelled",
+      "forkDate": "2026-10-26",
+      "date": "2026-10-26",
+      "note": "Confirms the previously agreed Hoodi fork for today did not happen; rescheduling deferred by at least a week pending the EIP-8037/8038 analysis, with no new date given.",
+      "source": {
+        "kind": "call",
+        "ref": "acdt/102",
+        "url": "https://github.com/ethereum/pm/issues/2281",
+        "quote": "And it would have been 4 hours from now, I think? 4 or 5 hours from now, and that will not happen.",
+        "timestamp": "0:11:43"
+      }
+    }
+  ]
+}
