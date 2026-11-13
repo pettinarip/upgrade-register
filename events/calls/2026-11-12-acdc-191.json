@@ -1,0 +1,20 @@
+{
+  "call": "acdc/191",
+  "events": [
+    {
+      "type": "eip.stage",
+      "upgrade": "hegota",
+      "eip": 8198,
+      "stage": "declined",
+      "date": "2026-11-12",
+      "note": "Champion (ETH Labs / Caspar) withdrew Quick Slots; the facilitator closed it as DFI with no objections.",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/191",
+        "url": "https://github.com/ethereum/pm/issues/2291",
+        "quote": "Okay, seems like we have a decision. We are moving quick slots from CFI to DFI.",
+        "timestamp": "1:29:39"
+      }
+    }
+  ]
+}
