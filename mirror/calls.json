@@ -2630,6 +2630,42 @@
         "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-11-16_038/transcript_corrected.vtt"
       ],
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/rpcstandards/2026-11-16_038/tldr.json"
+    },
+    {
+      "ref": "focil/46",
+      "series": "focil",
+      "number": 46,
+      "date": "2026-11-17",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2289",
+      "videoUrl": "https://www.youtube.com/watch?v=HWMWZhLRPoc",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-11-17_046/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/focil/2026-11-17_046/tldr.json"
+    },
+    {
+      "ref": "nativeaa/8",
+      "series": "nativeaa",
+      "number": 8,
+      "date": "2026-11-17",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2295",
+      "videoUrl": "https://www.youtube.com/watch?v=K7LSqIMjo2w",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/nativeaa/2026-11-17_008/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/nativeaa/2026-11-17_008/tldr.json"
+    },
+    {
+      "ref": "pqcl/1",
+      "series": "pqcl",
+      "number": 1,
+      "date": "2026-11-17",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2304",
+      "videoUrl": "https://www.youtube.com/watch?v=PLuof56RWao",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/pqcl/2026-11-17_001/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/pqcl/2026-11-17_001/tldr.json"
     }
   ]
 }
