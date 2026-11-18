@@ -239,12 +239,17 @@
   },
   "7773": {
     "upgrade": "glamsterdam",
-    "lastSha": "f1ade090fd315895461fc3e249cb1a675aeb55a9",
+    "lastSha": "b055feec322fbc37e9d77a393a50b3ff56b31c92",
     "membership": {
       "2780": {
         "stage": "scheduled",
         "track": "core",
         "title": "Resource-Based Intrinsic Transaction Gas"
+      },
+      "7495": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "SSZ ProgressiveContainer"
       },
       "7688": {
         "stage": "scheduled",
@@ -275,6 +280,11 @@
         "stage": "scheduled",
         "track": "informational",
         "title": "Compute Gas Cost Analysis"
+      },
+      "7916": {
+        "stage": "scheduled",
+        "track": "core",
+        "title": "SSZ ProgressiveList"
       },
       "7928": {
         "stage": "scheduled",
@@ -373,8 +383,8 @@
         "timestamp": 1791294816
       },
       "hoodi": {
-        "epoch": 132352,
-        "timestamp": 1793036568
+        "epoch": null,
+        "timestamp": null
       },
       "mainnet": {
         "epoch": null,

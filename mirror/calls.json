@@ -2666,6 +2666,30 @@
         "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/pqcl/2026-11-17_001/transcript_corrected.vtt"
       ],
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/pqcl/2026-11-17_001/tldr.json"
+    },
+    {
+      "ref": "p2pnetworking/11",
+      "series": "p2pnetworking",
+      "number": 11,
+      "date": "2026-11-18",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2302",
+      "videoUrl": "https://www.youtube.com/watch?v=0igAIWi840o",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/p2pnetworking/2026-11-18_011/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/p2pnetworking/2026-11-18_011/tldr.json"
+    },
+    {
+      "ref": "pqcl/2",
+      "series": "pqcl",
+      "number": 2,
+      "date": "2026-11-18",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2310",
+      "videoUrl": "https://www.youtube.com/watch?v=GNX7IbGlR4o",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/pqcl/2026-11-18_002/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/pqcl/2026-11-18_002/tldr.json"
     }
   ]
 }

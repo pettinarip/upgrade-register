@@ -2977,6 +2977,32 @@
         "url": "https://github.com/ethereum/EIPs/commit/8f63233aa33ac7bdd82dccb93a456d526842e5f7",
         "note": "Update EIP-7773: Move to Review"
       }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "glamsterdam",
+      "eip": 7495,
+      "stage": "scheduled",
+      "date": "2026-11-18",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "f3de103",
+        "url": "https://github.com/ethereum/EIPs/commit/f3de103bc6eb82d2780e051e50d47a92aac45b40",
+        "note": "Update EIP-7773: Add EIP-7495 and EIP-7916 to Glamsterdam"
+      }
+    },
+    {
+      "type": "eip.stage",
+      "upgrade": "glamsterdam",
+      "eip": 7916,
+      "stage": "scheduled",
+      "date": "2026-11-18",
+      "source": {
+        "kind": "meta-eip",
+        "ref": "f3de103",
+        "url": "https://github.com/ethereum/EIPs/commit/f3de103bc6eb82d2780e051e50d47a92aac45b40",
+        "note": "Update EIP-7773: Add EIP-7495 and EIP-7916 to Glamsterdam"
+      }
     }
   ]
 }
