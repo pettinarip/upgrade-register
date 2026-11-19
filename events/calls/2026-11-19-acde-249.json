@@ -1,0 +1,21 @@
+{
+  "call": "acde/249",
+  "events": [
+    {
+      "type": "network.fork",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "estimated",
+      "forkDate": "2026-12",
+      "date": "2026-11-19",
+      "note": "Only \"penciled in\" as a target; the go/no-go decision (and the exact day/epoch) is deferred to next week's ACDC, and a CL-side change could still veto it.",
+      "source": {
+        "kind": "call",
+        "ref": "acde/249",
+        "url": "https://github.com/ethereum/pm/issues/2285",
+        "quote": "Hoodi fork happen in the week of December the 14th, so I think that would be realistically December 16th or 17th, so some Wednesday or Thursday.",
+        "timestamp": "0:44:49"
+      }
+    }
+  ]
+}
