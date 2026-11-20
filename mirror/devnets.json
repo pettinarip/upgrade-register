@@ -74,6 +74,30 @@
       "specUrl": "https://notes.ethereum.org/@ethpandaops/blob-devnet-0"
     },
     {
+      "id": "bogota-devnet-0",
+      "group": "bogota",
+      "active": false,
+      "genesis": "2026-09-24",
+      "configUrl": "https://github.com/ethpandaops/bogota-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/bogota-devnet-0"
+    },
+    {
+      "id": "bogota-devnet-1",
+      "group": "bogota",
+      "active": false,
+      "genesis": "2026-10-15",
+      "configUrl": "https://github.com/ethpandaops/bogota-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/bogota-devnet-1"
+    },
+    {
+      "id": "bogota-devnet-2",
+      "group": "bogota",
+      "active": true,
+      "genesis": "2026-10-29",
+      "configUrl": "https://github.com/ethpandaops/bogota-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/bogota-devnet-2"
+    },
+    {
       "id": "dencun-devnet-4",
       "group": "dencun",
       "active": false,
@@ -228,7 +252,7 @@
     {
       "id": "focil-devnet-2",
       "group": "focil",
-      "active": true,
+      "active": false,
       "genesis": "2026-10-20",
       "configUrl": "https://github.com/ethpandaops/focil-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/focil-devnet-2"
@@ -236,7 +260,7 @@
     {
       "id": "focil-devnet-3",
       "group": "focil",
-      "active": true,
+      "active": false,
       "genesis": "2026-10-21",
       "configUrl": "https://github.com/ethpandaops/focil-devnets/blob/master/network-configs/devnet-3/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/focil-devnet-3"
@@ -260,7 +284,7 @@
     {
       "id": "frames-devnet-2",
       "group": "frames",
-      "active": true,
+      "active": false,
       "genesis": "2026-10-29",
       "configUrl": "https://github.com/ethpandaops/frames-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/frames-devnet-2"
@@ -488,6 +512,38 @@
       "genesis": "2026-10-02",
       "configUrl": "https://github.com/ethpandaops/glamsterdam-devnets/blob/master/network-configs/sepsf-2/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/glamsterdam-sepsf-2"
+    },
+    {
+      "id": "heze-devnet-0",
+      "group": "heze",
+      "active": false,
+      "genesis": "2026-10-01",
+      "configUrl": "https://github.com/ethpandaops/heze-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/heze-devnet-0"
+    },
+    {
+      "id": "heze-devnet-1",
+      "group": "heze",
+      "active": false,
+      "genesis": "2026-10-06",
+      "configUrl": "https://github.com/ethpandaops/heze-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/heze-devnet-1"
+    },
+    {
+      "id": "heze-devnet-2",
+      "group": "heze",
+      "active": true,
+      "genesis": "2026-10-20",
+      "configUrl": "https://github.com/ethpandaops/heze-devnets/blob/master/network-configs/devnet-2/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/heze-devnet-2"
+    },
+    {
+      "id": "heze-devnet-3",
+      "group": "heze",
+      "active": false,
+      "genesis": "2026-10-21",
+      "configUrl": "https://github.com/ethpandaops/heze-devnets/blob/master/network-configs/devnet-3/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/heze-devnet-3"
     },
     {
       "id": "mekong-devnet-0",
