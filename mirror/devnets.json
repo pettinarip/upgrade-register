@@ -802,6 +802,14 @@
       "specUrl": "https://notes.ethereum.org/@ethpandaops/perf-devnet-3"
     },
     {
+      "id": "pq-devnet-0",
+      "group": "pq",
+      "active": true,
+      "genesis": "2026-11-23",
+      "configUrl": "https://github.com/ethpandaops/pq-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/pq-devnet-0"
+    },
+    {
       "id": "ssz-devnet-0",
       "group": "ssz",
       "active": false,
