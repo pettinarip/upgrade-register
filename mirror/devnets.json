@@ -98,6 +98,14 @@
       "specUrl": "https://notes.ethereum.org/@ethpandaops/bogota-devnet-2"
     },
     {
+      "id": "daisugi-devnet-0",
+      "group": "daisugi",
+      "active": true,
+      "genesis": "2026-11-18",
+      "configUrl": "https://github.com/ethpandaops/daisugi-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/daisugi-devnet-0"
+    },
+    {
       "id": "dencun-devnet-4",
       "group": "dencun",
       "active": false,
