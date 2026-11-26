@@ -1,0 +1,22 @@
+{
+  "call": "acdc/192",
+  "events": [
+    {
+      "type": "network.fork",
+      "upgrade": "glamsterdam",
+      "network": "hoodi",
+      "status": "agreed",
+      "forkDate": "2026-12-15",
+      "epoch": 143616,
+      "date": "2026-11-26",
+      "note": "Follows EL go-ahead to ship Glamsterdam as is and CL agreement on PR 5770; replaces the earlier Hoodi date in the register.",
+      "source": {
+        "kind": "call",
+        "ref": "acdc/192",
+        "url": "https://github.com/ethereum/pm/issues/2305",
+        "quote": "I'm gonna call it for the middle ground 15th, on that, so Epoch… 143616, 15th of December, at 7.12pm UTC. We will bake that in for the,",
+        "timestamp": "0:53:39"
+      }
+    }
+  ]
+}
