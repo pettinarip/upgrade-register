@@ -812,10 +812,18 @@
     {
       "id": "pq-devnet-0",
       "group": "pq",
-      "active": true,
+      "active": false,
       "genesis": "2026-11-23",
       "configUrl": "https://github.com/ethpandaops/pq-devnets/blob/master/network-configs/devnet-0/metadata/config.yaml",
       "specUrl": "https://notes.ethereum.org/@ethpandaops/pq-devnet-0"
+    },
+    {
+      "id": "pq-devnet-1",
+      "group": "pq",
+      "active": true,
+      "genesis": "2026-11-27",
+      "configUrl": "https://github.com/ethpandaops/pq-devnets/blob/master/network-configs/devnet-1/metadata/config.yaml",
+      "specUrl": "https://notes.ethereum.org/@ethpandaops/pq-devnet-1"
     },
     {
       "id": "ssz-devnet-0",

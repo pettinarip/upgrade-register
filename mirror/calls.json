@@ -2775,6 +2775,18 @@
         "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdc/2026-11-26_192/transcript_corrected.vtt"
       ],
       "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/acdc/2026-11-26_192/tldr.json"
+    },
+    {
+      "ref": "pqcl/5",
+      "series": "pqcl",
+      "number": 5,
+      "date": "2026-11-27",
+      "issueUrl": "https://github.com/ethereum/pm/issues/2319",
+      "videoUrl": "https://www.youtube.com/watch?v=rVujfU2x3zM",
+      "transcripts": [
+        "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/pqcl/2026-11-27_005/transcript_corrected.vtt"
+      ],
+      "tldr": "https://raw.githubusercontent.com/ethereum/pm/master/.github/ACDbot/artifacts/pqcl/2026-11-27_005/tldr.json"
     }
   ]
 }
